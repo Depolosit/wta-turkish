@@ -1357,7 +1357,7 @@ object StringsA {
         AppLanguage.RUSSIAN -> "%1\$d статей с %2\$d сайтов"
         AppLanguage.JAPANESE -> "%2\$d サイトから %1\$d 件の記事"
         AppLanguage.KOREAN -> "%2\$d개 사이트의 글 %1\$d개"
-        AppLanguage.TURKISH -> "%1\\$d articles from %2\\$d sites"
+        AppLanguage.TURKISH -> "%1\$d makale, %2\$d siteden"
     }
 
     val multiWebNoSiteSelected: String get() = when (Strings.lang) {

@@ -1984,7 +1984,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "%1\$d участников · %2\$d модулей"
         AppLanguage.JAPANESE -> "%1\$d 人の貢献者 · %2\$d モジュール"
         AppLanguage.KOREAN -> "%1\$d명 기여자 · %2\$d개 모듈"
-        AppLanguage.TURKISH -> "%1\\$d contributors · %2\\$d modules"
+        AppLanguage.TURKISH -> "%1\$d contributors · %2\$d modules"
     }
 
     val moduleMarketTopContributor: String get() = when (Strings.lang) {
@@ -6527,7 +6527,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Серия GPT 5.1 ~\$10/млн токенов"
         AppLanguage.JAPANESE -> "GPT 5.1 シリーズ 約\$10/100万トークン"
         AppLanguage.KOREAN -> "GPT 5.1 시리즈 ~\$10/100만 토큰"
-        AppLanguage.TURKISH -> "GPT 5.1 series ~\\$10/million tokens"
+        AppLanguage.TURKISH -> "GPT 5.1 series ~\$10/million tokens"
     }
 
     val providerOpenRouter: String get() = "OpenRouter"
@@ -6583,7 +6583,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Claude 4.5 Sonnet ~\$15/млн токенов"
         AppLanguage.JAPANESE -> "Claude 4.5 Sonnet 約\$15/100万トークン"
         AppLanguage.KOREAN -> "Claude 4.5 Sonnet ~\$15/100만 토큰"
-        AppLanguage.TURKISH -> "Claude 4.5 Sonnet ~\\$15/million tokens"
+        AppLanguage.TURKISH -> "Claude 4.5 Sonnet ~\$15/million tokens"
     }
 
     val providerGoogle: String get() = "Google/Gemini"
@@ -6680,7 +6680,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Низкая цена, ~\$2/млн токенов"
         AppLanguage.JAPANESE -> "低価格、約\$2/100万トークン"
         AppLanguage.KOREAN -> "저렴한 가격, ~\$2/100만 토큰"
-        AppLanguage.TURKISH -> "Low price, ~\\$2/million tokens"
+        AppLanguage.TURKISH -> "Low price, ~\$2/million tokens"
     }
 
     val providerGrok: String get() = "xAI/Grok"
@@ -6708,7 +6708,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Дёшево, Grok-4.1-fast ~\$0.5/млн токенов"
         AppLanguage.JAPANESE -> "安価、Grok-4.1-fast 約 \$0.5/100万トークン"
         AppLanguage.KOREAN -> "저렴함, Grok-4.1-fast 약 \$0.5/백만 토큰"
-        AppLanguage.TURKISH -> "Cheap, Grok-4.1-fast ~\\$0.5/million tokens"
+        AppLanguage.TURKISH -> "Cheap, Grok-4.1-fast ~\$0.5/million tokens"
     }
 
 
@@ -6931,7 +6931,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Sonar Pro ~\$3/M токенов + расходы на поиск"
         AppLanguage.JAPANESE -> "Sonar Pro ~\$3/M tokens + 検索費用"
         AppLanguage.KOREAN -> "Sonar Pro ~\$3/M tokens + 검색 비용"
-        AppLanguage.TURKISH -> "Sonar Pro ~\\$3/M tokens + search costs"
+        AppLanguage.TURKISH -> "Sonar Pro ~\$3/M tokens + search costs"
     }
 
     val providerFireworks: String get() = "Fireworks AI"
