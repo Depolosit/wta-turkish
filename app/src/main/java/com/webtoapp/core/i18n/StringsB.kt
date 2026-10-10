@@ -2033,8 +2033,8 @@ object StringsB {
             AppLanguage.GERMAN -> String.format(java.util.Locale.getDefault(), "%d s", seconds)
             AppLanguage.RUSSIAN -> String.format(java.util.Locale.getDefault(), "%d с", seconds)
             AppLanguage.JAPANESE -> String.format(java.util.Locale.getDefault(), "%d 秒", seconds)
-            AppLanguage.KOREAN -> String.format(java.util.Locale.getDefault()
-            AppLanguage.TURKISH -> String.format(java.util.Locale.getDefault(), "%d초", seconds)
+            AppLanguage.KOREAN -> String.format(java.util.Locale.getDefault(), "%d초", seconds)
+            AppLanguage.TURKISH -> String.format(java.util.Locale.getDefault(), "%d sn", seconds)
         }
     }
 

@@ -12521,10 +12521,9 @@ object StringsA {
             AppLanguage.SPANISH -> String.format(java.util.Locale.getDefault(), "%d en total", count)
             AppLanguage.FRENCH -> String.format(java.util.Locale.getDefault(), "%d au total", count)
             AppLanguage.GERMAN -> String.format(java.util.Locale.getDefault(), "%d gesamt", count)
-            AppLanguage.RUSSIAN -> String.format(java.util.Locale.getDefault(), "%d всего", count)
+            AppLanguage.KOREAN -> String.format(java.util.Locale.getDefault(), "총 %d개", count)
             AppLanguage.JAPANESE -> String.format(java.util.Locale.getDefault(), "合計 %d 個", count)
-            AppLanguage.KOREAN -> String.format(java.util.Locale.getDefault()
-            AppLanguage.TURKISH -> String.format(java.util.Locale.getDefault(), "총 %d개", count)
+            AppLanguage.TURKISH -> String.format(java.util.Locale.getDefault(), "Toplam %d", count)
         }
     }
 
