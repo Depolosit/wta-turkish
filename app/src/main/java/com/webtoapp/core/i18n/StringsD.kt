@@ -616,7 +616,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Инструменты"
         AppLanguage.JAPANESE -> "ツール"
         AppLanguage.KOREAN -> "도구"
-        AppLanguage.TURKISH -> "Araçlar"
+        AppLanguage.TURKISH -> "Tools"
     }
 
     val iconGroupFun: String get() = when (Strings.lang) {
@@ -1582,7 +1582,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Плагины"
         AppLanguage.JAPANESE -> "プラグイン"
         AppLanguage.KOREAN -> "플러그인"
-        AppLanguage.TURKISH -> "Eklentiler"
+        AppLanguage.TURKISH -> "Plugins"
     }
 
     val moduleDeleteConfirm: String get() = when (Strings.lang) {
@@ -3011,7 +3011,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Воспроизведение"
         AppLanguage.JAPANESE -> "再生"
         AppLanguage.KOREAN -> "재생"
-        AppLanguage.TURKISH -> "Oynatma"
+        AppLanguage.TURKISH -> "Playback"
     }
 
     val galleryTabDisplay: String get() = when (Strings.lang) {
@@ -3123,7 +3123,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Изображения"
         AppLanguage.JAPANESE -> "画像"
         AppLanguage.KOREAN -> "이미지"
-        AppLanguage.TURKISH -> "Resimler"
+        AppLanguage.TURKISH -> "Images"
     }
 
     val galleryVideos: String get() = when (Strings.lang) {
@@ -4183,7 +4183,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Снимок экрана"
         AppLanguage.JAPANESE -> "スクリーンショット"
         AppLanguage.KOREAN -> "스크린샷"
-        AppLanguage.TURKISH -> "Ekran Görüntüsü"
+        AppLanguage.TURKISH -> "Screenshot"
     }
 
     val tagToast: String get() = when (Strings.lang) {
@@ -5952,7 +5952,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Статистика"
         AppLanguage.JAPANESE -> "統計"
         AppLanguage.KOREAN -> "통계"
-        AppLanguage.TURKISH -> "İstatistik"
+        AppLanguage.TURKISH -> "Stats"
     }
     val tagWordCount: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "字数"
@@ -8632,8 +8632,17 @@ object StringsD {
             "tornado" -> "Tornado: IOLoop を自動設定。WebSocket 対応、ノンブロッキングを有効化。"
             else -> null
         }
-        AppLanguage.KOREAN -> when
-        AppLanguage.TURKISH -> when
+        AppLanguage.KOREAN -> when (framework?.lowercase()) {
+            "flask" -> "Flask: 프로덕션에서는 디버그 모드가 자동 비활성화됩니다. 정적 파일은 static/에서 제공됩니다."
+            "tornado" -> "Tornado: IOLoop이 자동 구성되며 WebSocket과 논블로킹 모드를 사용합니다."
+            else -> null
+        }
+        AppLanguage.TURKISH -> when (framework?.lowercase()) {
+            "flask" -> "Flask: 프로덕션에서는 디버그 모드가 자동 비활성화됩니다. 정적 파일은 static/에서 제공됩니다."
+            "tornado" -> "Tornado: IOLoop이 자동 구성되며 WebSocket과 논블로킹 모드를 사용합니다."
+            else -> null
+        }
+        AppLanguage.TURKISH -> when (framework?.lowercase()) {
             "flask" -> "Flask: 프로덕션에서는 디버그 모드가 자동 비활성화됩니다. 정적 파일은 static/에서 제공됩니다."
             "tornado" -> "Tornado: IOLoop이 자동 구성되며 WebSocket과 논블로킹 모드를 사용합니다."
             else -> null
@@ -9038,8 +9047,7 @@ object StringsD {
             "net_http" -> "net/http: 標準ライブラリサーバー。graceful shutdown 対応。"
             else -> null
         }
-        AppLanguage.KOREAN -> when
-        AppLanguage.TURKISH -> when
+        AppLanguage.KOREAN -> when (framework?.lowercase()) {
             "gin" -> "Gin: GIN_MODE가 자동으로 release로 설정되고 라우터가 프로덕션에 맞게 조정됩니다."
             "fiber" -> "Fiber: Android에서는 Prefork가 비활성화되고 Fasthttp 엔진이 유지됩니다."
             "echo" -> "Echo: Logger와 Recover 미들웨어가 자동 구성됩니다."

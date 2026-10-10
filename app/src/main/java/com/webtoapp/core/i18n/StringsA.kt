@@ -370,7 +370,7 @@ object StringsA {
         AppLanguage.RUSSIAN -> "Самые используемые"
         AppLanguage.JAPANESE -> "最も使用頻度が高い"
         AppLanguage.KOREAN -> "가장 많이 사용됨"
-        AppLanguage.TURKISH -> "En Çok Kullanılan"
+        AppLanguage.TURKISH -> "Most Used"
     }
     val statsMostTime: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "使用最久"
@@ -591,7 +591,7 @@ object StringsA {
         AppLanguage.RUSSIAN -> "Только что"
         AppLanguage.JAPANESE -> "たった今"
         AppLanguage.KOREAN -> "방금"
-        AppLanguage.TURKISH -> "Az önce"
+        AppLanguage.TURKISH -> "Just now"
     }
     val statsMinutesAgo: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "%d 分钟前"
@@ -2458,7 +2458,7 @@ object StringsA {
         AppLanguage.RUSSIAN -> "Плагины"
         AppLanguage.JAPANESE -> "プラグイン"
         AppLanguage.KOREAN -> "플러그인"
-        AppLanguage.TURKISH -> "Eklentiler"
+        AppLanguage.TURKISH -> "Plugins"
     }
 
     val previewLabelAdmin: String get() = when (Strings.lang) {
@@ -3647,8 +3647,49 @@ object StringsA {
             )
         }
 
-        AppLanguage.KOREAN -> when
-        AppLanguage.TURKISH -> when
+        AppLanguage.KOREAN -> when (framework) {
+            "Express" -> listOf(
+                "app.listen()이 localhost가 아닌 0.0.0.0에 바인딩되도록 하세요",
+                "정적 파일은 express.static()으로 제공하세요",
+                "프로덕션에서는 NODE_ENV=production을 설정해 성능을 높이세요"
+            )
+            "Fastify" -> listOf(
+                "수신 주소로 host: '0.0.0.0'을 사용하세요",
+                "Fastify는 JSON Schema 검증을 기본 제공합니다",
+                "정적 파일은 @fastify/static으로 제공하세요"
+            )
+            "Koa" -> listOf(
+                "Koa는 보통 koa-router 같은 명시적 라우터 미들웨어가 필요합니다",
+                "정적 자산에는 koa-static을 사용하세요",
+                "Koa의 양파형 미들웨어 모델은 복잡한 파이프라인에 적합합니다"
+            )
+            "NestJS" -> listOf(
+                "NestJS 진입 출력은 보통 dist/main.js입니다",
+                "패키징 전에 nest build로 dist를 생성하세요",
+                "main.ts에서 app.listen(port, '0.0.0.0')을 설정하세요"
+            )
+            "Next.js" -> listOf(
+                "프로덕션 서버는 next start로 실행하세요",
+                "먼저 next build로 .next 디렉터리를 만드세요",
+                "API 라우트는 pages/api 또는 app/api에 있습니다"
+            )
+            "Nuxt.js" -> listOf(
+                "Nuxt 3 프로덕션 출력은 .output 디렉터리입니다",
+                "nuxi build로 서버 번들을 생성하세요",
+                "Nitro가 API 라우트를 자동 처리합니다"
+            )
+            "Hapi" -> listOf(
+                "server.start()로 서버를 시작하세요",
+                "외부 접근을 허용하려면 host: '0.0.0.0'을 설정하세요",
+                "정적 파일은 @hapi/inert로 제공하세요"
+            )
+            else -> listOf(
+                "서버가 127.0.0.1이 아닌 0.0.0.0에서 수신하도록 하세요",
+                "포트는 PORT 환경 변수로 설정하세요",
+                "프로덕션 빌드에서는 NODE_ENV=production을 설정하세요"
+            )
+        }
+        AppLanguage.TURKISH -> when (framework) {
             "Express" -> listOf(
                 "app.listen()이 localhost가 아닌 0.0.0.0에 바인딩되도록 하세요",
                 "정적 파일은 express.static()으로 제공하세요",
@@ -3978,7 +4019,7 @@ object StringsA {
 
             このフォルダを Android Studio で開くと同期してビルドできます。書庫に署名キーストアと WebToApp シェルの全ランタイムは含まれません。設定した認証の秘密やプロキシ資格情報が含まれることがあります。
         """.trimIndent()
-        AppLanguage.KOREAN -> ""
+        AppLanguage.KOREAN -> """
         AppLanguage.TURKISH -> ""
             # $name
 
@@ -7633,7 +7674,7 @@ object StringsA {
             AppLanguage.GERMAN -> "${minutes / 60} Std${if (minutes % 60 > 0) " ${minutes % 60} Min" else ""}"
             AppLanguage.RUSSIAN -> "${minutes / 60} ч${if (minutes % 60 > 0) " ${minutes % 60} мин" else ""}"
             AppLanguage.JAPANESE -> "${minutes / 60}時間${if (minutes % 60 > 0) " ${minutes % 60}分" else ""}"
-            AppLanguage.KOREAN -> "${minutes / 60}시간${if (minutes % 60 > 0) "
+            AppLanguage.KOREAN -> "${minutes / 60}시간${if (minutes % 60 > 0) " ${minutes % 60}분" else ""}"
             AppLanguage.TURKISH -> "${minutes / 60}시간${if (minutes % 60 > 0) "
         }
         else -> when (Strings.lang) {
@@ -11507,7 +11548,7 @@ object StringsA {
         AppLanguage.RUSSIAN -> "секунд"
         AppLanguage.JAPANESE -> "秒"
         AppLanguage.KOREAN -> "초"
-        AppLanguage.TURKISH -> "saniye"
+        AppLanguage.TURKISH -> "seconds"
     }
 
     val downloadFailed: String get() = when (Strings.lang) {
@@ -12081,7 +12122,7 @@ object StringsA {
         AppLanguage.RUSSIAN -> "Отменить"
         AppLanguage.JAPANESE -> "元に戻す"
         AppLanguage.KOREAN -> "실행 취소"
-        AppLanguage.TURKISH -> "Geri Al"
+        AppLanguage.TURKISH -> "Undo"
     }
 
     val redo: String get() = when (Strings.lang) {
@@ -12095,7 +12136,7 @@ object StringsA {
         AppLanguage.RUSSIAN -> "Повторить"
         AppLanguage.JAPANESE -> "やり直し"
         AppLanguage.KOREAN -> "다시 실행"
-        AppLanguage.TURKISH -> "Yinele"
+        AppLanguage.TURKISH -> "Redo"
     }
 
     val progress: String get() = when (Strings.lang) {
@@ -12479,8 +12520,8 @@ object StringsA {
             AppLanguage.GERMAN -> if (url.isNotEmpty()) String.format(java.util.Locale.getDefault(), "Aktiviert · %s", url) else "Aktiviert"
             AppLanguage.RUSSIAN -> if (url.isNotEmpty()) String.format(java.util.Locale.getDefault(), "Включено · %s", url) else "Включено"
             AppLanguage.JAPANESE -> if (url.isNotEmpty()) String.format(java.util.Locale.getDefault(), "有効 · %s", url) else "有効"
-            AppLanguage.KOREAN -> if
-            AppLanguage.TURKISH -> if
+            AppLanguage.KOREAN -> if (url.isNotEmpty()) String.format(java.util.Locale.getDefault(), "활성화됨 · %s", url) else "활성화됨"
+            AppLanguage.TURKISH -> if (url.isNotEmpty()) String.format(java.util.Locale.getDefault(), "Etkinleştirildi · %s", url) else "Etkinleştirildi"
         }
     }
 
@@ -12521,9 +12562,10 @@ object StringsA {
             AppLanguage.SPANISH -> String.format(java.util.Locale.getDefault(), "%d en total", count)
             AppLanguage.FRENCH -> String.format(java.util.Locale.getDefault(), "%d au total", count)
             AppLanguage.GERMAN -> String.format(java.util.Locale.getDefault(), "%d gesamt", count)
-            AppLanguage.KOREAN -> String.format(java.util.Locale.getDefault(), "총 %d개", count)
-            AppLanguage.TURKISH -> String.format(java.util.Locale.getDefault(), "총 %d개", count)
+            AppLanguage.RUSSIAN -> String.format(java.util.Locale.getDefault(), "%d всего", count)
             AppLanguage.JAPANESE -> String.format(java.util.Locale.getDefault(), "合計 %d 個", count)
+            AppLanguage.KOREAN -> String.format(java.util.Locale.getDefault(), "총 %d개", count)
+            AppLanguage.TURKISH -> String.format(java.util.Locale.getDefault(), "Toplam %d", count)
         }
     }
 
@@ -13596,7 +13638,7 @@ object StringsA {
         AppLanguage.RUSSIAN -> "ч."
         AppLanguage.JAPANESE -> "時間"
         AppLanguage.KOREAN -> "시간"
-        AppLanguage.TURKISH -> "saat"
+        AppLanguage.TURKISH -> "hours"
     }
 
     val times: String get() = when (Strings.lang) {

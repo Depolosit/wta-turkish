@@ -4020,7 +4020,7 @@ object StringsC {
         AppLanguage.RUSSIAN -> "Инструменты"
         AppLanguage.JAPANESE -> "ツール"
         AppLanguage.KOREAN -> "도구"
-        AppLanguage.TURKISH -> "Araçlar"
+        AppLanguage.TURKISH -> "Tools"
     }
     val presetNight: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "夜间"
@@ -5748,7 +5748,7 @@ object StringsC {
         AppLanguage.RUSSIAN -> "Расширения"
         AppLanguage.JAPANESE -> "拡張機能"
         AppLanguage.KOREAN -> "확장 프로그램"
-        AppLanguage.TURKISH -> "Uzantılar"
+        AppLanguage.TURKISH -> "Extensions"
     }
 
     val capabilityExtensionHint: String get() = when (Strings.lang) {
@@ -7078,7 +7078,7 @@ object StringsC {
         AppLanguage.RUSSIAN -> "Инструменты"
         AppLanguage.JAPANESE -> "ツール"
         AppLanguage.KOREAN -> "도구"
-        AppLanguage.TURKISH -> "Araçlar"
+        AppLanguage.TURKISH -> "Tools"
     }
     val aiCatalogBadgeImageGen: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "图像"
@@ -9639,7 +9639,7 @@ object StringsC {
         AppLanguage.RUSSIAN -> "Свернуть"
         AppLanguage.JAPANESE -> "最小化"
         AppLanguage.KOREAN -> "최소화"
-        AppLanguage.TURKISH -> "Küçült"
+        AppLanguage.TURKISH -> "Minimize"
     }
 
     val floatingWindowRestoreWindow: String get() = when (Strings.lang) {
@@ -11042,7 +11042,7 @@ object StringsC {
         AppLanguage.GERMAN -> """{"Authorization": "Bearer xxx"}"""
         AppLanguage.RUSSIAN -> """{"Authorization": "Bearer xxx"}"""
         AppLanguage.JAPANESE -> """{"Authorization": "Bearer xxx"}"""
-        AppLanguage.KOREAN -> ""
+        AppLanguage.KOREAN -> """{"Authorization": "Bearer xxx"}"""
         AppLanguage.TURKISH -> ""
     }
 

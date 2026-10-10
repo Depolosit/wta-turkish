@@ -1823,7 +1823,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Неизвестная ошибка"
         AppLanguage.JAPANESE -> "不明なエラー"
         AppLanguage.KOREAN -> "알 수 없는 오류"
-        AppLanguage.TURKISH -> "Bilinmeyen hata"
+        AppLanguage.TURKISH -> "Unknown error"
     }
 
     val domStorageSetting: String get() = when (Strings.lang) {
@@ -2034,7 +2034,7 @@ object StringsB {
             AppLanguage.RUSSIAN -> String.format(java.util.Locale.getDefault(), "%d с", seconds)
             AppLanguage.JAPANESE -> String.format(java.util.Locale.getDefault(), "%d 秒", seconds)
             AppLanguage.KOREAN -> String.format(java.util.Locale.getDefault(), "%d초", seconds)
-            AppLanguage.TURKISH -> String.format(java.util.Locale.getDefault(), "%d초", seconds)
+            AppLanguage.TURKISH -> String.format(java.util.Locale.getDefault(), "%d sn", seconds)
         }
     }
 
@@ -6563,7 +6563,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Сессии"
         AppLanguage.JAPANESE -> "セッション"
         AppLanguage.KOREAN -> "세션"
-        AppLanguage.TURKISH -> "Oturumlar"
+        AppLanguage.TURKISH -> "Sessions"
     }
     val agentTabFiles: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "文件"
@@ -6745,7 +6745,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Модули"
         AppLanguage.JAPANESE -> "モジュール"
         AppLanguage.KOREAN -> "모듈"
-        AppLanguage.TURKISH -> "Modüller"
+        AppLanguage.TURKISH -> "Modules"
     }
     val agentContextEmpty: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "还没有应用或模块。"
@@ -7280,7 +7280,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Отменить"
         AppLanguage.JAPANESE -> "元に戻す"
         AppLanguage.KOREAN -> "실행 취소"
-        AppLanguage.TURKISH -> "Geri Al"
+        AppLanguage.TURKISH -> "Undo"
     }
     val agentChangesReviewExpand: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "展开"
@@ -8877,7 +8877,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> { attempt, max, ms -> "Ограничение скорости, повтор через ${ms / 1000}с (попытка ${attempt}/${max})…" }
         AppLanguage.JAPANESE -> { attempt, max, ms -> "レート制限、${ms / 1000}秒後にリトライ（${attempt}/${max}回目）…" }
         AppLanguage.KOREAN -> { attempt, max, ms -> "속도 제한, ${ms / 1000}초 후 재시도 (${attempt}/${max}번째)…" }
-        AppLanguage.TURKISH -> { attempt, max, ms -> "속도 제한, ${ms / 1000}초 후 재시도 (${attempt}/${max}번째)…" }
+        AppLanguage.TURKISH -> { attempt, max, ms -> "Hız sınırı, ${ms / 1000} sn sonra tekrar deneyin (${attempt}/${max})…" }
     }
 
     val agentFileSaved: String get() = when (Strings.lang) {
