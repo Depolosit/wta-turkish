@@ -92,6 +92,7 @@ private val pluginsTitle: String
         AppLanguage.RUSSIAN -> "Плагины"
         AppLanguage.JAPANESE -> "プラグイン"
         AppLanguage.KOREAN -> "플러그인"
+        AppLanguage.TURKISH -> "Eklentiler"
     }
 
 private val activeOnPage: String
@@ -106,6 +107,7 @@ private val activeOnPage: String
         AppLanguage.RUSSIAN -> "Активен на странице"
         AppLanguage.JAPANESE -> "このページで有効"
         AppLanguage.KOREAN -> "이 페이지에서 활성"
+        AppLanguage.TURKISH -> "Bu sayfada etkin"
     }
 
 private val inactiveOnPage: String
@@ -120,6 +122,7 @@ private val inactiveOnPage: String
         AppLanguage.RUSSIAN -> "Не совпадает со страницей"
         AppLanguage.JAPANESE -> "このページには非対応"
         AppLanguage.KOREAN -> "이 페이지와 일치하지 않음"
+        AppLanguage.TURKISH -> "이 페이지와 일치하지 않음"
     }
 
 private val closeLabel: String
@@ -134,6 +137,7 @@ private val closeLabel: String
         AppLanguage.RUSSIAN -> "Закрыть"
         AppLanguage.JAPANESE -> "閉じる"
         AppLanguage.KOREAN -> "닫기"
+        AppLanguage.TURKISH -> "Kapat"
     }
 
 private val noPluginsInstalled: String
@@ -148,6 +152,7 @@ private val noPluginsInstalled: String
         AppLanguage.RUSSIAN -> "Нет активных плагинов"
         AppLanguage.JAPANESE -> "有効なプラグインなし"
         AppLanguage.KOREAN -> "활성화된 플러그인 없음"
+        AppLanguage.TURKISH -> "활성화된 플러그인 없음"
     }
 
 internal fun kindLabel(kind: PluginKind): String = when (kind) {

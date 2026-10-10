@@ -23,6 +23,7 @@ object SampleProjectManager {
             AppLanguage.RUSSIAN -> "-en"
             AppLanguage.JAPANESE -> "-en"
             AppLanguage.KOREAN -> "-en"
+            AppLanguage.TURKISH -> "-tr"
         }
     }
 
