@@ -114,7 +114,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Копировать путь"
         AppLanguage.JAPANESE -> "パスをコピー"
         AppLanguage.KOREAN -> "경로 복사"
-        AppLanguage.TURKISH -> "Kopyala path"
+        AppLanguage.TURKISH -> "Copy path"
     }
 
     val saveAsScheme: String get() = when (Strings.lang) {
@@ -128,7 +128,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Сохранить как схему"
         AppLanguage.JAPANESE -> "スキーマとして保存"
         AppLanguage.KOREAN -> "스키마로 저장"
-        AppLanguage.TURKISH -> "Kaydet as Scheme"
+        AppLanguage.TURKISH -> "Save as Scheme"
     }
 
     val clearAll: String get() = when (Strings.lang) {
@@ -156,7 +156,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Выбрать модули"
         AppLanguage.JAPANESE -> "モジュールを選択"
         AppLanguage.KOREAN -> "모듈 선택"
-        AppLanguage.TURKISH -> "Seç Modüller"
+        AppLanguage.TURKISH -> "Select Modules"
     }
 
     val selectExtensionModules: String get() = when (Strings.lang) {
@@ -170,7 +170,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Выбрать модули расширений"
         AppLanguage.JAPANESE -> "拡張モジュールを選択"
         AppLanguage.KOREAN -> "확장 모듈 선택"
-        AppLanguage.TURKISH -> "Seç Uzantı Modüller"
+        AppLanguage.TURKISH -> "Select Extension Modules"
     }
 
     val doneWithCount: String get() = when (Strings.lang) {
@@ -184,7 +184,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Готово (%d)"
         AppLanguage.JAPANESE -> "完了 (%d)"
         AppLanguage.KOREAN -> "완료 (%d)"
-        AppLanguage.TURKISH -> "Bitti (%d)"
+        AppLanguage.TURKISH -> "Done (%d)"
     }
 
     val searchModulesHint: String get() = when (Strings.lang) {
@@ -198,7 +198,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Поиск по имени или описанию..."
         AppLanguage.JAPANESE -> "名前または説明を検索..."
         AppLanguage.KOREAN -> "이름 또는 설명 검색..."
-        AppLanguage.TURKISH -> "Ara name or description..."
+        AppLanguage.TURKISH -> "Search name or description..."
     }
 
     val testModule: String get() = when (Strings.lang) {
@@ -212,7 +212,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Тестировать модуль"
         AppLanguage.JAPANESE -> "モジュールをテスト"
         AppLanguage.KOREAN -> "모듈 테스트"
-        AppLanguage.TURKISH -> "Test Modül"
+        AppLanguage.TURKISH -> "Test Module"
     }
 
     val addThisModule: String get() = when (Strings.lang) {
@@ -226,7 +226,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Добавить этот модуль"
         AppLanguage.JAPANESE -> "このモジュールを追加"
         AppLanguage.KOREAN -> "이 모듈 추가"
-        AppLanguage.TURKISH -> "Ekle This Modül"
+        AppLanguage.TURKISH -> "Add This Module"
     }
 
     val moduleSchemes: String get() = when (Strings.lang) {
@@ -240,7 +240,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Схемы модулей"
         AppLanguage.JAPANESE -> "モジュールスキーマ"
         AppLanguage.KOREAN -> "모듈 스키마"
-        AppLanguage.TURKISH -> "Modül Schemes"
+        AppLanguage.TURKISH -> "Module Schemes"
     }
 
     val saveAsSchemeTitle: String get() = when (Strings.lang) {
@@ -254,7 +254,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Сохранить как схему"
         AppLanguage.JAPANESE -> "スキーマとして保存"
         AppLanguage.KOREAN -> "스키마로 저장"
-        AppLanguage.TURKISH -> "Kaydet as Scheme"
+        AppLanguage.TURKISH -> "Save as Scheme"
     }
 
     val schemeName: String get() = when (Strings.lang) {
@@ -268,7 +268,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Имя схемы"
         AppLanguage.JAPANESE -> "スキーマ名"
         AppLanguage.KOREAN -> "스키마 이름"
-        AppLanguage.TURKISH -> "Scheme Ad"
+        AppLanguage.TURKISH -> "Scheme Name"
     }
 
     val inputSchemeName: String get() = when (Strings.lang) {
@@ -296,7 +296,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Выбрать значок"
         AppLanguage.JAPANESE -> "アイコンを選択"
         AppLanguage.KOREAN -> "아이콘 선택"
-        AppLanguage.TURKISH -> "Seç Icon"
+        AppLanguage.TURKISH -> "Select Icon"
     }
 
     val exportData: String get() = when (Strings.lang) {
@@ -310,7 +310,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Экспортировать данные"
         AppLanguage.JAPANESE -> "データをエクスポート"
         AppLanguage.KOREAN -> "데이터 내보내기"
-        AppLanguage.TURKISH -> "Dışa Aktar Data"
+        AppLanguage.TURKISH -> "Export Data"
     }
 
     val importData: String get() = when (Strings.lang) {
@@ -324,7 +324,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Импортировать данные"
         AppLanguage.JAPANESE -> "データをインポート"
         AppLanguage.KOREAN -> "데이터 가져오기"
-        AppLanguage.TURKISH -> "İçe Aktar Data"
+        AppLanguage.TURKISH -> "Import Data"
     }
 
     val launchTime: String get() = when (Strings.lang) {
@@ -338,7 +338,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Время запуска"
         AppLanguage.JAPANESE -> "起動時間"
         AppLanguage.KOREAN -> "실행 시간"
-        AppLanguage.TURKISH -> "Launch Süre"
+        AppLanguage.TURKISH -> "Launch Time"
     }
 
     val selectLaunchTime: String get() = when (Strings.lang) {
@@ -352,7 +352,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Выбрать время запуска"
         AppLanguage.JAPANESE -> "起動時間を選択"
         AppLanguage.KOREAN -> "실행 시간 선택"
-        AppLanguage.TURKISH -> "Seç Launch Süre"
+        AppLanguage.TURKISH -> "Select Launch Time"
     }
 
     val refresh: String get() = when (Strings.lang) {
@@ -394,7 +394,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Вперёд"
         AppLanguage.JAPANESE -> "進む"
         AppLanguage.KOREAN -> "앞으로"
-        AppLanguage.TURKISH -> "İlet"
+        AppLanguage.TURKISH -> "Forward"
     }
 
 
@@ -410,7 +410,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Имя модуля *"
         AppLanguage.JAPANESE -> "モジュール名 *"
         AppLanguage.KOREAN -> "모듈 이름 *"
-        AppLanguage.TURKISH -> "Modül Ad *"
+        AppLanguage.TURKISH -> "Module Name *"
     }
 
     val inputModuleName: String get() = when (Strings.lang) {
@@ -438,7 +438,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Изменить модуль"
         AppLanguage.JAPANESE -> "モジュールを編集"
         AppLanguage.KOREAN -> "모듈 편집"
-        AppLanguage.TURKISH -> "Düzenle Modül"
+        AppLanguage.TURKISH -> "Edit Module"
     }
 
     val useTemplate: String get() = when (Strings.lang) {
@@ -466,7 +466,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Основная информация"
         AppLanguage.JAPANESE -> "基本情報"
         AppLanguage.KOREAN -> "기본 정보"
-        AppLanguage.TURKISH -> "Temel Bilgi"
+        AppLanguage.TURKISH -> "Basic Info"
     }
 
     val code: String get() = when (Strings.lang) {
@@ -480,7 +480,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Код"
         AppLanguage.JAPANESE -> "コード"
         AppLanguage.KOREAN -> "코드"
-        AppLanguage.TURKISH -> "Kod"
+        AppLanguage.TURKISH -> "Code"
     }
 
     val advancedSettings: String get() = when (Strings.lang) {
@@ -494,7 +494,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Расширенные настройки"
         AppLanguage.JAPANESE -> "詳細設定"
         AppLanguage.KOREAN -> "고급 설정"
-        AppLanguage.TURKISH -> "Gelişmiş Ayarlar"
+        AppLanguage.TURKISH -> "Advanced Settings"
     }
 
     val configTemplates: String get() = when (Strings.lang) {
@@ -522,7 +522,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Сохраните текущую общую конфигурацию как шаблон и применяйте её к любому приложению одним нажатием"
         AppLanguage.JAPANESE -> "現在の共通設定をテンプレートとして保存し、任意のアプリにワンタップで適用できます"
         AppLanguage.KOREAN -> "현재 공통 구성을 템플릿으로 저장하고 원하는 앱에 한 번에 적용하세요"
-        AppLanguage.TURKISH -> "Kaydet the current common config as a template and apply it to any app in one tap"
+        AppLanguage.TURKISH -> "Save the current common config as a template and apply it to any app in one tap"
     }
 
     val templateSaveAs: String get() = when (Strings.lang) {
@@ -536,7 +536,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Сохранить как шаблон"
         AppLanguage.JAPANESE -> "テンプレートとして保存"
         AppLanguage.KOREAN -> "템플릿으로 저장"
-        AppLanguage.TURKISH -> "Kaydet as template"
+        AppLanguage.TURKISH -> "Save as template"
     }
 
     val templateNameLabel: String get() = when (Strings.lang) {
@@ -592,7 +592,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Переименовать шаблон"
         AppLanguage.JAPANESE -> "テンプレートの名前を変更"
         AppLanguage.KOREAN -> "템플릿 이름 바꾸기"
-        AppLanguage.TURKISH -> "Yeniden Adlandır template"
+        AppLanguage.TURKISH -> "Rename template"
     }
 
     val templateEmpty: String get() = when (Strings.lang) {
@@ -606,7 +606,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Шаблонов пока нет"
         AppLanguage.JAPANESE -> "テンプレートはまだありません"
         AppLanguage.KOREAN -> "아직 템플릿이 없습니다"
-        AppLanguage.TURKISH -> "Hayır templates yet"
+        AppLanguage.TURKISH -> "No templates yet"
     }
 
     val templateOverwriteHint: String get() = when (Strings.lang) {
@@ -634,7 +634,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Шаблон \"$name\" применён"
         AppLanguage.JAPANESE -> "テンプレート「$name」を適用しました"
         AppLanguage.KOREAN -> "템플릿 \"$name\"을(를) 적용했습니다"
-        AppLanguage.TURKISH -> "Uygulamalied template \\\"$name\\\""
+        AppLanguage.TURKISH -> "Applied template \\\"$name\\\""
     }
 
     fun templateSaved(name: String): String = when (Strings.lang) {
@@ -662,7 +662,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Экспорт текущей конфигурации"
         AppLanguage.JAPANESE -> "現在の設定を書き出す"
         AppLanguage.KOREAN -> "현재 구성 내보내기"
-        AppLanguage.TURKISH -> "Dışa Aktar current config"
+        AppLanguage.TURKISH -> "Export current config"
     }
 
     val templateImport: String get() = when (Strings.lang) {
@@ -676,7 +676,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Импорт конфигурации"
         AppLanguage.JAPANESE -> "設定を読み込む"
         AppLanguage.KOREAN -> "구성 가져오기"
-        AppLanguage.TURKISH -> "İçe Aktar config"
+        AppLanguage.TURKISH -> "Import config"
     }
 
     val templateExport: String get() = when (Strings.lang) {
@@ -746,7 +746,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "\"$name\" импортирован и применён"
         AppLanguage.JAPANESE -> "「$name」を読み込んで適用しました"
         AppLanguage.KOREAN -> "\"$name\"을(를) 가져와 적용했습니다"
-        AppLanguage.TURKISH -> "İçe Aktared and applied \\\"$name\\\""
+        AppLanguage.TURKISH -> "Imported and applied \\\"$name\\\""
     }
 
     val sectionWebEngine: String get() = when (Strings.lang) {
@@ -788,7 +788,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Сеть и офлайн"
         AppLanguage.JAPANESE -> "ネットワークとオフライン"
         AppLanguage.KOREAN -> "네트워크 및 오프라인"
-        AppLanguage.TURKISH -> "Network & Çevrimdışı"
+        AppLanguage.TURKISH -> "Network & Offline"
     }
 
     val sectionDeveloper: String get() = when (Strings.lang) {
@@ -816,7 +816,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Идентификация браузера"
         AppLanguage.JAPANESE -> "ブラウザ識別"
         AppLanguage.KOREAN -> "브라우저 신원"
-        AppLanguage.TURKISH -> "Tarayıcı Identity"
+        AppLanguage.TURKISH -> "Browser Identity"
     }
 
     val sectionOfflineCache: String get() = when (Strings.lang) {
@@ -830,7 +830,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Офлайн и кэш"
         AppLanguage.JAPANESE -> "オフラインとキャッシュ"
         AppLanguage.KOREAN -> "오프라인 및 캐시"
-        AppLanguage.TURKISH -> "Çevrimdışı & Cache"
+        AppLanguage.TURKISH -> "Offline & Cache"
     }
 
     val sectionNetworkAccess: String get() = when (Strings.lang) {
@@ -858,7 +858,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Выбрать категорию"
         AppLanguage.JAPANESE -> "カテゴリを選択"
         AppLanguage.KOREAN -> "카테고리 선택"
-        AppLanguage.TURKISH -> "Seç Category"
+        AppLanguage.TURKISH -> "Select Category"
     }
 
     val runTime: String get() = when (Strings.lang) {
@@ -872,7 +872,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Время выполнения"
         AppLanguage.JAPANESE -> "実行タイミング"
         AppLanguage.KOREAN -> "실행 시점"
-        AppLanguage.TURKISH -> "Run Süre"
+        AppLanguage.TURKISH -> "Run Time"
     }
 
     val requiredPermissions: String get() = when (Strings.lang) {
@@ -886,7 +886,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Требуемые разрешения"
         AppLanguage.JAPANESE -> "必要な権限"
         AppLanguage.KOREAN -> "필요한 권한"
-        AppLanguage.TURKISH -> "Gerekli İzinler"
+        AppLanguage.TURKISH -> "Required Permissions"
     }
 
     val sensitive: String get() = when (Strings.lang) {
@@ -942,7 +942,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Информация о модуле"
         AppLanguage.JAPANESE -> "モジュール情報"
         AppLanguage.KOREAN -> "모듈 정보"
-        AppLanguage.TURKISH -> "Modül Bilgi"
+        AppLanguage.TURKISH -> "Module Info"
     }
 
     val codeSnippets: String get() = when (Strings.lang) {
@@ -956,7 +956,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Фрагменты кода"
         AppLanguage.JAPANESE -> "コードスニペット"
         AppLanguage.KOREAN -> "코드 스니펫"
-        AppLanguage.TURKISH -> "Kod Snippets"
+        AppLanguage.TURKISH -> "Code Snippets"
     }
 
     val availableFunctions: String get() = when (Strings.lang) {
@@ -998,7 +998,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "• getConfig(key, defaultValue) - Получить конфигурацию пользователя\n• __MODULE_INFO__ - Объект информации о модуле\n• __MODULE_CONFIG__ - Объект значений конфигурации"
         AppLanguage.JAPANESE -> "• getConfig(key, defaultValue) - ユーザー設定を取得\n• __MODULE_INFO__ - モジュール情報オブジェクト\n• __MODULE_CONFIG__ - 設定値オブジェクト"
         AppLanguage.KOREAN -> "• getConfig(key, defaultValue) - 사용자 설정 가져오기\n• __MODULE_INFO__ - 모듈 정보 객체\n• __MODULE_CONFIG__ - 설정 값 객체"
-        AppLanguage.TURKISH -> "• getConfig(key, defaultValue) - Get user config\\n• __MODULE_INFO__ - Modül info object\\n• __MODULE_CONFIG__ - Config values object"
+        AppLanguage.TURKISH -> "• getConfig(key, defaultValue) - Get user config\\n• __MODULE_INFO__ - Module info object\\n• __MODULE_CONFIG__ - Config values object"
     }
 
     val cssHint: String get() = when (Strings.lang) {
@@ -1026,7 +1026,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Без специальных разрешений"
         AppLanguage.JAPANESE -> "特別な権限はありません"
         AppLanguage.KOREAN -> "특별한 권한 없음"
-        AppLanguage.TURKISH -> "Hayır special permissions"
+        AppLanguage.TURKISH -> "No special permissions"
     }
 
     val urlMatchRules: String get() = when (Strings.lang) {
@@ -1082,7 +1082,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Элементы конфигурации пользователя"
         AppLanguage.JAPANESE -> "ユーザー設定項目"
         AppLanguage.KOREAN -> "사용자 설정 항목"
-        AppLanguage.TURKISH -> "User Config Öğeler"
+        AppLanguage.TURKISH -> "User Config Items"
     }
 
     val noConfigItems: String get() = when (Strings.lang) {
@@ -1096,7 +1096,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Нет элементов конфигурации"
         AppLanguage.JAPANESE -> "設定項目なし"
         AppLanguage.KOREAN -> "설정 항목 없음"
-        AppLanguage.TURKISH -> "Hayır config items"
+        AppLanguage.TURKISH -> "No config items"
     }
 
     val configItemsCount: String get() = when (Strings.lang) {
@@ -1138,7 +1138,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "• Совпадение URL: оставьте пустым для применения на всех сайтах\n• Элементы конфигурации: позволяют пользователям настраивать поведение модуля\n• Разрешения: информируют пользователей о требуемых возможностях\n• Время выполнения: управляет запуском кода"
         AppLanguage.JAPANESE -> "• URL 一致: 空欄で全サイトに適用\n• 設定項目: ユーザーがモジュールの動作をカスタマイズ\n• 権限: 必要な機能をユーザーに通知\n• 実行タイミング: コードの実行タイミングを制御"
         AppLanguage.KOREAN -> "• URL 일치: 비워두면 모든 사이트에 적용\n• 설정 항목: 사용자가 모듈 동작을 사용자 정의\n• 권한: 필요한 기능을 사용자에게 알림\n• 실행 시점: 코드 실행 시기 제어"
-        AppLanguage.TURKISH -> "• URL Match: Leave empty to apply on all websites\\n• Config Öğeler: Let users customize module behavior\\n• İzinler: Bilgirm users of required capabilities\\n• Run Süre: Control when code runs"
+        AppLanguage.TURKISH -> "• URL Match: Leave empty to apply on all websites\\n• Config Items: Let users customize module behavior\\n• Permissions: Inform users of required capabilities\\n• Run Time: Control when code runs"
     }
 
     val regex: String get() = when (Strings.lang) {
@@ -1278,7 +1278,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Имя ключа *"
         AppLanguage.JAPANESE -> "キー名 *"
         AppLanguage.KOREAN -> "키 이름 *"
-        AppLanguage.TURKISH -> "Key Ad *"
+        AppLanguage.TURKISH -> "Key Name *"
     }
 
     val displayNameRequired: String get() = when (Strings.lang) {
@@ -1292,7 +1292,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Отображаемое имя *"
         AppLanguage.JAPANESE -> "表示名 *"
         AppLanguage.KOREAN -> "표시 이름 *"
-        AppLanguage.TURKISH -> "Display Ad *"
+        AppLanguage.TURKISH -> "Display Name *"
     }
 
     val provider: String get() = when (Strings.lang) {
@@ -1320,7 +1320,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "ID модели"
         AppLanguage.JAPANESE -> "モデル ID"
         AppLanguage.KOREAN -> "모델 ID"
-        AppLanguage.TURKISH -> "Modl ID"
+        AppLanguage.TURKISH -> "Model ID"
     }
 
     val aliasOptional: String get() = when (Strings.lang) {
@@ -1362,7 +1362,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Код активации"
         AppLanguage.JAPANESE -> "アクティベーションコード"
         AppLanguage.KOREAN -> "활성화 코드"
-        AppLanguage.TURKISH -> "Aktivasyon Kodu"
+        AppLanguage.TURKISH -> "Activation Code"
     }
 
     val customPackageName: String get() = when (Strings.lang) {
@@ -1376,7 +1376,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Пользовательское имя пакета"
         AppLanguage.JAPANESE -> "カスタムパッケージ名"
         AppLanguage.KOREAN -> "사용자 지정 패키지 이름"
-        AppLanguage.TURKISH -> "Özel Package Ad"
+        AppLanguage.TURKISH -> "Custom Package Name"
     }
 
     val packageNameInvalidFormat: String get() = when (Strings.lang) {
@@ -1432,7 +1432,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Имя версии"
         AppLanguage.JAPANESE -> "バージョン名"
         AppLanguage.KOREAN -> "버전 이름"
-        AppLanguage.TURKISH -> "Sürüm Ad"
+        AppLanguage.TURKISH -> "Version Name"
     }
 
     val apkVersionNamePlaceholder: String get() = when (Strings.lang) {
@@ -1460,7 +1460,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Код версии"
         AppLanguage.JAPANESE -> "バージョンコード"
         AppLanguage.KOREAN -> "버전 코드"
-        AppLanguage.TURKISH -> "Sürüm Kod"
+        AppLanguage.TURKISH -> "Version Code"
     }
 
     val apkVersionCodePlaceholder: String get() = when (Strings.lang) {
@@ -1501,7 +1501,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Необязательно: заявляет об отсутствии дополнительных ограничений. Не предоставляет разрешений и не гарантирует поддержку агентами. По умолчанию выключено: метаданные отсутствуют, это не запрет доступа."
         AppLanguage.JAPANESE -> "任意：追加の制限がないことを宣言します。権限を付与せず、エージェントの対応も保証しません。既定はオフ：メタデータを省略するだけで、アクセス拒否ではありません。"
         AppLanguage.KOREAN -> "선택 사항: 추가 제한이 없음을 선언합니다. 권한을 부여하거나 에이전트 지원을 보장하지 않습니다. 기본값은 꺼짐: 메타데이터를 생략하며 접근 거부를 뜻하지 않습니다."
-        AppLanguage.TURKISH -> "İsteğe Bağlı: declares no additional restrictions. Does not grant permissions or guarantee agent support. Kapalı by default: omits metadata, not a denial of access."
+        AppLanguage.TURKISH -> "Optional: declares no additional restrictions. Does not grant permissions or guarantee agent support. Off by default: omits metadata, not a denial of access."
     }
 
     val autoVersionBump: String get() = when (Strings.lang) {
@@ -1515,7 +1515,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Автоповышение версии"
         AppLanguage.JAPANESE -> "バージョンを自動で引き上げ"
         AppLanguage.KOREAN -> "버전 자동 올림"
-        AppLanguage.TURKISH -> "Otomatik-bump version"
+        AppLanguage.TURKISH -> "Auto-bump version"
     }
 
     val autoVersionBumpHint: String get() = when (Strings.lang) {
@@ -1529,7 +1529,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Если этот пакет уже установлен с более высоким versionCode, версия сборки повышается, чтобы обновление установилось. Отключите, чтобы всегда использовать указанную выше версию."
         AppLanguage.JAPANESE -> "このパッケージがより高い versionCode で既にインストールされている場合、インストールできるようビルドのバージョンを引き上げます。オフにすると常に上記のバージョンを使用します。"
         AppLanguage.KOREAN -> "이 패키지가 더 높은 versionCode로 이미 설치된 경우 설치할 수 있도록 빌드 버전을 올립니다. 끄면 항상 위에 지정한 버전을 사용합니다."
-        AppLanguage.TURKISH -> "When this package is already installed with a higher versionKod, raises the build's version so it can install. Turn off to always keep the version above."
+        AppLanguage.TURKISH -> "When this package is already installed with a higher versionCode, raises the build's version so it can install. Turn off to always keep the version above."
     }
 
     val selectTheme: String get() = when (Strings.lang) {
@@ -1543,7 +1543,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Выбрать тему"
         AppLanguage.JAPANESE -> "テーマを選択"
         AppLanguage.KOREAN -> "테마 선택"
-        AppLanguage.TURKISH -> "Seç Tema"
+        AppLanguage.TURKISH -> "Select Theme"
     }
 
     val translateTargetLanguage: String get() = when (Strings.lang) {
@@ -1557,7 +1557,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Целевой язык перевода"
         AppLanguage.JAPANESE -> "翻訳先言語"
         AppLanguage.KOREAN -> "번역 대상 언어"
-        AppLanguage.TURKISH -> "Translation Target Dil"
+        AppLanguage.TURKISH -> "Translation Target Language"
     }
 
     val adBlockRuleHint: String get() = when (Strings.lang) {
@@ -1585,7 +1585,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Пользовательские правила блокировки (необязательно)"
         AppLanguage.JAPANESE -> "カスタムブロックルール（任意）"
         AppLanguage.KOREAN -> "사용자 지정 차단 규칙 (선택)"
-        AppLanguage.TURKISH -> "Özel Engelle Rules (optional)"
+        AppLanguage.TURKISH -> "Custom Block Rules (optional)"
     }
 
     val adBlockNoRules: String get() = when (Strings.lang) {
@@ -1599,7 +1599,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Пользовательские правила ещё не добавлены. Встроенные списки фильтров сообщества продолжают действовать."
         AppLanguage.JAPANESE -> "カスタムルールはまだ追加されていません。組み込みのコミュニティフィルターリストは引き続き有効です。"
         AppLanguage.KOREAN -> "아직 사용자 지정 규칙이 추가되지 않았습니다. 내장된 커뮤니티 필터 목록은 계속 적용됩니다."
-        AppLanguage.TURKISH -> "Hayır custom rules added yet. Built-in community filter lists still apply."
+        AppLanguage.TURKISH -> "No custom rules added yet. Built-in community filter lists still apply."
     }
 
     val adBlockSubscriptionsLabel: String get() = when (Strings.lang) {
@@ -1613,7 +1613,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Подписки на списки фильтров"
         AppLanguage.JAPANESE -> "フィルターリストのサブスクリプション"
         AppLanguage.KOREAN -> "필터 목록 구독"
-        AppLanguage.TURKISH -> "Filtre Liste Aboneliks"
+        AppLanguage.TURKISH -> "Filter List Subscriptions"
     }
 
     val adBlockSubscriptionsDesc: String get() = when (Strings.lang) {
@@ -1627,7 +1627,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Выбранные списки загружаются и компилируются в генерируемый APK"
         AppLanguage.JAPANESE -> "選択したリストはダウンロードされ、生成された APK にコンパイルされます"
         AppLanguage.KOREAN -> "선택한 목록이 다운로드되어 생성된 APK에 컴파일됩니다"
-        AppLanguage.TURKISH -> "Seçed lists are downloaded and compiled into the generated APK"
+        AppLanguage.TURKISH -> "Selected lists are downloaded and compiled into the generated APK"
     }
 
     val adBlockSelectSubscriptions: String get() = when (Strings.lang) {
@@ -1641,7 +1641,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Выбрать списки фильтров"
         AppLanguage.JAPANESE -> "フィルターリストを選択"
         AppLanguage.KOREAN -> "필터 목록 선택"
-        AppLanguage.TURKISH -> "Seç Filtre Listes"
+        AppLanguage.TURKISH -> "Select Filter Lists"
     }
 
     val adBlockSubscriptions: String get() = when (Strings.lang) {
@@ -1655,7 +1655,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Списки фильтров"
         AppLanguage.JAPANESE -> "フィルターリスト"
         AppLanguage.KOREAN -> "필터 목록"
-        AppLanguage.TURKISH -> "Filtre Listes"
+        AppLanguage.TURKISH -> "Filter Lists"
     }
 
     val adBlockNoDownloadedSourcesShort: String get() = when (Strings.lang) {
@@ -1669,7 +1669,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Не загружено"
         AppLanguage.JAPANESE -> "未ダウンロード"
         AppLanguage.KOREAN -> "다운로드 안 됨"
-        AppLanguage.TURKISH -> "Hayırt downloaded"
+        AppLanguage.TURKISH -> "Not downloaded"
     }
 
     val adBlockNoSubscriptionSelected: String get() = when (Strings.lang) {
@@ -1683,7 +1683,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Список фильтров не выбран"
         AppLanguage.JAPANESE -> "フィルターリストが選択されていません"
         AppLanguage.KOREAN -> "선택된 필터 목록 없음"
-        AppLanguage.TURKISH -> "Hayır filter list selected"
+        AppLanguage.TURKISH -> "No filter list selected"
     }
 
     val adBlockEnabledSourcesLabel: String get() = when (Strings.lang) {
@@ -1697,7 +1697,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Активные списки фильтров"
         AppLanguage.JAPANESE -> "有効なフィルターリスト"
         AppLanguage.KOREAN -> "활성화된 필터 목록"
-        AppLanguage.TURKISH -> "Etkin filter lists"
+        AppLanguage.TURKISH -> "Enabled filter lists"
     }
 
     val adBlockAddMoreSources: String get() = when (Strings.lang) {
@@ -1711,7 +1711,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Добавить ещё списки фильтров"
         AppLanguage.JAPANESE -> "フィルターリストを追加"
         AppLanguage.KOREAN -> "필터 목록 추가"
-        AppLanguage.TURKISH -> "Ekle more filter lists"
+        AppLanguage.TURKISH -> "Add more filter lists"
     }
 
     val adBlockManageSubscriptions: String get() = when (Strings.lang) {
@@ -1725,7 +1725,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Управлять списками фильтров (%d)"
         AppLanguage.JAPANESE -> "フィルターリストを管理 (%d)"
         AppLanguage.KOREAN -> "필터 목록 관리 (%d)"
-        AppLanguage.TURKISH -> "Manage Filtre Listes (%d)"
+        AppLanguage.TURKISH -> "Manage Filter Lists (%d)"
     }
 
     val adBlockSubscriptionsCount: String get() = when (Strings.lang) {
@@ -1753,7 +1753,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Неактивно — выберите списки фильтров или добавьте пользовательские правила для активации"
         AppLanguage.JAPANESE -> "無効 — フィルターリストを選択するかカスタムルールを追加して有効化"
         AppLanguage.KOREAN -> "비활성 — 필터 목록을 선택하거나 사용자 지정 규칙을 추가하여 활성화"
-        AppLanguage.TURKISH -> "Pasif — select filter lists or add custom rules to enable"
+        AppLanguage.TURKISH -> "Inactive — select filter lists or add custom rules to enable"
     }
 
     val adBlockNoDownloadedSources: String get() = when (Strings.lang) {
@@ -1767,7 +1767,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Нет загруженных списков фильтров. Сначала загрузите их на странице Hosts Ad Block."
         AppLanguage.JAPANESE -> "ダウンロード済みのフィルターリストがありません。まず Hosts Ad Block ページでダウンロードしてください。"
         AppLanguage.KOREAN -> "다운로드된 필터 목록이 없습니다. 먼저 Hosts Ad Block 페이지에서 다운로드하세요."
-        AppLanguage.TURKISH -> "Hayır downloaded filter lists. Please download some in the Hosts Ad Engelle page first."
+        AppLanguage.TURKISH -> "No downloaded filter lists. Please download some in the Hosts Ad Block page first."
     }
 
     val done: String get() = when (Strings.lang) {
@@ -1851,7 +1851,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Разрешить страницам использовать localStorage / sessionStorage для состояния"
         AppLanguage.JAPANESE -> "ページが localStorage / sessionStorage を使用してページ状態を保存することを許可"
         AppLanguage.KOREAN -> "페이지가 localStorage / sessionStorage를 사용하여 페이지 상태를 저장하도록 허용"
-        AppLanguage.TURKISH -> "İzin Ver pages to use localStorage / sessionStorage for page state"
+        AppLanguage.TURKISH -> "Allow pages to use localStorage / sessionStorage for page state"
     }
 
     val zoomSetting: String get() = when (Strings.lang) {
@@ -1879,7 +1879,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Разрешить пользователю масштабировать страницу"
         AppLanguage.JAPANESE -> "ユーザーがページをズームすることを許可"
         AppLanguage.KOREAN -> "사용자가 페이지를 줌하도록 허용"
-        AppLanguage.TURKISH -> "İzin Ver user to zoom page"
+        AppLanguage.TURKISH -> "Allow user to zoom page"
     }
 
     val swipeRefreshSetting: String get() = when (Strings.lang) {
@@ -1893,7 +1893,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Обновление свайпом"
         AppLanguage.JAPANESE -> "スワイプで更新"
         AppLanguage.KOREAN -> "스와이프 새로고침"
-        AppLanguage.TURKISH -> "Swipe Yenile"
+        AppLanguage.TURKISH -> "Swipe Refresh"
     }
 
     val swipeRefreshSettingHint: String get() = when (Strings.lang) {
@@ -1907,7 +1907,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Разрешить обновление свайпом вниз"
         AppLanguage.JAPANESE -> "下にスワイプして更新を許可"
         AppLanguage.KOREAN -> "아래로 스와이프하여 새로고침 허용"
-        AppLanguage.TURKISH -> "İzin Ver swipe down to refresh"
+        AppLanguage.TURKISH -> "Allow swipe down to refresh"
     }
 
     val overscrollEffectSetting: String get() = when (Strings.lang) {
@@ -1935,7 +1935,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Показывает системное растяжение, когда страница прокручивается за край. Выключите, чтобы останавливаться на краю и не растягивать закреплённые панели."
         AppLanguage.JAPANESE -> "ページ端を超えてスクロールしたとき、システムの伸び縮みを表示します。オフにすると端で止まり、固定ヘッダーは伸びません。"
         AppLanguage.KOREAN -> "페이지가 가장자리를 넘어 스크롤될 때 시스템 늘림 효과를 표시합니다. 끄면 가장자리에서 멈추고 고정 헤더는 늘어나지 않습니다."
-        AppLanguage.TURKISH -> "Gösters the system stretch when the page scrolls past its edge. Turn off to stop at the edge so fixed headers are not stretched."
+        AppLanguage.TURKISH -> "Shows the system stretch when the page scrolls past its edge. Turn off to stop at the edge so fixed headers are not stretched."
     }
 
     val swipeRefreshZoneLabel: String get() = when (Strings.lang) {
@@ -1949,7 +1949,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Зона срабатывания"
         AppLanguage.JAPANESE -> "発生エリア"
         AppLanguage.KOREAN -> "트리거 영역"
-        AppLanguage.TURKISH -> "Tetikle area"
+        AppLanguage.TURKISH -> "Trigger area"
     }
 
     val swipeRefreshZoneTopEdge: String get() = when (Strings.lang) {
@@ -1991,7 +1991,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Автообновление"
         AppLanguage.JAPANESE -> "自動更新"
         AppLanguage.KOREAN -> "자동 새로고침"
-        AppLanguage.TURKISH -> "Otomatik Yenile"
+        AppLanguage.TURKISH -> "Auto Refresh"
     }
 
     val autoRefreshSettingDesc: String get() = when (Strings.lang) {
@@ -2019,7 +2019,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Интервал обновления"
         AppLanguage.JAPANESE -> "更新間隔"
         AppLanguage.KOREAN -> "새로고침 간격"
-        AppLanguage.TURKISH -> "Yenile Aralık"
+        AppLanguage.TURKISH -> "Refresh Interval"
     }
 
     val autoRefreshIntervalValue: (Int) -> String get() = { seconds ->
@@ -2034,7 +2034,7 @@ object StringsB {
             AppLanguage.RUSSIAN -> String.format(java.util.Locale.getDefault(), "%d с", seconds)
             AppLanguage.JAPANESE -> String.format(java.util.Locale.getDefault(), "%d 秒", seconds)
             AppLanguage.KOREAN -> String.format(java.util.Locale.getDefault(), "%d초", seconds)
-            AppLanguage.TURKISH -> String.format(java.util.Locale.getDefault(), "%d sn", seconds)
+            AppLanguage.TURKISH -> String.format(java.util.Locale.getDefault(), "%d초", seconds)
         }
     }
 
@@ -2049,7 +2049,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Показать обратный отсчёт"
         AppLanguage.JAPANESE -> "カウントダウンを表示"
         AppLanguage.KOREAN -> "카운트다운 표시"
-        AppLanguage.TURKISH -> "Göster Sayıdown"
+        AppLanguage.TURKISH -> "Show Countdown"
     }
 
     val autoRefreshShowCountdownDesc: String get() = when (Strings.lang) {
@@ -2063,7 +2063,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Показывать оставшиеся секунды в углу, нажмите, чтобы пропустить этот раунд"
         AppLanguage.JAPANESE -> "隅に残り秒数を表示、タップでこのラウンドをスキップ"
         AppLanguage.KOREAN -> "구석에 남은 초 표시, 탭하여 이번 라운드 건너뛰기"
-        AppLanguage.TURKISH -> "Göster remaining seconds in the corner, tap to skip this round"
+        AppLanguage.TURKISH -> "Show remaining seconds in the corner, tap to skip this round"
     }
 
     val fullscreenVideoSetting: String get() = when (Strings.lang) {
@@ -2077,7 +2077,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Полноэкранное видео"
         AppLanguage.JAPANESE -> "全画面動画"
         AppLanguage.KOREAN -> "전체 화면 동영상"
-        AppLanguage.TURKISH -> "Tam Ekran Video"
+        AppLanguage.TURKISH -> "Fullscreen Video"
     }
 
     val fullscreenVideoSettingHint: String get() = when (Strings.lang) {
@@ -2091,7 +2091,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Разрешить полноэкранное воспроизведение видео"
         AppLanguage.JAPANESE -> "動画の全画面再生を許可"
         AppLanguage.KOREAN -> "동영상 전체 화면 재생 허용"
-        AppLanguage.TURKISH -> "İzin Ver video fullscreen playback"
+        AppLanguage.TURKISH -> "Allow video fullscreen playback"
     }
 
     val externalLinksSetting: String get() = when (Strings.lang) {
@@ -2105,7 +2105,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Внешние ссылки"
         AppLanguage.JAPANESE -> "外部リンク"
         AppLanguage.KOREAN -> "외부 링크"
-        AppLanguage.TURKISH -> "External Bağlantıs"
+        AppLanguage.TURKISH -> "External Links"
     }
 
     val externalLinksSettingHint: String get() = when (Strings.lang) {
@@ -2119,7 +2119,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Открывать внешние ссылки в браузере"
         AppLanguage.JAPANESE -> "外部リンクをブラウザで開く"
         AppLanguage.KOREAN -> "외부 링크를 브라우저에서 열기"
-        AppLanguage.TURKISH -> "Aç external links in browser"
+        AppLanguage.TURKISH -> "Open external links in browser"
     }
 
     val crossOriginIsolationSetting: String get() = when (Strings.lang) {
@@ -2133,7 +2133,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "SharedArrayBuffer / FFmpeg"
         AppLanguage.JAPANESE -> "SharedArrayBuffer / FFmpeg"
         AppLanguage.KOREAN -> "SharedArrayBuffer / FFmpeg"
-        AppLanguage.TURKISH -> "PaylaşdArrayBuffer / FFmpeg"
+        AppLanguage.TURKISH -> "SharedArrayBuffer / FFmpeg"
     }
 
     val crossOriginIsolationSettingHint: String get() = when (Strings.lang) {
@@ -2147,7 +2147,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Включить изоляцию между источниками (COOP/COEP), поддерживает FFmpeg.wasm и подобные библиотеки"
         AppLanguage.JAPANESE -> "クロスオリジン分離を有効化（COOP/COEP）、FFmpeg.wasm などのライブラリに対応"
         AppLanguage.KOREAN -> "교차 출처 격리 활성화(COOP/COEP), FFmpeg.wasm 및 유사 라이브러리 지원"
-        AppLanguage.TURKISH -> "Etkinleştir cross-origin isolation (COOP/COEP), supports FFmpeg.wasm and similar libraries"
+        AppLanguage.TURKISH -> "Enable cross-origin isolation (COOP/COEP), supports FFmpeg.wasm and similar libraries"
     }
 
     val viewportModeTitle: String get() = when (Strings.lang) {
@@ -2161,7 +2161,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Режим Viewport"
         AppLanguage.JAPANESE -> "Viewport モード"
         AppLanguage.KOREAN -> "Viewport 모드"
-        AppLanguage.TURKISH -> "Görüntüleport Mod"
+        AppLanguage.TURKISH -> "Viewport Mode"
     }
 
     val viewportModeDescription: String get() = when (Strings.lang) {
@@ -2189,7 +2189,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Стандартный (для большинства сайтов)"
         AppLanguage.JAPANESE -> "標準（ほとんどのウェブサイト向け）"
         AppLanguage.KOREAN -> "표준(대부분의 웹사이트용)"
-        AppLanguage.TURKISH -> "Standart (for most websites)"
+        AppLanguage.TURKISH -> "Standard (for most websites)"
     }
 
     val viewportModeFitScreen: String get() = when (Strings.lang) {
@@ -2217,7 +2217,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Viewport рабочего стола (ширина 980px)"
         AppLanguage.JAPANESE -> "デスクトップ Viewport（幅 980px）"
         AppLanguage.KOREAN -> "데스크톱 Viewport(폭 980px)"
-        AppLanguage.TURKISH -> "Desktop Görüntüleport (980px width)"
+        AppLanguage.TURKISH -> "Desktop Viewport (980px width)"
     }
 
     val viewportModeCustom: String get() = when (Strings.lang) {
@@ -2231,7 +2231,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Пользовательский Viewport"
         AppLanguage.JAPANESE -> "カスタム Viewport"
         AppLanguage.KOREAN -> "사용자 지정 Viewport"
-        AppLanguage.TURKISH -> "Özel Görüntüleport"
+        AppLanguage.TURKISH -> "Custom Viewport"
     }
 
     val viewportCustomWidth: String get() = when (Strings.lang) {
@@ -2245,7 +2245,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Ширина Viewport"
         AppLanguage.JAPANESE -> "Viewport 幅"
         AppLanguage.KOREAN -> "Viewport 너비"
-        AppLanguage.TURKISH -> "Görüntüleport Width"
+        AppLanguage.TURKISH -> "Viewport Width"
     }
 
     val viewportCustomWidthHint: String get() = when (Strings.lang) {
@@ -2289,7 +2289,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Расширенные параметры"
         AppLanguage.JAPANESE -> "詳細オプション"
         AppLanguage.KOREAN -> "고급 옵션"
-        AppLanguage.TURKISH -> "Gelişmiş Seçenekler"
+        AppLanguage.TURKISH -> "Advanced Options"
     }
 
     val expand: String get() = when (Strings.lang) {
@@ -2331,7 +2331,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Развернуть всё"
         AppLanguage.JAPANESE -> "すべて展開"
         AppLanguage.KOREAN -> "모두 펼치기"
-        AppLanguage.TURKISH -> "Genişlet Tümü"
+        AppLanguage.TURKISH -> "Expand All"
     }
 
     val depClearDone: String get() = when (Strings.lang) {
@@ -2345,7 +2345,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Очищено"
         AppLanguage.JAPANESE -> "クリア済み"
         AppLanguage.KOREAN -> "삭제됨"
-        AppLanguage.TURKISH -> "Temizleed"
+        AppLanguage.TURKISH -> "Cleared"
     }
 
     val maximum: String get() = when (Strings.lang) {
@@ -2403,7 +2403,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Защита звука"
         AppLanguage.JAPANESE -> "Audio 保護"
         AppLanguage.KOREAN -> "Audio 보호"
-        AppLanguage.TURKISH -> "Ses Protection"
+        AppLanguage.TURKISH -> "Audio Protection"
     }
 
 
@@ -2469,7 +2469,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Подделка часового пояса"
         AppLanguage.JAPANESE -> "タイムゾーン偽装"
         AppLanguage.KOREAN -> "시간대 위조"
-        AppLanguage.TURKISH -> "Sürezone Spoofing"
+        AppLanguage.TURKISH -> "Timezone Spoofing"
     }
 
 
@@ -2484,7 +2484,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Подделка языка"
         AppLanguage.JAPANESE -> "言語偽装"
         AppLanguage.KOREAN -> "언어 위조"
-        AppLanguage.TURKISH -> "Dil Spoofing"
+        AppLanguage.TURKISH -> "Language Spoofing"
     }
 
 
@@ -2585,7 +2585,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Своя комбинация"
         AppLanguage.JAPANESE -> "カスタム組み合わせ"
         AppLanguage.KOREAN -> "사용자 조합"
-        AppLanguage.TURKISH -> "Özel mix"
+        AppLanguage.TURKISH -> "Custom mix"
     }
 
     val regenerateFingerprint: String get() = when (Strings.lang) {
@@ -2613,7 +2613,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Тег языка"
         AppLanguage.JAPANESE -> "言語タグ"
         AppLanguage.KOREAN -> "언어 태그"
-        AppLanguage.TURKISH -> "Dil tag"
+        AppLanguage.TURKISH -> "Language tag"
     }
 
     val timezoneIdLabel: String get() = when (Strings.lang) {
@@ -2627,7 +2627,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "ID часового пояса (IANA)"
         AppLanguage.JAPANESE -> "タイムゾーン ID（IANA）"
         AppLanguage.KOREAN -> "시간대 ID (IANA)"
-        AppLanguage.TURKISH -> "Sürezone ID (IANA)"
+        AppLanguage.TURKISH -> "Timezone ID (IANA)"
     }
 
     val widthLabel: String get() = when (Strings.lang) {
@@ -2711,7 +2711,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Все защиты + подмена языка/пояса/экрана + новый отпечаток при каждом запуске"
         AppLanguage.JAPANESE -> "全保護 + 言語/タイムゾーン/解像度偽装 + 起動ごとに新しいフィンガープリント"
         AppLanguage.KOREAN -> "모든 보호 + 언어/시간대/해상도 위조 + 매번 새 지문"
-        AppLanguage.TURKISH -> "Tümü protections + locale/timezone/screen spoofing + new identity every launch"
+        AppLanguage.TURKISH -> "All protections + locale/timezone/screen spoofing + new identity every launch"
     }
 
 
@@ -2782,7 +2782,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Количество зависимостей"
         AppLanguage.JAPANESE -> "依存関係数"
         AppLanguage.KOREAN -> "종속성 수"
-        AppLanguage.TURKISH -> "Dependency Sayı"
+        AppLanguage.TURKISH -> "Dependency Count"
     }
 
     val outputDirLabel: String get() = when (Strings.lang) {
@@ -2866,7 +2866,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Пока нет элементов конфигурации\nДобавьте элементы, чтобы пользователи могли настраивать поведение модуля"
         AppLanguage.JAPANESE -> "まだ設定項目がありません\n項目を追加してユーザーがモジュール動作をカスタマイズできるようにします"
         AppLanguage.KOREAN -> "아직 구성 항목이 없습니다\n항목을 추가하여 사용자가 모듈 동작을 사용자 지정할 수 있도록 하세요"
-        AppLanguage.TURKISH -> "Hayır config items yet\\nEkle config items to let users customize module behavior"
+        AppLanguage.TURKISH -> "No config items yet\\nAdd config items to let users customize module behavior"
     }
 
     val addConfigItem: String get() = when (Strings.lang) {
@@ -2880,7 +2880,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Добавить элемент конфигурации"
         AppLanguage.JAPANESE -> "設定項目を追加"
         AppLanguage.KOREAN -> "구성 항목 추가"
-        AppLanguage.TURKISH -> "Ekle Config Item"
+        AppLanguage.TURKISH -> "Add Config Item"
     }
 
     val keyNamePlaceholder: String get() = when (Strings.lang) {
@@ -2894,7 +2894,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "напр. fontSize"
         AppLanguage.JAPANESE -> "例: fontSize"
         AppLanguage.KOREAN -> "예: fontSize"
-        AppLanguage.TURKISH -> "e.g. fontBoyut"
+        AppLanguage.TURKISH -> "e.g. fontSize"
     }
 
     val displayNamePlaceholder: String get() = when (Strings.lang) {
@@ -2908,7 +2908,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "напр. Размер шрифта"
         AppLanguage.JAPANESE -> "例: フォントサイズ"
         AppLanguage.KOREAN -> "예: 글꼴 크기"
-        AppLanguage.TURKISH -> "e.g. Font Boyut"
+        AppLanguage.TURKISH -> "e.g. Font Size"
     }
 
     val explanationLabel: String get() = when (Strings.lang) {
@@ -2936,7 +2936,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Текст описания элемента конфигурации"
         AppLanguage.JAPANESE -> "設定項目の説明テキスト"
         AppLanguage.KOREAN -> "구성 항목의 설명 텍스트"
-        AppLanguage.TURKISH -> "Açıklama text for the config item"
+        AppLanguage.TURKISH -> "Description text for the config item"
     }
 
     val typeLabel: String get() = when (Strings.lang) {
@@ -2964,7 +2964,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Значение по умолчанию"
         AppLanguage.JAPANESE -> "デフォルト値"
         AppLanguage.KOREAN -> "기본값"
-        AppLanguage.TURKISH -> "Varsayılan Value"
+        AppLanguage.TURKISH -> "Default Value"
     }
 
     val requiredField: String get() = when (Strings.lang) {
@@ -2992,7 +2992,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Выбрать шаблон"
         AppLanguage.JAPANESE -> "テンプレートを選択"
         AppLanguage.KOREAN -> "템플릿 선택"
-        AppLanguage.TURKISH -> "Seç Template"
+        AppLanguage.TURKISH -> "Select Template"
     }
 
     val jsCodePlaceholder: String get() = when (Strings.lang) {
@@ -3006,7 +3006,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "// Пишите код JavaScript здесь\nconsole.log('Hello from module!');"
         AppLanguage.JAPANESE -> "// ここに JavaScript コードを記述\nconsole.log('Hello from module!');"
         AppLanguage.KOREAN -> "// 여기에 JavaScript 코드 작성\nconsole.log('Hello from module!');"
-        AppLanguage.TURKISH -> "// Yaz JavaScript code here\\nconsole.log('Hello from module!');"
+        AppLanguage.TURKISH -> "// Write JavaScript code here\\nconsole.log('Hello from module!');"
     }
 
     val cssCodePlaceholder: String get() = when (Strings.lang) {
@@ -3020,7 +3020,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "/* Пишите стили CSS здесь */\n.ad-banner {\n   display: none !important;\n}"
         AppLanguage.JAPANESE -> "/* ここに CSS スタイルを記述 */\n.ad-banner {\n   display: none !important;\n}"
         AppLanguage.KOREAN -> "/* 여기에 CSS 스타일 작성 */\n.ad-banner {\n   display: none !important;\n}"
-        AppLanguage.TURKISH -> "/* Yaz CSS styles here */\\n.ad-banner {\\n   display: none !important;\\n}"
+        AppLanguage.TURKISH -> "/* Write CSS styles here */\\n.ad-banner {\\n   display: none !important;\\n}"
     }
 
     val authorAvatar: String get() = when (Strings.lang) {
@@ -3048,7 +3048,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Выбрать фоновую музыку"
         AppLanguage.JAPANESE -> "BGM を選択"
         AppLanguage.KOREAN -> "배경 음악 선택"
-        AppLanguage.TURKISH -> "Seç Geriground Music"
+        AppLanguage.TURKISH -> "Select Background Music"
     }
 
     val selectedMusic: String get() = when (Strings.lang) {
@@ -3062,7 +3062,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Выбранная музыка"
         AppLanguage.JAPANESE -> "選択済み音楽"
         AppLanguage.KOREAN -> "선택된 음악"
-        AppLanguage.TURKISH -> "Seçed Music"
+        AppLanguage.TURKISH -> "Selected Music"
     }
 
     val availableMusic: String get() = when (Strings.lang) {
@@ -3090,7 +3090,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Загрузить музыку"
         AppLanguage.JAPANESE -> "音楽をアップロード"
         AppLanguage.KOREAN -> "음악 업로드"
-        AppLanguage.TURKISH -> "Yükle Music"
+        AppLanguage.TURKISH -> "Upload Music"
     }
 
     val clickArrowToReorder: String get() = when (Strings.lang) {
@@ -3118,7 +3118,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Нет доступной музыки"
         AppLanguage.JAPANESE -> "利用可能な音楽がありません"
         AppLanguage.KOREAN -> "사용 가능한 음악이 없습니다"
-        AppLanguage.TURKISH -> "Hayır music available"
+        AppLanguage.TURKISH -> "No music available"
     }
 
     val bgmEmptyHint: String get() = when (Strings.lang) {
@@ -3132,7 +3132,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Загрузите локальное аудио или найдите онлайн"
         AppLanguage.JAPANESE -> "ローカル音声をアップロード、またはオンライン検索"
         AppLanguage.KOREAN -> "로컬 오디오 업로드 또는 온라인 검색"
-        AppLanguage.TURKISH -> "Yükle local audio, or search online"
+        AppLanguage.TURKISH -> "Upload local audio, or search online"
     }
 
     val noMusicWithTag: String get() = when (Strings.lang) {
@@ -3146,7 +3146,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Нет музыки с этим тегом"
         AppLanguage.JAPANESE -> "このタグの音楽がありません"
         AppLanguage.KOREAN -> "이 태그의 음악이 없습니다"
-        AppLanguage.TURKISH -> "Hayır music with this tag"
+        AppLanguage.TURKISH -> "No music with this tag"
     }
 
     val playMode: String get() = when (Strings.lang) {
@@ -3160,7 +3160,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Режим воспроизведения"
         AppLanguage.JAPANESE -> "再生モード"
         AppLanguage.KOREAN -> "재생 모드"
-        AppLanguage.TURKISH -> "Oynat Mod"
+        AppLanguage.TURKISH -> "Play Mode"
     }
 
     val loopMode: String get() = when (Strings.lang) {
@@ -3174,7 +3174,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Повтор"
         AppLanguage.JAPANESE -> "ループ"
         AppLanguage.KOREAN -> "반복"
-        AppLanguage.TURKISH -> "Döngü"
+        AppLanguage.TURKISH -> "Loop"
     }
 
     val sequentialMode: String get() = when (Strings.lang) {
@@ -3216,7 +3216,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Громкость"
         AppLanguage.JAPANESE -> "音量"
         AppLanguage.KOREAN -> "볼륨"
-        AppLanguage.TURKISH -> "Ses Seviyesi"
+        AppLanguage.TURKISH -> "Volume"
     }
 
     val showLyrics: String get() = when (Strings.lang) {
@@ -3230,7 +3230,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Показать текст песни"
         AppLanguage.JAPANESE -> "歌詞を表示"
         AppLanguage.KOREAN -> "가사 표시"
-        AppLanguage.TURKISH -> "Göster Lyrics"
+        AppLanguage.TURKISH -> "Show Lyrics"
     }
 
     val bgmFloatingPlayer: String get() = when (Strings.lang) {
@@ -3272,7 +3272,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Плеер в уведомлении"
         AppLanguage.JAPANESE -> "通知プレーヤー"
         AppLanguage.KOREAN -> "알림 플레이어"
-        AppLanguage.TURKISH -> "Bildirim player"
+        AppLanguage.TURKISH -> "Notification player"
     }
 
     val bgmNotificationPlayerHint: String get() = when (Strings.lang) {
@@ -3286,7 +3286,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Системные кнопки в шторке и на экране блокировки: пауза, переключение трека и перемотка."
         AppLanguage.JAPANESE -> "通知とロック画面のシステムメディア操作で、一時停止、曲送り、シークができます。"
         AppLanguage.KOREAN -> "알림창과 잠금 화면의 시스템 미디어 컨트롤로 일시정지, 곡 이동, 탐색을 할 수 있습니다."
-        AppLanguage.TURKISH -> "Sistem media controls in the notification shade and on the lock screen: pause, skip, and scrub."
+        AppLanguage.TURKISH -> "System media controls in the notification shade and on the lock screen: pause, skip, and scrub."
     }
 
     val bgmPrevious: String get() = when (Strings.lang) {
@@ -3328,7 +3328,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Фоновая музыка"
         AppLanguage.JAPANESE -> "バックグラウンド音楽"
         AppLanguage.KOREAN -> "배경 음악"
-        AppLanguage.TURKISH -> "Geriground music"
+        AppLanguage.TURKISH -> "Background music"
     }
 
     val allTag: String get() = when (Strings.lang) {
@@ -3356,7 +3356,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "[OK] Текст песни сохранён"
         AppLanguage.JAPANESE -> "[OK] 歌詞を保存しました"
         AppLanguage.KOREAN -> "[OK] 가사가 저장되었습니다"
-        AppLanguage.TURKISH -> "[Tamam] Lyrics saved"
+        AppLanguage.TURKISH -> "[OK] Lyrics saved"
     }
 
     val lines: String get() = when (Strings.lang) {
@@ -3384,7 +3384,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Предпросмотр текста"
         AppLanguage.JAPANESE -> "歌詞をプレビュー"
         AppLanguage.KOREAN -> "가사 미리보기"
-        AppLanguage.TURKISH -> "Önizleme Lyrics"
+        AppLanguage.TURKISH -> "Preview Lyrics"
     }
 
 
@@ -3413,7 +3413,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Изменить теги"
         AppLanguage.JAPANESE -> "タグを編集"
         AppLanguage.KOREAN -> "태그 편집"
-        AppLanguage.TURKISH -> "Düzenle Tags"
+        AppLanguage.TURKISH -> "Edit Tags"
     }
 
     val stop: String get() = when (Strings.lang) {
@@ -3441,7 +3441,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Вверх"
         AppLanguage.JAPANESE -> "上に移動"
         AppLanguage.KOREAN -> "위로 이동"
-        AppLanguage.TURKISH -> "Taşı Up"
+        AppLanguage.TURKISH -> "Move Up"
     }
 
     val moveDown: String get() = when (Strings.lang) {
@@ -3455,7 +3455,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Вниз"
         AppLanguage.JAPANESE -> "下に移動"
         AppLanguage.KOREAN -> "아래로 이동"
-        AppLanguage.TURKISH -> "Taşı Down"
+        AppLanguage.TURKISH -> "Move Down"
     }
 
     val presetMusic: String get() = when (Strings.lang) {
@@ -3483,7 +3483,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Загружено пользователем"
         AppLanguage.JAPANESE -> "ユーザーアップロード"
         AppLanguage.KOREAN -> "사용자 업로드"
-        AppLanguage.TURKISH -> "User Yükleed"
+        AppLanguage.TURKISH -> "User Uploaded"
     }
 
     val uploadMusicTitle: String get() = when (Strings.lang) {
@@ -3497,7 +3497,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Загрузить музыку"
         AppLanguage.JAPANESE -> "音楽をアップロード"
         AppLanguage.KOREAN -> "음악 업로드"
-        AppLanguage.TURKISH -> "Yükle Music"
+        AppLanguage.TURKISH -> "Upload Music"
     }
 
     val musicName: String get() = when (Strings.lang) {
@@ -3511,7 +3511,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Название музыки"
         AppLanguage.JAPANESE -> "音楽名"
         AppLanguage.KOREAN -> "음악 이름"
-        AppLanguage.TURKISH -> "Music Ad"
+        AppLanguage.TURKISH -> "Music Name"
     }
 
     val selectMusic: String get() = when (Strings.lang) {
@@ -3525,7 +3525,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Выбрать музыку"
         AppLanguage.JAPANESE -> "音楽を選択"
         AppLanguage.KOREAN -> "음악 선택"
-        AppLanguage.TURKISH -> "Seç Music"
+        AppLanguage.TURKISH -> "Select Music"
     }
 
     val selectCoverOptional: String get() = when (Strings.lang) {
@@ -3539,7 +3539,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Выбрать обложку (опционально)"
         AppLanguage.JAPANESE -> "カバーを選択（任意）"
         AppLanguage.KOREAN -> "커버 선택(선택 사항)"
-        AppLanguage.TURKISH -> "Seç Cover (İsteğe Bağlı)"
+        AppLanguage.TURKISH -> "Select Cover (Optional)"
     }
 
     val coverTip: String get() = when (Strings.lang) {
@@ -3581,7 +3581,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Изменить теги"
         AppLanguage.JAPANESE -> "タグを編集"
         AppLanguage.KOREAN -> "태그 편집"
-        AppLanguage.TURKISH -> "Düzenle Tags"
+        AppLanguage.TURKISH -> "Edit Tags"
     }
 
     val selectTagsHint: String get() = when (Strings.lang) {
@@ -3595,7 +3595,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Выберите подходящие теги (множественный выбор)"
         AppLanguage.JAPANESE -> "適切なタグを選択（複数選択可）"
         AppLanguage.KOREAN -> "적절한 태그 선택(다중 선택)"
-        AppLanguage.TURKISH -> "Seç suitable tags (multiple selection)"
+        AppLanguage.TURKISH -> "Select suitable tags (multiple selection)"
     }
 
     val selectLyricsTheme: String get() = when (Strings.lang) {
@@ -3609,7 +3609,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Выбрать тему текста песни"
         AppLanguage.JAPANESE -> "歌詞テーマを選択"
         AppLanguage.KOREAN -> "가사 테마 선택"
-        AppLanguage.TURKISH -> "Seç Lyrics Tema"
+        AppLanguage.TURKISH -> "Select Lyrics Theme"
     }
 
     val selectLyricsThemeHint: String get() = when (Strings.lang) {
@@ -3623,7 +3623,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Выберите визуальный стиль отображения текста песни"
         AppLanguage.JAPANESE -> "歌詞表示のビジュアルスタイルを選択"
         AppLanguage.KOREAN -> "가사 표시의 시각 스타일 선택"
-        AppLanguage.TURKISH -> "Seç visual style for lyrics display"
+        AppLanguage.TURKISH -> "Select visual style for lyrics display"
     }
 
     val sampleLyricsText: String get() = when (Strings.lang) {
@@ -3637,7 +3637,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Образец текста песни"
         AppLanguage.JAPANESE -> "サンプル歌詞テキスト"
         AppLanguage.KOREAN -> "샘플 가사 텍스트"
-        AppLanguage.TURKISH -> "Sample Lyrics Metin"
+        AppLanguage.TURKISH -> "Sample Lyrics Text"
     }
 
     val lyricsPreview: String get() = when (Strings.lang) {
@@ -3651,7 +3651,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Предпросмотр текста песни"
         AppLanguage.JAPANESE -> "歌詞プレビュー"
         AppLanguage.KOREAN -> "가사 미리보기"
-        AppLanguage.TURKISH -> "Lyrics Önizleme"
+        AppLanguage.TURKISH -> "Lyrics Preview"
     }
 
     val lyricsUpdated: String get() = when (Strings.lang) {
@@ -3665,7 +3665,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "[OK] Текст песни обновлён"
         AppLanguage.JAPANESE -> "[OK] 歌詞を更新しました"
         AppLanguage.KOREAN -> "[OK] 가사가 업데이트되었습니다"
-        AppLanguage.TURKISH -> "[Tamam] Lyrics updated"
+        AppLanguage.TURKISH -> "[OK] Lyrics updated"
     }
 
     val backward10s: String get() = when (Strings.lang) {
@@ -3693,7 +3693,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Перемотать вперёд на 10с"
         AppLanguage.JAPANESE -> "10秒早送り"
         AppLanguage.KOREAN -> "10초 앞으로"
-        AppLanguage.TURKISH -> "İlet 10s"
+        AppLanguage.TURKISH -> "Forward 10s"
     }
 
     val selectAll: String get() = when (Strings.lang) {
@@ -3721,7 +3721,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Снять выделение со всего"
         AppLanguage.JAPANESE -> "すべて選択解除"
         AppLanguage.KOREAN -> "모두 선택 해제"
-        AppLanguage.TURKISH -> "Tümünü Kaldır"
+        AppLanguage.TURKISH -> "Deselect All"
     }
 
     val noSearchResult: String get() = when (Strings.lang) {
@@ -3735,7 +3735,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Нет совпадающих результатов"
         AppLanguage.JAPANESE -> "一致する結果がありません"
         AppLanguage.KOREAN -> "일치하는 결과가 없습니다"
-        AppLanguage.TURKISH -> "Hayır matching results"
+        AppLanguage.TURKISH -> "No matching results"
     }
 
     val popupBlockerSetting: String get() = when (Strings.lang) {
@@ -3749,7 +3749,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Блокировщик всплывающих окон"
         AppLanguage.JAPANESE -> "ポップアップブロッカー"
         AppLanguage.KOREAN -> "팝업 차단기"
-        AppLanguage.TURKISH -> "Popup Engelleer"
+        AppLanguage.TURKISH -> "Popup Blocker"
     }
 
     val popupBlockerSettingHint: String get() = when (Strings.lang) {
@@ -3763,7 +3763,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Блокирует рекламные всплывающие окна. Если кнопки/меню/поиск сайта не работают, отключите эту опцию"
         AppLanguage.JAPANESE -> "広告ポップアップをブロック。サイトのボタン/メニュー/検索が機能しない場合は、このオプションを無効化してください"
         AppLanguage.KOREAN -> "광고 팝업을 차단합니다. 사이트 버튼/메뉴/검색이 작동하지 않으면 이 옵션을 비활성화하세요"
-        AppLanguage.TURKISH -> "Engelle ad popups. If website buttons/menus/search don't work, disable this option"
+        AppLanguage.TURKISH -> "Block ad popups. If website buttons/menus/search don't work, disable this option"
     }
 
     val fixI18nStringAdaptation: String get() = when (Strings.lang) {
@@ -3889,7 +3889,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Вставить код"
         AppLanguage.JAPANESE -> "コードを挿入"
         AppLanguage.KOREAN -> "코드 삽입"
-        AppLanguage.TURKISH -> "Insert Kod"
+        AppLanguage.TURKISH -> "Insert Code"
     }
 
     val browseAll: String get() = when (Strings.lang) {
@@ -3903,7 +3903,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Просмотреть всё"
         AppLanguage.JAPANESE -> "すべて表示"
         AppLanguage.KOREAN -> "전체 탐색"
-        AppLanguage.TURKISH -> "Browse Tümü"
+        AppLanguage.TURKISH -> "Browse All"
     }
 
     val pleaseActivateApp: String get() = when (Strings.lang) {
@@ -3931,7 +3931,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Введите код активации"
         AppLanguage.JAPANESE -> "アクティベーションコードを入力"
         AppLanguage.KOREAN -> "활성화 코드 입력"
-        AppLanguage.TURKISH -> "Enter Aktivasyon Kodu"
+        AppLanguage.TURKISH -> "Enter Activation Code"
     }
 
     val enterCodeToContinue: String get() = when (Strings.lang) {
@@ -4001,7 +4001,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Глубокий океанский синий"
         AppLanguage.JAPANESE -> "深海の青"
         AppLanguage.KOREAN -> "깊은 바다의 파랑"
-        AppLanguage.TURKISH -> "Derin Ocean Blue"
+        AppLanguage.TURKISH -> "Deep Ocean Blue"
     }
 
     val themeForest: String get() = when (Strings.lang) {
@@ -4127,7 +4127,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Твоё имя"
         AppLanguage.JAPANESE -> "君の名は"
         AppLanguage.KOREAN -> "너의 이름은"
-        AppLanguage.TURKISH -> "Your Ad"
+        AppLanguage.TURKISH -> "Your Name"
     }
 
     val themeKimiNoNawaDesc: String get() = when (Strings.lang) {
@@ -4169,7 +4169,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Цвет темы"
         AppLanguage.JAPANESE -> "テーマカラー"
         AppLanguage.KOREAN -> "테마 색상"
-        AppLanguage.TURKISH -> "Tema color"
+        AppLanguage.TURKISH -> "Theme color"
     }
 
     val settingsThemeColorDesc: String get() = when (Strings.lang) {
@@ -4197,7 +4197,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Тёмный режим"
         AppLanguage.JAPANESE -> "ダークモード"
         AppLanguage.KOREAN -> "다크 모드"
-        AppLanguage.TURKISH -> "Koyu mode"
+        AppLanguage.TURKISH -> "Dark mode"
     }
 
     val settingsAnimation: String get() = when (Strings.lang) {
@@ -4211,7 +4211,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Анимации"
         AppLanguage.JAPANESE -> "アニメーション"
         AppLanguage.KOREAN -> "애니메이션"
-        AppLanguage.TURKISH -> "Animasyons"
+        AppLanguage.TURKISH -> "Animations"
     }
 
     val animEnableAll: String get() = when (Strings.lang) {
@@ -4225,7 +4225,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Включить анимации"
         AppLanguage.JAPANESE -> "アニメーションを有効化"
         AppLanguage.KOREAN -> "애니메이션 사용"
-        AppLanguage.TURKISH -> "Etkinleştir animations"
+        AppLanguage.TURKISH -> "Enable animations"
     }
 
     val animParticles: String get() = when (Strings.lang) {
@@ -4267,7 +4267,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Звуковые эффекты"
         AppLanguage.JAPANESE -> "サウンド効果"
         AppLanguage.KOREAN -> "음향 효과"
-        AppLanguage.TURKISH -> "Ses effects"
+        AppLanguage.TURKISH -> "Sound effects"
     }
 
     val animSpeedTitle: String get() = when (Strings.lang) {
@@ -4281,7 +4281,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Скорость анимации"
         AppLanguage.JAPANESE -> "アニメーション速度"
         AppLanguage.KOREAN -> "애니메이션 속도"
-        AppLanguage.TURKISH -> "Animasyon speed"
+        AppLanguage.TURKISH -> "Animation speed"
     }
 
     val accentDefault: String get() = when (Strings.lang) {
@@ -4351,7 +4351,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Глубокий синий"
         AppLanguage.JAPANESE -> "深海ブルー"
         AppLanguage.KOREAN -> "딥시 블루"
-        AppLanguage.TURKISH -> "Derin sea"
+        AppLanguage.TURKISH -> "Deep sea"
     }
 
     val accentIvyViolet: String get() = when (Strings.lang) {
@@ -4505,7 +4505,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Стандартный"
         AppLanguage.JAPANESE -> "標準"
         AppLanguage.KOREAN -> "표준"
-        AppLanguage.TURKISH -> "Standart"
+        AppLanguage.TURKISH -> "Standard"
     }
 
     val fontSizeLarge: String get() = when (Strings.lang) {
@@ -4575,7 +4575,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Стандартный"
         AppLanguage.JAPANESE -> "標準"
         AppLanguage.KOREAN -> "표준"
-        AppLanguage.TURKISH -> "Standart"
+        AppLanguage.TURKISH -> "Standard"
     }
 
     val cornerRounded: String get() = when (Strings.lang) {
@@ -4631,7 +4631,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Резво"
         AppLanguage.JAPANESE -> "スナッピー"
         AppLanguage.KOREAN -> "snappy"
-        AppLanguage.TURKISH -> "snappy"
+        AppLanguage.TURKISH -> "Snappy"
     }
 
     val animElegant: String get() = when (Strings.lang) {
@@ -4659,7 +4659,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Игривый"
         AppLanguage.JAPANESE -> "プレイフル"
         AppLanguage.KOREAN -> "장난스러움"
-        AppLanguage.TURKISH -> "Oynatful"
+        AppLanguage.TURKISH -> "Playful"
     }
 
     val animDramatic: String get() = when (Strings.lang) {
@@ -4771,7 +4771,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Фильтр контента"
         AppLanguage.JAPANESE -> "コンテンツフィルター"
         AppLanguage.KOREAN -> "콘텐츠 필터"
-        AppLanguage.TURKISH -> "İçerik Filtre"
+        AppLanguage.TURKISH -> "Content Filter"
     }
     val catContentFilterDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "屏蔽元素、广告过滤、内容隐藏"
@@ -4784,7 +4784,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Блокировка элементов, фильтр рекламы, скрытие контента"
         AppLanguage.JAPANESE -> "要素のブロック、広告フィルタリング、コンテンツの非表示"
         AppLanguage.KOREAN -> "요소 차단, 광고 필터링, 콘텐츠 숨기기"
-        AppLanguage.TURKISH -> "Engelle elements, ad filtering, content hiding"
+        AppLanguage.TURKISH -> "Block elements, ad filtering, content hiding"
     }
     val catContentEnhance: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "内容增强"
@@ -4797,7 +4797,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Улучшение контента"
         AppLanguage.JAPANESE -> "コンテンツ強化"
         AppLanguage.KOREAN -> "콘텐츠 향상"
-        AppLanguage.TURKISH -> "İçerik Enhance"
+        AppLanguage.TURKISH -> "Content Enhance"
     }
     val catContentEnhanceDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "内容优化、排版美化、阅读增强"
@@ -4810,7 +4810,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Оптимизация контента, улучшение типографики, улучшение чтения"
         AppLanguage.JAPANESE -> "コンテンツ最適化、タイポグラフィ美化、読書強化"
         AppLanguage.KOREAN -> "콘텐츠 최적화, 타이포그래피 미화, 읽기 향상"
-        AppLanguage.TURKISH -> "İçerik optimization, typography beautification, reading enhancement"
+        AppLanguage.TURKISH -> "Content optimization, typography beautification, reading enhancement"
     }
     val catStyleModifier: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "样式修改"
@@ -4836,7 +4836,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Пользовательский CSS, украшение темы, настройка интерфейса"
         AppLanguage.JAPANESE -> "カスタム CSS、テーマ美化、インターフェース調整"
         AppLanguage.KOREAN -> "사용자 정의 CSS, 테마 미화, 인터페이스 조정"
-        AppLanguage.TURKISH -> "Özel CSS, theme beautification, interface adjustment"
+        AppLanguage.TURKISH -> "Custom CSS, theme beautification, interface adjustment"
     }
     val catTheme: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "主题美化"
@@ -4862,7 +4862,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Тёмный режим, цветовые схемы, замена шрифта"
         AppLanguage.JAPANESE -> "ダークモード、配色スキーム、フォント置換"
         AppLanguage.KOREAN -> "다크 모드, 색상 구성표, 글꼴 교체"
-        AppLanguage.TURKISH -> "Koyu mode, color schemes, font replacement"
+        AppLanguage.TURKISH -> "Dark mode, color schemes, font replacement"
     }
     val catFunctionEnhance: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "功能增强"
@@ -4888,7 +4888,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Автоматизация, ярлыки, инструменты эффективности"
         AppLanguage.JAPANESE -> "自動化、ショートカット、効率ツール"
         AppLanguage.KOREAN -> "자동화, 바로 가기, 효율 도구"
-        AppLanguage.TURKISH -> "Otomatikmation, shortcuts, efficiency tools"
+        AppLanguage.TURKISH -> "Automation, shortcuts, efficiency tools"
     }
     val catAutomation: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "自动化"
@@ -4901,7 +4901,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Автоматизация"
         AppLanguage.JAPANESE -> "自動化"
         AppLanguage.KOREAN -> "자동화"
-        AppLanguage.TURKISH -> "Otomatikmation"
+        AppLanguage.TURKISH -> "Automation"
     }
     val catAutomationDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "自动点击、自动填表、定时任务"
@@ -4914,7 +4914,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Автоклик, автозаполнение, запланированные задачи"
         AppLanguage.JAPANESE -> "自動クリック、自動入力、スケジュールタスク"
         AppLanguage.KOREAN -> "자동 클릭, 자동 채우기, 예약 작업"
-        AppLanguage.TURKISH -> "Otomatik click, auto fill, scheduled tasks"
+        AppLanguage.TURKISH -> "Auto click, auto fill, scheduled tasks"
     }
     val catNavigation: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "导航辅助"
@@ -4940,7 +4940,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Наверх, быстрый переход, навигация по страницам"
         AppLanguage.JAPANESE -> "トップへ戻る、クイックジャンプ、ページナビゲーション"
         AppLanguage.KOREAN -> "맨 위로, 빠른 이동, 페이지 탐색"
-        AppLanguage.TURKISH -> "Geri to top, quick jump, page navigation"
+        AppLanguage.TURKISH -> "Back to top, quick jump, page navigation"
     }
     val catDataExtract: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "数据提取"
@@ -4966,7 +4966,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Сбор контента, экспорт данных, сбор информации"
         AppLanguage.JAPANESE -> "コンテンツスクレイピング、データエクスポート、情報収集"
         AppLanguage.KOREAN -> "콘텐츠 스크래핑, 데이터 내보내기, 정보 수집"
-        AppLanguage.TURKISH -> "İçerik scraping, data export, info collection"
+        AppLanguage.TURKISH -> "Content scraping, data export, info collection"
     }
     val catDataSave: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "数据保存"
@@ -4979,7 +4979,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Сохранение данных"
         AppLanguage.JAPANESE -> "データ保存"
         AppLanguage.KOREAN -> "데이터 저장"
-        AppLanguage.TURKISH -> "Data Kaydet"
+        AppLanguage.TURKISH -> "Data Save"
     }
     val catDataSaveDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "页面保存、截图、内容导出"
@@ -5018,7 +5018,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Жесты, ярлыки, автозаполнение"
         AppLanguage.JAPANESE -> "ジェスチャー、ショートカット、自動入力"
         AppLanguage.KOREAN -> "제스처, 바로 가기, 자동 채우기"
-        AppLanguage.TURKISH -> "Harekets, shortcuts, auto fill"
+        AppLanguage.TURKISH -> "Gestures, shortcuts, auto fill"
     }
     val catAccessibility: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "无障碍"
@@ -5096,7 +5096,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Контроль скорости, PiP, загрузка видео"
         AppLanguage.JAPANESE -> "再生速度制御、PiP、動画ダウンロード"
         AppLanguage.KOREAN -> "재생 속도 제어, PiP, 비디오 다운로드"
-        AppLanguage.TURKISH -> "Hız control, PiP, video download"
+        AppLanguage.TURKISH -> "Speed control, PiP, video download"
     }
     val catImage: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "图片处理"
@@ -5122,7 +5122,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Зум изображений, пакетная загрузка, ленивая загрузка"
         AppLanguage.JAPANESE -> "画像ズーム、一括ダウンロード、遅延読み込み"
         AppLanguage.KOREAN -> "이미지 확대, 일괄 다운로드, 지연 로딩"
-        AppLanguage.TURKISH -> "Resim zoom, batch download, lazy load"
+        AppLanguage.TURKISH -> "Image zoom, batch download, lazy load"
     }
     val catAudio: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "音频控制"
@@ -5148,7 +5148,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Контроль громкости, извлечение аудио, улучшение воспроизведения"
         AppLanguage.JAPANESE -> "音量制御、オーディオ抽出、再生強化"
         AppLanguage.KOREAN -> "볼륨 제어, 오디오 추출, 재생 향상"
-        AppLanguage.TURKISH -> "Ses Seviyesi control, audio extract, playback enhance"
+        AppLanguage.TURKISH -> "Volume control, audio extract, playback enhance"
     }
     val catSecurity: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "安全隐私"
@@ -5174,7 +5174,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Защита конфиденциальности, защита отпечатков, блокировка трекеров"
         AppLanguage.JAPANESE -> "プライバシー保護、フィンガープリント防御、トラッキングブロック"
         AppLanguage.KOREAN -> "개인정보 보호, 지문 방어, 추적 차단"
-        AppLanguage.TURKISH -> "Gizlilik protection, fingerprint defense, tracking block"
+        AppLanguage.TURKISH -> "Privacy protection, fingerprint defense, tracking block"
     }
     val catAntiTracking: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "反追踪"
@@ -5187,7 +5187,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Анти-трекинг"
         AppLanguage.JAPANESE -> "アンチトラッキング"
         AppLanguage.KOREAN -> "추적 방지"
-        AppLanguage.TURKISH -> "Anti-Takip"
+        AppLanguage.TURKISH -> "Anti-Tracking"
     }
     val catAntiTrackingDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "阻止追踪、Cookie管理、隐私模式"
@@ -5200,7 +5200,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Блокировка трекеров, управление cookie, приватный режим"
         AppLanguage.JAPANESE -> "トラッキングブロック、Cookie管理、プライバシーモード"
         AppLanguage.KOREAN -> "추적 차단, 쿠키 관리, 개인정보 보호 모드"
-        AppLanguage.TURKISH -> "Engelle tracking, cookie management, privacy mode"
+        AppLanguage.TURKISH -> "Block tracking, cookie management, privacy mode"
     }
     val catSocial: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "社交增强"
@@ -5252,7 +5252,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Сравнение цен, скидки, история цен"
         AppLanguage.JAPANESE -> "価格比較、セール通知、価格履歴"
         AppLanguage.KOREAN -> "가격 비교, 할인 알림, 가격 이력"
-        AppLanguage.TURKISH -> "Fiyat compare, deal alerts, price history"
+        AppLanguage.TURKISH -> "Price compare, deal alerts, price history"
     }
     val catReading: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "阅读模式"
@@ -5265,7 +5265,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Чтение"
         AppLanguage.JAPANESE -> "読書"
         AppLanguage.KOREAN -> "읽기"
-        AppLanguage.TURKISH -> "Okuing"
+        AppLanguage.TURKISH -> "Reading"
     }
     val catReadingDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "正文提取、排版优化、护眼模式"
@@ -5278,7 +5278,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Извлечение контента, типографика, защита глаз"
         AppLanguage.JAPANESE -> "コンテンツ抽出、タイポグラフィ、目の保護モード"
         AppLanguage.KOREAN -> "콘텐츠 추출, 타이포그래피, 눈 보호 모드"
-        AppLanguage.TURKISH -> "İçerik extract, typography, eye care mode"
+        AppLanguage.TURKISH -> "Content extract, typography, eye care mode"
     }
     val catTranslate: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "翻译工具"
@@ -5304,7 +5304,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Перевод выделения, всей страницы, мультиязычность"
         AppLanguage.JAPANESE -> "選択範囲翻訳、ページ全体翻訳、多言語"
         AppLanguage.KOREAN -> "선택 번역, 전체 페이지 번역, 다국어"
-        AppLanguage.TURKISH -> "Seçion translate, full page translate, multi-language"
+        AppLanguage.TURKISH -> "Selection translate, full page translate, multi-language"
     }
     val catDeveloper: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "开发调试"
@@ -5370,7 +5370,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Начало документа"
         AppLanguage.JAPANESE -> "ドキュメント開始"
         AppLanguage.KOREAN -> "문서 시작"
-        AppLanguage.TURKISH -> "Belge Başlat"
+        AppLanguage.TURKISH -> "Document Start"
     }
     val runTimeDocStartDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "DOM 未就绪时执行，适合拦截请求和早期修改"
@@ -5383,7 +5383,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Выполнять до готовности DOM, подходит для перехвата запросов и ранних изменений"
         AppLanguage.JAPANESE -> "DOM準備前実行、リクエスト傍受と早期変更に適合"
         AppLanguage.KOREAN -> "DOM 준비 전 실행, 요청 가로채기 및 초기 수정에 적합"
-        AppLanguage.TURKISH -> "Çalıştır before DOM ready, suitable for request interception and early modifications"
+        AppLanguage.TURKISH -> "Execute before DOM ready, suitable for request interception and early modifications"
     }
     val runTimeDocEnd: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "DOM 就绪"
@@ -5396,7 +5396,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "DOM Готов"
         AppLanguage.JAPANESE -> "DOM準備完了"
         AppLanguage.KOREAN -> "DOM 준비됨"
-        AppLanguage.TURKISH -> "DOM Okuy"
+        AppLanguage.TURKISH -> "DOM Ready"
     }
     val runTimeDocEndDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "DOM 加载完成后执行（推荐），适合大多数场景"
@@ -5409,7 +5409,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Выполнять после загрузки DOM (рекомендуется), подходит для большинства сценариев"
         AppLanguage.JAPANESE -> "DOM読み込み後に実行（推奨）、ほとんどのシナリオに適合"
         AppLanguage.KOREAN -> "DOM 로드 후 실행(권장), 대부분의 시나리오에 적합"
-        AppLanguage.TURKISH -> "Çalıştır after DOM loaded (recommended), suitable for most scenarios"
+        AppLanguage.TURKISH -> "Execute after DOM loaded (recommended), suitable for most scenarios"
     }
     val runTimeDocIdle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "页面空闲"
@@ -5435,7 +5435,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Выполнять после полной загрузки страницы, подходит для постобработки и оптимизации"
         AppLanguage.JAPANESE -> "ページ完全読み込み後に実行、後処理とパフォーマンス最適化に適合"
         AppLanguage.KOREAN -> "페이지 완전 로드 후 실행, 후처리 및 성능 최적화에 적합"
-        AppLanguage.TURKISH -> "Çalıştır after page fully loaded, suitable for post-processing and performance optimization"
+        AppLanguage.TURKISH -> "Execute after page fully loaded, suitable for post-processing and performance optimization"
     }
     val runTimeContextMenu: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "右键菜单"
@@ -5448,7 +5448,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Контекстное меню"
         AppLanguage.JAPANESE -> "コンテキストメニュー"
         AppLanguage.KOREAN -> "컨텍스트 메뉴"
-        AppLanguage.TURKISH -> "Context Menü"
+        AppLanguage.TURKISH -> "Context Menu"
     }
     val runTimeContextMenuDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "右键菜单打开时执行"
@@ -5461,7 +5461,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Выполнять при открытии контекстного меню"
         AppLanguage.JAPANESE -> "コンテキストメニュー表示時に実行"
         AppLanguage.KOREAN -> "컨텍스트 메뉴가 열릴 때 실행"
-        AppLanguage.TURKISH -> "Çalıştır when context menu opens"
+        AppLanguage.TURKISH -> "Execute when context menu opens"
     }
     val runTimeBeforeUnload: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "页面关闭前"
@@ -5487,7 +5487,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Выполнять перед закрытием страницы, подходит для сохранения данных"
         AppLanguage.JAPANESE -> "ページ終了前に実行、データ保存に適合"
         AppLanguage.KOREAN -> "페이지 닫기 전 실행, 데이터 저장에 적합"
-        AppLanguage.TURKISH -> "Çalıştır before page closes, suitable for saving data"
+        AppLanguage.TURKISH -> "Execute before page closes, suitable for saving data"
     }
 
     val colorRed: String get() = when (Strings.lang) {
@@ -5543,7 +5543,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Тёмно-фиолетовый"
         AppLanguage.JAPANESE -> "ディープパープル"
         AppLanguage.KOREAN -> "진한 보라"
-        AppLanguage.TURKISH -> "Derin Purple"
+        AppLanguage.TURKISH -> "Deep Purple"
     }
 
     val colorIndigo: String get() = when (Strings.lang) {
@@ -5585,7 +5585,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Светло-синий"
         AppLanguage.JAPANESE -> "ライトブルー"
         AppLanguage.KOREAN -> "연한 파랑"
-        AppLanguage.TURKISH -> "Açık Blue"
+        AppLanguage.TURKISH -> "Light Blue"
     }
 
     val colorCyan: String get() = when (Strings.lang) {
@@ -5641,7 +5641,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Светло-зелёный"
         AppLanguage.JAPANESE -> "ライトグリーン"
         AppLanguage.KOREAN -> "연한 초록"
-        AppLanguage.TURKISH -> "Açık Green"
+        AppLanguage.TURKISH -> "Light Green"
     }
 
     val colorLime: String get() = when (Strings.lang) {
@@ -5711,7 +5711,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Тёмно-оранжевый"
         AppLanguage.JAPANESE -> "ディープオレンジ"
         AppLanguage.KOREAN -> "진한 주황"
-        AppLanguage.TURKISH -> "Derin Orange"
+        AppLanguage.TURKISH -> "Deep Orange"
     }
 
     val colorBrown: String get() = when (Strings.lang) {
@@ -5795,7 +5795,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Тёмная тема"
         AppLanguage.JAPANESE -> "ダークテーマ"
         AppLanguage.KOREAN -> "다크 테마"
-        AppLanguage.TURKISH -> "Koyu Tema"
+        AppLanguage.TURKISH -> "Dark Theme"
     }
 
     val colorLightTheme: String get() = when (Strings.lang) {
@@ -5809,7 +5809,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Светлая тема"
         AppLanguage.JAPANESE -> "ライトテーマ"
         AppLanguage.KOREAN -> "라이트 테마"
-        AppLanguage.TURKISH -> "Açık Tema"
+        AppLanguage.TURKISH -> "Light Theme"
     }
 
     val colorTransparent: String get() = when (Strings.lang) {
@@ -5837,7 +5837,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Выбрано"
         AppLanguage.JAPANESE -> "選択済み"
         AppLanguage.KOREAN -> "선택됨"
-        AppLanguage.TURKISH -> "Seçed"
+        AppLanguage.TURKISH -> "Selected"
     }
 
     val selectedCount2: String get() = when (Strings.lang) {
@@ -5879,7 +5879,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Модули еще не выбраны"
         AppLanguage.JAPANESE -> "まだモジュールが選択されていません"
         AppLanguage.KOREAN -> "아직 선택된 모듈이 없습니다"
-        AppLanguage.TURKISH -> "Hayır modules selected yet"
+        AppLanguage.TURKISH -> "No modules selected yet"
     }
 
     val extensionEmptyDesc: String get() = when (Strings.lang) {
@@ -5907,7 +5907,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Добавить модули"
         AppLanguage.JAPANESE -> "モジュールを追加"
         AppLanguage.KOREAN -> "모듈 추가"
-        AppLanguage.TURKISH -> "Ekle modules"
+        AppLanguage.TURKISH -> "Add modules"
     }
 
     val extensionEnabledModulesLabel: String get() = when (Strings.lang) {
@@ -5921,7 +5921,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Активные модули"
         AppLanguage.JAPANESE -> "有効なモジュール"
         AppLanguage.KOREAN -> "활성화된 모듈"
-        AppLanguage.TURKISH -> "Etkin modules"
+        AppLanguage.TURKISH -> "Enabled modules"
     }
 
     val extensionModuleNoneSelectedSubtitle: String get() = when (Strings.lang) {
@@ -5935,7 +5935,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Модули не выбраны"
         AppLanguage.JAPANESE -> "モジュールが選択されていません"
         AppLanguage.KOREAN -> "선택된 모듈이 없습니다"
-        AppLanguage.TURKISH -> "Hayır modules selected"
+        AppLanguage.TURKISH -> "No modules selected"
     }
 
     val removeModule: String get() = when (Strings.lang) {
@@ -5963,7 +5963,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Подходящие модули не найдены"
         AppLanguage.JAPANESE -> "一致するモジュールが見つかりません"
         AppLanguage.KOREAN -> "일치하는 모듈을 찾을 수 없습니다"
-        AppLanguage.TURKISH -> "Hayır matching modules found"
+        AppLanguage.TURKISH -> "No matching modules found"
     }
 
     val builtInModule: String get() = when (Strings.lang) {
@@ -5977,7 +5977,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Встроенный модуль"
         AppLanguage.JAPANESE -> "組み込みモジュール"
         AppLanguage.KOREAN -> "내장 모듈"
-        AppLanguage.TURKISH -> "Built-in Modül"
+        AppLanguage.TURKISH -> "Built-in Module"
     }
 
     val configurableItems: String get() = when (Strings.lang) {
@@ -5991,7 +5991,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Настраиваемые элементы (%d)"
         AppLanguage.JAPANESE -> "設定項目 (%d)"
         AppLanguage.KOREAN -> "구성 가능한 항목 (%d)"
-        AppLanguage.TURKISH -> "Configurable Öğeler (%d)"
+        AppLanguage.TURKISH -> "Configurable Items (%d)"
     }
 
     val mediaContent: String get() = when (Strings.lang) {
@@ -6005,7 +6005,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Медиаконтент"
         AppLanguage.JAPANESE -> "メディアコンテンツ"
         AppLanguage.KOREAN -> "미디어 콘텐츠"
-        AppLanguage.TURKISH -> "Media İçerik"
+        AppLanguage.TURKISH -> "Media Content"
     }
 
     val statusBarBackground: String get() = when (Strings.lang) {
@@ -6019,7 +6019,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Фон строки состояния"
         AppLanguage.JAPANESE -> "ステータスバー背景"
         AppLanguage.KOREAN -> "상태 표시줄 배경"
-        AppLanguage.TURKISH -> "Status Bar Geriground"
+        AppLanguage.TURKISH -> "Status Bar Background"
     }
 
     val appNeedsActivation: String get() = when (Strings.lang) {
@@ -6033,7 +6033,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Приложение требует активации"
         AppLanguage.JAPANESE -> "アプリのアクティベーションが必要です"
         AppLanguage.KOREAN -> "앱 활성화가 필요합니다"
-        AppLanguage.TURKISH -> "Uygulama needs activation"
+        AppLanguage.TURKISH -> "App needs activation"
     }
 
     val skip: String get() = when (Strings.lang) {
@@ -6047,7 +6047,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Пропустить"
         AppLanguage.JAPANESE -> "スキップ"
         AppLanguage.KOREAN -> "건너뛰기"
-        AppLanguage.TURKISH -> "Atla"
+        AppLanguage.TURKISH -> "Skip"
     }
 
     val codeBlockLibraryTitle: String get() = when (Strings.lang) {
@@ -6061,7 +6061,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Библиотека блоков кода"
         AppLanguage.JAPANESE -> "コードブロックライブラリ"
         AppLanguage.KOREAN -> "코드 블록 라이브러리"
-        AppLanguage.TURKISH -> "Kod Engelle Library"
+        AppLanguage.TURKISH -> "Code Block Library"
     }
 
     val searchCodeBlocksPlaceholder: String get() = when (Strings.lang) {
@@ -6075,7 +6075,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Поиск блоков кода..."
         AppLanguage.JAPANESE -> "コードブロックを検索..."
         AppLanguage.KOREAN -> "코드 블록 검색..."
-        AppLanguage.TURKISH -> "Ara code blocks..."
+        AppLanguage.TURKISH -> "Search code blocks..."
     }
 
     val categoriesAndBlocks: String get() = when (Strings.lang) {
@@ -6117,7 +6117,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Подходящие блоки кода не найдены"
         AppLanguage.JAPANESE -> "一致するコードブロックが見つかりません"
         AppLanguage.KOREAN -> "일치하는 코드 블록을 찾을 수 없습니다"
-        AppLanguage.TURKISH -> "Hayır matching code blocks found"
+        AppLanguage.TURKISH -> "No matching code blocks found"
     }
 
     val insert: String get() = when (Strings.lang) {
@@ -6201,7 +6201,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Выбрать тестовую страницу"
         AppLanguage.JAPANESE -> "テストページを選択"
         AppLanguage.KOREAN -> "테스트 페이지 선택"
-        AppLanguage.TURKISH -> "Seç Test Page"
+        AppLanguage.TURKISH -> "Select Test Page"
     }
 
     val startTestBtn: String get() = when (Strings.lang) {
@@ -6215,7 +6215,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Начать тест"
         AppLanguage.JAPANESE -> "テスト開始"
         AppLanguage.KOREAN -> "테스트 시작"
-        AppLanguage.TURKISH -> "Başlat Test"
+        AppLanguage.TURKISH -> "Start Test"
     }
 
     val testPageHintText: String get() = when (Strings.lang) {
@@ -6271,7 +6271,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Применено"
         AppLanguage.JAPANESE -> "適用済み"
         AppLanguage.KOREAN -> "적용됨"
-        AppLanguage.TURKISH -> "Uygulamalied"
+        AppLanguage.TURKISH -> "Applied"
     }
 
     val schemeNameLabel: String get() = when (Strings.lang) {
@@ -6285,7 +6285,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Название схемы"
         AppLanguage.JAPANESE -> "スキーム名"
         AppLanguage.KOREAN -> "스킴 이름"
-        AppLanguage.TURKISH -> "Scheme Ad"
+        AppLanguage.TURKISH -> "Scheme Name"
     }
 
     val enterSchemeNameHint: String get() = when (Strings.lang) {
@@ -6313,7 +6313,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Описание (необязательно)"
         AppLanguage.JAPANESE -> "説明（任意）"
         AppLanguage.KOREAN -> "설명 (선택 사항)"
-        AppLanguage.TURKISH -> "Açıklama (İsteğe Bağlı)"
+        AppLanguage.TURKISH -> "Description (Optional)"
     }
 
     val optionalLabel: String get() = when (Strings.lang) {
@@ -6369,7 +6369,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Выбрать иконку"
         AppLanguage.JAPANESE -> "アイコンを選択"
         AppLanguage.KOREAN -> "아이콘 선택"
-        AppLanguage.TURKISH -> "Seç Icon"
+        AppLanguage.TURKISH -> "Select Icon"
     }
 
     val previewLrcHint: String get() = when (Strings.lang) {
@@ -6383,7 +6383,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Предпросмотр LRC, сохраните после подтверждения"
         AppLanguage.JAPANESE -> "生成された LRC 効果をプレビューし、確認後に保存"
         AppLanguage.KOREAN -> "생성된 LRC 효과를 미리보고 확인 후 저장"
-        AppLanguage.TURKISH -> "Önizleme generated LRC effect, save after confirmation"
+        AppLanguage.TURKISH -> "Preview generated LRC effect, save after confirmation"
     }
 
     val featureIconGeneration: String get() = when (Strings.lang) {
@@ -6411,7 +6411,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Разработка модулей"
         AppLanguage.JAPANESE -> "モジュール開発"
         AppLanguage.KOREAN -> "모듈 개발"
-        AppLanguage.TURKISH -> "Modül Development"
+        AppLanguage.TURKISH -> "Module Development"
     }
 
     val featureLrcGeneration: String get() = when (Strings.lang) {
@@ -6453,7 +6453,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Общий чат"
         AppLanguage.JAPANESE -> "一般チャット"
         AppLanguage.KOREAN -> "일반 채팅"
-        AppLanguage.TURKISH -> "Genel Chat"
+        AppLanguage.TURKISH -> "General Chat"
     }
 
     val coding: String get() = when (Strings.lang) {
@@ -6550,7 +6550,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Новая сессия"
         AppLanguage.JAPANESE -> "新規セッション"
         AppLanguage.KOREAN -> "새 세션"
-        AppLanguage.TURKISH -> "Yeni session"
+        AppLanguage.TURKISH -> "New session"
     }
     val agentTabSessions: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "会话"
@@ -6563,7 +6563,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Сессии"
         AppLanguage.JAPANESE -> "セッション"
         AppLanguage.KOREAN -> "세션"
-        AppLanguage.TURKISH -> "Sessions"
+        AppLanguage.TURKISH -> "Oturumlar"
     }
     val agentTabFiles: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "文件"
@@ -6589,7 +6589,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Поиск…"
         AppLanguage.JAPANESE -> "検索…"
         AppLanguage.KOREAN -> "검색…"
-        AppLanguage.TURKISH -> "Ara…"
+        AppLanguage.TURKISH -> "Search…"
     }
     val agentComposerHintIdle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "描述你想做的，输入 / 触发命令"
@@ -6628,7 +6628,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Прикрепить"
         AppLanguage.JAPANESE -> "添付"
         AppLanguage.KOREAN -> "첨부"
-        AppLanguage.TURKISH -> "Ekle"
+        AppLanguage.TURKISH -> "Attach"
     }
     val agentAttachImage: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "图片"
@@ -6680,7 +6680,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Импорт вложения…"
         AppLanguage.JAPANESE -> "添付ファイルをインポート中…"
         AppLanguage.KOREAN -> "첨부 파일 가져오는 중…"
-        AppLanguage.TURKISH -> "İçe Aktaring attachment…"
+        AppLanguage.TURKISH -> "Importing attachment…"
     }
     val agentAttachFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "附件导入失败（文件过大或存储空间不足）"
@@ -6693,7 +6693,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Не удалось импортировать вложение (файл слишком большой или память заполнена)"
         AppLanguage.JAPANESE -> "添付ファイルのインポートに失敗しました（ファイルが大きすぎるか、ストレージ不足）"
         AppLanguage.KOREAN -> "첨부 파일 가져오기 실패 (파일이 너무 크거나 저장 공간 부족)"
-        AppLanguage.TURKISH -> "Ek import failed (file too large or storage full)"
+        AppLanguage.TURKISH -> "Attachment import failed (file too large or storage full)"
     }
     val agentContextChipLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "上下文"
@@ -6719,7 +6719,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Выбрать контекст"
         AppLanguage.JAPANESE -> "コンテキストを選択"
         AppLanguage.KOREAN -> "컨텍스트 선택"
-        AppLanguage.TURKISH -> "Seç context"
+        AppLanguage.TURKISH -> "Select context"
     }
     val agentContextAppsHeader: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "应用"
@@ -6758,7 +6758,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Пока нет приложений или модулей."
         AppLanguage.JAPANESE -> "アプリやモジュールはまだありません。"
         AppLanguage.KOREAN -> "아직 앱이나 모듈이 없습니다."
-        AppLanguage.TURKISH -> "Hayır apps or modules yet."
+        AppLanguage.TURKISH -> "No apps or modules yet."
     }
     val agentContextPickerDone: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "完成"
@@ -6797,7 +6797,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Сохранить как приложение"
         AppLanguage.JAPANESE -> "アプリとして保存"
         AppLanguage.KOREAN -> "앱으로 저장"
-        AppLanguage.TURKISH -> "Kaydet as app"
+        AppLanguage.TURKISH -> "Save as app"
     }
     val agentSaveAsAppTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "保存到我的应用"
@@ -6810,7 +6810,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Сохранить в Мои приложения"
         AppLanguage.JAPANESE -> "マイアプリに保存"
         AppLanguage.KOREAN -> "내 앱에 저장"
-        AppLanguage.TURKISH -> "Kaydet to Uygulamalarım"
+        AppLanguage.TURKISH -> "Save to My Apps"
     }
     val agentSaveAsAppDescription: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "把当前会话生成的项目添加到主屏的应用列表"
@@ -6823,7 +6823,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Добавить проект сессии в список домашних приложений"
         AppLanguage.JAPANESE -> "このセッションのプロジェクトをホームアプリリストに追加"
         AppLanguage.KOREAN -> "이 세션의 프로젝트를 홈 앱 목록에 추가"
-        AppLanguage.TURKISH -> "Ekle this session's project to your home apps list"
+        AppLanguage.TURKISH -> "Add this session's project to your home apps list"
     }
     val agentSaveAsAppNameLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "应用名称"
@@ -6836,7 +6836,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Название приложения"
         AppLanguage.JAPANESE -> "アプリ名"
         AppLanguage.KOREAN -> "앱 이름"
-        AppLanguage.TURKISH -> "Uygulama name"
+        AppLanguage.TURKISH -> "App name"
     }
     val agentSaveAsAppPickIcon: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "选择图标（可选）"
@@ -6888,7 +6888,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Сохранено в Мои приложения: %s"
         AppLanguage.JAPANESE -> "マイアプリに保存しました: %s"
         AppLanguage.KOREAN -> "내 앱에 저장됨: %s"
-        AppLanguage.TURKISH -> "Kaydetd to Uygulamalarım: %s"
+        AppLanguage.TURKISH -> "Saved to My Apps: %s"
     }
     val agentSaveAsAppFailure: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "保存失败：%s"
@@ -6901,7 +6901,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Ошибка сохранения: %s"
         AppLanguage.JAPANESE -> "保存に失敗: %s"
         AppLanguage.KOREAN -> "저장 실패: %s"
-        AppLanguage.TURKISH -> "Kaydet failed: %s"
+        AppLanguage.TURKISH -> "Save failed: %s"
     }
     val agentSaveAsModule: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "保存为模块"
@@ -6914,7 +6914,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Сохранить как модуль"
         AppLanguage.JAPANESE -> "モジュールとして保存"
         AppLanguage.KOREAN -> "모듈로 저장"
-        AppLanguage.TURKISH -> "Kaydet as module"
+        AppLanguage.TURKISH -> "Save as module"
     }
     val agentSaveAsModuleSuccess: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "已保存到扩展模块：%s"
@@ -6927,7 +6927,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Сохранено в Модули расширений: %s"
         AppLanguage.JAPANESE -> "拡張モジュールに保存しました: %s"
         AppLanguage.KOREAN -> "확장 모듈에 저장됨: %s"
-        AppLanguage.TURKISH -> "Kaydetd to Uzantı Modüller: %s"
+        AppLanguage.TURKISH -> "Saved to Extension Modules: %s"
     }
     val agentSaveAsModuleSuccessMany: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "已保存到扩展模块：%s 等 %d+1 个"
@@ -6940,7 +6940,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Сохранено в Модули расширений: %s + %d ещё"
         AppLanguage.JAPANESE -> "拡張モジュールに保存: %s + %d 件"
         AppLanguage.KOREAN -> "확장 모듈에 저장됨: %s + %d개 더"
-        AppLanguage.TURKISH -> "Kaydetd to Uzantı Modüller: %s + %d more"
+        AppLanguage.TURKISH -> "Saved to Extension Modules: %s + %d more"
     }
     val agentSaveAsModuleFailure: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "保存模块失败：%s"
@@ -6953,7 +6953,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Ошибка сохранения модуля: %s"
         AppLanguage.JAPANESE -> "モジュール保存に失敗: %s"
         AppLanguage.KOREAN -> "모듈 저장 실패: %s"
-        AppLanguage.TURKISH -> "Kaydet module failed: %s"
+        AppLanguage.TURKISH -> "Save module failed: %s"
     }
     val agentSaveNoArtifacts: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "会话里没找到可以保存的内容"
@@ -6966,7 +6966,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "В этой сессии нет ничего готового к сохранению"
         AppLanguage.JAPANESE -> "このセッションに保存できるものはありません"
         AppLanguage.KOREAN -> "이 세션에 저장할 내용이 없습니다"
-        AppLanguage.TURKISH -> "Hayırthing in this session is ready to save"
+        AppLanguage.TURKISH -> "Nothing in this session is ready to save"
     }
     val agentSaveDialogChooseLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "选择要保存的项目"
@@ -7005,7 +7005,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Модули расширений"
         AppLanguage.JAPANESE -> "拡張モジュール"
         AppLanguage.KOREAN -> "확장 모듈"
-        AppLanguage.TURKISH -> "Uzantı Modüller"
+        AppLanguage.TURKISH -> "Extension Modules"
     }
     val agentSaveArtifactSuffix: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "%d 个文件 · %s"
@@ -7070,7 +7070,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Node.js"
         AppLanguage.JAPANESE -> "Node.js"
         AppLanguage.KOREAN -> "Node.js"
-        AppLanguage.TURKISH -> "Hayırde.js"
+        AppLanguage.TURKISH -> "Node.js"
     }
     val agentKindPhp: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "PHP"
@@ -7148,7 +7148,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "JS-модуль"
         AppLanguage.JAPANESE -> "JSモジュール"
         AppLanguage.KOREAN -> "JS 모듈"
-        AppLanguage.TURKISH -> "JS Modül"
+        AppLanguage.TURKISH -> "JS Module"
     }
     val agentKindStyleModule: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "样式模块"
@@ -7161,7 +7161,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Модуль стиля"
         AppLanguage.JAPANESE -> "スタイルモジュール"
         AppLanguage.KOREAN -> "스타일 모듈"
-        AppLanguage.TURKISH -> "Style Modül"
+        AppLanguage.TURKISH -> "Style Module"
     }
     val agentKindUserScript: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "用户脚本"
@@ -7187,7 +7187,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Расширение Chrome"
         AppLanguage.JAPANESE -> "Chrome拡張機能"
         AppLanguage.KOREAN -> "Chrome 확장 프로그램"
-        AppLanguage.TURKISH -> "Chrome Uzantı"
+        AppLanguage.TURKISH -> "Chrome Extension"
     }
 
     val agentAutoModeLabel: String get() = when (Strings.lang) {
@@ -7254,7 +7254,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Отменить всё"
         AppLanguage.JAPANESE -> "すべて元に戻す"
         AppLanguage.KOREAN -> "모두 실행 취소"
-        AppLanguage.TURKISH -> "Geri Al all"
+        AppLanguage.TURKISH -> "Undo all"
     }
     val agentChangesReviewClear: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "清空"
@@ -7358,7 +7358,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Обновлено"
         AppLanguage.JAPANESE -> "更新"
         AppLanguage.KOREAN -> "업데이트"
-        AppLanguage.TURKISH -> "Güncelled"
+        AppLanguage.TURKISH -> "Updated"
     }
     val agentAppChangesOpen: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "打开应用"
@@ -7371,7 +7371,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Открыть приложение"
         AppLanguage.JAPANESE -> "アプリを開く"
         AppLanguage.KOREAN -> "앱 열기"
-        AppLanguage.TURKISH -> "Aç app"
+        AppLanguage.TURKISH -> "Open app"
     }
     val agentAppChangesFields: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "变更字段：%s"
@@ -7397,7 +7397,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Режим Plan"
         AppLanguage.JAPANESE -> "Planモード"
         AppLanguage.KOREAN -> "Plan 모드"
-        AppLanguage.TURKISH -> "Plan Mod"
+        AppLanguage.TURKISH -> "Plan Mode"
     }
     val agentPlanModeNoPath: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "未指定"
@@ -7423,7 +7423,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Выйти из режима Plan"
         AppLanguage.JAPANESE -> "Planモードを終了"
         AppLanguage.KOREAN -> "Plan 모드 종료"
-        AppLanguage.TURKISH -> "Çıkış plan mode"
+        AppLanguage.TURKISH -> "Exit plan mode"
     }
     val agentOpenDrawer: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "打开侧边栏"
@@ -7436,7 +7436,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Открыть панель"
         AppLanguage.JAPANESE -> "ドロワーを開く"
         AppLanguage.KOREAN -> "서랍 열기"
-        AppLanguage.TURKISH -> "Aç drawer"
+        AppLanguage.TURKISH -> "Open drawer"
     }
     val agentHomeTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "构建点什么"
@@ -7566,7 +7566,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Помогите собрать mobile-first лендинг"
         AppLanguage.JAPANESE -> "モバイルファーストのランディングページを組み立てて"
         AppLanguage.KOREAN -> "모바일 우선 랜딩 페이지 뼈대 만들기"
-        AppLanguage.TURKISH -> "Yardım me scaffold a mobile-first landing page"
+        AppLanguage.TURKISH -> "Help me scaffold a mobile-first landing page"
     }
     val agentPreviewToolbarPrefix: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "预览 · %s"
@@ -7579,7 +7579,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Предпросмотр · %s"
         AppLanguage.JAPANESE -> "プレビュー · %s"
         AppLanguage.KOREAN -> "미리보기 · %s"
-        AppLanguage.TURKISH -> "Önizleme · %s"
+        AppLanguage.TURKISH -> "Preview · %s"
     }
     val agentPreviewNoFile: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "（未选择文件）"
@@ -7620,7 +7620,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "В этой сессии ещё нет файлов HTML / изображений"
         AppLanguage.JAPANESE -> "このセッションにはまだプレビューできる HTML / 画像ファイルがありません"
         AppLanguage.KOREAN -> "이 세션에 아직 HTML / 이미지 파일이 없습니다"
-        AppLanguage.TURKISH -> "Hayır HTML / image files in this session yet"
+        AppLanguage.TURKISH -> "No HTML / image files in this session yet"
     }
 
     val agentPreviewSwitchTooltip: String get() = when (Strings.lang) {
@@ -7751,7 +7751,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Инструмент отклонён: %s"
         AppLanguage.JAPANESE -> "ツールが拒否されました: %s"
         AppLanguage.KOREAN -> "도구 거부됨: %s"
-        AppLanguage.TURKISH -> "Araç denied: %s"
+        AppLanguage.TURKISH -> "Tool denied: %s"
     }
     val agentErrorPrefix: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "[错误] %s"
@@ -7764,7 +7764,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "[Ошибка] %s"
         AppLanguage.JAPANESE -> "[エラー] %s"
         AppLanguage.KOREAN -> "[오류] %s"
-        AppLanguage.TURKISH -> "[Hata] %s"
+        AppLanguage.TURKISH -> "[Error] %s"
     }
 
     val agentEmptyResponseHint: String get() = when (Strings.lang) {
@@ -7817,7 +7817,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Нет совпадающих файлов"
         AppLanguage.JAPANESE -> "一致するファイルがありません"
         AppLanguage.KOREAN -> "일치하는 파일 없음"
-        AppLanguage.TURKISH -> "Hayır matching files"
+        AppLanguage.TURKISH -> "No matching files"
     }
     val agentPreviewEmpty: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "项目里还没有可预览的页面"
@@ -7830,7 +7830,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Пока нечего предпросматривать"
         AppLanguage.JAPANESE -> "まだプレビューするものがありません"
         AppLanguage.KOREAN -> "미리볼 항목이 아직 없습니다"
-        AppLanguage.TURKISH -> "Hayırthing to preview yet"
+        AppLanguage.TURKISH -> "Nothing to preview yet"
     }
     val agentPreviewTabIdle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "暂无预览"
@@ -7947,7 +7947,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Копировать вывод"
         AppLanguage.JAPANESE -> "出力をコピー"
         AppLanguage.KOREAN -> "출력 복사"
-        AppLanguage.TURKISH -> "Kopyala output"
+        AppLanguage.TURKISH -> "Copy output"
     }
     val agentMessageActionCopyAll: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "复制全部(含思考与工具)"
@@ -7960,7 +7960,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Копировать всё (с размышлениями и инструментами)"
         AppLanguage.JAPANESE -> "すべてコピー(思考・ツール含む)"
         AppLanguage.KOREAN -> "전체 복사(사고 및 도구 포함)"
-        AppLanguage.TURKISH -> "Kopyala all (with thinking & tools)"
+        AppLanguage.TURKISH -> "Copy all (with thinking & tools)"
     }
     val agentMessageActionEdit: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "编辑并重发"
@@ -7973,7 +7973,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Изменить и отправить снова"
         AppLanguage.JAPANESE -> "編集して再送信"
         AppLanguage.KOREAN -> "편집 후 재전송"
-        AppLanguage.TURKISH -> "Düzenle & resend"
+        AppLanguage.TURKISH -> "Edit & resend"
     }
     val agentMessageActionRegenerate: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "重新生成"
@@ -7999,7 +7999,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Удалить отсюда"
         AppLanguage.JAPANESE -> "ここから削除"
         AppLanguage.KOREAN -> "이후부터 삭제"
-        AppLanguage.TURKISH -> "Sil from here"
+        AppLanguage.TURKISH -> "Delete from here"
     }
     val agentMessageCopied: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "已复制"
@@ -8038,7 +8038,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Редактирование — последующие сообщения будут заменены"
         AppLanguage.JAPANESE -> "編集中 — 以降のメッセージは置き換えられます"
         AppLanguage.KOREAN -> "편집 중 — 이후 메시지가 대체됩니다"
-        AppLanguage.TURKISH -> "Düzenleing — later messages will be replaced"
+        AppLanguage.TURKISH -> "Editing — later messages will be replaced"
     }
     val agentEditingCancel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "取消编辑"
@@ -8051,7 +8051,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Отменить редактирование"
         AppLanguage.JAPANESE -> "編集をキャンセル"
         AppLanguage.KOREAN -> "편집 취소"
-        AppLanguage.TURKISH -> "İptal edit"
+        AppLanguage.TURKISH -> "Cancel edit"
     }
     val agentNewSessionAlreadyEmpty: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "当前已是空会话"
@@ -8090,7 +8090,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Закрыть предпросмотр"
         AppLanguage.JAPANESE -> "プレビューを閉じる"
         AppLanguage.KOREAN -> "미리보기 닫기"
-        AppLanguage.TURKISH -> "Kapat preview"
+        AppLanguage.TURKISH -> "Close preview"
     }
     val agentToolArgsLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "参数"
@@ -8142,7 +8142,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Копировать код"
         AppLanguage.JAPANESE -> "コードをコピー"
         AppLanguage.KOREAN -> "코드 복사"
-        AppLanguage.TURKISH -> "Kopyala code"
+        AppLanguage.TURKISH -> "Copy code"
     }
     val agentTodoListHeader: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "任务清单"
@@ -8246,7 +8246,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Выбрать модель"
         AppLanguage.JAPANESE -> "モデルを選択"
         AppLanguage.KOREAN -> "모델 선택"
-        AppLanguage.TURKISH -> "Seç model"
+        AppLanguage.TURKISH -> "Select model"
     }
     val agentModelChipLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "模型"
@@ -8259,7 +8259,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Модель"
         AppLanguage.JAPANESE -> "モデル"
         AppLanguage.KOREAN -> "모델"
-        AppLanguage.TURKISH -> "Modl"
+        AppLanguage.TURKISH -> "Model"
     }
     val agentModelSearchHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "搜索模型…"
@@ -8272,7 +8272,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Поиск моделей…"
         AppLanguage.JAPANESE -> "モデルを検索…"
         AppLanguage.KOREAN -> "모델 검색…"
-        AppLanguage.TURKISH -> "Ara models…"
+        AppLanguage.TURKISH -> "Search models…"
     }
     val agentModelPickerProviders: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "供应商"
@@ -8298,7 +8298,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Модели"
         AppLanguage.JAPANESE -> "モデル"
         AppLanguage.KOREAN -> "모델"
-        AppLanguage.TURKISH -> "Modls"
+        AppLanguage.TURKISH -> "Models"
     }
     val agentServiceNotConnected: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "AI 服务未连接"
@@ -8324,7 +8324,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Готово (%d вызов(ов) инструментов)"
         AppLanguage.JAPANESE -> "完了 (%d回のツール呼び出し)"
         AppLanguage.KOREAN -> "완료 (%d회 도구 호출)"
-        AppLanguage.TURKISH -> "Bitti (%d tool call(s))"
+        AppLanguage.TURKISH -> "Done (%d tool call(s))"
     }
     val agentPlanEntered: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "已进入 Plan 模式"
@@ -8402,7 +8402,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Одобрить"
         AppLanguage.JAPANESE -> "承認"
         AppLanguage.KOREAN -> "승인"
-        AppLanguage.TURKISH -> "Uygulamarove"
+        AppLanguage.TURKISH -> "Approve"
     }
     val agentPlanRequestRevisions: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "需要修改"
@@ -8454,7 +8454,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Старые сообщения сжаты автоматически"
         AppLanguage.JAPANESE -> "古いメッセージを自動圧縮しました"
         AppLanguage.KOREAN -> "이전 메시지 자동 압축됨"
-        AppLanguage.TURKISH -> "Otomatik-compacted older messages"
+        AppLanguage.TURKISH -> "Auto-compacted older messages"
     }
     val agentCompactSkipped: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "未压缩：%s"
@@ -8550,7 +8550,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Всегда разрешать"
         AppLanguage.JAPANESE -> "常に許可"
         AppLanguage.KOREAN -> "항상 허용"
-        AppLanguage.TURKISH -> "Her Zaman allow"
+        AppLanguage.TURKISH -> "Always allow"
     }
     val agentPermissionAllow: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "允许"
@@ -8563,7 +8563,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Разрешить"
         AppLanguage.JAPANESE -> "許可"
         AppLanguage.KOREAN -> "허용"
-        AppLanguage.TURKISH -> "İzin Ver"
+        AppLanguage.TURKISH -> "Allow"
     }
     val agentPermissionDeny: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "拒绝"
@@ -8602,7 +8602,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Другое (свободный текст)…"
         AppLanguage.JAPANESE -> "その他 (自由入力)…"
         AppLanguage.KOREAN -> "기타 (자유 텍스트)…"
-        AppLanguage.TURKISH -> "Diğer (free text)…"
+        AppLanguage.TURKISH -> "Other (free text)…"
     }
     val agentActionSubmit: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "提交"
@@ -8615,7 +8615,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Отправить"
         AppLanguage.JAPANESE -> "送信"
         AppLanguage.KOREAN -> "제출"
-        AppLanguage.TURKISH -> "Gönder"
+        AppLanguage.TURKISH -> "Submit"
     }
     val agentActionCancel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "取消"
@@ -8680,7 +8680,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Пока нет сессий"
         AppLanguage.JAPANESE -> "セッションがまだありません"
         AppLanguage.KOREAN -> "세션이 아직 없습니다"
-        AppLanguage.TURKISH -> "Hayır sessions yet"
+        AppLanguage.TURKISH -> "No sessions yet"
     }
     val agentEmptySessionsHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "新建一个会话开始"
@@ -8706,7 +8706,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Пока нет файлов"
         AppLanguage.JAPANESE -> "ファイルがまだありません"
         AppLanguage.KOREAN -> "파일이 아직 없습니다"
-        AppLanguage.TURKISH -> "Hayır files yet"
+        AppLanguage.TURKISH -> "No files yet"
     }
     val agentEmptyFilesHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "和 AI 聊天后会自动出现"
@@ -8719,7 +8719,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Файлы появятся после общения с ИИ"
         AppLanguage.JAPANESE -> "AIと会話するとファイルが表示されます"
         AppLanguage.KOREAN -> "AI와 대화하면 파일이 나타납니다"
-        AppLanguage.TURKISH -> "Dosyalar appear after talking with the AI"
+        AppLanguage.TURKISH -> "Files appear after talking with the AI"
     }
     val agentBuiltApks: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "构建产物"
@@ -8877,7 +8877,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> { attempt, max, ms -> "Ограничение скорости, повтор через ${ms / 1000}с (попытка ${attempt}/${max})…" }
         AppLanguage.JAPANESE -> { attempt, max, ms -> "レート制限、${ms / 1000}秒後にリトライ（${attempt}/${max}回目）…" }
         AppLanguage.KOREAN -> { attempt, max, ms -> "속도 제한, ${ms / 1000}초 후 재시도 (${attempt}/${max}번째)…" }
-        AppLanguage.TURKISH -> { attempt, max, ms -> "Hız sınırı, ${ms / 1000} sn sonra tekrar deneyin (${attempt}/${max})…" }
+        AppLanguage.TURKISH -> { attempt, max, ms -> "속도 제한, ${ms / 1000}초 후 재시도 (${attempt}/${max}번째)…" }
     }
 
     val agentFileSaved: String get() = when (Strings.lang) {
@@ -8891,7 +8891,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "%s сохранён"
         AppLanguage.JAPANESE -> "%sを保存しました"
         AppLanguage.KOREAN -> "%s 저장됨"
-        AppLanguage.TURKISH -> "Kaydetd %s"
+        AppLanguage.TURKISH -> "Saved %s"
     }
     val agentFileOpen: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "打开"
@@ -8917,7 +8917,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Копировать путь"
         AppLanguage.JAPANESE -> "パスをコピー"
         AppLanguage.KOREAN -> "경로 복사"
-        AppLanguage.TURKISH -> "Kopyala path"
+        AppLanguage.TURKISH -> "Copy path"
     }
     val agentPathCopied: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "路径已复制"
@@ -8943,7 +8943,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Открыть с помощью…"
         AppLanguage.JAPANESE -> "別のアプリで開く…"
         AppLanguage.KOREAN -> "다른 앱으로 열기…"
-        AppLanguage.TURKISH -> "Aç with…"
+        AppLanguage.TURKISH -> "Open with…"
     }
     val agentFileNotFound: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "文件不存在"
@@ -8956,7 +8956,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Файл не найден"
         AppLanguage.JAPANESE -> "ファイルが見つかりません"
         AppLanguage.KOREAN -> "파일을 찾을 수 없습니다"
-        AppLanguage.TURKISH -> "Dosya not found"
+        AppLanguage.TURKISH -> "File not found"
     }
     val agentFileOpenFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "无法打开此文件"
@@ -9024,7 +9024,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Общий функционал ИИ-чата"
         AppLanguage.JAPANESE -> "汎用AIチャット機能"
         AppLanguage.KOREAN -> "일반 AI 채팅 기능"
-        AppLanguage.TURKISH -> "Genel AI chat functionality"
+        AppLanguage.TURKISH -> "General AI chat functionality"
     }
 
     val dataBackupTitle: String get() = when (Strings.lang) {
@@ -9038,7 +9038,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Резервное копирование данных"
         AppLanguage.JAPANESE -> "データバックアップ"
         AppLanguage.KOREAN -> "데이터 백업"
-        AppLanguage.TURKISH -> "Data Yedekle"
+        AppLanguage.TURKISH -> "Data Backup"
     }
 
     val dataBackupDesc: String get() = when (Strings.lang) {
@@ -9052,7 +9052,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Экспорт или импорт всех данных приложения, включая конфигурацию, иконки, заставки, BGM и другие ресурсы"
         AppLanguage.JAPANESE -> "設定、アイコン、スプラッシュ画面、BGMなどのリソースを含むすべてのアプリデータをエクスポート/インポート"
         AppLanguage.KOREAN -> "설정, 아이콘, 스플래시 화면, BGM 등 리소스를 포함한 모든 앱 데이터 내보내기/가져오기"
-        AppLanguage.TURKISH -> "Dışa Aktar or import all app data including config, icons, splash screens, BGM and other resources"
+        AppLanguage.TURKISH -> "Export or import all app data including config, icons, splash screens, BGM and other resources"
     }
 
     val dataBackupNote: String get() = when (Strings.lang) {
@@ -9066,7 +9066,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Импорт данных добавляет новые приложения, не перезаписывая существующие. Перед обновлением рекомендуется экспортировать резервную копию."
         AppLanguage.JAPANESE -> "データのインポートは新しいアプリを追加し、既存のデータを上書きしません。更新前にバックアップをエクスポートすることをお勧めします。"
         AppLanguage.KOREAN -> "데이터 가져오기는 기존 데이터를 덮어쓰지 않고 새 앱을 추가합니다. 업데이트 전 백업을 내보내는 것이 좋습니다."
-        AppLanguage.TURKISH -> "İçe Aktaring data adds new apps without overwriting existing data. It's recommended to export backup before updating."
+        AppLanguage.TURKISH -> "Importing data adds new apps without overwriting existing data. It's recommended to export backup before updating."
     }
 
     val legalDisclaimer: String get() = when (Strings.lang) {
@@ -9093,7 +9093,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Скрытие элементов"
         AppLanguage.JAPANESE -> "要素非表示ツール"
         AppLanguage.KOREAN -> "요소 숨김기"
-        AppLanguage.TURKISH -> "Element Gizler"
+        AppLanguage.TURKISH -> "Element Hider"
     }
     val tplElementHiderDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "通过 CSS 选择器隐藏页面元素，支持多种隐藏方式"
@@ -9106,7 +9106,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Скрывает элементы страницы через CSS-селектор, поддерживает несколько методов скрытия"
         AppLanguage.JAPANESE -> "CSSセレクターでページ要素を非表示にし、複数の非表示方法をサポート"
         AppLanguage.KOREAN -> "CSS 선택자로 페이지 요소를 숨기며, 여러 숨김 방식을 지원"
-        AppLanguage.TURKISH -> "Gizle page elements via CSS selector, supports multiple hiding methods"
+        AppLanguage.TURKISH -> "Hide page elements via CSS selector, supports multiple hiding methods"
     }
     val tplAdBlocker: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "广告拦截增强"
@@ -9119,7 +9119,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Блокировщик рекламы Pro"
         AppLanguage.JAPANESE -> "広告ブロック強化版"
         AppLanguage.KOREAN -> "광고 차단 프로"
-        AppLanguage.TURKISH -> "Ad Engelleer Pro"
+        AppLanguage.TURKISH -> "Ad Blocker Pro"
     }
     val tplAdBlockerDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "强力广告过滤，屏蔽常见广告元素、弹窗和追踪脚本"
@@ -9145,7 +9145,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Блокировщик всплывающих окон"
         AppLanguage.JAPANESE -> "ポップアップブロッカー"
         AppLanguage.KOREAN -> "팝업 차단기"
-        AppLanguage.TURKISH -> "Popup Engelleer"
+        AppLanguage.TURKISH -> "Popup Blocker"
     }
     val tplPopupBlockerDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "自动关闭烦人的弹窗、对话框和通知请求"
@@ -9158,7 +9158,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Автоматически закрывает раздражающие всплывающие окна, диалоги и запросы уведомлений"
         AppLanguage.JAPANESE -> "厄介なポップアップ、ダイアログ、通知リクエストを自動的に閉じます"
         AppLanguage.KOREAN -> "성가신 팝업, 대화상자, 알림 요청을 자동으로 닫습니다"
-        AppLanguage.TURKISH -> "Otomatik close annoying popups, dialogs and notification requests"
+        AppLanguage.TURKISH -> "Auto close annoying popups, dialogs and notification requests"
     }
     val tplCookieBanner: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Cookie横幅移除"
@@ -9171,7 +9171,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Удалитель баннеров cookie"
         AppLanguage.JAPANESE -> "Cookieバナー削除"
         AppLanguage.KOREAN -> "쿠키 배너 제거기"
-        AppLanguage.TURKISH -> "Cookie Banner Kaldırr"
+        AppLanguage.TURKISH -> "Cookie Banner Remover"
     }
     val tplCookieBannerDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "自动移除Cookie同意横幅和GDPR提示"
@@ -9184,7 +9184,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Автоматически удаляет баннеры согласия на cookie и уведомления GDPR"
         AppLanguage.JAPANESE -> "Cookie同意バナーとGDPR通知を自動削除"
         AppLanguage.KOREAN -> "쿠키 동의 배너와 GDPR 알림을 자동으로 제거"
-        AppLanguage.TURKISH -> "Otomatik remove cookie consent banners and GDPR notices"
+        AppLanguage.TURKISH -> "Auto remove cookie consent banners and GDPR notices"
     }
     val tplCssInjector: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "CSS样式注入"
@@ -9223,7 +9223,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Принудительный тёмный режим"
         AppLanguage.JAPANESE -> "ダークモード強制"
         AppLanguage.KOREAN -> "다크 모드 강제"
-        AppLanguage.TURKISH -> "Force Koyu Mod"
+        AppLanguage.TURKISH -> "Force Dark Mode"
     }
     val tplDarkModeDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "为任意网页强制启用深色模式"
@@ -9275,7 +9275,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Нативные функции"
         AppLanguage.JAPANESE -> "ネイティブ機能"
         AppLanguage.KOREAN -> "네이티브 기능"
-        AppLanguage.TURKISH -> "Native Özellikler"
+        AppLanguage.TURKISH -> "Native Features"
     }
     val snippetNativeDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "调用原生能力，如分享、震动、剪贴板等"
@@ -9301,7 +9301,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Показать сообщение Toast"
         AppLanguage.JAPANESE -> "Toast メッセージを表示"
         AppLanguage.KOREAN -> "Toast 메시지 표시"
-        AppLanguage.TURKISH -> "Göster Toast Mesaj"
+        AppLanguage.TURKISH -> "Show Toast Message"
     }
     val snippetShowToastDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "显示原生 Toast 消息提示"
@@ -9314,7 +9314,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Показать собственное сообщение Toast"
         AppLanguage.JAPANESE -> "ネイティブ Toast メッセージを表示"
         AppLanguage.KOREAN -> "네이티브 Toast 메시지 표시"
-        AppLanguage.TURKISH -> "Göster native Toast message"
+        AppLanguage.TURKISH -> "Show native Toast message"
     }
     val snippetVibrate: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "震动反馈"
@@ -9340,7 +9340,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Запустить вибрацию телефона"
         AppLanguage.JAPANESE -> "電話の振動を開始"
         AppLanguage.KOREAN -> "휴대폰 진동 켜기"
-        AppLanguage.TURKISH -> "Tetikle phone vibration"
+        AppLanguage.TURKISH -> "Trigger phone vibration"
     }
     val snippetCopyToClipboard: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "复制到剪贴板"
@@ -9353,7 +9353,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Копировать в буфер обмена"
         AppLanguage.JAPANESE -> "クリップボードにコピー"
         AppLanguage.KOREAN -> "클립보드에 복사"
-        AppLanguage.TURKISH -> "Kopyala to Clipboard"
+        AppLanguage.TURKISH -> "Copy to Clipboard"
     }
     val snippetCopyToClipboardDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "复制文本到系统剪贴板"
@@ -9366,7 +9366,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Копировать текст в системный буфер обмена"
         AppLanguage.JAPANESE -> "テキストをシステムクリップボードにコピー"
         AppLanguage.KOREAN -> "시스템 클립보드에 텍스트 복사"
-        AppLanguage.TURKISH -> "Kopyala text to system clipboard"
+        AppLanguage.TURKISH -> "Copy text to system clipboard"
     }
     val snippetSaveVideoToGallery: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "保存视频到相册"
@@ -9379,7 +9379,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Сохранить видео в галерею"
         AppLanguage.JAPANESE -> "動画をギャラリーに保存"
         AppLanguage.KOREAN -> "동영상을 갤러리에 저장"
-        AppLanguage.TURKISH -> "Kaydet Video to Gallery"
+        AppLanguage.TURKISH -> "Save Video to Gallery"
     }
     val snippetSaveVideoToGalleryDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "将视频保存到手机相册"
@@ -9392,7 +9392,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Сохранить видео в галерею телефона"
         AppLanguage.JAPANESE -> "動画を電話のギャラリーに保存"
         AppLanguage.KOREAN -> "동영상을 휴대폰 갤러리에 저장"
-        AppLanguage.TURKISH -> "Kaydet video to phone gallery"
+        AppLanguage.TURKISH -> "Save video to phone gallery"
     }
     val snippetOpenInBrowser: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "用浏览器打开链接"
@@ -9405,7 +9405,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Открыть ссылку в браузере"
         AppLanguage.JAPANESE -> "ブラウザでリンクを開く"
         AppLanguage.KOREAN -> "브라우저에서 링크 열기"
-        AppLanguage.TURKISH -> "Aç Bağlantı in Tarayıcı"
+        AppLanguage.TURKISH -> "Open Link in Browser"
     }
     val snippetOpenInBrowserDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "使用系统浏览器打开外部链接"
@@ -9418,7 +9418,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Открыть внешнюю ссылку системным браузером"
         AppLanguage.JAPANESE -> "システムブラウザで外部リンクを開く"
         AppLanguage.KOREAN -> "시스템 브라우저로 외부 링크 열기"
-        AppLanguage.TURKISH -> "Aç external link with system browser"
+        AppLanguage.TURKISH -> "Open external link with system browser"
     }
     val snippetDeviceInfo: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "获取设备信息"
@@ -9431,7 +9431,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Получить информацию об устройстве"
         AppLanguage.JAPANESE -> "デバイス情報を取得"
         AppLanguage.KOREAN -> "기기 정보 가져오기"
-        AppLanguage.TURKISH -> "Get Device Bilgi"
+        AppLanguage.TURKISH -> "Get Device Info"
     }
     val snippetDeviceInfoDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "获取手机设备和应用信息"
@@ -9483,7 +9483,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Сохранить файл"
         AppLanguage.JAPANESE -> "ファイルを保存"
         AppLanguage.KOREAN -> "파일 저장"
-        AppLanguage.TURKISH -> "Kaydet Dosya"
+        AppLanguage.TURKISH -> "Save File"
     }
     val snippetSaveFileDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "将内容保存为文件"
@@ -9496,7 +9496,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Сохранить содержимое как файл"
         AppLanguage.JAPANESE -> "コンテンツをファイルとして保存"
         AppLanguage.KOREAN -> "콘텐츠를 파일로 저장"
-        AppLanguage.TURKISH -> "Kaydet content as file"
+        AppLanguage.TURKISH -> "Save content as file"
     }
     val snippetImageDownloadBtn: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "图片下载按钮"
@@ -9509,7 +9509,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Кнопка загрузки изображения"
         AppLanguage.JAPANESE -> "画像ダウンロードボタン"
         AppLanguage.KOREAN -> "이미지 다운로드 버튼"
-        AppLanguage.TURKISH -> "Resim İndir Düğme"
+        AppLanguage.TURKISH -> "Image Download Button"
     }
     val snippetImageDownloadBtnDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "为图片添加悬浮下载按钮"
@@ -9522,7 +9522,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Добавить плавающую кнопку загрузки к изображениям"
         AppLanguage.JAPANESE -> "画像にフローティングダウンロードボタンを追加"
         AppLanguage.KOREAN -> "이미지에 플로팅 다운로드 버튼 추가"
-        AppLanguage.TURKISH -> "Ekle floating download button to images"
+        AppLanguage.TURKISH -> "Add floating download button to images"
     }
     val snippetDom: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "DOM 操作"
@@ -9600,7 +9600,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Слушать и обрабатывать события клика, прокрутки и клавиатуры"
         AppLanguage.JAPANESE -> "クリック、スクロール、キーボードのイベントを監視して処理"
         AppLanguage.KOREAN -> "클릭, 스크롤, 키보드 이벤트 수신 및 처리"
-        AppLanguage.TURKISH -> "Listeen and handle click, scroll, keyboard events"
+        AppLanguage.TURKISH -> "Listen and handle click, scroll, keyboard events"
     }
     val snippetStorage: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "本地存储"
@@ -9717,7 +9717,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Система уведомлений"
         AppLanguage.JAPANESE -> "通知システム"
         AppLanguage.KOREAN -> "알림 시스템"
-        AppLanguage.TURKISH -> "Bildirim Sistem"
+        AppLanguage.TURKISH -> "Notification System"
     }
     val snippetNotificationDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "各种通知和提醒功能"
@@ -9796,7 +9796,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Запросить все элементы"
         AppLanguage.JAPANESE -> "すべての要素を照会"
         AppLanguage.KOREAN -> "모든 요소 조회"
-        AppLanguage.TURKISH -> "Query Tümü Elements"
+        AppLanguage.TURKISH -> "Query All Elements"
     }
     val snippetQueryAllDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "使用 CSS 选择器查询所有匹配元素"
@@ -9822,7 +9822,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Скрыть элемент"
         AppLanguage.JAPANESE -> "要素を非表示"
         AppLanguage.KOREAN -> "요소 숨기기"
-        AppLanguage.TURKISH -> "Gizle Element"
+        AppLanguage.TURKISH -> "Hide Element"
     }
     val snippetHideElementDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "隐藏指定的页面元素"
@@ -9835,7 +9835,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Скрыть указанный элемент страницы"
         AppLanguage.JAPANESE -> "指定したページ要素を非表示"
         AppLanguage.KOREAN -> "지정된 페이지 요소 숨기기"
-        AppLanguage.TURKISH -> "Gizle specified page element"
+        AppLanguage.TURKISH -> "Hide specified page element"
     }
     val snippetRemoveElement: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "删除元素"
@@ -9848,7 +9848,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Удалить элемент"
         AppLanguage.JAPANESE -> "要素を削除"
         AppLanguage.KOREAN -> "요소 제거"
-        AppLanguage.TURKISH -> "Kaldır Element"
+        AppLanguage.TURKISH -> "Remove Element"
     }
     val snippetRemoveElementDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "从页面中删除指定元素"
@@ -9861,7 +9861,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Удалить указанный элемент со страницы"
         AppLanguage.JAPANESE -> "指定した要素をページから削除"
         AppLanguage.KOREAN -> "지정된 요소를 페이지에서 제거"
-        AppLanguage.TURKISH -> "Kaldır specified element from page"
+        AppLanguage.TURKISH -> "Remove specified element from page"
     }
     val snippetCreateElement: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "创建元素"
@@ -9900,7 +9900,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Изменить текстовое содержимое"
         AppLanguage.JAPANESE -> "テキストコンテンツを変更"
         AppLanguage.KOREAN -> "텍스트 콘텐츠 수정"
-        AppLanguage.TURKISH -> "Modify Metin İçerik"
+        AppLanguage.TURKISH -> "Modify Text Content"
     }
     val snippetModifyTextDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "修改元素的文本内容"
@@ -10082,7 +10082,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Обработка данных"
         AppLanguage.JAPANESE -> "データ処理"
         AppLanguage.KOREAN -> "데이터 처리"
-        AppLanguage.TURKISH -> "Data İşleniyor"
+        AppLanguage.TURKISH -> "Data Processing"
     }
     val snippetDataDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "数据提取、转换、导出等操作"
@@ -10108,7 +10108,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Сохранить изображение в галерею"
         AppLanguage.JAPANESE -> "画像をギャラリーに保存"
         AppLanguage.KOREAN -> "이미지를 갤러리에 저장"
-        AppLanguage.TURKISH -> "Kaydet Resim to Gallery"
+        AppLanguage.TURKISH -> "Save Image to Gallery"
     }
     val snippetSaveImageToGalleryDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "将图片保存到手机相册"
@@ -10121,7 +10121,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Сохранить изображение в галерею телефона"
         AppLanguage.JAPANESE -> "画像を電話のギャラリーに保存"
         AppLanguage.KOREAN -> "이미지를 휴대폰 갤러리에 저장"
-        AppLanguage.TURKISH -> "Kaydet image to phone gallery"
+        AppLanguage.TURKISH -> "Save image to phone gallery"
     }
     val snippetShareContent: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "分享内容"
@@ -10134,7 +10134,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Поделиться контентом"
         AppLanguage.JAPANESE -> "コンテンツを共有"
         AppLanguage.KOREAN -> "콘텐츠 공유"
-        AppLanguage.TURKISH -> "Paylaş İçerik"
+        AppLanguage.TURKISH -> "Share Content"
     }
     val snippetShareContentDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "调用系统分享功能"
@@ -10212,7 +10212,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Добавить/Удалить класс"
         AppLanguage.JAPANESE -> "クラスを追加/削除"
         AppLanguage.KOREAN -> "클래스 추가/제거"
-        AppLanguage.TURKISH -> "Ekle/Kaldır Class"
+        AppLanguage.TURKISH -> "Add/Remove Class"
     }
     val snippetAddClassDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "操作元素的 CSS 类"
@@ -10238,7 +10238,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Тёмный режим"
         AppLanguage.JAPANESE -> "ダークモード"
         AppLanguage.KOREAN -> "다크 모드"
-        AppLanguage.TURKISH -> "Koyu Mod"
+        AppLanguage.TURKISH -> "Dark Mode"
     }
     val snippetDarkModeDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "为页面启用深色模式"
@@ -10251,7 +10251,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Включить тёмный режим для страницы"
         AppLanguage.JAPANESE -> "ページのダークモードを有効化"
         AppLanguage.KOREAN -> "페이지에 다크 모드 활성화"
-        AppLanguage.TURKISH -> "Etkinleştir dark mode for page"
+        AppLanguage.TURKISH -> "Enable dark mode for page"
     }
     val snippetSepiaMode: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "护眼模式（暖色）"
@@ -10264,7 +10264,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Режим защиты глаз (Тёплый)"
         AppLanguage.JAPANESE -> "アイプロテクションモード（暖色）"
         AppLanguage.KOREAN -> "눈 보호 모드(따뜻함)"
-        AppLanguage.TURKISH -> "Eye Protection Mod (Warm)"
+        AppLanguage.TURKISH -> "Eye Protection Mode (Warm)"
     }
     val snippetSepiaModeDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "为页面添加暖色滤镜"
@@ -10277,7 +10277,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Добавить тёплый цветовой фильтр к странице"
         AppLanguage.JAPANESE -> "ページに暖色フィルターを追加"
         AppLanguage.KOREAN -> "페이지에 따뜻한 색상 필터 추가"
-        AppLanguage.TURKISH -> "Ekle warm color filter to page"
+        AppLanguage.TURKISH -> "Add warm color filter to page"
     }
     val snippetGrayscale: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "灰度模式"
@@ -10290,7 +10290,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Режим оттенков серого"
         AppLanguage.JAPANESE -> "グレースケールモード"
         AppLanguage.KOREAN -> "그레이스케일 모드"
-        AppLanguage.TURKISH -> "Grayscale Mod"
+        AppLanguage.TURKISH -> "Grayscale Mode"
     }
     val snippetGrayscaleDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "将页面转为灰度显示"
@@ -10316,7 +10316,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Пользовательский шрифт"
         AppLanguage.JAPANESE -> "カスタムフォント"
         AppLanguage.KOREAN -> "사용자 정의 글꼴"
-        AppLanguage.TURKISH -> "Özel Font"
+        AppLanguage.TURKISH -> "Custom Font"
     }
     val snippetCustomFontDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "替换页面字体"
@@ -10342,7 +10342,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Настроить размер шрифта"
         AppLanguage.JAPANESE -> "フォントサイズを調整"
         AppLanguage.KOREAN -> "글꼴 크기 조정"
-        AppLanguage.TURKISH -> "Adjust Font Boyut"
+        AppLanguage.TURKISH -> "Adjust Font Size"
     }
     val snippetFontSizeDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "统一调整页面字体大小"
@@ -10368,7 +10368,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Скрыть полосу прокрутки"
         AppLanguage.JAPANESE -> "スクロールバーを非表示"
         AppLanguage.KOREAN -> "스크롤바 숨기기"
-        AppLanguage.TURKISH -> "Gizle Scrollbar"
+        AppLanguage.TURKISH -> "Hide Scrollbar"
     }
     val snippetHideScrollbarDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "隐藏页面滚动条但保留滚动功能"
@@ -10381,7 +10381,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Скрыть полосу прокрутки, сохранив функцию прокрутки"
         AppLanguage.JAPANESE -> "スクロールバーを非表示にしつつスクロール機能を維持"
         AppLanguage.KOREAN -> "스크롤바는 숨기되 스크롤 기능은 유지"
-        AppLanguage.TURKISH -> "Gizle scrollbar but keep scroll function"
+        AppLanguage.TURKISH -> "Hide scrollbar but keep scroll function"
     }
     val snippetHighlightLinks: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "高亮链接"
@@ -10394,7 +10394,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Подсветить ссылки"
         AppLanguage.JAPANESE -> "リンクをハイライト"
         AppLanguage.KOREAN -> "링크 강조 표시"
-        AppLanguage.TURKISH -> "Highlight Bağlantıs"
+        AppLanguage.TURKISH -> "Highlight Links"
     }
     val snippetHighlightLinksDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "高亮显示页面所有链接"
@@ -10420,7 +10420,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Ограничить ширину контента"
         AppLanguage.JAPANESE -> "コンテンツ幅を制限"
         AppLanguage.KOREAN -> "콘텐츠 너비 제한"
-        AppLanguage.TURKISH -> "Limit İçerik Width"
+        AppLanguage.TURKISH -> "Limit Content Width"
     }
     val snippetMaxWidthDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "限制页面内容最大宽度，提升阅读体验"
@@ -10486,7 +10486,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Слушать события клика элемента"
         AppLanguage.JAPANESE -> "要素のクリックイベントを監視"
         AppLanguage.KOREAN -> "요소 클릭 이벤트 수신"
-        AppLanguage.TURKISH -> "Listeen for element click events"
+        AppLanguage.TURKISH -> "Listen for element click events"
     }
     val snippetKeyboardEvent: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "键盘事件"
@@ -10512,7 +10512,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Слушать клавиши клавиатуры"
         AppLanguage.JAPANESE -> "キーボードのキーを監視"
         AppLanguage.KOREAN -> "키보드 키 수신"
-        AppLanguage.TURKISH -> "Listeen for keyboard keys"
+        AppLanguage.TURKISH -> "Listen for keyboard keys"
     }
     val snippetScrollEvent: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "滚动事件"
@@ -10538,7 +10538,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Слушать прокрутку страницы"
         AppLanguage.JAPANESE -> "ページのスクロールを監視"
         AppLanguage.KOREAN -> "페이지 스크롤 수신"
-        AppLanguage.TURKISH -> "Listeen for page scroll"
+        AppLanguage.TURKISH -> "Listen for page scroll"
     }
     val snippetMutationEvent: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "DOM 变化监听"
@@ -10577,7 +10577,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Изменение размера окна"
         AppLanguage.JAPANESE -> "ウィンドウリサイズ"
         AppLanguage.KOREAN -> "창 크기 변경"
-        AppLanguage.TURKISH -> "Pencere Resize"
+        AppLanguage.TURKISH -> "Window Resize"
     }
     val snippetResizeEventDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "监听窗口大小变化"
@@ -10590,7 +10590,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Слушать изменение размера окна"
         AppLanguage.JAPANESE -> "ウィンドウのリサイズを監視"
         AppLanguage.KOREAN -> "창 크기 변경 수신"
-        AppLanguage.TURKISH -> "Listeen for window resize"
+        AppLanguage.TURKISH -> "Listen for window resize"
     }
     val snippetCopyEvent: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "复制事件"
@@ -10603,7 +10603,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Событие копирования"
         AppLanguage.JAPANESE -> "コピーエベント"
         AppLanguage.KOREAN -> "복사 이벤트"
-        AppLanguage.TURKISH -> "Kopyala Event"
+        AppLanguage.TURKISH -> "Copy Event"
     }
     val snippetCopyEventDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "监听或拦截复制操作"
@@ -10616,7 +10616,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Слушать или перехватывать операцию копирования"
         AppLanguage.JAPANESE -> "コピー操作を監視または傍受"
         AppLanguage.KOREAN -> "복사 작업 수신 또는 가로채기"
-        AppLanguage.TURKISH -> "Listeen or intercept copy operation"
+        AppLanguage.TURKISH -> "Listen or intercept copy operation"
     }
     val snippetContextMenu: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "右键菜单"
@@ -10629,7 +10629,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Контекстное меню"
         AppLanguage.JAPANESE -> "コンテキストメニュー"
         AppLanguage.KOREAN -> "컨텍스트 메뉴"
-        AppLanguage.TURKISH -> "Context Menü"
+        AppLanguage.TURKISH -> "Context Menu"
     }
     val snippetContextMenuDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "自定义或禁用右键菜单"
@@ -10642,7 +10642,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Настроить или отключить контекстное меню"
         AppLanguage.JAPANESE -> "コンテキストメニューをカスタマイズまたは無効化"
         AppLanguage.KOREAN -> "컨텍스트 메뉴 사용자 정의 또는 비활성화"
-        AppLanguage.TURKISH -> "Özelize or disable context menu"
+        AppLanguage.TURKISH -> "Customize or disable context menu"
     }
     val snippetVisibility: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "页面可见性变化"
@@ -10668,7 +10668,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Слушать переключение страницы между фоном/передним планом"
         AppLanguage.JAPANESE -> "ページのバックグラウンド/フォアグラウンド切り替えを監視"
         AppLanguage.KOREAN -> "페이지 백그라운드/포어그라운드 전환 수신"
-        AppLanguage.TURKISH -> "Listeen for page background/foreground switch"
+        AppLanguage.TURKISH -> "Listen for page background/foreground switch"
     }
     val snippetBeforeUnload: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "页面关闭前"
@@ -10694,7 +10694,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Выполнить операции перед закрытием страницы"
         AppLanguage.JAPANESE -> "ページが閉じる前に操作を実行"
         AppLanguage.KOREAN -> "페이지가 닫히기 전에 작업 실행"
-        AppLanguage.TURKISH -> "Çalıştır operations before page closes"
+        AppLanguage.TURKISH -> "Execute operations before page closes"
     }
     val snippetTouchEvent: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "触摸事件"
@@ -10720,7 +10720,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Слушать сенсорные операции"
         AppLanguage.JAPANESE -> "タッチ操作を監視"
         AppLanguage.KOREAN -> "터치 작업 수신"
-        AppLanguage.TURKISH -> "Listeen for touch operations"
+        AppLanguage.TURKISH -> "Listen for touch operations"
     }
     val snippetLongPress: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "长按事件"
@@ -10746,7 +10746,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Слушать операции долгого нажатия"
         AppLanguage.JAPANESE -> "長押し操作を監視"
         AppLanguage.KOREAN -> "길게 누르기 작업 수신"
-        AppLanguage.TURKISH -> "Listeen for long press operations"
+        AppLanguage.TURKISH -> "Listen for long press operations"
     }
 
     val snippetLocalSet: String get() = when (Strings.lang) {
@@ -10760,7 +10760,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Сохранить в локальное хранилище"
         AppLanguage.JAPANESE -> "ローカルストレージに保存"
         AppLanguage.KOREAN -> "로컬 저장소에 저장"
-        AppLanguage.TURKISH -> "Kaydet to Local Storage"
+        AppLanguage.TURKISH -> "Save to Local Storage"
     }
     val snippetLocalSetDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "将数据保存到 localStorage"
@@ -10773,7 +10773,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Сохранить данные в localStorage"
         AppLanguage.JAPANESE -> "localStorage にデータを保存"
         AppLanguage.KOREAN -> "localStorage에 데이터 저장"
-        AppLanguage.TURKISH -> "Kaydet data to localStorage"
+        AppLanguage.TURKISH -> "Save data to localStorage"
     }
     val snippetLocalGet: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "从本地存储读取"
@@ -10786,7 +10786,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Читать из локального хранилища"
         AppLanguage.JAPANESE -> "ローカルストレージから読み取り"
         AppLanguage.KOREAN -> "로컬 저장소에서 읽기"
-        AppLanguage.TURKISH -> "Oku from Local Storage"
+        AppLanguage.TURKISH -> "Read from Local Storage"
     }
     val snippetLocalGetDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "从 localStorage 读取数据"
@@ -10799,7 +10799,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Читать данные из localStorage"
         AppLanguage.JAPANESE -> "localStorage からデータを読み取り"
         AppLanguage.KOREAN -> "localStorage에서 데이터 읽기"
-        AppLanguage.TURKISH -> "Oku data from localStorage"
+        AppLanguage.TURKISH -> "Read data from localStorage"
     }
     val snippetSessionStorage: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "会话存储"
@@ -10877,7 +10877,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Читать Cookie браузера"
         AppLanguage.JAPANESE -> "ブラウザの Cookie を読み取り"
         AppLanguage.KOREAN -> "브라우저 Cookie 읽기"
-        AppLanguage.TURKISH -> "Oku browser Cookie"
+        AppLanguage.TURKISH -> "Read browser Cookie"
     }
     val snippetDeleteCookie: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "删除 Cookie"
@@ -10890,7 +10890,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Удалить Cookie"
         AppLanguage.JAPANESE -> "Cookie を削除"
         AppLanguage.KOREAN -> "Cookie 삭제"
-        AppLanguage.TURKISH -> "Sil Cookie"
+        AppLanguage.TURKISH -> "Delete Cookie"
     }
     val snippetDeleteCookieDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "删除指定 Cookie"
@@ -10903,7 +10903,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Удалить указанный Cookie"
         AppLanguage.JAPANESE -> "指定した Cookie を削除"
         AppLanguage.KOREAN -> "지정된 Cookie 삭제"
-        AppLanguage.TURKISH -> "Sil specified Cookie"
+        AppLanguage.TURKISH -> "Delete specified Cookie"
     }
     val snippetIndexedDB: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "IndexedDB 存储"
@@ -10956,7 +10956,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Отправить GET-запрос для получения данных"
         AppLanguage.JAPANESE -> "データを取得する GET リクエストを送信"
         AppLanguage.KOREAN -> "데이터를 가져오기 위해 GET 요청 전송"
-        AppLanguage.TURKISH -> "Gönder GET request to fetch data"
+        AppLanguage.TURKISH -> "Send GET request to fetch data"
     }
     val snippetPostRequest: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "POST 请求"
@@ -10982,7 +10982,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Отправить POST-запрос для отправки данных"
         AppLanguage.JAPANESE -> "データを送信する POST リクエストを送信"
         AppLanguage.KOREAN -> "데이터를 제출하기 위해 POST 요청 전송"
-        AppLanguage.TURKISH -> "Gönder POST request to submit data"
+        AppLanguage.TURKISH -> "Send POST request to submit data"
     }
     val snippetTimeoutRequest: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "带超时的请求"
@@ -10995,7 +10995,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Запрос с таймаутом"
         AppLanguage.JAPANESE -> "タイムアウト付きリクエスト"
         AppLanguage.KOREAN -> "시간 제한이 있는 요청"
-        AppLanguage.TURKISH -> "Request with Zaman Aşımı"
+        AppLanguage.TURKISH -> "Request with Timeout"
     }
     val snippetTimeoutRequestDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "设置请求超时时间"
@@ -11021,7 +11021,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Повторный запрос"
         AppLanguage.JAPANESE -> "リクエスト再試行"
         AppLanguage.KOREAN -> "요청 재시도"
-        AppLanguage.TURKISH -> "Request Yeniden Dene"
+        AppLanguage.TURKISH -> "Request Retry"
     }
     val snippetRetryRequestDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "失败后自动重试"
@@ -11034,7 +11034,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Автоматически повторять при сбое"
         AppLanguage.JAPANESE -> "失敗時に自動で再試行"
         AppLanguage.KOREAN -> "실패 시 자동 재시도"
-        AppLanguage.TURKISH -> "Otomatik retry on failure"
+        AppLanguage.TURKISH -> "Auto retry on failure"
     }
     val snippetDownloadFile: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "下载文件"
@@ -11047,7 +11047,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Скачать файл"
         AppLanguage.JAPANESE -> "ファイルをダウンロード"
         AppLanguage.KOREAN -> "파일 다운로드"
-        AppLanguage.TURKISH -> "İndir Dosya"
+        AppLanguage.TURKISH -> "Download File"
     }
     val snippetDownloadFileDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "下载文件到本地"
@@ -11060,7 +11060,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Скачать файл локально"
         AppLanguage.JAPANESE -> "ファイルをローカルにダウンロード"
         AppLanguage.KOREAN -> "파일을 로컬로 다운로드"
-        AppLanguage.TURKISH -> "İndir file to local"
+        AppLanguage.TURKISH -> "Download file to local"
     }
     val snippetJsonp: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "JSONP 请求"
@@ -11100,7 +11100,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Извлечь данные таблицы"
         AppLanguage.JAPANESE -> "テーブルデータを抽出"
         AppLanguage.KOREAN -> "테이블 데이터 추출"
-        AppLanguage.TURKISH -> "Extract Sekmele Data"
+        AppLanguage.TURKISH -> "Extract Table Data"
     }
     val snippetExtractTableDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "将 HTML 表格转换为 JSON"
@@ -11126,7 +11126,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Извлечь все ссылки"
         AppLanguage.JAPANESE -> "すべてのリンクを抽出"
         AppLanguage.KOREAN -> "모든 링크 추출"
-        AppLanguage.TURKISH -> "Extract Tümü Bağlantıs"
+        AppLanguage.TURKISH -> "Extract All Links"
     }
     val snippetExtractLinksDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "提取页面所有链接"
@@ -11152,7 +11152,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Извлечь все изображения"
         AppLanguage.JAPANESE -> "すべての画像を抽出"
         AppLanguage.KOREAN -> "모든 이미지 추출"
-        AppLanguage.TURKISH -> "Extract Tümü Resims"
+        AppLanguage.TURKISH -> "Extract All Images"
     }
     val snippetExtractImagesDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "提取页面所有图片地址"
@@ -11178,7 +11178,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Экспортировать как JSON"
         AppLanguage.JAPANESE -> "JSON としてエクスポート"
         AppLanguage.KOREAN -> "JSON으로 내보내기"
-        AppLanguage.TURKISH -> "Dışa Aktar as JSON"
+        AppLanguage.TURKISH -> "Export as JSON"
     }
     val snippetExportJsonDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "将数据导出为 JSON 文件"
@@ -11191,7 +11191,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Экспортировать данные как файл JSON"
         AppLanguage.JAPANESE -> "データを JSON ファイルとしてエクスポート"
         AppLanguage.KOREAN -> "데이터를 JSON 파일로 내보내기"
-        AppLanguage.TURKISH -> "Dışa Aktar data as JSON file"
+        AppLanguage.TURKISH -> "Export data as JSON file"
     }
     val snippetExportCsv: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "导出为 CSV"
@@ -11204,7 +11204,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Экспортировать как CSV"
         AppLanguage.JAPANESE -> "CSV としてエクスポート"
         AppLanguage.KOREAN -> "CSV로 내보내기"
-        AppLanguage.TURKISH -> "Dışa Aktar as CSV"
+        AppLanguage.TURKISH -> "Export as CSV"
     }
     val snippetExportCsvDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "将数据导出为 CSV 文件"
@@ -11217,7 +11217,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Экспортировать данные как файл CSV"
         AppLanguage.JAPANESE -> "データを CSV ファイルとしてエクスポート"
         AppLanguage.KOREAN -> "데이터를 CSV 파일로 내보내기"
-        AppLanguage.TURKISH -> "Dışa Aktar data as CSV file"
+        AppLanguage.TURKISH -> "Export data as CSV file"
     }
     val snippetParseUrl: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "解析 URL 参数"
@@ -11282,7 +11282,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Плавающая кнопка"
         AppLanguage.JAPANESE -> "フローティングボタン"
         AppLanguage.KOREAN -> "플로팅 버튼"
-        AppLanguage.TURKISH -> "Floating Düğme"
+        AppLanguage.TURKISH -> "Floating Button"
     }
     val snippetFloatingButtonDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "创建一个悬浮操作按钮"
@@ -11308,7 +11308,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Сообщение Toast"
         AppLanguage.JAPANESE -> "Toast メッセージ"
         AppLanguage.KOREAN -> "Toast 메시지"
-        AppLanguage.TURKISH -> "Toast Mesaj"
+        AppLanguage.TURKISH -> "Toast Message"
     }
     val snippetToastUiDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "显示短暂的提示消息"
@@ -11321,7 +11321,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Показать краткое сообщение Toast"
         AppLanguage.JAPANESE -> "短い Toast メッセージを表示"
         AppLanguage.KOREAN -> "간단한 Toast 메시지 표시"
-        AppLanguage.TURKISH -> "Göster brief toast message"
+        AppLanguage.TURKISH -> "Show brief toast message"
     }
     val snippetModal: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "模态弹窗"
@@ -11360,7 +11360,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Индикатор прогресса чтения"
         AppLanguage.JAPANESE -> "閲覧プログレスバー"
         AppLanguage.KOREAN -> "읽기 진행률 표시줄"
-        AppLanguage.TURKISH -> "Okuing Progress Bar"
+        AppLanguage.TURKISH -> "Reading Progress Bar"
     }
     val snippetProgressBarDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "显示页面阅读进度"
@@ -11373,7 +11373,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Показать прогресс чтения страницы"
         AppLanguage.JAPANESE -> "ページの閲覧進捗を表示"
         AppLanguage.KOREAN -> "페이지 읽기 진행률 표시"
-        AppLanguage.TURKISH -> "Göster page reading progress"
+        AppLanguage.TURKISH -> "Show page reading progress"
     }
     val snippetLoading: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "加载动画"
@@ -11386,7 +11386,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Анимация загрузки"
         AppLanguage.JAPANESE -> "読み込みアニメーション"
         AppLanguage.KOREAN -> "로딩 애니메이션"
-        AppLanguage.TURKISH -> "Yükleniyor Animasyon"
+        AppLanguage.TURKISH -> "Loading Animation"
     }
     val snippetLoadingDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "显示加载中动画"
@@ -11399,7 +11399,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Показать анимацию загрузки"
         AppLanguage.JAPANESE -> "読み込みアニメーションを表示"
         AppLanguage.KOREAN -> "로딩 애니메이션 표시"
-        AppLanguage.TURKISH -> "Göster loading animation"
+        AppLanguage.TURKISH -> "Show loading animation"
     }
     val snippetSnackbar: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Snackbar 通知"
@@ -11412,7 +11412,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Уведомление Snackbar"
         AppLanguage.JAPANESE -> "Snackbar 通知"
         AppLanguage.KOREAN -> "Snackbar 알림"
-        AppLanguage.TURKISH -> "Snackbar Bildirim"
+        AppLanguage.TURKISH -> "Snackbar Notification"
     }
     val snippetSnackbarDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "底部滑出通知"
@@ -11439,7 +11439,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Плавающая панель инструментов"
         AppLanguage.JAPANESE -> "フローティングツールバー"
         AppLanguage.KOREAN -> "플로팅 도구 모음"
-        AppLanguage.TURKISH -> "Floating Araçbar"
+        AppLanguage.TURKISH -> "Floating Toolbar"
     }
     val snippetToolbarDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "创建可拖动的悬浮工具栏"
@@ -11517,7 +11517,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Мини-плеер"
         AppLanguage.JAPANESE -> "ミニプレーヤー"
         AppLanguage.KOREAN -> "미니 플레이어"
-        AppLanguage.TURKISH -> "Mini Oynater"
+        AppLanguage.TURKISH -> "Mini Player"
     }
     val snippetMiniPlayerDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "创建悬浮迷你播放器"
@@ -11544,7 +11544,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Уведомление браузера"
         AppLanguage.JAPANESE -> "ブラウザ通知"
         AppLanguage.KOREAN -> "브라우저 알림"
-        AppLanguage.TURKISH -> "Tarayıcı Bildirim"
+        AppLanguage.TURKISH -> "Browser Notification"
     }
     val snippetBrowserNotifDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "发送浏览器原生通知"
@@ -11557,7 +11557,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Отправить собственное уведомление браузера"
         AppLanguage.JAPANESE -> "ブラウザのネイティブ通知を送信"
         AppLanguage.KOREAN -> "브라우저 네이티브 알림 보내기"
-        AppLanguage.TURKISH -> "Gönder browser native notification"
+        AppLanguage.TURKISH -> "Send browser native notification"
     }
     val snippetBadge: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "角标提醒"
@@ -11570,7 +11570,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Уведомление-значок"
         AppLanguage.JAPANESE -> "バッジ通知"
         AppLanguage.KOREAN -> "배지 알림"
-        AppLanguage.TURKISH -> "Badge Bildirim"
+        AppLanguage.TURKISH -> "Badge Notification"
     }
     val snippetBadgeDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "在元素上显示数字角标"
@@ -11583,7 +11583,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Показать числовой значок на элементе"
         AppLanguage.JAPANESE -> "要素に数値バッジを表示"
         AppLanguage.KOREAN -> "요소에 숫자 배지 표시"
-        AppLanguage.TURKISH -> "Göster number badge on element"
+        AppLanguage.TURKISH -> "Show number badge on element"
     }
     val snippetBanner: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "顶部横幅提醒"
@@ -11609,7 +11609,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Показать уведомление в верхнем баннере"
         AppLanguage.JAPANESE -> "上部バナー通知を表示"
         AppLanguage.KOREAN -> "상단 배너 알림 표시"
-        AppLanguage.TURKISH -> "Göster top banner notification"
+        AppLanguage.TURKISH -> "Show top banner notification"
     }
     val snippetScrollToTop: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "滚动到顶部"
@@ -11700,7 +11700,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Автопрокрутка"
         AppLanguage.JAPANESE -> "自動スクロール"
         AppLanguage.KOREAN -> "자동 스크롤"
-        AppLanguage.TURKISH -> "Otomatik Scroll"
+        AppLanguage.TURKISH -> "Auto Scroll"
     }
     val snippetAutoScrollDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "自动滚动页面"
@@ -11713,7 +11713,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Автоматически прокручивать страницу"
         AppLanguage.JAPANESE -> "ページを自動スクロール"
         AppLanguage.KOREAN -> "페이지 자동 스크롤"
-        AppLanguage.TURKISH -> "Otomatik scroll page"
+        AppLanguage.TURKISH -> "Auto scroll page"
     }
     val snippetBackToTopBtn: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "返回顶部按钮"
@@ -11726,7 +11726,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Кнопка «Наверх»"
         AppLanguage.JAPANESE -> "先頭に戻るボタン"
         AppLanguage.KOREAN -> "맨 위로 버튼"
-        AppLanguage.TURKISH -> "Geri to Top Düğme"
+        AppLanguage.TURKISH -> "Back to Top Button"
     }
     val snippetBackToTopBtnDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "添加返回顶部悬浮按钮"
@@ -11739,7 +11739,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Добавить плавающую кнопку «Наверх»"
         AppLanguage.JAPANESE -> "先頭に戻るフローティングボタンを追加"
         AppLanguage.KOREAN -> "맨 위로 플로팅 버튼 추가"
-        AppLanguage.TURKISH -> "Ekle floating back to top button"
+        AppLanguage.TURKISH -> "Add floating back to top button"
     }
     val snippetInfiniteScroll: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "无限滚动加载"
@@ -11752,7 +11752,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Бесконечная прокрутка загрузки"
         AppLanguage.JAPANESE -> "無限スクロール読み込み"
         AppLanguage.KOREAN -> "무한 스크롤 로드"
-        AppLanguage.TURKISH -> "Infinite Scroll Yükle"
+        AppLanguage.TURKISH -> "Infinite Scroll Load"
     }
     val snippetInfiniteScrollDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "滚动到底部时自动加载更多"
@@ -11765,7 +11765,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Автозагрузка ещё при прокрутке вниз"
         AppLanguage.JAPANESE -> "下までスクロール時に自動でさらに読み込む"
         AppLanguage.KOREAN -> "아래로 스크롤 시 자동으로 더 로드"
-        AppLanguage.TURKISH -> "Otomatik load more when scrolling to bottom"
+        AppLanguage.TURKISH -> "Auto load more when scrolling to bottom"
     }
     val snippetScrollReveal: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "滚动显示动画"
@@ -11778,7 +11778,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Анимация появления при прокрутке"
         AppLanguage.JAPANESE -> "スクロール表示アニメーション"
         AppLanguage.KOREAN -> "스크롤 표시 애니메이션"
-        AppLanguage.TURKISH -> "Scroll Reveal Animasyon"
+        AppLanguage.TURKISH -> "Scroll Reveal Animation"
     }
     val snippetScrollRevealDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "元素滚动到视口时显示动画"
@@ -11857,7 +11857,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Автозаполнение формы"
         AppLanguage.JAPANESE -> "フォーム自動入力"
         AppLanguage.KOREAN -> "폼 자동 채우기"
-        AppLanguage.TURKISH -> "Otomatik Fill Form"
+        AppLanguage.TURKISH -> "Auto Fill Form"
     }
     val snippetAutoFillDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "自动填充表单字段"
@@ -11870,7 +11870,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Автозаполнение полей формы"
         AppLanguage.JAPANESE -> "フォームフィールドを自動入力"
         AppLanguage.KOREAN -> "폼 필드 자동 채우기"
-        AppLanguage.TURKISH -> "Otomatik fill form fields"
+        AppLanguage.TURKISH -> "Auto fill form fields"
     }
     val snippetGetFormData: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "获取表单数据"
@@ -11909,7 +11909,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Валидация формы"
         AppLanguage.JAPANESE -> "フォーム検証"
         AppLanguage.KOREAN -> "폼 검증"
-        AppLanguage.TURKISH -> "Form Geçerliation"
+        AppLanguage.TURKISH -> "Form Validation"
     }
     val snippetFormValidateDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "验证表单字段"
@@ -11922,7 +11922,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Проверить поля формы"
         AppLanguage.JAPANESE -> "フォームフィールドを検証"
         AppLanguage.KOREAN -> "폼 필드 검증"
-        AppLanguage.TURKISH -> "Geçerliate form fields"
+        AppLanguage.TURKISH -> "Validate form fields"
     }
     val snippetFormIntercept: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "拦截表单提交"
@@ -11935,7 +11935,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Перехват отправки формы"
         AppLanguage.JAPANESE -> "フォーム送信をインターセプト"
         AppLanguage.KOREAN -> "폼 제출 가로채기"
-        AppLanguage.TURKISH -> "Intercept Form Gönder"
+        AppLanguage.TURKISH -> "Intercept Form Submit"
     }
     val snippetFormInterceptDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "拦截并处理表单提交"
@@ -11961,7 +11961,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Очистить форму"
         AppLanguage.JAPANESE -> "フォームをクリア"
         AppLanguage.KOREAN -> "폼 비우기"
-        AppLanguage.TURKISH -> "Temizle Form"
+        AppLanguage.TURKISH -> "Clear Form"
     }
     val snippetFormClearDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "清空表单所有字段"
@@ -11974,7 +11974,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Очистить все поля формы"
         AppLanguage.JAPANESE -> "すべてのフォームフィールドをクリア"
         AppLanguage.KOREAN -> "모든 폼 필드 비우기"
-        AppLanguage.TURKISH -> "Temizle all form fields"
+        AppLanguage.TURKISH -> "Clear all form fields"
     }
     val snippetPasswordToggle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "密码显示切换"
@@ -11987,7 +11987,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Переключатель пароля"
         AppLanguage.JAPANESE -> "パスワード表示切替"
         AppLanguage.KOREAN -> "비밀번호 토글"
-        AppLanguage.TURKISH -> "Şifre Toggle"
+        AppLanguage.TURKISH -> "Password Toggle"
     }
     val snippetPasswordToggleDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "切换密码显示/隐藏"
@@ -12040,7 +12040,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Управление скоростью видео"
         AppLanguage.JAPANESE -> "動画再生速度制御"
         AppLanguage.KOREAN -> "동영상 재생 속도 제어"
-        AppLanguage.TURKISH -> "Video Hız Control"
+        AppLanguage.TURKISH -> "Video Speed Control"
     }
     val snippetVideoSpeedDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "控制视频播放速度"
@@ -12079,7 +12079,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Включить «картинку в картинке» для видео"
         AppLanguage.JAPANESE -> "動画のピクチャーインピクチャーを有効化"
         AppLanguage.KOREAN -> "동영상 화면 속 화면 활성화"
-        AppLanguage.TURKISH -> "Etkinleştir video picture-in-picture"
+        AppLanguage.TURKISH -> "Enable video picture-in-picture"
     }
     val snippetVideoScreenshot: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "视频截图"
@@ -12092,7 +12092,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Скриншот видео"
         AppLanguage.JAPANESE -> "動画スクリーンショット"
         AppLanguage.KOREAN -> "동영상 스크린샷"
-        AppLanguage.TURKISH -> "Video Ekran Görüntüsü"
+        AppLanguage.TURKISH -> "Video Screenshot"
     }
     val snippetVideoScreenshotDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "截取视频当前帧"
@@ -12118,7 +12118,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Просмотр с приближением изображения"
         AppLanguage.JAPANESE -> "画像ズーム表示"
         AppLanguage.KOREAN -> "이미지 확대 보기"
-        AppLanguage.TURKISH -> "Resim Zoom Görüntüle"
+        AppLanguage.TURKISH -> "Image Zoom View"
     }
     val snippetImageZoomDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "点击图片放大显示"
@@ -12144,7 +12144,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Пакетная загрузка изображений"
         AppLanguage.JAPANESE -> "画像一括ダウンロード"
         AppLanguage.KOREAN -> "이미지 일괄 다운로드"
-        AppLanguage.TURKISH -> "Batch İndir Resims"
+        AppLanguage.TURKISH -> "Batch Download Images"
     }
     val snippetDownloadImagesDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "下载页面所有图片"
@@ -12157,7 +12157,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Скачать все изображения со страницы"
         AppLanguage.JAPANESE -> "ページのすべての画像をダウンロード"
         AppLanguage.KOREAN -> "페이지의 모든 이미지 다운로드"
-        AppLanguage.TURKISH -> "İndir all images from page"
+        AppLanguage.TURKISH -> "Download all images from page"
     }
     val snippetAudioControl: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "音频控制"
@@ -12170,7 +12170,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Управление аудио"
         AppLanguage.JAPANESE -> "オーディオ制御"
         AppLanguage.KOREAN -> "오디오 제어"
-        AppLanguage.TURKISH -> "Ses Control"
+        AppLanguage.TURKISH -> "Audio Control"
     }
     val snippetAudioControlDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "控制页面音频播放"
@@ -12196,7 +12196,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Ленивая загрузка изображений"
         AppLanguage.JAPANESE -> "画像遅延読み込み"
         AppLanguage.KOREAN -> "이미지 지연 로딩"
-        AppLanguage.TURKISH -> "Resim Lazy Yükle"
+        AppLanguage.TURKISH -> "Image Lazy Load"
     }
     val snippetLazyLoadDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "实现图片懒加载"
@@ -12222,7 +12222,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Управление полноэкранным режимом"
         AppLanguage.JAPANESE -> "フルスクリーン制御"
         AppLanguage.KOREAN -> "전체 화면 제어"
-        AppLanguage.TURKISH -> "Tam Ekran Control"
+        AppLanguage.TURKISH -> "Fullscreen Control"
     }
     val snippetFullscreenDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "控制元素全屏显示"
@@ -12275,7 +12275,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Режим чтения"
         AppLanguage.JAPANESE -> "閲覧モード"
         AppLanguage.KOREAN -> "읽기 모드"
-        AppLanguage.TURKISH -> "Okuing Mod"
+        AppLanguage.TURKISH -> "Reading Mode"
     }
     val snippetReadingModeDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "提取正文，简化页面"
@@ -12301,7 +12301,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Снять ограничение копирования"
         AppLanguage.JAPANESE -> "コピー制限の解除"
         AppLanguage.KOREAN -> "복사 제한 해제"
-        AppLanguage.TURKISH -> "Unlock Kopyala Restriction"
+        AppLanguage.TURKISH -> "Unlock Copy Restriction"
     }
     val snippetCopyUnlockDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "移除网页复制保护"
@@ -12314,7 +12314,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Убрать защиту от копирования страницы"
         AppLanguage.JAPANESE -> "ウェブページのコピー保護を解除"
         AppLanguage.KOREAN -> "웹페이지 복사 보호 제거"
-        AppLanguage.TURKISH -> "Kaldır webpage copy protection"
+        AppLanguage.TURKISH -> "Remove webpage copy protection"
     }
     val snippetPrintFriendly: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "打印优化"
@@ -12353,7 +12353,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Текст в речь"
         AppLanguage.JAPANESE -> "テキスト読み上げ"
         AppLanguage.KOREAN -> "텍스트 음성 변환"
-        AppLanguage.TURKISH -> "Metin to Speech"
+        AppLanguage.TURKISH -> "Text to Speech"
     }
     val snippetTextToSpeechDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "朗读选中文字"
@@ -12366,7 +12366,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Прочитать выбранный текст вслух"
         AppLanguage.JAPANESE -> "選択したテキストを読み上げ"
         AppLanguage.KOREAN -> "선택한 텍스트 읽어주기"
-        AppLanguage.TURKISH -> "Oku selected text aloud"
+        AppLanguage.TURKISH -> "Read selected text aloud"
     }
     val snippetWordCount: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "字数统计"
@@ -12379,7 +12379,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Подсчёт слов"
         AppLanguage.JAPANESE -> "文字数カウント"
         AppLanguage.KOREAN -> "단어 수"
-        AppLanguage.TURKISH -> "Word Sayı"
+        AppLanguage.TURKISH -> "Word Count"
     }
     val snippetWordCountDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "统计页面文字数量"
@@ -12392,7 +12392,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Подсчитать объём текста на странице"
         AppLanguage.JAPANESE -> "ページの文字数をカウント"
         AppLanguage.KOREAN -> "페이지 텍스트 수량 계산"
-        AppLanguage.TURKISH -> "Sayı page text quantity"
+        AppLanguage.TURKISH -> "Count page text quantity"
     }
     val snippetHighlightSearch: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "页内搜索高亮"
@@ -12405,7 +12405,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Подсветка поиска на странице"
         AppLanguage.JAPANESE -> "ページ内検索ハイライト"
         AppLanguage.KOREAN -> "페이지 내 검색 강조"
-        AppLanguage.TURKISH -> "In-page Ara Highlight"
+        AppLanguage.TURKISH -> "In-page Search Highlight"
     }
     val snippetHighlightSearchDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "搜索并高亮关键词"
@@ -12418,7 +12418,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Искать и подсвечивать ключевые слова"
         AppLanguage.JAPANESE -> "キーワードを検索してハイライト"
         AppLanguage.KOREAN -> "키워드 검색 및 강조"
-        AppLanguage.TURKISH -> "Ara and highlight keywords"
+        AppLanguage.TURKISH -> "Search and highlight keywords"
     }
     val snippetHideAds: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "隐藏常见广告"
@@ -12431,7 +12431,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Скрыть обычную рекламу"
         AppLanguage.JAPANESE -> "一般的な広告を非表示"
         AppLanguage.KOREAN -> "일반 광고 숨기기"
-        AppLanguage.TURKISH -> "Gizle Common Ads"
+        AppLanguage.TURKISH -> "Hide Common Ads"
     }
     val snippetHideAdsDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "隐藏常见的广告元素"
@@ -12444,7 +12444,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Скрыть типовые рекламные элементы"
         AppLanguage.JAPANESE -> "一般的な広告要素を非表示"
         AppLanguage.KOREAN -> "일반 광고 요소 숨기기"
-        AppLanguage.TURKISH -> "Gizle common ad elements"
+        AppLanguage.TURKISH -> "Hide common ad elements"
     }
 
     val snippetFilter: String get() = when (Strings.lang) {
@@ -12458,7 +12458,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Фильтр содержимого"
         AppLanguage.JAPANESE -> "コンテンツフィルタ"
         AppLanguage.KOREAN -> "콘텐츠 필터"
-        AppLanguage.TURKISH -> "İçerik Filtre"
+        AppLanguage.TURKISH -> "Content Filter"
     }
     val snippetFilterDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "过滤和筛选页面内容"
@@ -12471,7 +12471,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Фильтровать и отбирать содержимое страницы"
         AppLanguage.JAPANESE -> "ページコンテンツのフィルタリングと選別"
         AppLanguage.KOREAN -> "페이지 콘텐츠 필터링 및 선별"
-        AppLanguage.TURKISH -> "Filtre and screen page content"
+        AppLanguage.TURKISH -> "Filter and screen page content"
     }
     val snippetKeywordFilter: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "关键词过滤"
@@ -12484,7 +12484,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Фильтр по ключевым словам"
         AppLanguage.JAPANESE -> "キーワードフィルタ"
         AppLanguage.KOREAN -> "키워드 필터"
-        AppLanguage.TURKISH -> "Keyword Filtre"
+        AppLanguage.TURKISH -> "Keyword Filter"
     }
     val snippetKeywordFilterDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "隐藏包含特定关键词的元素"
@@ -12497,7 +12497,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Скрывать элементы с заданными ключевыми словами"
         AppLanguage.JAPANESE -> "特定キーワードを含む要素を非表示"
         AppLanguage.KOREAN -> "특정 키워드가 포함된 요소 숨기기"
-        AppLanguage.TURKISH -> "Gizle elements containing specific keywords"
+        AppLanguage.TURKISH -> "Hide elements containing specific keywords"
     }
     val snippetRemoveEmpty: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "移除空元素"
@@ -12510,7 +12510,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Удалить пустые элементы"
         AppLanguage.JAPANESE -> "空の要素を削除"
         AppLanguage.KOREAN -> "빈 요소 제거"
-        AppLanguage.TURKISH -> "Kaldır Empty Elements"
+        AppLanguage.TURKISH -> "Remove Empty Elements"
     }
     val snippetRemoveEmptyDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "移除页面中的空元素"
@@ -12523,7 +12523,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Удалить пустые элементы со страницы"
         AppLanguage.JAPANESE -> "ページの空要素を削除"
         AppLanguage.KOREAN -> "페이지의 빈 요소 제거"
-        AppLanguage.TURKISH -> "Kaldır empty elements from page"
+        AppLanguage.TURKISH -> "Remove empty elements from page"
     }
     val snippetFilterComments: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "过滤评论"
@@ -12536,7 +12536,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Фильтр комментариев"
         AppLanguage.JAPANESE -> "コメントフィルタ"
         AppLanguage.KOREAN -> "댓글 필터"
-        AppLanguage.TURKISH -> "Filtre Comments"
+        AppLanguage.TURKISH -> "Filter Comments"
     }
     val snippetFilterCommentsDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "根据条件过滤评论"
@@ -12549,7 +12549,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Фильтровать комментарии по условиям"
         AppLanguage.JAPANESE -> "条件でコメントをフィルタ"
         AppLanguage.KOREAN -> "조건별 댓글 필터링"
-        AppLanguage.TURKISH -> "Filtre comments by conditions"
+        AppLanguage.TURKISH -> "Filter comments by conditions"
     }
     val snippetFilterSmallImages: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "过滤小图片"
@@ -12562,7 +12562,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Фильтр мелких изображений"
         AppLanguage.JAPANESE -> "小さな画像をフィルタ"
         AppLanguage.KOREAN -> "작은 이미지 필터"
-        AppLanguage.TURKISH -> "Filtre Small Resims"
+        AppLanguage.TURKISH -> "Filter Small Images"
     }
     val snippetFilterSmallImagesDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "隐藏尺寸过小的图片"
@@ -12575,7 +12575,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Скрывать изображения малого размера"
         AppLanguage.JAPANESE -> "小さいサイズの画像を非表示"
         AppLanguage.KOREAN -> "작은 크기의 이미지 숨기기"
-        AppLanguage.TURKISH -> "Gizle images with small dimensions"
+        AppLanguage.TURKISH -> "Hide images with small dimensions"
     }
 
     val snippetAdBlock: String get() = when (Strings.lang) {
@@ -12589,7 +12589,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Блокировщик рекламы"
         AppLanguage.JAPANESE -> "広告ブロッカー"
         AppLanguage.KOREAN -> "광고 차단기"
-        AppLanguage.TURKISH -> "Ad Engelleer"
+        AppLanguage.TURKISH -> "Ad Blocker"
     }
     val snippetAdBlockDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "屏蔽广告和弹窗"
@@ -12602,7 +12602,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Блокировать рекламу и всплывающие окна"
         AppLanguage.JAPANESE -> "広告とポップアップをブロック"
         AppLanguage.KOREAN -> "광고 및 팝업 차단"
-        AppLanguage.TURKISH -> "Engelle ads and popups"
+        AppLanguage.TURKISH -> "Block ads and popups"
     }
     val snippetBlockPopup: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "阻止弹窗"
@@ -12615,7 +12615,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Блокировать всплывающие окна"
         AppLanguage.JAPANESE -> "ポップアップをブロック"
         AppLanguage.KOREAN -> "팝업 차단"
-        AppLanguage.TURKISH -> "Engelle Popups"
+        AppLanguage.TURKISH -> "Block Popups"
     }
     val snippetBlockPopupDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "阻止弹窗和新窗口"
@@ -12628,7 +12628,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Блокировать всплывающие и новые окна"
         AppLanguage.JAPANESE -> "ポップアップと新規ウィンドウをブロック"
         AppLanguage.KOREAN -> "팝업 및 새 창 차단"
-        AppLanguage.TURKISH -> "Engelle popups and new windows"
+        AppLanguage.TURKISH -> "Block popups and new windows"
     }
     val snippetRemoveOverlay: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "移除遮罩层"
@@ -12641,7 +12641,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Удалить наложение"
         AppLanguage.JAPANESE -> "オーバーレイを削除"
         AppLanguage.KOREAN -> "오버레이 제거"
-        AppLanguage.TURKISH -> "Kaldır Overlay"
+        AppLanguage.TURKISH -> "Remove Overlay"
     }
     val snippetRemoveOverlayDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "移除阻止阅读的遮罩"
@@ -12654,7 +12654,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Удалить наложения, мешающие чтению"
         AppLanguage.JAPANESE -> "閲覧を妨げるオーバーレイを削除"
         AppLanguage.KOREAN -> "읽기를 방해하는 오버레이 제거"
-        AppLanguage.TURKISH -> "Kaldır overlays blocking reading"
+        AppLanguage.TURKISH -> "Remove overlays blocking reading"
     }
     val snippetCssAdBlock: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "CSS 广告屏蔽"
@@ -12667,7 +12667,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Блокировщик рекламы через CSS"
         AppLanguage.JAPANESE -> "CSS 広告ブロッカー"
         AppLanguage.KOREAN -> "CSS 광고 차단기"
-        AppLanguage.TURKISH -> "CSS Ad Engelleer"
+        AppLanguage.TURKISH -> "CSS Ad Blocker"
     }
     val snippetCssAdBlockDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "使用 CSS 隐藏广告"
@@ -12824,7 +12824,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Копировать текст"
         AppLanguage.JAPANESE -> "テキストをコピー"
         AppLanguage.KOREAN -> "텍스트 복사"
-        AppLanguage.TURKISH -> "Kopyala Metin"
+        AppLanguage.TURKISH -> "Copy Text"
     }
     val snippetCopyTextDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "复制文本到剪贴板"
@@ -12837,7 +12837,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Копировать текст в буфер обмена"
         AppLanguage.JAPANESE -> "テキストをクリップボードにコピー"
         AppLanguage.KOREAN -> "텍스트를 클립보드에 복사"
-        AppLanguage.TURKISH -> "Kopyala text to clipboard"
+        AppLanguage.TURKISH -> "Copy text to clipboard"
     }
     val snippetFormatDate: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "格式化日期"
@@ -12850,7 +12850,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Форматировать дату"
         AppLanguage.JAPANESE -> "日付フォーマット"
         AppLanguage.KOREAN -> "날짜 포맷"
-        AppLanguage.TURKISH -> "Format Tarih"
+        AppLanguage.TURKISH -> "Format Date"
     }
     val snippetFormatDateDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "将日期格式化为指定格式"
@@ -12902,7 +12902,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Сон/задержка"
         AppLanguage.JAPANESE -> "スリープ/遅延"
         AppLanguage.KOREAN -> "대기/지연"
-        AppLanguage.TURKISH -> "Sleep/Gecikme"
+        AppLanguage.TURKISH -> "Sleep/Delay"
     }
     val snippetSleepDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "异步延迟指定时间"
@@ -12928,7 +12928,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Функция повторной попытки"
         AppLanguage.JAPANESE -> "リトライ関数"
         AppLanguage.KOREAN -> "재시도 함수"
-        AppLanguage.TURKISH -> "Yeniden Dene Function"
+        AppLanguage.TURKISH -> "Retry Function"
     }
     val snippetRetryDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "失败后自动重试"
@@ -12941,7 +12941,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Автоповтор при сбое"
         AppLanguage.JAPANESE -> "失敗時に自動リトライ"
         AppLanguage.KOREAN -> "실패 시 자동 재시도"
-        AppLanguage.TURKISH -> "Otomatik retry on failure"
+        AppLanguage.TURKISH -> "Auto retry on failure"
     }
 
     val snippetText: String get() = when (Strings.lang) {
@@ -12955,7 +12955,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Обработка текста"
         AppLanguage.JAPANESE -> "テキスト処理"
         AppLanguage.KOREAN -> "텍스트 처리"
-        AppLanguage.TURKISH -> "Metin İşleniyor"
+        AppLanguage.TURKISH -> "Text Processing"
     }
     val snippetTextDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "文本提取、转换、处理"
@@ -12968,7 +12968,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Извлечение, преобразование и обработка текста"
         AppLanguage.JAPANESE -> "テキストの抽出・変換・処理"
         AppLanguage.KOREAN -> "텍스트 추출, 변환, 처리"
-        AppLanguage.TURKISH -> "Metin extraction, conversion, processing"
+        AppLanguage.TURKISH -> "Text extraction, conversion, processing"
     }
     val snippetExtractArticle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "提取文章正文"
@@ -12981,7 +12981,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Извлечь содержимое статьи"
         AppLanguage.JAPANESE -> "記事本文を抽出"
         AppLanguage.KOREAN -> "기사 본문 추출"
-        AppLanguage.TURKISH -> "Extract Article İçerik"
+        AppLanguage.TURKISH -> "Extract Article Content"
     }
     val snippetExtractArticleDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "智能提取页面正文内容"
@@ -13007,7 +13007,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Пакетная замена текста"
         AppLanguage.JAPANESE -> "テキスト一括置換"
         AppLanguage.KOREAN -> "텍스트 일괄 치환"
-        AppLanguage.TURKISH -> "Batch Replace Metin"
+        AppLanguage.TURKISH -> "Batch Replace Text"
     }
     val snippetReplaceTextDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "替换页面中的文本"
@@ -13033,7 +13033,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Перевести выделенное"
         AppLanguage.JAPANESE -> "選択範囲を翻訳"
         AppLanguage.KOREAN -> "선택 영역 번역"
-        AppLanguage.TURKISH -> "Translate Seçion"
+        AppLanguage.TURKISH -> "Translate Selection"
     }
     val snippetTranslateSelectionDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "选中文字后显示翻译"
@@ -13046,7 +13046,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Показать перевод выделенного текста"
         AppLanguage.JAPANESE -> "選択したテキストの翻訳を表示"
         AppLanguage.KOREAN -> "선택한 텍스트의 번역 표시"
-        AppLanguage.TURKISH -> "Göster translation for selected text"
+        AppLanguage.TURKISH -> "Show translation for selected text"
     }
     val snippetHtmlToMarkdown: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "HTML 转 Markdown"
