@@ -9152,7 +9152,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Экспортировано: %1\$d приложений, %2\$d файлов ресурсов"
         AppLanguage.JAPANESE -> "エクスポート完了: %1\$d アプリ、%2\$d リソースファイル"
         AppLanguage.KOREAN -> "내보내기 완료: %1\$d개 앱, %2\$d개 리소스 파일"
-        AppLanguage.TURKISH -> "Exported: %1\\$d apps, %2\\$d resource files"
+        AppLanguage.TURKISH -> "Exported: %1\$d apps, %2\$d resource files"
     }
     val backupImportSuccess: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "导入成功：%1\$d/%2\$d 个应用。部分设置需重启应用后生效。"
@@ -9165,7 +9165,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Импортировано: %1\$d/%2\$d приложений. Некоторые настройки применятся после перезапуска."
         AppLanguage.JAPANESE -> "インポート完了: %1\$d/%2\$d アプリ。一部の設定はアプリ再起動後に反映されます。"
         AppLanguage.KOREAN -> "가져오기 완료: %1\$d/%2\$d개 앱. 일부 설정은 앱 재시작 후 적용됩니다."
-        AppLanguage.TURKISH -> "Imported: %1\\$d/%2\\$d apps. Some settings apply after restarting the app."
+        AppLanguage.TURKISH -> "Imported: %1\$d/%2\$d apps. Some settings apply after restarting the app."
     }
     val backupImportSuccessDupes: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "导入成功：%1\$d/%2\$d 个应用，跳过 %3\$d 个重复项。部分设置需重启应用后生效。"
@@ -9178,7 +9178,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Импортировано: %1\$d/%2\$d приложений, пропущено дубликатов: %3\$d. Некоторые настройки применятся после перезапуска."
         AppLanguage.JAPANESE -> "インポート完了: %1\$d/%2\$d アプリ、%3\$d 件の重複をスキップ。一部の設定はアプリ再起動後に反映されます。"
         AppLanguage.KOREAN -> "가져오기 완료: %1\$d/%2\$d개 앱, 중복 %3\$d개 건너뜀. 일부 설정은 앱 재시작 후 적용됩니다."
-        AppLanguage.TURKISH -> "Imported: %1\\$d/%2\\$d apps, skipped %3\\$d duplicates. Some settings apply after restarting the app."
+        AppLanguage.TURKISH -> "Imported: %1\$d/%2\$d apps, skipped %3\$d duplicates. Some settings apply after restarting the app."
     }
     val backupRestartTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "需要重启应用"
