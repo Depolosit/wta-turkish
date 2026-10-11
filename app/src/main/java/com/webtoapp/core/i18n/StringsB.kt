@@ -30,7 +30,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Размер"
         AppLanguage.JAPANESE -> "サイズ"
         AppLanguage.KOREAN -> "크기"
-        AppLanguage.TURKISH -> "Boyut"
+        AppLanguage.TURKISH -> "Size"
     }
 
     val buildSummaryVersion: String get() = when (Strings.lang) {
@@ -44,7 +44,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Версия"
         AppLanguage.JAPANESE -> "バージョン"
         AppLanguage.KOREAN -> "버전"
-        AppLanguage.TURKISH -> "Sürüm"
+        AppLanguage.TURKISH -> "Version"
     }
 
     val buildSummaryJdk: String get() = when (Strings.lang) {
@@ -100,7 +100,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Поделиться"
         AppLanguage.JAPANESE -> "共有"
         AppLanguage.KOREAN -> "공유"
-        AppLanguage.TURKISH -> "Paylaş"
+        AppLanguage.TURKISH -> "Share"
     }
 
     val buildSummaryCopyPath: String get() = when (Strings.lang) {
@@ -142,7 +142,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Очистить"
         AppLanguage.JAPANESE -> "クリア"
         AppLanguage.KOREAN -> "모두 지우기"
-        AppLanguage.TURKISH -> "Temizle"
+        AppLanguage.TURKISH -> "Clear"
     }
 
     val selectModules: String get() = when (Strings.lang) {
@@ -366,7 +366,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Обновить"
         AppLanguage.JAPANESE -> "更新"
         AppLanguage.KOREAN -> "새로고침"
-        AppLanguage.TURKISH -> "Yenile"
+        AppLanguage.TURKISH -> "Refresh"
     }
 
     val goBack: String get() = when (Strings.lang) {
@@ -380,7 +380,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Назад"
         AppLanguage.JAPANESE -> "戻る"
         AppLanguage.KOREAN -> "뒤로"
-        AppLanguage.TURKISH -> "Geri"
+        AppLanguage.TURKISH -> "Back"
     }
 
     val goForward: String get() = when (Strings.lang) {
@@ -690,7 +690,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Экспорт"
         AppLanguage.JAPANESE -> "書き出す"
         AppLanguage.KOREAN -> "내보내기"
-        AppLanguage.TURKISH -> "Dışa Aktar"
+        AppLanguage.TURKISH -> "Export"
     }
 
     val templateExported: String get() = when (Strings.lang) {
@@ -914,7 +914,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Подтвердить"
         AppLanguage.JAPANESE -> "確認"
         AppLanguage.KOREAN -> "확인"
-        AppLanguage.TURKISH -> "Onayla"
+        AppLanguage.TURKISH -> "Confirm"
     }
 
     val category: String get() = when (Strings.lang) {
@@ -1194,7 +1194,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Описание"
         AppLanguage.JAPANESE -> "説明"
         AppLanguage.KOREAN -> "설명"
-        AppLanguage.TURKISH -> "Açıklama"
+        AppLanguage.TURKISH -> "Description"
     }
 
     val briefModuleDescription: String get() = when (Strings.lang) {
@@ -1781,7 +1781,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Готово"
         AppLanguage.JAPANESE -> "完了"
         AppLanguage.KOREAN -> "완료"
-        AppLanguage.TURKISH -> "Bitti"
+        AppLanguage.TURKISH -> "Done"
     }
 
     val edit: String get() = when (Strings.lang) {
@@ -1795,7 +1795,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Изменить"
         AppLanguage.JAPANESE -> "編集"
         AppLanguage.KOREAN -> "편집"
-        AppLanguage.TURKISH -> "Düzenle"
+        AppLanguage.TURKISH -> "Edit"
     }
 
     val loading: String get() = when (Strings.lang) {
@@ -1809,7 +1809,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Загрузка"
         AppLanguage.JAPANESE -> "読み込み中"
         AppLanguage.KOREAN -> "로딩 중"
-        AppLanguage.TURKISH -> "Yükleniyor"
+        AppLanguage.TURKISH -> "Loading"
     }
 
     val unknownError: String get() = when (Strings.lang) {
@@ -2034,7 +2034,6 @@ object StringsB {
             AppLanguage.RUSSIAN -> String.format(java.util.Locale.getDefault(), "%d с", seconds)
             AppLanguage.JAPANESE -> String.format(java.util.Locale.getDefault(), "%d 秒", seconds)
             AppLanguage.KOREAN -> String.format(java.util.Locale.getDefault(), "%d초", seconds)
-            AppLanguage.TURKISH -> String.format(java.util.Locale.getDefault(), "%d sn", seconds)
         }
     }
 
@@ -2303,7 +2302,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Развернуть"
         AppLanguage.JAPANESE -> "展開"
         AppLanguage.KOREAN -> "펼치기"
-        AppLanguage.TURKISH -> "Genişlet"
+        AppLanguage.TURKISH -> "Expand"
     }
 
     val collapse: String get() = when (Strings.lang) {
@@ -2317,7 +2316,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Свернуть"
         AppLanguage.JAPANESE -> "折りたたむ"
         AppLanguage.KOREAN -> "접기"
-        AppLanguage.TURKISH -> "Daralt"
+        AppLanguage.TURKISH -> "Collapse"
     }
 
     val expandAll: String get() = when (Strings.lang) {
@@ -2557,7 +2556,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Выкл."
         AppLanguage.JAPANESE -> "オフ"
         AppLanguage.KOREAN -> "끄기"
-        AppLanguage.TURKISH -> "Kapalı"
+        AppLanguage.TURKISH -> "Off"
     }
 
     val customOption: String get() = when (Strings.lang) {
@@ -2571,7 +2570,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Свой вариант"
         AppLanguage.JAPANESE -> "カスタム"
         AppLanguage.KOREAN -> "사용자 정의"
-        AppLanguage.TURKISH -> "Özel"
+        AppLanguage.TURKISH -> "Custom"
     }
 
     val customCombination: String get() = when (Strings.lang) {
@@ -2754,7 +2753,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Версия"
         AppLanguage.JAPANESE -> "バージョン"
         AppLanguage.KOREAN -> "버전"
-        AppLanguage.TURKISH -> "Sürüm"
+        AppLanguage.TURKISH -> "Version"
     }
 
     val packageManagerLabel: String get() = when (Strings.lang) {
@@ -2922,7 +2921,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Описание"
         AppLanguage.JAPANESE -> "説明"
         AppLanguage.KOREAN -> "설명"
-        AppLanguage.TURKISH -> "Açıklama"
+        AppLanguage.TURKISH -> "Description"
     }
 
     val configExplanationPlaceholder: String get() = when (Strings.lang) {
@@ -2978,7 +2977,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Обязательно"
         AppLanguage.JAPANESE -> "必須"
         AppLanguage.KOREAN -> "필수"
-        AppLanguage.TURKISH -> "Gerekli"
+        AppLanguage.TURKISH -> "Required"
     }
 
     val selectTemplate: String get() = when (Strings.lang) {
@@ -3314,7 +3313,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Следующий"
         AppLanguage.JAPANESE -> "次へ"
         AppLanguage.KOREAN -> "다음"
-        AppLanguage.TURKISH -> "İleri"
+        AppLanguage.TURKISH -> "Next"
     }
 
     val bgmNotificationChannel: String get() = when (Strings.lang) {
@@ -3342,7 +3341,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Все"
         AppLanguage.JAPANESE -> "すべて"
         AppLanguage.KOREAN -> "전체"
-        AppLanguage.TURKISH -> "Tümü"
+        AppLanguage.TURKISH -> "All"
     }
 
     val lyricsSaved: String get() = when (Strings.lang) {
@@ -3427,7 +3426,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Стоп"
         AppLanguage.JAPANESE -> "停止"
         AppLanguage.KOREAN -> "정지"
-        AppLanguage.TURKISH -> "Durdur"
+        AppLanguage.TURKISH -> "Stop"
     }
 
     val moveUp: String get() = when (Strings.lang) {
@@ -3567,7 +3566,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Загрузить"
         AppLanguage.JAPANESE -> "アップロード"
         AppLanguage.KOREAN -> "업로드"
-        AppLanguage.TURKISH -> "Yükle"
+        AppLanguage.TURKISH -> "Upload"
     }
 
     val editTagsTitle: String get() = when (Strings.lang) {
@@ -3707,7 +3706,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Выбрать всё"
         AppLanguage.JAPANESE -> "すべて選択"
         AppLanguage.KOREAN -> "모두 선택"
-        AppLanguage.TURKISH -> "Tümünü Seç"
+        AppLanguage.TURKISH -> "Select All"
     }
 
     val deselectAll: String get() = when (Strings.lang) {
@@ -4295,7 +4294,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "По умолчанию"
         AppLanguage.JAPANESE -> "デフォルト"
         AppLanguage.KOREAN -> "기본값"
-        AppLanguage.TURKISH -> "Varsayılan"
+        AppLanguage.TURKISH -> "Default"
     }
 
     val accentDynamic: String get() = when (Strings.lang) {
@@ -4849,7 +4848,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Тема"
         AppLanguage.JAPANESE -> "テーマ"
         AppLanguage.KOREAN -> "테마"
-        AppLanguage.TURKISH -> "Tema"
+        AppLanguage.TURKISH -> "Theme"
     }
     val catThemeDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "深色模式、配色方案、字体替换"
@@ -5109,7 +5108,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Изображение"
         AppLanguage.JAPANESE -> "画像"
         AppLanguage.KOREAN -> "이미지"
-        AppLanguage.TURKISH -> "Resim"
+        AppLanguage.TURKISH -> "Image"
     }
     val catImageDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "图片放大、批量下载、懒加载"
@@ -5135,7 +5134,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Аудио"
         AppLanguage.JAPANESE -> "オーディオ"
         AppLanguage.KOREAN -> "오디오"
-        AppLanguage.TURKISH -> "Ses"
+        AppLanguage.TURKISH -> "Audio"
     }
     val catAudioDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "音量控制、音频提取、播放增强"
@@ -5161,7 +5160,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Безопасность"
         AppLanguage.JAPANESE -> "セキュリティ"
         AppLanguage.KOREAN -> "보안"
-        AppLanguage.TURKISH -> "Güvenlik"
+        AppLanguage.TURKISH -> "Security"
     }
     val catSecurityDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "隐私保护、指纹防护、追踪拦截"
@@ -5343,7 +5342,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Другое"
         AppLanguage.JAPANESE -> "その他"
         AppLanguage.KOREAN -> "기타"
-        AppLanguage.TURKISH -> "Diğer"
+        AppLanguage.TURKISH -> "Other"
     }
     val catOtherDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "未分类的扩展模块"
@@ -5949,7 +5948,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Удалить"
         AppLanguage.JAPANESE -> "削除"
         AppLanguage.KOREAN -> "제거"
-        AppLanguage.TURKISH -> "Kaldır"
+        AppLanguage.TURKISH -> "Remove"
     }
 
     val noMatchingModules: String get() = when (Strings.lang) {
@@ -6327,7 +6326,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Необязательно"
         AppLanguage.JAPANESE -> "任意"
         AppLanguage.KOREAN -> "선택 사항"
-        AppLanguage.TURKISH -> "İsteğe Bağlı"
+        AppLanguage.TURKISH -> "Optional"
     }
 
     val briefDescribeSchemeHint: String get() = when (Strings.lang) {
@@ -6576,7 +6575,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Файлы"
         AppLanguage.JAPANESE -> "ファイル"
         AppLanguage.KOREAN -> "파일"
-        AppLanguage.TURKISH -> "Dosyalar"
+        AppLanguage.TURKISH -> "Files"
     }
     val agentDrawerSearchHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "搜索…"
@@ -6641,7 +6640,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Изображение"
         AppLanguage.JAPANESE -> "画像"
         AppLanguage.KOREAN -> "이미지"
-        AppLanguage.TURKISH -> "Resim"
+        AppLanguage.TURKISH -> "Image"
     }
     val agentAttachFile: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "文件"
@@ -6654,7 +6653,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Файл"
         AppLanguage.JAPANESE -> "ファイル"
         AppLanguage.KOREAN -> "파일"
-        AppLanguage.TURKISH -> "Dosya"
+        AppLanguage.TURKISH -> "File"
     }
     val agentAttachFolder: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "文件夹"
@@ -6667,7 +6666,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Папка"
         AppLanguage.JAPANESE -> "フォルダー"
         AppLanguage.KOREAN -> "폴더"
-        AppLanguage.TURKISH -> "Klasör"
+        AppLanguage.TURKISH -> "Folder"
     }
     val agentAttachImporting: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "正在导入附件…"
@@ -6732,7 +6731,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Приложения"
         AppLanguage.JAPANESE -> "アプリ"
         AppLanguage.KOREAN -> "앱"
-        AppLanguage.TURKISH -> "Uygulamalar"
+        AppLanguage.TURKISH -> "Apps"
     }
     val agentContextModulesHeader: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "扩展模块"
@@ -6771,7 +6770,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Готово"
         AppLanguage.JAPANESE -> "完了"
         AppLanguage.KOREAN -> "완료"
-        AppLanguage.TURKISH -> "Bitti"
+        AppLanguage.TURKISH -> "Done"
     }
     val agentContextAllCategories: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "全部"
@@ -6784,7 +6783,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Все"
         AppLanguage.JAPANESE -> "すべて"
         AppLanguage.KOREAN -> "전체"
-        AppLanguage.TURKISH -> "Tümü"
+        AppLanguage.TURKISH -> "All"
     }
     val agentSaveAsApp: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "保存为应用"
@@ -6875,7 +6874,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Сохранить"
         AppLanguage.JAPANESE -> "保存"
         AppLanguage.KOREAN -> "저장"
-        AppLanguage.TURKISH -> "Kaydet"
+        AppLanguage.TURKISH -> "Save"
     }
     val agentSaveAsAppSuccess: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "已保存到我的应用：%s"
@@ -6992,7 +6991,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Мои приложения"
         AppLanguage.JAPANESE -> "マイアプリ"
         AppLanguage.KOREAN -> "내 앱"
-        AppLanguage.TURKISH -> "Uygulamalarım"
+        AppLanguage.TURKISH -> "My Apps"
     }
     val agentSaveDialogTargetModule: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "扩展模块"
@@ -7201,7 +7200,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Авто"
         AppLanguage.JAPANESE -> "自動"
         AppLanguage.KOREAN -> "자동"
-        AppLanguage.TURKISH -> "Otomatik"
+        AppLanguage.TURKISH -> "Auto"
     }
     val agentManualModeLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "手动"
@@ -7214,7 +7213,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Вручную"
         AppLanguage.JAPANESE -> "手動"
         AppLanguage.KOREAN -> "수동"
-        AppLanguage.TURKISH -> "Manuel"
+        AppLanguage.TURKISH -> "Manual"
     }
 
     val agentSlashChipLabel: String get() = when (Strings.lang) {
@@ -7267,7 +7266,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Очистить"
         AppLanguage.JAPANESE -> "クリア"
         AppLanguage.KOREAN -> "지우기"
-        AppLanguage.TURKISH -> "Temizle"
+        AppLanguage.TURKISH -> "Clear"
     }
     val agentChangesReviewUndoOne: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "撤销"
@@ -7293,7 +7292,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Развернуть"
         AppLanguage.JAPANESE -> "展開"
         AppLanguage.KOREAN -> "펼치기"
-        AppLanguage.TURKISH -> "Genişlet"
+        AppLanguage.TURKISH -> "Expand"
     }
     val agentChangesReviewCollapse: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "折叠"
@@ -7306,7 +7305,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Свернуть"
         AppLanguage.JAPANESE -> "折りたたむ"
         AppLanguage.KOREAN -> "접기"
-        AppLanguage.TURKISH -> "Daralt"
+        AppLanguage.TURKISH -> "Collapse"
     }
     val agentChangesUndoneToast: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "已撤销 %d 个改动"
@@ -7673,7 +7672,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Обновить"
         AppLanguage.JAPANESE -> "更新"
         AppLanguage.KOREAN -> "새로고침"
-        AppLanguage.TURKISH -> "Yenile"
+        AppLanguage.TURKISH -> "Refresh"
     }
     val agentSessionPin: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "置顶"
@@ -7725,7 +7724,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Удалить"
         AppLanguage.JAPANESE -> "削除"
         AppLanguage.KOREAN -> "삭제"
-        AppLanguage.TURKISH -> "Sil"
+        AppLanguage.TURKISH -> "Delete"
     }
     val agentSessionMessagesShort: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "%d 条"
@@ -7843,7 +7842,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Предпросмотр"
         AppLanguage.JAPANESE -> "プレビュー"
         AppLanguage.KOREAN -> "미리보기"
-        AppLanguage.TURKISH -> "Önizleme"
+        AppLanguage.TURKISH -> "Preview"
     }
     val agentPhaseToolRunning: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "执行工具…"
@@ -7934,7 +7933,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Копировать"
         AppLanguage.JAPANESE -> "コピー"
         AppLanguage.KOREAN -> "복사"
-        AppLanguage.TURKISH -> "Kopyala"
+        AppLanguage.TURKISH -> "Copy"
     }
     val agentMessageActionCopyOutput: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "复制输出"
@@ -8628,7 +8627,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Отмена"
         AppLanguage.JAPANESE -> "キャンセル"
         AppLanguage.KOREAN -> "취소"
-        AppLanguage.TURKISH -> "İptal"
+        AppLanguage.TURKISH -> "Cancel"
     }
     val agentSendTooltip: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "发送"
@@ -8641,7 +8640,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Отправить"
         AppLanguage.JAPANESE -> "送信"
         AppLanguage.KOREAN -> "전송"
-        AppLanguage.TURKISH -> "Gönder"
+        AppLanguage.TURKISH -> "Send"
     }
     val agentStopTooltip: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "停止"
@@ -8654,7 +8653,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Остановить"
         AppLanguage.JAPANESE -> "停止"
         AppLanguage.KOREAN -> "중지"
-        AppLanguage.TURKISH -> "Durdur"
+        AppLanguage.TURKISH -> "Stop"
     }
     val agentSlashClose: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "关闭"
@@ -8667,7 +8666,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Закрыть"
         AppLanguage.JAPANESE -> "閉じる"
         AppLanguage.KOREAN -> "닫기"
-        AppLanguage.TURKISH -> "Kapat"
+        AppLanguage.TURKISH -> "Close"
     }
     val agentEmptySessions: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "暂无会话"
@@ -8745,7 +8744,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Установить"
         AppLanguage.JAPANESE -> "インストール"
         AppLanguage.KOREAN -> "설치"
-        AppLanguage.TURKISH -> "Yükle"
+        AppLanguage.TURKISH -> "Install"
     }
     val agentApkShare: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "分享"
@@ -8758,7 +8757,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Поделиться"
         AppLanguage.JAPANESE -> "共有"
         AppLanguage.KOREAN -> "공유"
-        AppLanguage.TURKISH -> "Paylaş"
+        AppLanguage.TURKISH -> "Share"
     }
     val agentApkPackage: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "包名"
@@ -8784,7 +8783,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Версия"
         AppLanguage.JAPANESE -> "バージョン"
         AppLanguage.KOREAN -> "버전"
-        AppLanguage.TURKISH -> "Sürüm"
+        AppLanguage.TURKISH -> "Version"
     }
     val agentApkBuildMode: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "构建模式"
@@ -8810,7 +8809,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Размер"
         AppLanguage.JAPANESE -> "サイズ"
         AppLanguage.KOREAN -> "크기"
-        AppLanguage.TURKISH -> "Boyut"
+        AppLanguage.TURKISH -> "Size"
     }
     val agentNotifIdle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Agent 已就绪"
@@ -8877,7 +8876,6 @@ object StringsB {
         AppLanguage.RUSSIAN -> { attempt, max, ms -> "Ограничение скорости, повтор через ${ms / 1000}с (попытка ${attempt}/${max})…" }
         AppLanguage.JAPANESE -> { attempt, max, ms -> "レート制限、${ms / 1000}秒後にリトライ（${attempt}/${max}回目）…" }
         AppLanguage.KOREAN -> { attempt, max, ms -> "속도 제한, ${ms / 1000}초 후 재시도 (${attempt}/${max}번째)…" }
-        AppLanguage.TURKISH -> { attempt, max, ms -> "Hız sınırı, ${ms / 1000} sn sonra tekrar deneyin (${attempt}/${max})…" }
     }
 
     val agentFileSaved: String get() = when (Strings.lang) {
@@ -8904,7 +8902,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> "Открыть"
         AppLanguage.JAPANESE -> "開く"
         AppLanguage.KOREAN -> "열기"
-        AppLanguage.TURKISH -> "Aç"
+        AppLanguage.TURKISH -> "Open"
     }
     val agentFileCopyPath: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "复制路径"

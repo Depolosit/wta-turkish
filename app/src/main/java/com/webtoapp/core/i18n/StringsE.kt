@@ -177,7 +177,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Конфиденциальность"
         AppLanguage.JAPANESE -> "プライバシー"
         AppLanguage.KOREAN -> "개인정보"
-        AppLanguage.TURKISH -> "Gizlilik"
+        AppLanguage.TURKISH -> "Privacy"
     }
 
     val cwsCategoryYoutube: String get() = when (Strings.lang) {
@@ -552,7 +552,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "По умолчанию"
         AppLanguage.JAPANESE -> "デフォルト"
         AppLanguage.KOREAN -> "기본"
-        AppLanguage.TURKISH -> "Varsayılan"
+        AppLanguage.TURKISH -> "Default"
     }
 
     val cwsSortRating: String get() = when (Strings.lang) {
@@ -725,7 +725,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Пароль"
         AppLanguage.JAPANESE -> "パスワード"
         AppLanguage.KOREAN -> "비밀번호"
-        AppLanguage.TURKISH -> "Şifre"
+        AppLanguage.TURKISH -> "Password"
     }
     val cwsTagVpn: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "网络代理"
@@ -829,7 +829,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Приватность"
         AppLanguage.JAPANESE -> "プライバシー"
         AppLanguage.KOREAN -> "개인정보 보호"
-        AppLanguage.TURKISH -> "Gizlilik"
+        AppLanguage.TURKISH -> "Privacy"
     }
     val cwsTagWriting: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "写作校对"
@@ -1011,7 +1011,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Установить"
         AppLanguage.JAPANESE -> "インストール"
         AppLanguage.KOREAN -> "설치"
-        AppLanguage.TURKISH -> "Yükle"
+        AppLanguage.TURKISH -> "Install"
     }
     val launchInstalledApp: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "启动"
@@ -2306,7 +2306,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Пауза"
         AppLanguage.JAPANESE -> "一時停止"
         AppLanguage.KOREAN -> "일시정지"
-        AppLanguage.TURKISH -> "Duraklat"
+        AppLanguage.TURKISH -> "Pause"
     }
 
     val depDownloadResume: String get() = when (Strings.lang) {
@@ -2320,7 +2320,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Продолжить"
         AppLanguage.JAPANESE -> "再開"
         AppLanguage.KOREAN -> "재개"
-        AppLanguage.TURKISH -> "Devam Et"
+        AppLanguage.TURKISH -> "Resume"
     }
 
     val depDownloadPaused: String get() = when (Strings.lang) {
@@ -2502,7 +2502,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Начать"
         AppLanguage.JAPANESE -> "開始"
         AppLanguage.KOREAN -> "시작"
-        AppLanguage.TURKISH -> "Başlat"
+        AppLanguage.TURKISH -> "Start"
     }
 
     val skipDegradedProtection: String get() = when (Strings.lang) {
@@ -3090,7 +3090,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Поделиться"
         AppLanguage.JAPANESE -> "共有"
         AppLanguage.KOREAN -> "공유"
-        AppLanguage.TURKISH -> "Paylaş"
+        AppLanguage.TURKISH -> "Share"
     }
 
     val notifOpen: String get() = when (Strings.lang) {
@@ -3104,7 +3104,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Открыть"
         AppLanguage.JAPANESE -> "開く"
         AppLanguage.KOREAN -> "열기"
-        AppLanguage.TURKISH -> "Aç"
+        AppLanguage.TURKISH -> "Open"
     }
 
     val failedSaveIcon: String get() = when (Strings.lang) {
@@ -3398,7 +3398,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Назад"
         AppLanguage.JAPANESE -> "戻る"
         AppLanguage.KOREAN -> "뒤로"
-        AppLanguage.TURKISH -> "Geri"
+        AppLanguage.TURKISH -> "Back"
     }
 
     val cdForward: String get() = when (Strings.lang) {
@@ -3426,7 +3426,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Обновить"
         AppLanguage.JAPANESE -> "更新"
         AppLanguage.KOREAN -> "새로고침"
-        AppLanguage.TURKISH -> "Yenile"
+        AppLanguage.TURKISH -> "Refresh"
     }
 
     val cdHome: String get() = when (Strings.lang) {
@@ -3440,7 +3440,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Главная"
         AppLanguage.JAPANESE -> "ホーム"
         AppLanguage.KOREAN -> "홈"
-        AppLanguage.TURKISH -> "Ana Sayfa"
+        AppLanguage.TURKISH -> "Home"
     }
 
     val cdPause: String get() = when (Strings.lang) {
@@ -3454,7 +3454,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Пауза"
         AppLanguage.JAPANESE -> "一時停止"
         AppLanguage.KOREAN -> "일시정지"
-        AppLanguage.TURKISH -> "Duraklat"
+        AppLanguage.TURKISH -> "Pause"
     }
 
     val cdPlay: String get() = when (Strings.lang) {
@@ -3468,7 +3468,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Воспроизвести"
         AppLanguage.JAPANESE -> "再生"
         AppLanguage.KOREAN -> "재생"
-        AppLanguage.TURKISH -> "Oynat"
+        AppLanguage.TURKISH -> "Play"
     }
 
     val cdPrevious: String get() = when (Strings.lang) {
@@ -3496,7 +3496,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Следующий"
         AppLanguage.JAPANESE -> "次へ"
         AppLanguage.KOREAN -> "다음"
-        AppLanguage.TURKISH -> "İleri"
+        AppLanguage.TURKISH -> "Next"
     }
 
     val cdSeekBack: String get() = when (Strings.lang) {
@@ -3580,7 +3580,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Закрыть"
         AppLanguage.JAPANESE -> "閉じる"
         AppLanguage.KOREAN -> "닫기"
-        AppLanguage.TURKISH -> "Kapat"
+        AppLanguage.TURKISH -> "Close"
     }
 
     val cdRemove: String get() = when (Strings.lang) {
@@ -3594,7 +3594,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Удалить"
         AppLanguage.JAPANESE -> "削除"
         AppLanguage.KOREAN -> "제거"
-        AppLanguage.TURKISH -> "Kaldır"
+        AppLanguage.TURKISH -> "Remove"
     }
 
     val verifyingFile: String get() = when (Strings.lang) {
@@ -4066,7 +4066,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Очистить"
         AppLanguage.JAPANESE -> "クリア"
         AppLanguage.KOREAN -> "지우기"
-        AppLanguage.TURKISH -> "Temizle"
+        AppLanguage.TURKISH -> "Clear"
     }
     val collapseText: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "收起"
@@ -4079,7 +4079,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Свернуть"
         AppLanguage.JAPANESE -> "折りたたむ"
         AppLanguage.KOREAN -> "접기"
-        AppLanguage.TURKISH -> "Daralt"
+        AppLanguage.TURKISH -> "Collapse"
     }
 
     val pwaAnalyzeButton: String get() = when (Strings.lang) {
@@ -5072,7 +5072,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Очистить"
         AppLanguage.JAPANESE -> "クリア"
         AppLanguage.KOREAN -> "지우기"
-        AppLanguage.TURKISH -> "Temizle"
+        AppLanguage.TURKISH -> "Clear"
     }
     val errorPageMediaEmpty: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "还没有选择媒体，点击下方按钮从相册选一张图或一段视频。"
@@ -5245,7 +5245,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Далее"
         AppLanguage.JAPANESE -> "次へ"
         AppLanguage.KOREAN -> "다음"
-        AppLanguage.TURKISH -> "İleri"
+        AppLanguage.TURKISH -> "Next"
     }
 
     val codeEditorFindPrev: String get() = when (Strings.lang) {
@@ -5422,7 +5422,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Телефон"
         AppLanguage.JAPANESE -> "スマホ"
         AppLanguage.KOREAN -> "폰"
-        AppLanguage.TURKISH -> "Telefon"
+        AppLanguage.TURKISH -> "Phone"
     }
     val deviceTypeTablet: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "平板"
@@ -6133,7 +6133,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Имя пользователя"
         AppLanguage.JAPANESE -> "ユーザー名"
         AppLanguage.KOREAN -> "사용자 이름"
-        AppLanguage.TURKISH -> "Kullanıcı Adı"
+        AppLanguage.TURKISH -> "Username"
     }
     val proxyPasswordLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "密码"
@@ -6146,7 +6146,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Пароль"
         AppLanguage.JAPANESE -> "パスワード"
         AppLanguage.KOREAN -> "비밀번호"
-        AppLanguage.TURKISH -> "Şifre"
+        AppLanguage.TURKISH -> "Password"
     }
     val hostsMappingTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Hosts 映射"
@@ -6797,7 +6797,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Базовое"
         AppLanguage.JAPANESE -> "基本"
         AppLanguage.KOREAN -> "기본"
-        AppLanguage.TURKISH -> "Temel"
+        AppLanguage.TURKISH -> "Basic"
     }
     val exportPermGroupStorage: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "存储与媒体"
@@ -6966,7 +6966,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Уведомления"
         AppLanguage.JAPANESE -> "通知"
         AppLanguage.KOREAN -> "알림"
-        AppLanguage.TURKISH -> "Bildirimler"
+        AppLanguage.TURKISH -> "Notifications"
     }
     val permissionNotificationsDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "允许应用发送通知"
@@ -7869,7 +7869,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Нет"
         AppLanguage.JAPANESE -> "なし"
         AppLanguage.KOREAN -> "없음"
-        AppLanguage.TURKISH -> "Hiçbiri"
+        AppLanguage.TURKISH -> "None"
     }
     val permissionPresetMinimal: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "极简"
@@ -8132,7 +8132,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Размер"
         AppLanguage.JAPANESE -> "サイズ"
         AppLanguage.KOREAN -> "크기"
-        AppLanguage.TURKISH -> "Boyut"
+        AppLanguage.TURKISH -> "Size"
     }
     val startScraping: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "开始抓取"
@@ -8158,7 +8158,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Файлы"
         AppLanguage.JAPANESE -> "ファイル"
         AppLanguage.KOREAN -> "파일"
-        AppLanguage.TURKISH -> "Dosyalar"
+        AppLanguage.TURKISH -> "Files"
     }
     val statSize: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "大小"
@@ -8171,7 +8171,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Размер"
         AppLanguage.JAPANESE -> "サイズ"
         AppLanguage.KOREAN -> "크기"
-        AppLanguage.TURKISH -> "Boyut"
+        AppLanguage.TURKISH -> "Size"
     }
     val staticWebsite: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "static website"
@@ -8484,7 +8484,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Выход"
         AppLanguage.JAPANESE -> "終了"
         AppLanguage.KOREAN -> "종료"
-        AppLanguage.TURKISH -> "Çıkış"
+        AppLanguage.TURKISH -> "Exit"
     }
     val buildLogTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "APK 构建日志"
@@ -9152,7 +9152,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Экспортировано: %1\$d приложений, %2\$d файлов ресурсов"
         AppLanguage.JAPANESE -> "エクスポート完了: %1\$d アプリ、%2\$d リソースファイル"
         AppLanguage.KOREAN -> "내보내기 완료: %1\$d개 앱, %2\$d개 리소스 파일"
-        AppLanguage.TURKISH -> "Exported: %1\$d apps, %2\$d resource files"
+        AppLanguage.TURKISH -> "Exported: %1\\$d apps, %2\\$d resource files"
     }
     val backupImportSuccess: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "导入成功：%1\$d/%2\$d 个应用。部分设置需重启应用后生效。"
@@ -9165,7 +9165,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Импортировано: %1\$d/%2\$d приложений. Некоторые настройки применятся после перезапуска."
         AppLanguage.JAPANESE -> "インポート完了: %1\$d/%2\$d アプリ。一部の設定はアプリ再起動後に反映されます。"
         AppLanguage.KOREAN -> "가져오기 완료: %1\$d/%2\$d개 앱. 일부 설정은 앱 재시작 후 적용됩니다."
-        AppLanguage.TURKISH -> "Imported: %1\$d/%2\$d apps. Some settings apply after restarting the app."
+        AppLanguage.TURKISH -> "Imported: %1\\$d/%2\\$d apps. Some settings apply after restarting the app."
     }
     val backupImportSuccessDupes: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "导入成功：%1\$d/%2\$d 个应用，跳过 %3\$d 个重复项。部分设置需重启应用后生效。"
@@ -9178,7 +9178,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Импортировано: %1\$d/%2\$d приложений, пропущено дубликатов: %3\$d. Некоторые настройки применятся после перезапуска."
         AppLanguage.JAPANESE -> "インポート完了: %1\$d/%2\$d アプリ、%3\$d 件の重複をスキップ。一部の設定はアプリ再起動後に反映されます。"
         AppLanguage.KOREAN -> "가져오기 완료: %1\$d/%2\$d개 앱, 중복 %3\$d개 건너뜀. 일부 설정은 앱 재시작 후 적용됩니다."
-        AppLanguage.TURKISH -> "Imported: %1\$d/%2\$d apps, skipped %3\$d duplicates. Some settings apply after restarting the app."
+        AppLanguage.TURKISH -> "Imported: %1\\$d/%2\\$d apps, skipped %3\\$d duplicates. Some settings apply after restarting the app."
     }
     val backupRestartTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "需要重启应用"
@@ -11058,7 +11058,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Отмена"
         AppLanguage.JAPANESE -> "キャンセル"
         AppLanguage.KOREAN -> "취소"
-        AppLanguage.TURKISH -> "İptal"
+        AppLanguage.TURKISH -> "Cancel"
     }
 
     val orientationPolyfillTitle: String get() = when (Strings.lang) {
@@ -11682,7 +11682,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Дополнительно"
         AppLanguage.JAPANESE -> "高度設定"
         AppLanguage.KOREAN -> "고급"
-        AppLanguage.TURKISH -> "Gelişmiş"
+        AppLanguage.TURKISH -> "Advanced"
     }
     val specialBasicSectionTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "基础开关"
@@ -11763,167 +11763,23 @@ object StringsE {
         AppLanguage.TURKISH -> "Site Compatibility"
     }
 
-    val base64ModeLabel: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "触发模式"
-    AppLanguage.ENGLISH -> "Trigger Mode"
-    AppLanguage.ARABIC -> "وضع التشغيل"
-    AppLanguage.PORTUGUESE -> "Modo de Gatilho"
-    AppLanguage.SPANISH -> "Modo de Disparo"
-    AppLanguage.FRENCH -> "Mode de déclenchement"
-    AppLanguage.GERMAN -> "Auslösemodus"
-    AppLanguage.RUSSIAN -> "Режим запуска"
-    AppLanguage.JAPANESE -> "トリガーモード"
-    AppLanguage.KOREAN -> "트리거 모드"
-    AppLanguage.TURKISH -> "Site Compatibility"
-    }
-    val base64ModeGesture: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "仅手势触发"
-    AppLanguage.ENGLISH -> "Gesture Only"
-    AppLanguage.ARABIC -> "بإيماءة فقط"
-    AppLanguage.PORTUGUESE -> "Apenas por Gesto"
-    AppLanguage.SPANISH -> "Solo por Gesto"
-    AppLanguage.FRENCH -> "Geste uniquement"
-    AppLanguage.GERMAN -> "Nur Geste"
-    AppLanguage.RUSSIAN -> "Только жест"
-    AppLanguage.JAPANESE -> "ジェスチャーのみ"
-    AppLanguage.KOREAN -> "제스처 전용"
-    AppLanguage.TURKISH -> "Site Compatibility"
-    }
-    val base64ModeAlways: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "总是尝试"
-    AppLanguage.ENGLISH -> "Always"
-    AppLanguage.ARABIC -> "دائمًا"
-    AppLanguage.PORTUGUESE -> "Sempre"
-    AppLanguage.SPANISH -> "Siempre"
-    AppLanguage.FRENCH -> "Toujours"
-    AppLanguage.GERMAN -> "Immer"
-    AppLanguage.RUSSIAN -> "Всегда"
-    AppLanguage.JAPANESE -> "常に"
-    AppLanguage.KOREAN -> "항상"
-    AppLanguage.TURKISH -> "Site Compatibility"
-    }
+    val base64ModeLabel: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "触发模式"; AppLanguage.ENGLISH -> "Trigger Mode"; AppLanguage.ARABIC -> "وضع التشغيل"; AppLanguage.PORTUGUESE -> "Modo de Gatilho"; AppLanguage.SPANISH -> "Modo de Disparo"; AppLanguage.FRENCH -> "Mode de déclenchement"; AppLanguage.GERMAN -> "Auslösemodus"; AppLanguage.RUSSIAN -> "Режим запуска"; AppLanguage.JAPANESE -> "トリガーモード"; AppLanguage.KOREAN -> "트리거 모드"; AppLanguage.TURKISH -> "트리거 모드"; }
+    val base64ModeGesture: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "仅手势触发"; AppLanguage.ENGLISH -> "Gesture Only"; AppLanguage.ARABIC -> "بإيماءة فقط"; AppLanguage.PORTUGUESE -> "Apenas por Gesto"; AppLanguage.SPANISH -> "Solo por Gesto"; AppLanguage.FRENCH -> "Geste uniquement"; AppLanguage.GERMAN -> "Nur Geste"; AppLanguage.RUSSIAN -> "Только жест"; AppLanguage.JAPANESE -> "ジェスチャーのみ"; AppLanguage.KOREAN -> "제스처 전용"; AppLanguage.TURKISH -> "제스처 전용"; }
+    val base64ModeAlways: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "总是尝试"; AppLanguage.ENGLISH -> "Always"; AppLanguage.ARABIC -> "دائمًا"; AppLanguage.PORTUGUESE -> "Sempre"; AppLanguage.SPANISH -> "Siempre"; AppLanguage.FRENCH -> "Toujours"; AppLanguage.GERMAN -> "Immer"; AppLanguage.RUSSIAN -> "Всегда"; AppLanguage.JAPANESE -> "常に"; AppLanguage.KOREAN -> "항상"; AppLanguage.TURKISH -> "항상"; }
 
-    val jsOpenPolicyLabel: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "策略"
-    AppLanguage.ENGLISH -> "Policy"
-    AppLanguage.ARABIC -> "السياسة"
-    AppLanguage.PORTUGUESE -> "Política"
-    AppLanguage.SPANISH -> "Política"
-    AppLanguage.FRENCH -> "Politique"
-    AppLanguage.GERMAN -> "Richtlinie"
-    AppLanguage.RUSSIAN -> "Политика"
-    AppLanguage.JAPANESE -> "ポリシー"
-    AppLanguage.KOREAN -> "정책"
-    AppLanguage.TURKISH -> "Site Compatibility"
-    }
-    val jsOpenPolicyAllow: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "允许"
-    AppLanguage.ENGLISH -> "Allow"
-    AppLanguage.ARABIC -> "السماح"
-    AppLanguage.PORTUGUESE -> "Permitir"
-    AppLanguage.SPANISH -> "Permitir"
-    AppLanguage.FRENCH -> "Autoriser"
-    AppLanguage.GERMAN -> "Erlauben"
-    AppLanguage.RUSSIAN -> "Разрешить"
-    AppLanguage.JAPANESE -> "許可"
-    AppLanguage.KOREAN -> "허용"
-    AppLanguage.TURKISH -> "Site Compatibility"
-    }
-    val jsOpenPolicyBlock: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "拦截"
-    AppLanguage.ENGLISH -> "Block"
-    AppLanguage.ARABIC -> "حظر"
-    AppLanguage.PORTUGUESE -> "Bloquear"
-    AppLanguage.SPANISH -> "Bloquear"
-    AppLanguage.FRENCH -> "Bloquer"
-    AppLanguage.GERMAN -> "Blockieren"
-    AppLanguage.RUSSIAN -> "Блокировать"
-    AppLanguage.JAPANESE -> "ブロック"
-    AppLanguage.KOREAN -> "차단"
-    AppLanguage.TURKISH -> "Site Compatibility"
-    }
-    val jsOpenPolicyPrompt: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "弹窗询问"
-    AppLanguage.ENGLISH -> "Prompt"
-    AppLanguage.ARABIC -> "اسألني"
-    AppLanguage.PORTUGUESE -> "Perguntar"
-    AppLanguage.SPANISH -> "Preguntar"
-    AppLanguage.FRENCH -> "Demander"
-    AppLanguage.GERMAN -> "Fragen"
-    AppLanguage.RUSSIAN -> "Спрашивать"
-    AppLanguage.JAPANESE -> "確認"
-    AppLanguage.KOREAN -> "묻기"
-    AppLanguage.TURKISH -> "Site Compatibility"
-    }
+    val jsOpenPolicyLabel: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "策略"; AppLanguage.ENGLISH -> "Policy"; AppLanguage.ARABIC -> "السياسة"; AppLanguage.PORTUGUESE -> "Política"; AppLanguage.SPANISH -> "Política"; AppLanguage.FRENCH -> "Politique"; AppLanguage.GERMAN -> "Richtlinie"; AppLanguage.RUSSIAN -> "Политика"; AppLanguage.JAPANESE -> "ポリシー"; AppLanguage.KOREAN -> "정책"; AppLanguage.TURKISH -> "정책"; }
+    val jsOpenPolicyAllow: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "允许"; AppLanguage.ENGLISH -> "Allow"; AppLanguage.ARABIC -> "السماح"; AppLanguage.PORTUGUESE -> "Permitir"; AppLanguage.SPANISH -> "Permitir"; AppLanguage.FRENCH -> "Autoriser"; AppLanguage.GERMAN -> "Erlauben"; AppLanguage.RUSSIAN -> "Разрешить"; AppLanguage.JAPANESE -> "許可"; AppLanguage.KOREAN -> "허용"; AppLanguage.TURKISH -> "허용"; }
+    val jsOpenPolicyBlock: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "拦截"; AppLanguage.ENGLISH -> "Block"; AppLanguage.ARABIC -> "حظر"; AppLanguage.PORTUGUESE -> "Bloquear"; AppLanguage.SPANISH -> "Bloquear"; AppLanguage.FRENCH -> "Bloquer"; AppLanguage.GERMAN -> "Blockieren"; AppLanguage.RUSSIAN -> "Блокировать"; AppLanguage.JAPANESE -> "ブロック"; AppLanguage.KOREAN -> "차단"; AppLanguage.TURKISH -> "차단"; }
+    val jsOpenPolicyPrompt: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "弹窗询问"; AppLanguage.ENGLISH -> "Prompt"; AppLanguage.ARABIC -> "اسألني"; AppLanguage.PORTUGUESE -> "Perguntar"; AppLanguage.SPANISH -> "Preguntar"; AppLanguage.FRENCH -> "Demander"; AppLanguage.GERMAN -> "Fragen"; AppLanguage.RUSSIAN -> "Спрашивать"; AppLanguage.JAPANESE -> "確認"; AppLanguage.KOREAN -> "묻기"; AppLanguage.TURKISH -> "묻기"; }
 
 
 
-    val kernelDisguiseLevelLabel: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "伪装强度"
-    AppLanguage.ENGLISH -> "Disguise Level"
-    AppLanguage.ARABIC -> "مستوى التمويه"
-    AppLanguage.PORTUGUESE -> "Nível de Disfarce"
-    AppLanguage.SPANISH -> "Nivel de Disfraz"
-    AppLanguage.FRENCH -> "Niveau de déguisement"
-    AppLanguage.GERMAN -> "Tarnstufe"
-    AppLanguage.RUSSIAN -> "Уровень маскировки"
-    AppLanguage.JAPANESE -> "偽装レベル"
-    AppLanguage.KOREAN -> "위장 수준"
-    AppLanguage.TURKISH -> "Site Compatibility"
-    }
-    val kernelDisguiseLevelBasic: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "基础"
-    AppLanguage.ENGLISH -> "Basic"
-    AppLanguage.ARABIC -> "أساسي"
-    AppLanguage.PORTUGUESE -> "Básico"
-    AppLanguage.SPANISH -> "Básico"
-    AppLanguage.FRENCH -> "Basique"
-    AppLanguage.GERMAN -> "Basis"
-    AppLanguage.RUSSIAN -> "Базовый"
-    AppLanguage.JAPANESE -> "基本"
-    AppLanguage.KOREAN -> "기본"
-    AppLanguage.TURKISH -> "Site Compatibility"
-    }
-    val kernelDisguiseLevelStandard: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "标准"
-    AppLanguage.ENGLISH -> "Standard"
-    AppLanguage.ARABIC -> "قياسي"
-    AppLanguage.PORTUGUESE -> "Padrão"
-    AppLanguage.SPANISH -> "Estándar"
-    AppLanguage.FRENCH -> "Standard"
-    AppLanguage.GERMAN -> "Standard"
-    AppLanguage.RUSSIAN -> "Стандартный"
-    AppLanguage.JAPANESE -> "標準"
-    AppLanguage.KOREAN -> "표준"
-    AppLanguage.TURKISH -> "Site Compatibility"
-    }
-    val kernelDisguiseLevelDeep: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "深度"
-    AppLanguage.ENGLISH -> "Deep"
-    AppLanguage.ARABIC -> "عميق"
-    AppLanguage.PORTUGUESE -> "Profundo"
-    AppLanguage.SPANISH -> "Profundo"
-    AppLanguage.FRENCH -> "Profond"
-    AppLanguage.GERMAN -> "Tief"
-    AppLanguage.RUSSIAN -> "Глубокий"
-    AppLanguage.JAPANESE -> "高度"
-    AppLanguage.KOREAN -> "심화"
-    AppLanguage.TURKISH -> "Site Compatibility"
-    }
+    val kernelDisguiseLevelLabel: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "伪装强度"; AppLanguage.ENGLISH -> "Disguise Level"; AppLanguage.ARABIC -> "مستوى التمويه"; AppLanguage.PORTUGUESE -> "Nível de Disfarce"; AppLanguage.SPANISH -> "Nivel de Disfraz"; AppLanguage.FRENCH -> "Niveau de déguisement"; AppLanguage.GERMAN -> "Tarnstufe"; AppLanguage.RUSSIAN -> "Уровень маскировки"; AppLanguage.JAPANESE -> "偽装レベル"; AppLanguage.KOREAN -> "위장 수준"; AppLanguage.TURKISH -> "위장 수준"; }
+    val kernelDisguiseLevelBasic: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "基础"; AppLanguage.ENGLISH -> "Basic"; AppLanguage.ARABIC -> "أساسي"; AppLanguage.PORTUGUESE -> "Básico"; AppLanguage.SPANISH -> "Básico"; AppLanguage.FRENCH -> "Basique"; AppLanguage.GERMAN -> "Basis"; AppLanguage.RUSSIAN -> "Базовый"; AppLanguage.JAPANESE -> "基本"; AppLanguage.KOREAN -> "기본"; AppLanguage.TURKISH -> "기본"; }
+    val kernelDisguiseLevelStandard: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "标准"; AppLanguage.ENGLISH -> "Standard"; AppLanguage.ARABIC -> "قياسي"; AppLanguage.PORTUGUESE -> "Padrão"; AppLanguage.SPANISH -> "Estándar"; AppLanguage.FRENCH -> "Standard"; AppLanguage.GERMAN -> "Standard"; AppLanguage.RUSSIAN -> "Стандартный"; AppLanguage.JAPANESE -> "標準"; AppLanguage.KOREAN -> "표준"; AppLanguage.TURKISH -> "표준"; }
+    val kernelDisguiseLevelDeep: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "深度"; AppLanguage.ENGLISH -> "Deep"; AppLanguage.ARABIC -> "عميق"; AppLanguage.PORTUGUESE -> "Profundo"; AppLanguage.SPANISH -> "Profundo"; AppLanguage.FRENCH -> "Profond"; AppLanguage.GERMAN -> "Tief"; AppLanguage.RUSSIAN -> "Глубокий"; AppLanguage.JAPANESE -> "高度"; AppLanguage.KOREAN -> "심화"; AppLanguage.TURKISH -> "심화"; }
 
-    val kernelFlavorTitle: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "内核风味伪装"
-    AppLanguage.ENGLISH -> "Kernel Flavor Disguise"
-    AppLanguage.ARABIC -> "تمويه نكهة النواة"
-    AppLanguage.PORTUGUESE -> "Disfarce de Sabor do Kernel"
-    AppLanguage.SPANISH -> "Disfraz de Sabor del Kernel"
-    AppLanguage.FRENCH -> "Déguisement de la saveur du noyau"
-    AppLanguage.GERMAN -> "Kernel-Flavor-Tarnung"
-    AppLanguage.RUSSIAN -> "Маскировка аромата ядра"
-    AppLanguage.JAPANESE -> "カーネル風味偽装"
-    AppLanguage.KOREAN -> "커널 플레이버 위장"
-    AppLanguage.TURKISH -> "Site Compatibility"
-    }
+    val kernelFlavorTitle: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "内核风味伪装"; AppLanguage.ENGLISH -> "Kernel Flavor Disguise"; AppLanguage.ARABIC -> "تمويه نكهة النواة"; AppLanguage.PORTUGUESE -> "Disfarce de Sabor do Kernel"; AppLanguage.SPANISH -> "Disfraz de Sabor del Kernel"; AppLanguage.FRENCH -> "Déguisement de la saveur du noyau"; AppLanguage.GERMAN -> "Kernel-Flavor-Tarnung"; AppLanguage.RUSSIAN -> "Маскировка аромата ядра"; AppLanguage.JAPANESE -> "カーネル風味偽装"; AppLanguage.KOREAN -> "커널 플레이버 위장"; AppLanguage.TURKISH -> "커널 플레이버 위장"; }
     val kernelFlavorDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "让页面识别为所选浏览器内核（UA + Sec-CH-UA + userAgentData 一致伪装）。客户端提示请求头经官方 WebView API 下发，不更换真实引擎。"
         AppLanguage.ENGLISH -> "Make pages detect the selected browser kernel (UA + Sec-CH-UA + userAgentData spoofed consistently). Client-hint request headers are driven through the official WebView API; the real engine is unchanged."
@@ -11937,951 +11793,87 @@ object StringsE {
         AppLanguage.KOREAN -> "페이지가 선택한 브라우저 커널을 감지하도록 합니다 (UA + Sec-CH-UA + userAgentData 일관되게 위장). Client-hint 요청 헤더는 공식 WebView API를 통해 전송되며, 실제 엔진은 변경되지 않습니다."
         AppLanguage.TURKISH -> "Make pages detect the selected browser kernel (UA + Sec-CH-UA + userAgentData spoofed consistently). Client-hint request headers are driven through the official WebView API; the real engine is unchanged."
     }
-    val kernelFlavorLabel: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "目标内核"
-    AppLanguage.ENGLISH -> "Target Kernel"
-    AppLanguage.ARABIC -> "النواة المستهدفة"
-    AppLanguage.PORTUGUESE -> "Kernel de Destino"
-    AppLanguage.SPANISH -> "Kernel Objetivo"
-    AppLanguage.FRENCH -> "Noyau cible"
-    AppLanguage.GERMAN -> "Ziel-Kernel"
-    AppLanguage.RUSSIAN -> "Целевое ядро"
-    AppLanguage.JAPANESE -> "ターゲットカーネル"
-    AppLanguage.KOREAN -> "대상 커널"
-    AppLanguage.TURKISH -> "Make pages detect the selected browser kernel (UA + Sec-CH-UA + userAgentData spoofed consistently). Client-hint request headers are driven through the official WebView API; the real engine is unchanged."
-    }
-    val kernelFlavorChrome: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "Chrome (Blink)"
-    AppLanguage.ENGLISH -> "Chrome (Blink)"
-    AppLanguage.ARABIC -> "Chrome (Blink)"
-    AppLanguage.PORTUGUESE -> "Chrome (Blink)"
-    AppLanguage.SPANISH -> "Chrome (Blink)"
-    AppLanguage.FRENCH -> "Chrome (Blink)"
-    AppLanguage.GERMAN -> "Chrome (Blink)"
-    AppLanguage.RUSSIAN -> "Chrome (Blink)"
-    AppLanguage.JAPANESE -> "Chrome (Blink)"
-    AppLanguage.KOREAN -> "Chrome (Blink)"
-    AppLanguage.TURKISH -> "Make pages detect the selected browser kernel (UA + Sec-CH-UA + userAgentData spoofed consistently). Client-hint request headers are driven through the official WebView API; the real engine is unchanged."
-    }
-    val kernelFlavorEdge: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "Edge (Blink)"
-    AppLanguage.ENGLISH -> "Edge (Blink)"
-    AppLanguage.ARABIC -> "Edge (Blink)"
-    AppLanguage.PORTUGUESE -> "Edge (Blink)"
-    AppLanguage.SPANISH -> "Edge (Blink)"
-    AppLanguage.FRENCH -> "Edge (Blink)"
-    AppLanguage.GERMAN -> "Edge (Blink)"
-    AppLanguage.RUSSIAN -> "Edge (Blink)"
-    AppLanguage.JAPANESE -> "Edge (Blink)"
-    AppLanguage.KOREAN -> "Edge (Blink)"
-    AppLanguage.TURKISH -> "Make pages detect the selected browser kernel (UA + Sec-CH-UA + userAgentData spoofed consistently). Client-hint request headers are driven through the official WebView API; the real engine is unchanged."
-    }
-    val kernelFlavorSamsung: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "三星浏览器 (Blink)"
-    AppLanguage.ENGLISH -> "Samsung Internet (Blink)"
-    AppLanguage.ARABIC -> "Samsung Internet (Blink)"
-    AppLanguage.PORTUGUESE -> "Samsung Internet (Blink)"
-    AppLanguage.SPANISH -> "Samsung Internet (Blink)"
-    AppLanguage.FRENCH -> "Samsung Internet (Blink)"
-    AppLanguage.GERMAN -> "Samsung Internet (Blink)"
-    AppLanguage.RUSSIAN -> "Samsung Internet (Blink)"
-    AppLanguage.JAPANESE -> "Samsung Internet (Blink)"
-    AppLanguage.KOREAN -> "Samsung Internet (Blink)"
-    AppLanguage.TURKISH -> "Make pages detect the selected browser kernel (UA + Sec-CH-UA + userAgentData spoofed consistently). Client-hint request headers are driven through the official WebView API; the real engine is unchanged."
-    }
-    val kernelFlavorFirefox: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "Firefox (Gecko)"
-    AppLanguage.ENGLISH -> "Firefox (Gecko)"
-    AppLanguage.ARABIC -> "Firefox (Gecko)"
-    AppLanguage.PORTUGUESE -> "Firefox (Gecko)"
-    AppLanguage.SPANISH -> "Firefox (Gecko)"
-    AppLanguage.FRENCH -> "Firefox (Gecko)"
-    AppLanguage.GERMAN -> "Firefox (Gecko)"
-    AppLanguage.RUSSIAN -> "Firefox (Gecko)"
-    AppLanguage.JAPANESE -> "Firefox (Gecko)"
-    AppLanguage.KOREAN -> "Firefox (Gecko)"
-    AppLanguage.TURKISH -> "Make pages detect the selected browser kernel (UA + Sec-CH-UA + userAgentData spoofed consistently). Client-hint request headers are driven through the official WebView API; the real engine is unchanged."
-    }
-    val kernelFlavorSafari: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "Safari (WebKit)"
-    AppLanguage.ENGLISH -> "Safari (WebKit)"
-    AppLanguage.ARABIC -> "Safari (WebKit)"
-    AppLanguage.PORTUGUESE -> "Safari (WebKit)"
-    AppLanguage.SPANISH -> "Safari (WebKit)"
-    AppLanguage.FRENCH -> "Safari (WebKit)"
-    AppLanguage.GERMAN -> "Safari (WebKit)"
-    AppLanguage.RUSSIAN -> "Safari (WebKit)"
-    AppLanguage.JAPANESE -> "Safari (WebKit)"
-    AppLanguage.KOREAN -> "Safari (WebKit)"
-    AppLanguage.TURKISH -> "Make pages detect the selected browser kernel (UA + Sec-CH-UA + userAgentData spoofed consistently). Client-hint request headers are driven through the official WebView API; the real engine is unchanged."
-    }
+    val kernelFlavorLabel: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "目标内核"; AppLanguage.ENGLISH -> "Target Kernel"; AppLanguage.ARABIC -> "النواة المستهدفة"; AppLanguage.PORTUGUESE -> "Kernel de Destino"; AppLanguage.SPANISH -> "Kernel Objetivo"; AppLanguage.FRENCH -> "Noyau cible"; AppLanguage.GERMAN -> "Ziel-Kernel"; AppLanguage.RUSSIAN -> "Целевое ядро"; AppLanguage.JAPANESE -> "ターゲットカーネル"; AppLanguage.KOREAN -> "대상 커널"; AppLanguage.TURKISH -> "대상 커널"; }
+    val kernelFlavorChrome: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "Chrome (Blink)"; AppLanguage.ENGLISH -> "Chrome (Blink)"; AppLanguage.ARABIC -> "Chrome (Blink)"; AppLanguage.PORTUGUESE -> "Chrome (Blink)"; AppLanguage.SPANISH -> "Chrome (Blink)"; AppLanguage.FRENCH -> "Chrome (Blink)"; AppLanguage.GERMAN -> "Chrome (Blink)"; AppLanguage.RUSSIAN -> "Chrome (Blink)"; AppLanguage.JAPANESE -> "Chrome (Blink)"; AppLanguage.KOREAN -> "Chrome (Blink)"; AppLanguage.TURKISH -> "Chrome (Blink)"; }
+    val kernelFlavorEdge: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "Edge (Blink)"; AppLanguage.ENGLISH -> "Edge (Blink)"; AppLanguage.ARABIC -> "Edge (Blink)"; AppLanguage.PORTUGUESE -> "Edge (Blink)"; AppLanguage.SPANISH -> "Edge (Blink)"; AppLanguage.FRENCH -> "Edge (Blink)"; AppLanguage.GERMAN -> "Edge (Blink)"; AppLanguage.RUSSIAN -> "Edge (Blink)"; AppLanguage.JAPANESE -> "Edge (Blink)"; AppLanguage.KOREAN -> "Edge (Blink)"; AppLanguage.TURKISH -> "Edge (Blink)"; }
+    val kernelFlavorSamsung: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "三星浏览器 (Blink)"; AppLanguage.ENGLISH -> "Samsung Internet (Blink)"; AppLanguage.ARABIC -> "Samsung Internet (Blink)"; AppLanguage.PORTUGUESE -> "Samsung Internet (Blink)"; AppLanguage.SPANISH -> "Samsung Internet (Blink)"; AppLanguage.FRENCH -> "Samsung Internet (Blink)"; AppLanguage.GERMAN -> "Samsung Internet (Blink)"; AppLanguage.RUSSIAN -> "Samsung Internet (Blink)"; AppLanguage.JAPANESE -> "Samsung Internet (Blink)"; AppLanguage.KOREAN -> "Samsung Internet (Blink)"; AppLanguage.TURKISH -> "Samsung Internet (Blink)"; }
+    val kernelFlavorFirefox: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "Firefox (Gecko)"; AppLanguage.ENGLISH -> "Firefox (Gecko)"; AppLanguage.ARABIC -> "Firefox (Gecko)"; AppLanguage.PORTUGUESE -> "Firefox (Gecko)"; AppLanguage.SPANISH -> "Firefox (Gecko)"; AppLanguage.FRENCH -> "Firefox (Gecko)"; AppLanguage.GERMAN -> "Firefox (Gecko)"; AppLanguage.RUSSIAN -> "Firefox (Gecko)"; AppLanguage.JAPANESE -> "Firefox (Gecko)"; AppLanguage.KOREAN -> "Firefox (Gecko)"; AppLanguage.TURKISH -> "Firefox (Gecko)"; }
+    val kernelFlavorSafari: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "Safari (WebKit)"; AppLanguage.ENGLISH -> "Safari (WebKit)"; AppLanguage.ARABIC -> "Safari (WebKit)"; AppLanguage.PORTUGUESE -> "Safari (WebKit)"; AppLanguage.SPANISH -> "Safari (WebKit)"; AppLanguage.FRENCH -> "Safari (WebKit)"; AppLanguage.GERMAN -> "Safari (WebKit)"; AppLanguage.RUSSIAN -> "Safari (WebKit)"; AppLanguage.JAPANESE -> "Safari (WebKit)"; AppLanguage.KOREAN -> "Safari (WebKit)"; AppLanguage.TURKISH -> "Safari (WebKit)"; }
 
-    val cloudflareCompatModeLabel: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "兼容模式"
-    AppLanguage.ENGLISH -> "Compat Mode"
-    AppLanguage.ARABIC -> "وضع التوافق"
-    AppLanguage.PORTUGUESE -> "Modo de Compat."
-    AppLanguage.SPANISH -> "Modo Compat."
-    AppLanguage.FRENCH -> "Mode compat."
-    AppLanguage.GERMAN -> "Kompat.-Modus"
-    AppLanguage.RUSSIAN -> "Режим совместимости"
-    AppLanguage.JAPANESE -> "互換モード"
-    AppLanguage.KOREAN -> "호환 모드"
-    AppLanguage.TURKISH -> "Make pages detect the selected browser kernel (UA + Sec-CH-UA + userAgentData spoofed consistently). Client-hint request headers are driven through the official WebView API; the real engine is unchanged."
-    }
-    val cloudflareCompatModeAuto: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "自动检测"
-    AppLanguage.ENGLISH -> "Auto Detect"
-    AppLanguage.ARABIC -> "كشف تلقائي"
-    AppLanguage.PORTUGUESE -> "Detecção Automática"
-    AppLanguage.SPANISH -> "Detección Automática"
-    AppLanguage.FRENCH -> "Détection auto"
-    AppLanguage.GERMAN -> "Auto-Erkennung"
-    AppLanguage.RUSSIAN -> "Авто-обнаружение"
-    AppLanguage.JAPANESE -> "自動検出"
-    AppLanguage.KOREAN -> "자동 감지"
-    AppLanguage.TURKISH -> "Make pages detect the selected browser kernel (UA + Sec-CH-UA + userAgentData spoofed consistently). Client-hint request headers are driven through the official WebView API; the real engine is unchanged."
-    }
-    val cloudflareCompatModeAlways: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "始终启用"
-    AppLanguage.ENGLISH -> "Always On"
-    AppLanguage.ARABIC -> "دائمًا"
-    AppLanguage.PORTUGUESE -> "Sempre Ativo"
-    AppLanguage.SPANISH -> "Siempre Activado"
-    AppLanguage.FRENCH -> "Toujours activé"
-    AppLanguage.GERMAN -> "Immer an"
-    AppLanguage.RUSSIAN -> "Всегда вкл."
-    AppLanguage.JAPANESE -> "常にオン"
-    AppLanguage.KOREAN -> "항상 켜기"
-    AppLanguage.TURKISH -> "Make pages detect the selected browser kernel (UA + Sec-CH-UA + userAgentData spoofed consistently). Client-hint request headers are driven through the official WebView API; the real engine is unchanged."
-    }
+    val cloudflareCompatModeLabel: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "兼容模式"; AppLanguage.ENGLISH -> "Compat Mode"; AppLanguage.ARABIC -> "وضع التوافق"; AppLanguage.PORTUGUESE -> "Modo de Compat."; AppLanguage.SPANISH -> "Modo Compat."; AppLanguage.FRENCH -> "Mode compat."; AppLanguage.GERMAN -> "Kompat.-Modus"; AppLanguage.RUSSIAN -> "Режим совместимости"; AppLanguage.JAPANESE -> "互換モード"; AppLanguage.KOREAN -> "호환 모드"; AppLanguage.TURKISH -> "호환 모드"; }
+    val cloudflareCompatModeAuto: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "自动检测"; AppLanguage.ENGLISH -> "Auto Detect"; AppLanguage.ARABIC -> "كشف تلقائي"; AppLanguage.PORTUGUESE -> "Detecção Automática"; AppLanguage.SPANISH -> "Detección Automática"; AppLanguage.FRENCH -> "Détection auto"; AppLanguage.GERMAN -> "Auto-Erkennung"; AppLanguage.RUSSIAN -> "Авто-обнаружение"; AppLanguage.JAPANESE -> "自動検出"; AppLanguage.KOREAN -> "자동 감지"; AppLanguage.TURKISH -> "자동 감지"; }
+    val cloudflareCompatModeAlways: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "始终启用"; AppLanguage.ENGLISH -> "Always On"; AppLanguage.ARABIC -> "دائمًا"; AppLanguage.PORTUGUESE -> "Sempre Ativo"; AppLanguage.SPANISH -> "Siempre Activado"; AppLanguage.FRENCH -> "Toujours activé"; AppLanguage.GERMAN -> "Immer an"; AppLanguage.RUSSIAN -> "Всегда вкл."; AppLanguage.JAPANESE -> "常にオン"; AppLanguage.KOREAN -> "항상 켜기"; AppLanguage.TURKISH -> "항상 켜기"; }
 
-    val mixedContentModeLabel: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "策略"
-    AppLanguage.ENGLISH -> "Mode"
-    AppLanguage.ARABIC -> "الوضع"
-    AppLanguage.PORTUGUESE -> "Modo"
-    AppLanguage.SPANISH -> "Modo"
-    AppLanguage.FRENCH -> "Mode"
-    AppLanguage.GERMAN -> "Modus"
-    AppLanguage.RUSSIAN -> "Режим"
-    AppLanguage.JAPANESE -> "モード"
-    AppLanguage.KOREAN -> "모드"
-    AppLanguage.TURKISH -> "Make pages detect the selected browser kernel (UA + Sec-CH-UA + userAgentData spoofed consistently). Client-hint request headers are driven through the official WebView API; the real engine is unchanged."
-    }
-    val mixedContentModeNever: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "永不允许"
-    AppLanguage.ENGLISH -> "Never"
-    AppLanguage.ARABIC -> "أبدًا"
-    AppLanguage.PORTUGUESE -> "Nunca"
-    AppLanguage.SPANISH -> "Nunca"
-    AppLanguage.FRENCH -> "Jamais"
-    AppLanguage.GERMAN -> "Nie"
-    AppLanguage.RUSSIAN -> "Никогда"
-    AppLanguage.JAPANESE -> "許可しない"
-    AppLanguage.KOREAN -> "안 함"
-    AppLanguage.TURKISH -> "Make pages detect the selected browser kernel (UA + Sec-CH-UA + userAgentData spoofed consistently). Client-hint request headers are driven through the official WebView API; the real engine is unchanged."
-    }
-    val mixedContentModeCompat: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "兼容模式"
-    AppLanguage.ENGLISH -> "Compatibility"
-    AppLanguage.ARABIC -> "وضع التوافق"
-    AppLanguage.PORTUGUESE -> "Compatibilidade"
-    AppLanguage.SPANISH -> "Compatibilidad"
-    AppLanguage.FRENCH -> "Compatibilité"
-    AppLanguage.GERMAN -> "Kompatibilität"
-    AppLanguage.RUSSIAN -> "Совместимость"
-    AppLanguage.JAPANESE -> "互換"
-    AppLanguage.KOREAN -> "호환성"
-    AppLanguage.TURKISH -> "Make pages detect the selected browser kernel (UA + Sec-CH-UA + userAgentData spoofed consistently). Client-hint request headers are driven through the official WebView API; the real engine is unchanged."
-    }
-    val mixedContentModeAlways: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "始终允许"
-    AppLanguage.ENGLISH -> "Always"
-    AppLanguage.ARABIC -> "دائمًا"
-    AppLanguage.PORTUGUESE -> "Sempre"
-    AppLanguage.SPANISH -> "Siempre"
-    AppLanguage.FRENCH -> "Toujours"
-    AppLanguage.GERMAN -> "Immer"
-    AppLanguage.RUSSIAN -> "Всегда"
-    AppLanguage.JAPANESE -> "常に"
-    AppLanguage.KOREAN -> "항상"
-    AppLanguage.TURKISH -> "Make pages detect the selected browser kernel (UA + Sec-CH-UA + userAgentData spoofed consistently). Client-hint request headers are driven through the official WebView API; the real engine is unchanged."
-    }
+    val mixedContentModeLabel: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "策略"; AppLanguage.ENGLISH -> "Mode"; AppLanguage.ARABIC -> "الوضع"; AppLanguage.PORTUGUESE -> "Modo"; AppLanguage.SPANISH -> "Modo"; AppLanguage.FRENCH -> "Mode"; AppLanguage.GERMAN -> "Modus"; AppLanguage.RUSSIAN -> "Режим"; AppLanguage.JAPANESE -> "モード"; AppLanguage.KOREAN -> "모드"; AppLanguage.TURKISH -> "모드"; }
+    val mixedContentModeNever: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "永不允许"; AppLanguage.ENGLISH -> "Never"; AppLanguage.ARABIC -> "أبدًا"; AppLanguage.PORTUGUESE -> "Nunca"; AppLanguage.SPANISH -> "Nunca"; AppLanguage.FRENCH -> "Jamais"; AppLanguage.GERMAN -> "Nie"; AppLanguage.RUSSIAN -> "Никогда"; AppLanguage.JAPANESE -> "許可しない"; AppLanguage.KOREAN -> "안 함"; AppLanguage.TURKISH -> "안 함"; }
+    val mixedContentModeCompat: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "兼容模式"; AppLanguage.ENGLISH -> "Compatibility"; AppLanguage.ARABIC -> "وضع التوافق"; AppLanguage.PORTUGUESE -> "Compatibilidade"; AppLanguage.SPANISH -> "Compatibilidad"; AppLanguage.FRENCH -> "Compatibilité"; AppLanguage.GERMAN -> "Kompatibilität"; AppLanguage.RUSSIAN -> "Совместимость"; AppLanguage.JAPANESE -> "互換"; AppLanguage.KOREAN -> "호환성"; AppLanguage.TURKISH -> "호환성"; }
+    val mixedContentModeAlways: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "始终允许"; AppLanguage.ENGLISH -> "Always"; AppLanguage.ARABIC -> "دائمًا"; AppLanguage.PORTUGUESE -> "Sempre"; AppLanguage.SPANISH -> "Siempre"; AppLanguage.FRENCH -> "Toujours"; AppLanguage.GERMAN -> "Immer"; AppLanguage.RUSSIAN -> "Всегда"; AppLanguage.JAPANESE -> "常に"; AppLanguage.KOREAN -> "항상"; AppLanguage.TURKISH -> "항상"; }
 
-    val privateNetworkScopeLabel: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "作用域"
-    AppLanguage.ENGLISH -> "Scope"
-    AppLanguage.ARABIC -> "النطاق"
-    AppLanguage.PORTUGUESE -> "Escopo"
-    AppLanguage.SPANISH -> "Alcance"
-    AppLanguage.FRENCH -> "Portée"
-    AppLanguage.GERMAN -> "Bereich"
-    AppLanguage.RUSSIAN -> "Область"
-    AppLanguage.JAPANESE -> "スコープ"
-    AppLanguage.KOREAN -> "범위"
-    AppLanguage.TURKISH -> "Make pages detect the selected browser kernel (UA + Sec-CH-UA + userAgentData spoofed consistently). Client-hint request headers are driven through the official WebView API; the real engine is unchanged."
-    }
-    val privateNetworkScopeLocal: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "仅本地网络"
-    AppLanguage.ENGLISH -> "Local Only"
-    AppLanguage.ARABIC -> "محلي فقط"
-    AppLanguage.PORTUGUESE -> "Apenas Local"
-    AppLanguage.SPANISH -> "Solo Local"
-    AppLanguage.FRENCH -> "Local uniquement"
-    AppLanguage.GERMAN -> "Nur lokal"
-    AppLanguage.RUSSIAN -> "Только локальная"
-    AppLanguage.JAPANESE -> "ローカルのみ"
-    AppLanguage.KOREAN -> "로컬만"
-    AppLanguage.TURKISH -> "Make pages detect the selected browser kernel (UA + Sec-CH-UA + userAgentData spoofed consistently). Client-hint request headers are driven through the official WebView API; the real engine is unchanged."
-    }
-    val privateNetworkScopeAll: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "全部"
-    AppLanguage.ENGLISH -> "All"
-    AppLanguage.ARABIC -> "الكل"
-    AppLanguage.PORTUGUESE -> "Tudo"
-    AppLanguage.SPANISH -> "Todo"
-    AppLanguage.FRENCH -> "Tout"
-    AppLanguage.GERMAN -> "Alle"
-    AppLanguage.RUSSIAN -> "Все"
-    AppLanguage.JAPANESE -> "すべて"
-    AppLanguage.KOREAN -> "전체"
-    AppLanguage.TURKISH -> "Make pages detect the selected browser kernel (UA + Sec-CH-UA + userAgentData spoofed consistently). Client-hint request headers are driven through the official WebView API; the real engine is unchanged."
-    }
+    val privateNetworkScopeLabel: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "作用域"; AppLanguage.ENGLISH -> "Scope"; AppLanguage.ARABIC -> "النطاق"; AppLanguage.PORTUGUESE -> "Escopo"; AppLanguage.SPANISH -> "Alcance"; AppLanguage.FRENCH -> "Portée"; AppLanguage.GERMAN -> "Bereich"; AppLanguage.RUSSIAN -> "Область"; AppLanguage.JAPANESE -> "スコープ"; AppLanguage.KOREAN -> "범위"; AppLanguage.TURKISH -> "범위"; }
+    val privateNetworkScopeLocal: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "仅本地网络"; AppLanguage.ENGLISH -> "Local Only"; AppLanguage.ARABIC -> "محلي فقط"; AppLanguage.PORTUGUESE -> "Apenas Local"; AppLanguage.SPANISH -> "Solo Local"; AppLanguage.FRENCH -> "Local uniquement"; AppLanguage.GERMAN -> "Nur lokal"; AppLanguage.RUSSIAN -> "Только локальная"; AppLanguage.JAPANESE -> "ローカルのみ"; AppLanguage.KOREAN -> "로컬만"; AppLanguage.TURKISH -> "로컬만"; }
+    val privateNetworkScopeAll: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "全部"; AppLanguage.ENGLISH -> "All"; AppLanguage.ARABIC -> "الكل"; AppLanguage.PORTUGUESE -> "Tudo"; AppLanguage.SPANISH -> "Todo"; AppLanguage.FRENCH -> "Tout"; AppLanguage.GERMAN -> "Alle"; AppLanguage.RUSSIAN -> "Все"; AppLanguage.JAPANESE -> "すべて"; AppLanguage.KOREAN -> "전체"; AppLanguage.TURKISH -> "전체"; }
 
-    val thirdPartyCookieModeLabel: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "策略"
-    AppLanguage.ENGLISH -> "Mode"
-    AppLanguage.ARABIC -> "الوضع"
-    AppLanguage.PORTUGUESE -> "Modo"
-    AppLanguage.SPANISH -> "Modo"
-    AppLanguage.FRENCH -> "Mode"
-    AppLanguage.GERMAN -> "Modus"
-    AppLanguage.RUSSIAN -> "Режим"
-    AppLanguage.JAPANESE -> "モード"
-    AppLanguage.KOREAN -> "모드"
-    AppLanguage.TURKISH -> "모드"
-    }
-    val thirdPartyCookieModeNone: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "全部拒绝"
-    AppLanguage.ENGLISH -> "None"
-    AppLanguage.ARABIC -> "لا شيء"
-    AppLanguage.PORTUGUESE -> "Nenhum"
-    AppLanguage.SPANISH -> "Ninguno"
-    AppLanguage.FRENCH -> "Aucun"
-    AppLanguage.GERMAN -> "Keine"
-    AppLanguage.RUSSIAN -> "Никаких"
-    AppLanguage.JAPANESE -> "なし"
-    AppLanguage.KOREAN -> "없음"
-    AppLanguage.TURKISH -> "없음"
-    }
-    val thirdPartyCookieModeSameSite: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "仅同站（推荐）"
-    AppLanguage.ENGLISH -> "Same-site Only (recommended)"
-    AppLanguage.ARABIC -> "نفس الموقع فقط"
-    AppLanguage.PORTUGUESE -> "Apenas Mesmo-site (recomendado)"
-    AppLanguage.SPANISH -> "Solo Mismo-sitio (recomendado)"
-    AppLanguage.FRENCH -> "Même-site uniquement (recommandé)"
-    AppLanguage.GERMAN -> "Nur Same-site (empfohlen)"
-    AppLanguage.RUSSIAN -> "Только тот же сайт (рекомендуется)"
-    AppLanguage.JAPANESE -> "同一サイトのみ（推奨）"
-    AppLanguage.KOREAN -> "동일 사이트만 (권장)"
-    AppLanguage.TURKISH -> "동일 사이트만 (권장)"
-    }
-    val thirdPartyCookieModeAll: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "全部接受"
-    AppLanguage.ENGLISH -> "Accept All"
-    AppLanguage.ARABIC -> "قبول الكل"
-    AppLanguage.PORTUGUESE -> "Aceitar Todos"
-    AppLanguage.SPANISH -> "Aceptar Todos"
-    AppLanguage.FRENCH -> "Tout accepter"
-    AppLanguage.GERMAN -> "Alle akzeptieren"
-    AppLanguage.RUSSIAN -> "Принимать все"
-    AppLanguage.JAPANESE -> "すべて許可"
-    AppLanguage.KOREAN -> "모두 허용"
-    AppLanguage.TURKISH -> "모두 허용"
-    }
+    val thirdPartyCookieModeLabel: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "策略"; AppLanguage.ENGLISH -> "Mode"; AppLanguage.ARABIC -> "الوضع"; AppLanguage.PORTUGUESE -> "Modo"; AppLanguage.SPANISH -> "Modo"; AppLanguage.FRENCH -> "Mode"; AppLanguage.GERMAN -> "Modus"; AppLanguage.RUSSIAN -> "Режим"; AppLanguage.JAPANESE -> "モード"; AppLanguage.KOREAN -> "모드"; AppLanguage.TURKISH -> "모드"; }
+    val thirdPartyCookieModeNone: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "全部拒绝"; AppLanguage.ENGLISH -> "None"; AppLanguage.ARABIC -> "لا شيء"; AppLanguage.PORTUGUESE -> "Nenhum"; AppLanguage.SPANISH -> "Ninguno"; AppLanguage.FRENCH -> "Aucun"; AppLanguage.GERMAN -> "Keine"; AppLanguage.RUSSIAN -> "Никаких"; AppLanguage.JAPANESE -> "なし"; AppLanguage.KOREAN -> "없음"; AppLanguage.TURKISH -> "없음"; }
+    val thirdPartyCookieModeSameSite: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "仅同站（推荐）"; AppLanguage.ENGLISH -> "Same-site Only (recommended)"; AppLanguage.ARABIC -> "نفس الموقع فقط"; AppLanguage.PORTUGUESE -> "Apenas Mesmo-site (recomendado)"; AppLanguage.SPANISH -> "Solo Mismo-sitio (recomendado)"; AppLanguage.FRENCH -> "Même-site uniquement (recommandé)"; AppLanguage.GERMAN -> "Nur Same-site (empfohlen)"; AppLanguage.RUSSIAN -> "Только тот же сайт (рекомендуется)"; AppLanguage.JAPANESE -> "同一サイトのみ（推奨）"; AppLanguage.KOREAN -> "동일 사이트만 (권장)"; AppLanguage.TURKISH -> "동일 사이트만 (권장)"; }
+    val thirdPartyCookieModeAll: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "全部接受"; AppLanguage.ENGLISH -> "Accept All"; AppLanguage.ARABIC -> "قبول الكل"; AppLanguage.PORTUGUESE -> "Aceitar Todos"; AppLanguage.SPANISH -> "Aceptar Todos"; AppLanguage.FRENCH -> "Tout accepter"; AppLanguage.GERMAN -> "Alle akzeptieren"; AppLanguage.RUSSIAN -> "Принимать все"; AppLanguage.JAPANESE -> "すべて許可"; AppLanguage.KOREAN -> "모두 허용"; AppLanguage.TURKISH -> "모두 허용"; }
 
-    val nativeBridgeCapabilitiesTitle: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "能力清单"
-    AppLanguage.ENGLISH -> "Capabilities"
-    AppLanguage.ARABIC -> "الإمكانيات"
-    AppLanguage.PORTUGUESE -> "Capacidades"
-    AppLanguage.SPANISH -> "Capacidades"
-    AppLanguage.FRENCH -> "Capacités"
-    AppLanguage.GERMAN -> "Fähigkeiten"
-    AppLanguage.RUSSIAN -> "Возможности"
-    AppLanguage.JAPANESE -> "機能一覧"
-    AppLanguage.KOREAN -> "기능 목록"
-    AppLanguage.TURKISH -> "기능 목록"
-    }
-    val nativeBridgeCapsClipboard: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "剪贴板"
-    AppLanguage.ENGLISH -> "Clipboard"
-    AppLanguage.ARABIC -> "الحافظة"
-    AppLanguage.PORTUGUESE -> "Área de Transferência"
-    AppLanguage.SPANISH -> "Portapapeles"
-    AppLanguage.FRENCH -> "Presse-papiers"
-    AppLanguage.GERMAN -> "Zwischenablage"
-    AppLanguage.RUSSIAN -> "Буфер обмена"
-    AppLanguage.JAPANESE -> "クリップボード"
-    AppLanguage.KOREAN -> "클립보드"
-    AppLanguage.TURKISH -> "클립보드"
-    }
-    val nativeBridgeCapsVibration: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "震动"
-    AppLanguage.ENGLISH -> "Vibration"
-    AppLanguage.ARABIC -> "الاهتزاز"
-    AppLanguage.PORTUGUESE -> "Vibração"
-    AppLanguage.SPANISH -> "Vibración"
-    AppLanguage.FRENCH -> "Vibration"
-    AppLanguage.GERMAN -> "Vibration"
-    AppLanguage.RUSSIAN -> "Вибрация"
-    AppLanguage.JAPANESE -> "振動"
-    AppLanguage.KOREAN -> "진동"
-    AppLanguage.TURKISH -> "진동"
-    }
-    val nativeBridgeCapsGeolocation: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "定位"
-    AppLanguage.ENGLISH -> "Geolocation"
-    AppLanguage.ARABIC -> "الموقع الجغرافي"
-    AppLanguage.PORTUGUESE -> "Geolocalização"
-    AppLanguage.SPANISH -> "Geolocalización"
-    AppLanguage.FRENCH -> "Géolocalisation"
-    AppLanguage.GERMAN -> "Geolokalisierung"
-    AppLanguage.RUSSIAN -> "Геолокация"
-    AppLanguage.JAPANESE -> "位置情報"
-    AppLanguage.KOREAN -> "지오로케이션"
-    AppLanguage.TURKISH -> "지오로케이션"
-    }
-    val nativeBridgeCapsBrightness: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "亮度"
-    AppLanguage.ENGLISH -> "Brightness"
-    AppLanguage.ARABIC -> "السطوع"
-    AppLanguage.PORTUGUESE -> "Brilho"
-    AppLanguage.SPANISH -> "Brillo"
-    AppLanguage.FRENCH -> "Luminosité"
-    AppLanguage.GERMAN -> "Helligkeit"
-    AppLanguage.RUSSIAN -> "Яркость"
-    AppLanguage.JAPANESE -> "明るさ"
-    AppLanguage.KOREAN -> "밝기"
-    AppLanguage.TURKISH -> "밝기"
-    }
-    val nativeBridgeCapsNotification: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "通知"
-    AppLanguage.ENGLISH -> "Notification"
-    AppLanguage.ARABIC -> "الإشعارات"
-    AppLanguage.PORTUGUESE -> "Notificação"
-    AppLanguage.SPANISH -> "Notificación"
-    AppLanguage.FRENCH -> "Notification"
-    AppLanguage.GERMAN -> "Benachrichtigung"
-    AppLanguage.RUSSIAN -> "Уведомление"
-    AppLanguage.JAPANESE -> "通知"
-    AppLanguage.KOREAN -> "알림"
-    AppLanguage.TURKISH -> "알림"
-    }
-    val nativeBridgeCapsNotificationScheduled: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "定时通知"
-    AppLanguage.ENGLISH -> "Scheduled Notification"
-    AppLanguage.ARABIC -> "إشعار مجدول"
-    AppLanguage.PORTUGUESE -> "Notificação Agendada"
-    AppLanguage.SPANISH -> "Notificación Programada"
-    AppLanguage.FRENCH -> "Notification programmée"
-    AppLanguage.GERMAN -> "Geplante Benachrichtigung"
-    AppLanguage.RUSSIAN -> "Запланированное уведомление"
-    AppLanguage.JAPANESE -> "予約通知"
-    AppLanguage.KOREAN -> "예약 알림"
-    AppLanguage.TURKISH -> "예약 알림"
-    }
-    val nativeBridgeCapsNotificationPersistent: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "持久通知/后台"
-    AppLanguage.ENGLISH -> "Persistent/Bg Notification"
-    AppLanguage.ARABIC -> "إشعار دائم/خلفية"
-    AppLanguage.PORTUGUESE -> "Notificação Persistente/Segundo Plano"
-    AppLanguage.SPANISH -> "Notificación Persistente/Segundo Plano"
-    AppLanguage.FRENCH -> "Notification persistante/arrière-plan"
-    AppLanguage.GERMAN -> "Persistente/Hintergrund-Benachrichtigung"
-    AppLanguage.RUSSIAN -> "Постоянное/фоновое уведомление"
-    AppLanguage.JAPANESE -> "常駐/バックグラウンド通知"
-    AppLanguage.KOREAN -> "지속/백그라운드 알림"
-    AppLanguage.TURKISH -> "지속/백그라운드 알림"
-    }
-    val nativeBridgeCapsDownload: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "下载"
-    AppLanguage.ENGLISH -> "Download"
-    AppLanguage.ARABIC -> "التنزيل"
-    AppLanguage.PORTUGUESE -> "Download"
-    AppLanguage.SPANISH -> "Descarga"
-    AppLanguage.FRENCH -> "Téléchargement"
-    AppLanguage.GERMAN -> "Download"
-    AppLanguage.RUSSIAN -> "Загрузка"
-    AppLanguage.JAPANESE -> "ダウンロード"
-    AppLanguage.KOREAN -> "다운로드"
-    AppLanguage.TURKISH -> "다운로드"
-    }
-    val nativeBridgeCapsPrivateNetwork: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "私网请求"
-    AppLanguage.ENGLISH -> "Private Network"
-    AppLanguage.ARABIC -> "الشبكة الخاصة"
-    AppLanguage.PORTUGUESE -> "Rede Privada"
-    AppLanguage.SPANISH -> "Red Privada"
-    AppLanguage.FRENCH -> "Réseau privé"
-    AppLanguage.GERMAN -> "Privates Netzwerk"
-    AppLanguage.RUSSIAN -> "Частная сеть"
-    AppLanguage.JAPANESE -> "プライベートネットワーク"
-    AppLanguage.KOREAN -> "프라이빗 네트워크"
-    AppLanguage.TURKISH -> "프라이빗 네트워크"
-    }
-    val nativeBridgeCapsScreenWake: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "屏幕常亮"
-    AppLanguage.ENGLISH -> "Screen Wake"
-    AppLanguage.ARABIC -> "إيقاظ الشاشة"
-    AppLanguage.PORTUGUESE -> "Manter Tela Acesa"
-    AppLanguage.SPANISH -> "Mantener Pantalla Encendida"
-    AppLanguage.FRENCH -> "Maintien écran allumé"
-    AppLanguage.GERMAN -> "Bildschirm wachhalten"
-    AppLanguage.RUSSIAN -> "Пробуждение экрана"
-    AppLanguage.JAPANESE -> "画面常時点灯"
-    AppLanguage.KOREAN -> "화면 켜짐 유지"
-    AppLanguage.TURKISH -> "화면 켜짐 유지"
-    }
-    val nativeBridgeCapsOpenExternal: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "外部交互"
-    AppLanguage.ENGLISH -> "Open External"
-    AppLanguage.ARABIC -> "فتح خارجي"
-    AppLanguage.PORTUGUESE -> "Abrir Externo"
-    AppLanguage.SPANISH -> "Abrir Externo"
-    AppLanguage.FRENCH -> "Ouvrir externe"
-    AppLanguage.GERMAN -> "Extern öffnen"
-    AppLanguage.RUSSIAN -> "Открыть внешне"
-    AppLanguage.JAPANESE -> "外部で開く"
-    AppLanguage.KOREAN -> "외부 열기"
-    AppLanguage.TURKISH -> "외부 열기"
-    }
-    val nativeBridgeCapsDeviceInfo: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "设备信息"
-    AppLanguage.ENGLISH -> "Device Info"
-    AppLanguage.ARABIC -> "معلومات الجهاز"
-    AppLanguage.PORTUGUESE -> "Info do Dispositivo"
-    AppLanguage.SPANISH -> "Info del Dispositivo"
-    AppLanguage.FRENCH -> "Infos appareil"
-    AppLanguage.GERMAN -> "Geräteinfo"
-    AppLanguage.RUSSIAN -> "Инфо об устройстве"
-    AppLanguage.JAPANESE -> "デバイス情報"
-    AppLanguage.KOREAN -> "기기 정보"
-    AppLanguage.TURKISH -> "기기 정보"
-    }
-    val nativeBridgeCapsSecurityInfo: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "安全状态"
-    AppLanguage.ENGLISH -> "Security Info"
-    AppLanguage.ARABIC -> "معلومات الأمان"
-    AppLanguage.PORTUGUESE -> "Info de Segurança"
-    AppLanguage.SPANISH -> "Info de Seguridad"
-    AppLanguage.FRENCH -> "Infos sécurité"
-    AppLanguage.GERMAN -> "Sicherheitsinfo"
-    AppLanguage.RUSSIAN -> "Инфо безопасности"
-    AppLanguage.JAPANESE -> "セキュリティ情報"
-    AppLanguage.KOREAN -> "보안 정보"
-    AppLanguage.TURKISH -> "보안 정보"
-    }
-    val nativeBridgeCapsNetworkInfo: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "网络/状态"
-    AppLanguage.ENGLISH -> "Network/State"
-    AppLanguage.ARABIC -> "الشبكة/الحالة"
-    AppLanguage.PORTUGUESE -> "Rede/Estado"
-    AppLanguage.SPANISH -> "Red/Estado"
-    AppLanguage.FRENCH -> "Réseau/État"
-    AppLanguage.GERMAN -> "Netzwerk/Status"
-    AppLanguage.RUSSIAN -> "Сеть/Состояние"
-    AppLanguage.JAPANESE -> "ネットワーク/状態"
-    AppLanguage.KOREAN -> "네트워크/상태"
-    AppLanguage.TURKISH -> "네트워크/상태"
-    }
-    val nativeBridgeCapsToast: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "Toast 提示"
-    AppLanguage.ENGLISH -> "Toast"
-    AppLanguage.ARABIC -> "توست"
-    AppLanguage.PORTUGUESE -> "Toast"
-    AppLanguage.SPANISH -> "Toast"
-    AppLanguage.FRENCH -> "Toast"
-    AppLanguage.GERMAN -> "Toast"
-    AppLanguage.RUSSIAN -> "Toast"
-    AppLanguage.JAPANESE -> "Toast"
-    AppLanguage.KOREAN -> "Toast"
-    AppLanguage.TURKISH -> "Toast"
-    }
-    val nativeBridgeCapsLogging: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "日志"
-    AppLanguage.ENGLISH -> "Logging"
-    AppLanguage.ARABIC -> "التسجيل"
-    AppLanguage.PORTUGUESE -> "Registro"
-    AppLanguage.SPANISH -> "Registro"
-    AppLanguage.FRENCH -> "Journalisation"
-    AppLanguage.GERMAN -> "Protokollierung"
-    AppLanguage.RUSSIAN -> "Журналирование"
-    AppLanguage.JAPANESE -> "ロギング"
-    AppLanguage.KOREAN -> "로깅"
-    AppLanguage.TURKISH -> "로깅"
-    }
-    val nativeBridgeCapsFindInPage: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "页内查找"
-    AppLanguage.ENGLISH -> "Find in Page"
-    AppLanguage.ARABIC -> "البحث في الصفحة"
-    AppLanguage.PORTUGUESE -> "Localizar na Página"
-    AppLanguage.SPANISH -> "Buscar en Página"
-    AppLanguage.FRENCH -> "Rechercher dans la page"
-    AppLanguage.GERMAN -> "In Seite suchen"
-    AppLanguage.RUSSIAN -> "Поиск на странице"
-    AppLanguage.JAPANESE -> "ページ内検索"
-    AppLanguage.KOREAN -> "페이지 내 찾기"
-    AppLanguage.TURKISH -> "페이지 내 찾기"
-    }
-    val nativeBridgeCapsOrientation: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "屏幕方向"
-    AppLanguage.ENGLISH -> "Orientation"
-    AppLanguage.ARABIC -> "اتجاه الشاشة"
-    AppLanguage.PORTUGUESE -> "Orientação"
-    AppLanguage.SPANISH -> "Orientación"
-    AppLanguage.FRENCH -> "Orientation"
-    AppLanguage.GERMAN -> "Ausrichtung"
-    AppLanguage.RUSSIAN -> "Ориентация"
-    AppLanguage.JAPANESE -> "画面の向き"
-    AppLanguage.KOREAN -> "방향"
-    AppLanguage.TURKISH -> "방향"
-    }
-    val nativeBridgeCapsFullscreen: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "全屏"
-    AppLanguage.ENGLISH -> "Fullscreen"
-    AppLanguage.ARABIC -> "ملء الشاشة"
-    AppLanguage.PORTUGUESE -> "Tela Cheia"
-    AppLanguage.SPANISH -> "Pantalla Completa"
-    AppLanguage.FRENCH -> "Plein écran"
-    AppLanguage.GERMAN -> "Vollbild"
-    AppLanguage.RUSSIAN -> "Полный экран"
-    AppLanguage.JAPANESE -> "全画面"
-    AppLanguage.KOREAN -> "전체화면"
-    AppLanguage.TURKISH -> "전체화면"
-    }
-    val nativeBridgeCapsPrint: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "打印"
-    AppLanguage.ENGLISH -> "Print"
-    AppLanguage.ARABIC -> "طباعة"
-    AppLanguage.PORTUGUESE -> "Imprimir"
-    AppLanguage.SPANISH -> "Imprimir"
-    AppLanguage.FRENCH -> "Imprimer"
-    AppLanguage.GERMAN -> "Drucken"
-    AppLanguage.RUSSIAN -> "Печать"
-    AppLanguage.JAPANESE -> "印刷"
-    AppLanguage.KOREAN -> "인쇄"
-    AppLanguage.TURKISH -> "인쇄"
-    }
-    val nativeBridgeCapsGoogleSignIn: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "Google 原生登录"
-    AppLanguage.ENGLISH -> "Native Google Sign-In"
-    AppLanguage.ARABIC -> "تسجيل الدخول الأصلي عبر Google"
-    AppLanguage.PORTUGUESE -> "Login Nativo com Google"
-    AppLanguage.SPANISH -> "Inicio de Sesión Nativo con Google"
-    AppLanguage.FRENCH -> "Connexion Google Native"
-    AppLanguage.GERMAN -> "Native Google-Anmeldung"
-    AppLanguage.RUSSIAN -> "Нативный вход через Google"
-    AppLanguage.JAPANESE -> "ネイティブ Google ログイン"
-    AppLanguage.KOREAN -> "네이티브 Google 로그인"
-    AppLanguage.TURKISH -> "네이티브 Google 로그인"
-    }
-    val googleSignInClientIdLabel: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "Google Web Client ID"
-    AppLanguage.ENGLISH -> "Google Web Client ID"
-    AppLanguage.ARABIC -> "معرّف عميل Google للويب"
-    AppLanguage.PORTUGUESE -> "Client ID Web do Google"
-    AppLanguage.SPANISH -> "ID de Cliente Web de Google"
-    AppLanguage.FRENCH -> "ID client Web Google"
-    AppLanguage.GERMAN -> "Google Web-Client-ID"
-    AppLanguage.RUSSIAN -> "Веб-ID клиента Google"
-    AppLanguage.JAPANESE -> "Google ウェブクライアント ID"
-    AppLanguage.KOREAN -> "Google 웹 클라이언트 ID"
-    AppLanguage.TURKISH -> "Google 웹 클라이언트 ID"
-    }
-    val googleSignInClientIdPlaceholder: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "xxxxxxxx.apps.googleusercontent.com"
-    AppLanguage.ENGLISH -> "xxxxxxxx.apps.googleusercontent.com"
-    AppLanguage.ARABIC -> "xxxxxxxx.apps.googleusercontent.com"
-    AppLanguage.PORTUGUESE -> "xxxxxxxx.apps.googleusercontent.com"
-    AppLanguage.SPANISH -> "xxxxxxxx.apps.googleusercontent.com"
-    AppLanguage.FRENCH -> "xxxxxxxx.apps.googleusercontent.com"
-    AppLanguage.GERMAN -> "xxxxxxxx.apps.googleusercontent.com"
-    AppLanguage.RUSSIAN -> "xxxxxxxx.apps.googleusercontent.com"
-    AppLanguage.JAPANESE -> "xxxxxxxx.apps.googleusercontent.com"
-    AppLanguage.KOREAN -> "xxxxxxxx.apps.googleusercontent.com"
-    AppLanguage.TURKISH -> "xxxxxxxx.apps.googleusercontent.com"
-    }
-    val googleSignInHint: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "使用设备上的 Google 账户一键登录。需在 Google Cloud Console 中注册本应用的包名与签名 SHA-1，并填入同一项目的 Web Client ID；网页通过 NativeBridge.googleSignIn() 获取 ID Token。"
-    AppLanguage.ENGLISH -> "One-tap sign-in with the device's Google accounts. Register this app's package name and signing SHA-1 in Google Cloud Console and enter that project's Web Client ID; the page obtains an ID token via NativeBridge.googleSignIn()."
-    AppLanguage.ARABIC -> "تسجيل دخول بنقرة واحدة بحسابات Google على الجهاز. سجّل اسم حزمة هذا التطبيق وبصمة SHA-1 للتوقيع في Google Cloud Console وأدخل Web Client ID الخاص بنفس المشروع؛ تحصل الصفحة على ID Token عبر NativeBridge.googleSignIn()."
-    AppLanguage.PORTUGUESE -> "Login com um toque usando as contas Google do dispositivo. Registre o nome do pacote e o SHA-1 de assinatura deste app no Google Cloud Console e insira o Web Client ID do mesmo projeto; a página obtém um ID Token via NativeBridge.googleSignIn()."
-    AppLanguage.SPANISH -> "Inicio de sesión con un toque usando las cuentas Google del dispositivo. Registra el nombre de paquete y la huella SHA-1 de firma de esta app en Google Cloud Console e introduce el Web Client ID del mismo proyecto; la página obtiene un ID Token mediante NativeBridge.googleSignIn()."
-    AppLanguage.FRENCH -> "Connexion en un geste avec les comptes Google de l'appareil. Enregistrez le nom de package et l'empreinte SHA-1 de signature de cette app dans Google Cloud Console et saisissez le Web Client ID du même projet ; la page obtient un ID Token via NativeBridge.googleSignIn()."
-    AppLanguage.GERMAN -> "Anmeldung mit einem Tipp über die Google-Konten des Geräts. Registrieren Sie den Paketnamen und Signatur-SHA-1 dieser App in der Google Cloud Console und geben Sie die Web-Client-ID desselben Projekts ein; die Seite erhält ein ID-Token über NativeBridge.googleSignIn()."
-    AppLanguage.RUSSIAN -> "Вход одним касанием через аккаунты Google на устройстве. Зарегистрируйте имя пакета и отпечаток подписи SHA-1 этого приложения в Google Cloud Console и укажите Web Client ID того же проекта; страница получает ID Token через NativeBridge.googleSignIn()."
-    AppLanguage.JAPANESE -> "端末上の Google アカウントでワンタップ ログイン。Google Cloud Console でこのアプリのパッケージ名と署名 SHA-1 を登録し、同じプロジェクトの Web Client ID を入力してください。ページは NativeBridge.googleSignIn() で ID トークンを取得します。"
-    AppLanguage.KOREAN -> "기기의 Google 계정으로 원탭 로그인. Google Cloud Console에 이 앱의 패키지 이름과 서명 SHA-1을 등록하고 같은 프로젝트의 웹 클라이언트 ID를 입력하세요. 페이지는 NativeBridge.googleSignIn()으로 ID 토큰을 받습니다."
-    AppLanguage.TURKISH -> "기기의 Google 계정으로 원탭 로그인. Google Cloud Console에 이 앱의 패키지 이름과 서명 SHA-1을 등록하고 같은 프로젝트의 웹 클라이언트 ID를 입력하세요. 페이지는 NativeBridge.googleSignIn()으로 ID 토큰을 받습니다."
-    }
+    val nativeBridgeCapabilitiesTitle: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "能力清单"; AppLanguage.ENGLISH -> "Capabilities"; AppLanguage.ARABIC -> "الإمكانيات"; AppLanguage.PORTUGUESE -> "Capacidades"; AppLanguage.SPANISH -> "Capacidades"; AppLanguage.FRENCH -> "Capacités"; AppLanguage.GERMAN -> "Fähigkeiten"; AppLanguage.RUSSIAN -> "Возможности"; AppLanguage.JAPANESE -> "機能一覧"; AppLanguage.KOREAN -> "기능 목록"; AppLanguage.TURKISH -> "기능 목록"; }
+    val nativeBridgeCapsClipboard: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "剪贴板"; AppLanguage.ENGLISH -> "Clipboard"; AppLanguage.ARABIC -> "الحافظة"; AppLanguage.PORTUGUESE -> "Área de Transferência"; AppLanguage.SPANISH -> "Portapapeles"; AppLanguage.FRENCH -> "Presse-papiers"; AppLanguage.GERMAN -> "Zwischenablage"; AppLanguage.RUSSIAN -> "Буфер обмена"; AppLanguage.JAPANESE -> "クリップボード"; AppLanguage.KOREAN -> "클립보드"; AppLanguage.TURKISH -> "클립보드"; }
+    val nativeBridgeCapsVibration: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "震动"; AppLanguage.ENGLISH -> "Vibration"; AppLanguage.ARABIC -> "الاهتزاز"; AppLanguage.PORTUGUESE -> "Vibração"; AppLanguage.SPANISH -> "Vibración"; AppLanguage.FRENCH -> "Vibration"; AppLanguage.GERMAN -> "Vibration"; AppLanguage.RUSSIAN -> "Вибрация"; AppLanguage.JAPANESE -> "振動"; AppLanguage.KOREAN -> "진동"; AppLanguage.TURKISH -> "진동"; }
+    val nativeBridgeCapsGeolocation: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "定位"; AppLanguage.ENGLISH -> "Geolocation"; AppLanguage.ARABIC -> "الموقع الجغرافي"; AppLanguage.PORTUGUESE -> "Geolocalização"; AppLanguage.SPANISH -> "Geolocalización"; AppLanguage.FRENCH -> "Géolocalisation"; AppLanguage.GERMAN -> "Geolokalisierung"; AppLanguage.RUSSIAN -> "Геолокация"; AppLanguage.JAPANESE -> "位置情報"; AppLanguage.KOREAN -> "지오로케이션"; AppLanguage.TURKISH -> "지오로케이션"; }
+    val nativeBridgeCapsBrightness: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "亮度"; AppLanguage.ENGLISH -> "Brightness"; AppLanguage.ARABIC -> "السطوع"; AppLanguage.PORTUGUESE -> "Brilho"; AppLanguage.SPANISH -> "Brillo"; AppLanguage.FRENCH -> "Luminosité"; AppLanguage.GERMAN -> "Helligkeit"; AppLanguage.RUSSIAN -> "Яркость"; AppLanguage.JAPANESE -> "明るさ"; AppLanguage.KOREAN -> "밝기"; AppLanguage.TURKISH -> "밝기"; }
+    val nativeBridgeCapsNotification: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "通知"; AppLanguage.ENGLISH -> "Notification"; AppLanguage.ARABIC -> "الإشعارات"; AppLanguage.PORTUGUESE -> "Notificação"; AppLanguage.SPANISH -> "Notificación"; AppLanguage.FRENCH -> "Notification"; AppLanguage.GERMAN -> "Benachrichtigung"; AppLanguage.RUSSIAN -> "Уведомление"; AppLanguage.JAPANESE -> "通知"; AppLanguage.KOREAN -> "알림"; AppLanguage.TURKISH -> "알림"; }
+    val nativeBridgeCapsNotificationScheduled: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "定时通知"; AppLanguage.ENGLISH -> "Scheduled Notification"; AppLanguage.ARABIC -> "إشعار مجدول"; AppLanguage.PORTUGUESE -> "Notificação Agendada"; AppLanguage.SPANISH -> "Notificación Programada"; AppLanguage.FRENCH -> "Notification programmée"; AppLanguage.GERMAN -> "Geplante Benachrichtigung"; AppLanguage.RUSSIAN -> "Запланированное уведомление"; AppLanguage.JAPANESE -> "予約通知"; AppLanguage.KOREAN -> "예약 알림"; AppLanguage.TURKISH -> "예약 알림"; }
+    val nativeBridgeCapsNotificationPersistent: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "持久通知/后台"; AppLanguage.ENGLISH -> "Persistent/Bg Notification"; AppLanguage.ARABIC -> "إشعار دائم/خلفية"; AppLanguage.PORTUGUESE -> "Notificação Persistente/Segundo Plano"; AppLanguage.SPANISH -> "Notificación Persistente/Segundo Plano"; AppLanguage.FRENCH -> "Notification persistante/arrière-plan"; AppLanguage.GERMAN -> "Persistente/Hintergrund-Benachrichtigung"; AppLanguage.RUSSIAN -> "Постоянное/фоновое уведомление"; AppLanguage.JAPANESE -> "常駐/バックグラウンド通知"; AppLanguage.KOREAN -> "지속/백그라운드 알림"; AppLanguage.TURKISH -> "지속/백그라운드 알림"; }
+    val nativeBridgeCapsDownload: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "下载"; AppLanguage.ENGLISH -> "Download"; AppLanguage.ARABIC -> "التنزيل"; AppLanguage.PORTUGUESE -> "Download"; AppLanguage.SPANISH -> "Descarga"; AppLanguage.FRENCH -> "Téléchargement"; AppLanguage.GERMAN -> "Download"; AppLanguage.RUSSIAN -> "Загрузка"; AppLanguage.JAPANESE -> "ダウンロード"; AppLanguage.KOREAN -> "다운로드"; AppLanguage.TURKISH -> "다운로드"; }
+    val nativeBridgeCapsPrivateNetwork: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "私网请求"; AppLanguage.ENGLISH -> "Private Network"; AppLanguage.ARABIC -> "الشبكة الخاصة"; AppLanguage.PORTUGUESE -> "Rede Privada"; AppLanguage.SPANISH -> "Red Privada"; AppLanguage.FRENCH -> "Réseau privé"; AppLanguage.GERMAN -> "Privates Netzwerk"; AppLanguage.RUSSIAN -> "Частная сеть"; AppLanguage.JAPANESE -> "プライベートネットワーク"; AppLanguage.KOREAN -> "프라이빗 네트워크"; AppLanguage.TURKISH -> "프라이빗 네트워크"; }
+    val nativeBridgeCapsScreenWake: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "屏幕常亮"; AppLanguage.ENGLISH -> "Screen Wake"; AppLanguage.ARABIC -> "إيقاظ الشاشة"; AppLanguage.PORTUGUESE -> "Manter Tela Acesa"; AppLanguage.SPANISH -> "Mantener Pantalla Encendida"; AppLanguage.FRENCH -> "Maintien écran allumé"; AppLanguage.GERMAN -> "Bildschirm wachhalten"; AppLanguage.RUSSIAN -> "Пробуждение экрана"; AppLanguage.JAPANESE -> "画面常時点灯"; AppLanguage.KOREAN -> "화면 켜짐 유지"; AppLanguage.TURKISH -> "화면 켜짐 유지"; }
+    val nativeBridgeCapsOpenExternal: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "外部交互"; AppLanguage.ENGLISH -> "Open External"; AppLanguage.ARABIC -> "فتح خارجي"; AppLanguage.PORTUGUESE -> "Abrir Externo"; AppLanguage.SPANISH -> "Abrir Externo"; AppLanguage.FRENCH -> "Ouvrir externe"; AppLanguage.GERMAN -> "Extern öffnen"; AppLanguage.RUSSIAN -> "Открыть внешне"; AppLanguage.JAPANESE -> "外部で開く"; AppLanguage.KOREAN -> "외부 열기"; AppLanguage.TURKISH -> "외부 열기"; }
+    val nativeBridgeCapsDeviceInfo: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "设备信息"; AppLanguage.ENGLISH -> "Device Info"; AppLanguage.ARABIC -> "معلومات الجهاز"; AppLanguage.PORTUGUESE -> "Info do Dispositivo"; AppLanguage.SPANISH -> "Info del Dispositivo"; AppLanguage.FRENCH -> "Infos appareil"; AppLanguage.GERMAN -> "Geräteinfo"; AppLanguage.RUSSIAN -> "Инфо об устройстве"; AppLanguage.JAPANESE -> "デバイス情報"; AppLanguage.KOREAN -> "기기 정보"; AppLanguage.TURKISH -> "기기 정보"; }
+    val nativeBridgeCapsSecurityInfo: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "安全状态"; AppLanguage.ENGLISH -> "Security Info"; AppLanguage.ARABIC -> "معلومات الأمان"; AppLanguage.PORTUGUESE -> "Info de Segurança"; AppLanguage.SPANISH -> "Info de Seguridad"; AppLanguage.FRENCH -> "Infos sécurité"; AppLanguage.GERMAN -> "Sicherheitsinfo"; AppLanguage.RUSSIAN -> "Инфо безопасности"; AppLanguage.JAPANESE -> "セキュリティ情報"; AppLanguage.KOREAN -> "보안 정보"; AppLanguage.TURKISH -> "보안 정보"; }
+    val nativeBridgeCapsNetworkInfo: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "网络/状态"; AppLanguage.ENGLISH -> "Network/State"; AppLanguage.ARABIC -> "الشبكة/الحالة"; AppLanguage.PORTUGUESE -> "Rede/Estado"; AppLanguage.SPANISH -> "Red/Estado"; AppLanguage.FRENCH -> "Réseau/État"; AppLanguage.GERMAN -> "Netzwerk/Status"; AppLanguage.RUSSIAN -> "Сеть/Состояние"; AppLanguage.JAPANESE -> "ネットワーク/状態"; AppLanguage.KOREAN -> "네트워크/상태"; AppLanguage.TURKISH -> "네트워크/상태"; }
+    val nativeBridgeCapsToast: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "Toast 提示"; AppLanguage.ENGLISH -> "Toast"; AppLanguage.ARABIC -> "توست"; AppLanguage.PORTUGUESE -> "Toast"; AppLanguage.SPANISH -> "Toast"; AppLanguage.FRENCH -> "Toast"; AppLanguage.GERMAN -> "Toast"; AppLanguage.RUSSIAN -> "Toast"; AppLanguage.JAPANESE -> "Toast"; AppLanguage.KOREAN -> "Toast"; AppLanguage.TURKISH -> "Toast"; }
+    val nativeBridgeCapsLogging: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "日志"; AppLanguage.ENGLISH -> "Logging"; AppLanguage.ARABIC -> "التسجيل"; AppLanguage.PORTUGUESE -> "Registro"; AppLanguage.SPANISH -> "Registro"; AppLanguage.FRENCH -> "Journalisation"; AppLanguage.GERMAN -> "Protokollierung"; AppLanguage.RUSSIAN -> "Журналирование"; AppLanguage.JAPANESE -> "ロギング"; AppLanguage.KOREAN -> "로깅"; AppLanguage.TURKISH -> "로깅"; }
+    val nativeBridgeCapsFindInPage: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "页内查找"; AppLanguage.ENGLISH -> "Find in Page"; AppLanguage.ARABIC -> "البحث في الصفحة"; AppLanguage.PORTUGUESE -> "Localizar na Página"; AppLanguage.SPANISH -> "Buscar en Página"; AppLanguage.FRENCH -> "Rechercher dans la page"; AppLanguage.GERMAN -> "In Seite suchen"; AppLanguage.RUSSIAN -> "Поиск на странице"; AppLanguage.JAPANESE -> "ページ内検索"; AppLanguage.KOREAN -> "페이지 내 찾기"; AppLanguage.TURKISH -> "페이지 내 찾기"; }
+    val nativeBridgeCapsOrientation: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "屏幕方向"; AppLanguage.ENGLISH -> "Orientation"; AppLanguage.ARABIC -> "اتجاه الشاشة"; AppLanguage.PORTUGUESE -> "Orientação"; AppLanguage.SPANISH -> "Orientación"; AppLanguage.FRENCH -> "Orientation"; AppLanguage.GERMAN -> "Ausrichtung"; AppLanguage.RUSSIAN -> "Ориентация"; AppLanguage.JAPANESE -> "画面の向き"; AppLanguage.KOREAN -> "방향"; AppLanguage.TURKISH -> "방향"; }
+    val nativeBridgeCapsFullscreen: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "全屏"; AppLanguage.ENGLISH -> "Fullscreen"; AppLanguage.ARABIC -> "ملء الشاشة"; AppLanguage.PORTUGUESE -> "Tela Cheia"; AppLanguage.SPANISH -> "Pantalla Completa"; AppLanguage.FRENCH -> "Plein écran"; AppLanguage.GERMAN -> "Vollbild"; AppLanguage.RUSSIAN -> "Полный экран"; AppLanguage.JAPANESE -> "全画面"; AppLanguage.KOREAN -> "전체화면"; AppLanguage.TURKISH -> "전체화면"; }
+    val nativeBridgeCapsPrint: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "打印"; AppLanguage.ENGLISH -> "Print"; AppLanguage.ARABIC -> "طباعة"; AppLanguage.PORTUGUESE -> "Imprimir"; AppLanguage.SPANISH -> "Imprimir"; AppLanguage.FRENCH -> "Imprimer"; AppLanguage.GERMAN -> "Drucken"; AppLanguage.RUSSIAN -> "Печать"; AppLanguage.JAPANESE -> "印刷"; AppLanguage.KOREAN -> "인쇄"; AppLanguage.TURKISH -> "인쇄"; }
+    val nativeBridgeCapsGoogleSignIn: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "Google 原生登录"; AppLanguage.ENGLISH -> "Native Google Sign-In"; AppLanguage.ARABIC -> "تسجيل الدخول الأصلي عبر Google"; AppLanguage.PORTUGUESE -> "Login Nativo com Google"; AppLanguage.SPANISH -> "Inicio de Sesión Nativo con Google"; AppLanguage.FRENCH -> "Connexion Google Native"; AppLanguage.GERMAN -> "Native Google-Anmeldung"; AppLanguage.RUSSIAN -> "Нативный вход через Google"; AppLanguage.JAPANESE -> "ネイティブ Google ログイン"; AppLanguage.KOREAN -> "네이티브 Google 로그인"; AppLanguage.TURKISH -> "네이티브 Google 로그인"; }
+    val googleSignInClientIdLabel: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "Google Web Client ID"; AppLanguage.ENGLISH -> "Google Web Client ID"; AppLanguage.ARABIC -> "معرّف عميل Google للويب"; AppLanguage.PORTUGUESE -> "Client ID Web do Google"; AppLanguage.SPANISH -> "ID de Cliente Web de Google"; AppLanguage.FRENCH -> "ID client Web Google"; AppLanguage.GERMAN -> "Google Web-Client-ID"; AppLanguage.RUSSIAN -> "Веб-ID клиента Google"; AppLanguage.JAPANESE -> "Google ウェブクライアント ID"; AppLanguage.KOREAN -> "Google 웹 클라이언트 ID"; AppLanguage.TURKISH -> "Google 웹 클라이언트 ID"; }
+    val googleSignInClientIdPlaceholder: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "xxxxxxxx.apps.googleusercontent.com"; AppLanguage.ENGLISH -> "xxxxxxxx.apps.googleusercontent.com"; AppLanguage.ARABIC -> "xxxxxxxx.apps.googleusercontent.com"; AppLanguage.PORTUGUESE -> "xxxxxxxx.apps.googleusercontent.com"; AppLanguage.SPANISH -> "xxxxxxxx.apps.googleusercontent.com"; AppLanguage.FRENCH -> "xxxxxxxx.apps.googleusercontent.com"; AppLanguage.GERMAN -> "xxxxxxxx.apps.googleusercontent.com"; AppLanguage.RUSSIAN -> "xxxxxxxx.apps.googleusercontent.com"; AppLanguage.JAPANESE -> "xxxxxxxx.apps.googleusercontent.com"; AppLanguage.KOREAN -> "xxxxxxxx.apps.googleusercontent.com"; AppLanguage.TURKISH -> "xxxxxxxx.apps.googleusercontent.com"; }
+    val googleSignInHint: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "使用设备上的 Google 账户一键登录。需在 Google Cloud Console 中注册本应用的包名与签名 SHA-1，并填入同一项目的 Web Client ID；网页通过 NativeBridge.googleSignIn() 获取 ID Token。"; AppLanguage.ENGLISH -> "One-tap sign-in with the device's Google accounts. Register this app's package name and signing SHA-1 in Google Cloud Console and enter that project's Web Client ID; the page obtains an ID token via NativeBridge.googleSignIn()."; AppLanguage.ARABIC -> "تسجيل دخول بنقرة واحدة بحسابات Google على الجهاز. سجّل اسم حزمة هذا التطبيق وبصمة SHA-1 للتوقيع في Google Cloud Console وأدخل Web Client ID الخاص بنفس المشروع؛ تحصل الصفحة على ID Token عبر NativeBridge.googleSignIn()."; AppLanguage.PORTUGUESE -> "Login com um toque usando as contas Google do dispositivo. Registre o nome do pacote e o SHA-1 de assinatura deste app no Google Cloud Console e insira o Web Client ID do mesmo projeto; a página obtém um ID Token via NativeBridge.googleSignIn()."; AppLanguage.SPANISH -> "Inicio de sesión con un toque usando las cuentas Google del dispositivo. Registra el nombre de paquete y la huella SHA-1 de firma de esta app en Google Cloud Console e introduce el Web Client ID del mismo proyecto; la página obtiene un ID Token mediante NativeBridge.googleSignIn()."; AppLanguage.FRENCH -> "Connexion en un geste avec les comptes Google de l'appareil. Enregistrez le nom de package et l'empreinte SHA-1 de signature de cette app dans Google Cloud Console et saisissez le Web Client ID du même projet ; la page obtient un ID Token via NativeBridge.googleSignIn()."; AppLanguage.GERMAN -> "Anmeldung mit einem Tipp über die Google-Konten des Geräts. Registrieren Sie den Paketnamen und Signatur-SHA-1 dieser App in der Google Cloud Console und geben Sie die Web-Client-ID desselben Projekts ein; die Seite erhält ein ID-Token über NativeBridge.googleSignIn()."; AppLanguage.RUSSIAN -> "Вход одним касанием через аккаунты Google на устройстве. Зарегистрируйте имя пакета и отпечаток подписи SHA-1 этого приложения в Google Cloud Console и укажите Web Client ID того же проекта; страница получает ID Token через NativeBridge.googleSignIn()."; AppLanguage.JAPANESE -> "端末上の Google アカウントでワンタップ ログイン。Google Cloud Console でこのアプリのパッケージ名と署名 SHA-1 を登録し、同じプロジェクトの Web Client ID を入力してください。ページは NativeBridge.googleSignIn() で ID トークンを取得します。"; AppLanguage.KOREAN -> "기기의 Google 계정으로 원탭 로그인. Google Cloud Console에 이 앱의 패키지 이름과 서명 SHA-1을 등록하고 같은 프로젝트의 웹 클라이언트 ID를 입력하세요. 페이지는 NativeBridge.googleSignIn()으로 ID 토큰을 받습니다."; AppLanguage.TURKISH -> "기기의 Google 계정으로 원탭 로그인. Google Cloud Console에 이 앱의 패키지 이름과 서명 SHA-1을 등록하고 같은 프로젝트의 웹 클라이언트 ID를 입력하세요. 페이지는 NativeBridge.googleSignIn()으로 ID 토큰을 받습니다."; }
 
-    val geolocationAccuracyLabel: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "精度"
-    AppLanguage.ENGLISH -> "Accuracy"
-    AppLanguage.ARABIC -> "الدقة"
-    AppLanguage.PORTUGUESE -> "Precisão"
-    AppLanguage.SPANISH -> "Precisión"
-    AppLanguage.FRENCH -> "Précision"
-    AppLanguage.GERMAN -> "Genauigkeit"
-    AppLanguage.RUSSIAN -> "Точность"
-    AppLanguage.JAPANESE -> "精度"
-    AppLanguage.KOREAN -> "정확도"
-    AppLanguage.TURKISH -> "정확도"
-    }
-    val geolocationAccuracyCoarse: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "粗略"
-    AppLanguage.ENGLISH -> "Coarse"
-    AppLanguage.ARABIC -> "تقريبية"
-    AppLanguage.PORTUGUESE -> "Aproximada"
-    AppLanguage.SPANISH -> "Aproximada"
-    AppLanguage.FRENCH -> "Grossière"
-    AppLanguage.GERMAN -> "Grob"
-    AppLanguage.RUSSIAN -> "Грубая"
-    AppLanguage.JAPANESE -> "大まか"
-    AppLanguage.KOREAN -> "대략"
-    AppLanguage.TURKISH -> "대략"
-    }
-    val geolocationAccuracyFine: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "精确"
-    AppLanguage.ENGLISH -> "Fine"
-    AppLanguage.ARABIC -> "دقيقة"
-    AppLanguage.PORTUGUESE -> "Precisa"
-    AppLanguage.SPANISH -> "Precisa"
-    AppLanguage.FRENCH -> "Fine"
-    AppLanguage.GERMAN -> "Fein"
-    AppLanguage.RUSSIAN -> "Точная"
-    AppLanguage.JAPANESE -> "高精度"
-    AppLanguage.KOREAN -> "정밀"
-    AppLanguage.TURKISH -> "정밀"
-    }
-    val geolocationPolicyLabel: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "询问策略"
-    AppLanguage.ENGLISH -> "Prompt Policy"
-    AppLanguage.ARABIC -> "سياسة الطلب"
-    AppLanguage.PORTUGUESE -> "Política de Solicitação"
-    AppLanguage.SPANISH -> "Política de Solicitud"
-    AppLanguage.FRENCH -> "Politique de demande"
-    AppLanguage.GERMAN -> "Abfragerichtlinie"
-    AppLanguage.RUSSIAN -> "Политика запроса"
-    AppLanguage.JAPANESE -> "確認ポリシー"
-    AppLanguage.KOREAN -> "요청 정책"
-    AppLanguage.TURKISH -> "요청 정책"
-    }
-    val geolocationPolicyAlwaysAsk: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "每次询问"
-    AppLanguage.ENGLISH -> "Always Ask"
-    AppLanguage.ARABIC -> "اسأل دائمًا"
-    AppLanguage.PORTUGUESE -> "Sempre Perguntar"
-    AppLanguage.SPANISH -> "Preguntar Siempre"
-    AppLanguage.FRENCH -> "Toujours demander"
-    AppLanguage.GERMAN -> "Immer fragen"
-    AppLanguage.RUSSIAN -> "Всегда спрашивать"
-    AppLanguage.JAPANESE -> "毎回確認"
-    AppLanguage.KOREAN -> "항상 묻기"
-    AppLanguage.TURKISH -> "항상 묻기"
-    }
-    val geolocationPolicyRemember: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "按主机记住"
-    AppLanguage.ENGLISH -> "Remember Per Host"
-    AppLanguage.ARABIC -> "تذكر لكل مضيف"
-    AppLanguage.PORTUGUESE -> "Lembrar por Host"
-    AppLanguage.SPANISH -> "Recordar por Host"
-    AppLanguage.FRENCH -> "Mémoriser par hôte"
-    AppLanguage.GERMAN -> "Pro Host merken"
-    AppLanguage.RUSSIAN -> "Запоминать по хосту"
-    AppLanguage.JAPANESE -> "ホストごとに記憶"
-    AppLanguage.KOREAN -> "호스트별 기억"
-    AppLanguage.TURKISH -> "호스트별 기억"
-    }
-    val geolocationPolicyDeny: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "全部拒绝"
-    AppLanguage.ENGLISH -> "Deny All"
-    AppLanguage.ARABIC -> "رفض الكل"
-    AppLanguage.PORTUGUESE -> "Negar Todos"
-    AppLanguage.SPANISH -> "Denegar Todos"
-    AppLanguage.FRENCH -> "Tout refuser"
-    AppLanguage.GERMAN -> "Alle ablehnen"
-    AppLanguage.RUSSIAN -> "Отклонять все"
-    AppLanguage.JAPANESE -> "すべて拒否"
-    AppLanguage.KOREAN -> "모두 거부"
-    AppLanguage.TURKISH -> "모두 거부"
-    }
+    val geolocationAccuracyLabel: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "精度"; AppLanguage.ENGLISH -> "Accuracy"; AppLanguage.ARABIC -> "الدقة"; AppLanguage.PORTUGUESE -> "Precisão"; AppLanguage.SPANISH -> "Precisión"; AppLanguage.FRENCH -> "Précision"; AppLanguage.GERMAN -> "Genauigkeit"; AppLanguage.RUSSIAN -> "Точность"; AppLanguage.JAPANESE -> "精度"; AppLanguage.KOREAN -> "정확도"; AppLanguage.TURKISH -> "정확도"; }
+    val geolocationAccuracyCoarse: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "粗略"; AppLanguage.ENGLISH -> "Coarse"; AppLanguage.ARABIC -> "تقريبية"; AppLanguage.PORTUGUESE -> "Aproximada"; AppLanguage.SPANISH -> "Aproximada"; AppLanguage.FRENCH -> "Grossière"; AppLanguage.GERMAN -> "Grob"; AppLanguage.RUSSIAN -> "Грубая"; AppLanguage.JAPANESE -> "大まか"; AppLanguage.KOREAN -> "대략"; AppLanguage.TURKISH -> "대략"; }
+    val geolocationAccuracyFine: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "精确"; AppLanguage.ENGLISH -> "Fine"; AppLanguage.ARABIC -> "دقيقة"; AppLanguage.PORTUGUESE -> "Precisa"; AppLanguage.SPANISH -> "Precisa"; AppLanguage.FRENCH -> "Fine"; AppLanguage.GERMAN -> "Fein"; AppLanguage.RUSSIAN -> "Точная"; AppLanguage.JAPANESE -> "高精度"; AppLanguage.KOREAN -> "정밀"; AppLanguage.TURKISH -> "정밀"; }
+    val geolocationPolicyLabel: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "询问策略"; AppLanguage.ENGLISH -> "Prompt Policy"; AppLanguage.ARABIC -> "سياسة الطلب"; AppLanguage.PORTUGUESE -> "Política de Solicitação"; AppLanguage.SPANISH -> "Política de Solicitud"; AppLanguage.FRENCH -> "Politique de demande"; AppLanguage.GERMAN -> "Abfragerichtlinie"; AppLanguage.RUSSIAN -> "Политика запроса"; AppLanguage.JAPANESE -> "確認ポリシー"; AppLanguage.KOREAN -> "요청 정책"; AppLanguage.TURKISH -> "요청 정책"; }
+    val geolocationPolicyAlwaysAsk: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "每次询问"; AppLanguage.ENGLISH -> "Always Ask"; AppLanguage.ARABIC -> "اسأل دائمًا"; AppLanguage.PORTUGUESE -> "Sempre Perguntar"; AppLanguage.SPANISH -> "Preguntar Siempre"; AppLanguage.FRENCH -> "Toujours demander"; AppLanguage.GERMAN -> "Immer fragen"; AppLanguage.RUSSIAN -> "Всегда спрашивать"; AppLanguage.JAPANESE -> "毎回確認"; AppLanguage.KOREAN -> "항상 묻기"; AppLanguage.TURKISH -> "항상 묻기"; }
+    val geolocationPolicyRemember: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "按主机记住"; AppLanguage.ENGLISH -> "Remember Per Host"; AppLanguage.ARABIC -> "تذكر لكل مضيف"; AppLanguage.PORTUGUESE -> "Lembrar por Host"; AppLanguage.SPANISH -> "Recordar por Host"; AppLanguage.FRENCH -> "Mémoriser par hôte"; AppLanguage.GERMAN -> "Pro Host merken"; AppLanguage.RUSSIAN -> "Запоминать по хосту"; AppLanguage.JAPANESE -> "ホストごとに記憶"; AppLanguage.KOREAN -> "호스트별 기억"; AppLanguage.TURKISH -> "호스트별 기억"; }
+    val geolocationPolicyDeny: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "全部拒绝"; AppLanguage.ENGLISH -> "Deny All"; AppLanguage.ARABIC -> "رفض الكل"; AppLanguage.PORTUGUESE -> "Negar Todos"; AppLanguage.SPANISH -> "Denegar Todos"; AppLanguage.FRENCH -> "Tout refuser"; AppLanguage.GERMAN -> "Alle ablehnen"; AppLanguage.RUSSIAN -> "Отклонять все"; AppLanguage.JAPANESE -> "すべて拒否"; AppLanguage.KOREAN -> "모두 거부"; AppLanguage.TURKISH -> "모두 거부"; }
 
-    val blobInterceptScopeLabel: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "拦截范围"
-    AppLanguage.ENGLISH -> "Intercept Scope"
-    AppLanguage.ARABIC -> "نطاق الاعتراض"
-    AppLanguage.PORTUGUESE -> "Escopo de Interceptação"
-    AppLanguage.SPANISH -> "Alcance de Intercepción"
-    AppLanguage.FRENCH -> "Portée d'interception"
-    AppLanguage.GERMAN -> "Abfangbereich"
-    AppLanguage.RUSSIAN -> "Область перехвата"
-    AppLanguage.JAPANESE -> "傍受スコープ"
-    AppLanguage.KOREAN -> "가로채기 범위"
-    AppLanguage.TURKISH -> "가로채기 범위"
-    }
-    val blobInterceptScopeAll: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "全部 blob 下载"
-    AppLanguage.ENGLISH -> "All blobs"
-    AppLanguage.ARABIC -> "كل blob"
-    AppLanguage.PORTUGUESE -> "Todos os blobs"
-    AppLanguage.SPANISH -> "Todos los blobs"
-    AppLanguage.FRENCH -> "Tous les blobs"
-    AppLanguage.GERMAN -> "Alle Blobs"
-    AppLanguage.RUSSIAN -> "Все blob"
-    AppLanguage.JAPANESE -> "すべての blob"
-    AppLanguage.KOREAN -> "모든 blob"
-    AppLanguage.TURKISH -> "모든 blob"
-    }
-    val blobInterceptScopeOver: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "仅大于阈值"
-    AppLanguage.ENGLISH -> "Over Threshold Only"
-    AppLanguage.ARABIC -> "أكبر من الحد فقط"
-    AppLanguage.PORTUGUESE -> "Acima do Limite Apenas"
-    AppLanguage.SPANISH -> "Solo Sobre el Umbral"
-    AppLanguage.FRENCH -> "Au-dessus du seuil uniquement"
-    AppLanguage.GERMAN -> "Nur über Schwelle"
-    AppLanguage.RUSSIAN -> "Только выше порога"
-    AppLanguage.JAPANESE -> "しきい値超えのみ"
-    AppLanguage.KOREAN -> "임계값 초과만"
-    AppLanguage.TURKISH -> "임계값 초과만"
-    }
-    val blobInterceptThresholdLabel: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "阈值（MB）"
-    AppLanguage.ENGLISH -> "Threshold (MB)"
-    AppLanguage.ARABIC -> "الحد (ميغابايت)"
-    AppLanguage.PORTUGUESE -> "Limite (MB)"
-    AppLanguage.SPANISH -> "Umbral (MB)"
-    AppLanguage.FRENCH -> "Seuil (Mo)"
-    AppLanguage.GERMAN -> "Schwelle (MB)"
-    AppLanguage.RUSSIAN -> "Порог (МБ)"
-    AppLanguage.JAPANESE -> "しきい値 (MB)"
-    AppLanguage.KOREAN -> "임계값 (MB)"
-    AppLanguage.TURKISH -> "임계값 (MB)"
-    }
+    val blobInterceptScopeLabel: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "拦截范围"; AppLanguage.ENGLISH -> "Intercept Scope"; AppLanguage.ARABIC -> "نطاق الاعتراض"; AppLanguage.PORTUGUESE -> "Escopo de Interceptação"; AppLanguage.SPANISH -> "Alcance de Intercepción"; AppLanguage.FRENCH -> "Portée d'interception"; AppLanguage.GERMAN -> "Abfangbereich"; AppLanguage.RUSSIAN -> "Область перехвата"; AppLanguage.JAPANESE -> "傍受スコープ"; AppLanguage.KOREAN -> "가로채기 범위"; AppLanguage.TURKISH -> "가로채기 범위"; }
+    val blobInterceptScopeAll: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "全部 blob 下载"; AppLanguage.ENGLISH -> "All blobs"; AppLanguage.ARABIC -> "كل blob"; AppLanguage.PORTUGUESE -> "Todos os blobs"; AppLanguage.SPANISH -> "Todos los blobs"; AppLanguage.FRENCH -> "Tous les blobs"; AppLanguage.GERMAN -> "Alle Blobs"; AppLanguage.RUSSIAN -> "Все blob"; AppLanguage.JAPANESE -> "すべての blob"; AppLanguage.KOREAN -> "모든 blob"; AppLanguage.TURKISH -> "모든 blob"; }
+    val blobInterceptScopeOver: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "仅大于阈值"; AppLanguage.ENGLISH -> "Over Threshold Only"; AppLanguage.ARABIC -> "أكبر من الحد فقط"; AppLanguage.PORTUGUESE -> "Acima do Limite Apenas"; AppLanguage.SPANISH -> "Solo Sobre el Umbral"; AppLanguage.FRENCH -> "Au-dessus du seuil uniquement"; AppLanguage.GERMAN -> "Nur über Schwelle"; AppLanguage.RUSSIAN -> "Только выше порога"; AppLanguage.JAPANESE -> "しきい値超えのみ"; AppLanguage.KOREAN -> "임계값 초과만"; AppLanguage.TURKISH -> "임계값 초과만"; }
+    val blobInterceptThresholdLabel: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "阈值（MB）"; AppLanguage.ENGLISH -> "Threshold (MB)"; AppLanguage.ARABIC -> "الحد (ميغابايت)"; AppLanguage.PORTUGUESE -> "Limite (MB)"; AppLanguage.SPANISH -> "Umbral (MB)"; AppLanguage.FRENCH -> "Seuil (Mo)"; AppLanguage.GERMAN -> "Schwelle (MB)"; AppLanguage.RUSSIAN -> "Порог (МБ)"; AppLanguage.JAPANESE -> "しきい値 (MB)"; AppLanguage.KOREAN -> "임계값 (MB)"; AppLanguage.TURKISH -> "임계값 (MB)"; }
 
-    val downloadLocationLabel: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "下载位置"
-    AppLanguage.ENGLISH -> "Download Location"
-    AppLanguage.ARABIC -> "موقع التنزيل"
-    AppLanguage.PORTUGUESE -> "Local de Download"
-    AppLanguage.SPANISH -> "Ubicación de Descarga"
-    AppLanguage.FRENCH -> "Emplacement de téléchargement"
-    AppLanguage.GERMAN -> "Download-Ort"
-    AppLanguage.RUSSIAN -> "Папка загрузки"
-    AppLanguage.JAPANESE -> "ダウンロード先"
-    AppLanguage.KOREAN -> "다운로드 위치"
-    AppLanguage.TURKISH -> "다운로드 위치"
-    }
-    val downloadLocationSystem: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "系统下载文件夹"
-    AppLanguage.ENGLISH -> "System Downloads"
-    AppLanguage.ARABIC -> "تنزيلات النظام"
-    AppLanguage.PORTUGUESE -> "Downloads do Sistema"
-    AppLanguage.SPANISH -> "Descargas del Sistema"
-    AppLanguage.FRENCH -> "Téléchargements système"
-    AppLanguage.GERMAN -> "System-Downloads"
-    AppLanguage.RUSSIAN -> "Системные загрузки"
-    AppLanguage.JAPANESE -> "システムのダウンロード"
-    AppLanguage.KOREAN -> "시스템 다운로드"
-    AppLanguage.TURKISH -> "시스템 다운로드"
-    }
-    val downloadLocationAppPrivate: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "应用私有目录"
-    AppLanguage.ENGLISH -> "App Private Folder"
-    AppLanguage.ARABIC -> "مجلد التطبيق الخاص"
-    AppLanguage.PORTUGUESE -> "Pasta Privada do App"
-    AppLanguage.SPANISH -> "Carpeta Privada de la App"
-    AppLanguage.FRENCH -> "Dossier privé de l'app"
-    AppLanguage.GERMAN -> "Privater App-Ordner"
-    AppLanguage.RUSSIAN -> "Частная папка приложения"
-    AppLanguage.JAPANESE -> "アプリ非公開フォルダ"
-    AppLanguage.KOREAN -> "앱 전용 폴더"
-    AppLanguage.TURKISH -> "앱 전용 폴더"
-    }
-    val downloadLocationCustom: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "自定义文件夹"
-    AppLanguage.ENGLISH -> "Custom Folder"
-    AppLanguage.ARABIC -> "مجلد مخصص"
-    AppLanguage.PORTUGUESE -> "Pasta Personalizada"
-    AppLanguage.SPANISH -> "Carpeta Personalizada"
-    AppLanguage.FRENCH -> "Dossier personnalisé"
-    AppLanguage.GERMAN -> "Benutzerdefinierter Ordner"
-    AppLanguage.RUSSIAN -> "Своя папка"
-    AppLanguage.JAPANESE -> "カスタムフォルダ"
-    AppLanguage.KOREAN -> "사용자 지정 폴더"
-    AppLanguage.TURKISH -> "사용자 지정 폴더"
-    }
-    val downloadLocationAsk: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "每次选择位置"
-    AppLanguage.ENGLISH -> "Choose each time"
-    AppLanguage.ARABIC -> "الاختيار في كل مرة"
-    AppLanguage.PORTUGUESE -> "Escolher sempre"
-    AppLanguage.SPANISH -> "Elegir cada vez"
-    AppLanguage.FRENCH -> "Choisir à chaque fois"
-    AppLanguage.GERMAN -> "Jedes Mal wählen"
-    AppLanguage.RUSSIAN -> "Выбирать каждый раз"
-    AppLanguage.JAPANESE -> "毎回場所を選ぶ"
-    AppLanguage.KOREAN -> "매번 위치 선택"
-    AppLanguage.TURKISH -> "매번 위치 선택"
-    }
-    val downloadLocationAskHint: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "每次下载都弹出系统保存对话框，由你选择文件夹。"
-    AppLanguage.ENGLISH -> "Every download opens the system save dialog so you can pick the folder."
-    AppLanguage.ARABIC -> "يفتح كل تنزيل مربع حفظ النظام لتختار المجلد."
-    AppLanguage.PORTUGUESE -> "Cada download abre a caixa de salvamento do sistema para você escolher a pasta."
-    AppLanguage.SPANISH -> "Cada descarga abre el diálogo de guardado del sistema para que elijas la carpeta."
-    AppLanguage.FRENCH -> "Chaque téléchargement ouvre la boîte d'enregistrement du système pour choisir le dossier."
-    AppLanguage.GERMAN -> "Jeder Download öffnet den Systemdialog, damit du den Ordner wählen kannst."
-    AppLanguage.RUSSIAN -> "Каждая загрузка открывает системный диалог сохранения, чтобы вы выбрали папку."
-    AppLanguage.JAPANESE -> "ダウンロードのたびにシステムの保存ダイアログが開き、フォルダを選べます。"
-    AppLanguage.KOREAN -> "다운로드할 때마다 시스템 저장 대화상자가 열려 폴더를 고릅니다."
-    AppLanguage.TURKISH -> "다운로드할 때마다 시스템 저장 대화상자가 열려 폴더를 고릅니다."
-    }
-    val downloadLocationCustomPick: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "选择文件夹"
-    AppLanguage.ENGLISH -> "Pick Folder"
-    AppLanguage.ARABIC -> "اختر مجلدًا"
-    AppLanguage.PORTUGUESE -> "Escolher Pasta"
-    AppLanguage.SPANISH -> "Elegir Carpeta"
-    AppLanguage.FRENCH -> "Choisir un dossier"
-    AppLanguage.GERMAN -> "Ordner wählen"
-    AppLanguage.RUSSIAN -> "Выбрать папку"
-    AppLanguage.JAPANESE -> "フォルダを選択"
-    AppLanguage.KOREAN -> "폴더 선택"
-    AppLanguage.TURKISH -> "폴더 선택"
-    }
-    val downloadLocationCustomEmpty: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "未选择自定义文件夹"
-    AppLanguage.ENGLISH -> "No custom folder selected"
-    AppLanguage.ARABIC -> "لم يتم اختيار مجلد مخصص"
-    AppLanguage.PORTUGUESE -> "Nenhuma pasta personalizada selecionada"
-    AppLanguage.SPANISH -> "Ninguna carpeta personalizada seleccionada"
-    AppLanguage.FRENCH -> "Aucun dossier personnalisé sélectionné"
-    AppLanguage.GERMAN -> "Kein benutzerdefinierter Ordner gewählt"
-    AppLanguage.RUSSIAN -> "Своя папка не выбрана"
-    AppLanguage.JAPANESE -> "カスタムフォルダが未選択"
-    AppLanguage.KOREAN -> "선택된 사용자 지정 폴더 없음"
-    AppLanguage.TURKISH -> "선택된 사용자 지정 폴더 없음"
-    }
-    val downloadLocationCustomHint: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "选择一个文件夹作为下载目录"
-    AppLanguage.ENGLISH -> "Pick a folder as the download directory"
-    AppLanguage.ARABIC -> "اختر مجلدًا كدليل التنزيل"
-    AppLanguage.PORTUGUESE -> "Escolha uma pasta como diretório de download"
-    AppLanguage.SPANISH -> "Elige una carpeta como directorio de descarga"
-    AppLanguage.FRENCH -> "Choisissez un dossier comme répertoire de téléchargement"
-    AppLanguage.GERMAN -> "Wählen Sie einen Ordner als Download-Verzeichnis"
-    AppLanguage.RUSSIAN -> "Выберите папку для загрузок"
-    AppLanguage.JAPANESE -> "ダウンロード先としてフォルダを選択"
-    AppLanguage.KOREAN -> "다운로드 디렉터리로 폴더를 선택하세요"
-    AppLanguage.TURKISH -> "다운로드 디렉터리로 폴더를 선택하세요"
-    }
+    val downloadLocationLabel: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "下载位置"; AppLanguage.ENGLISH -> "Download Location"; AppLanguage.ARABIC -> "موقع التنزيل"; AppLanguage.PORTUGUESE -> "Local de Download"; AppLanguage.SPANISH -> "Ubicación de Descarga"; AppLanguage.FRENCH -> "Emplacement de téléchargement"; AppLanguage.GERMAN -> "Download-Ort"; AppLanguage.RUSSIAN -> "Папка загрузки"; AppLanguage.JAPANESE -> "ダウンロード先"; AppLanguage.KOREAN -> "다운로드 위치"; AppLanguage.TURKISH -> "다운로드 위치"; }
+    val downloadLocationSystem: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "系统下载文件夹"; AppLanguage.ENGLISH -> "System Downloads"; AppLanguage.ARABIC -> "تنزيلات النظام"; AppLanguage.PORTUGUESE -> "Downloads do Sistema"; AppLanguage.SPANISH -> "Descargas del Sistema"; AppLanguage.FRENCH -> "Téléchargements système"; AppLanguage.GERMAN -> "System-Downloads"; AppLanguage.RUSSIAN -> "Системные загрузки"; AppLanguage.JAPANESE -> "システムのダウンロード"; AppLanguage.KOREAN -> "시스템 다운로드"; AppLanguage.TURKISH -> "시스템 다운로드"; }
+    val downloadLocationAppPrivate: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "应用私有目录"; AppLanguage.ENGLISH -> "App Private Folder"; AppLanguage.ARABIC -> "مجلد التطبيق الخاص"; AppLanguage.PORTUGUESE -> "Pasta Privada do App"; AppLanguage.SPANISH -> "Carpeta Privada de la App"; AppLanguage.FRENCH -> "Dossier privé de l'app"; AppLanguage.GERMAN -> "Privater App-Ordner"; AppLanguage.RUSSIAN -> "Частная папка приложения"; AppLanguage.JAPANESE -> "アプリ非公開フォルダ"; AppLanguage.KOREAN -> "앱 전용 폴더"; AppLanguage.TURKISH -> "앱 전용 폴더"; }
+    val downloadLocationCustom: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "自定义文件夹"; AppLanguage.ENGLISH -> "Custom Folder"; AppLanguage.ARABIC -> "مجلد مخصص"; AppLanguage.PORTUGUESE -> "Pasta Personalizada"; AppLanguage.SPANISH -> "Carpeta Personalizada"; AppLanguage.FRENCH -> "Dossier personnalisé"; AppLanguage.GERMAN -> "Benutzerdefinierter Ordner"; AppLanguage.RUSSIAN -> "Своя папка"; AppLanguage.JAPANESE -> "カスタムフォルダ"; AppLanguage.KOREAN -> "사용자 지정 폴더"; AppLanguage.TURKISH -> "사용자 지정 폴더"; }
+    val downloadLocationAsk: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "每次选择位置"; AppLanguage.ENGLISH -> "Choose each time"; AppLanguage.ARABIC -> "الاختيار في كل مرة"; AppLanguage.PORTUGUESE -> "Escolher sempre"; AppLanguage.SPANISH -> "Elegir cada vez"; AppLanguage.FRENCH -> "Choisir à chaque fois"; AppLanguage.GERMAN -> "Jedes Mal wählen"; AppLanguage.RUSSIAN -> "Выбирать каждый раз"; AppLanguage.JAPANESE -> "毎回場所を選ぶ"; AppLanguage.KOREAN -> "매번 위치 선택"; AppLanguage.TURKISH -> "매번 위치 선택"; }
+    val downloadLocationAskHint: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "每次下载都弹出系统保存对话框，由你选择文件夹。"; AppLanguage.ENGLISH -> "Every download opens the system save dialog so you can pick the folder."; AppLanguage.ARABIC -> "يفتح كل تنزيل مربع حفظ النظام لتختار المجلد."; AppLanguage.PORTUGUESE -> "Cada download abre a caixa de salvamento do sistema para você escolher a pasta."; AppLanguage.SPANISH -> "Cada descarga abre el diálogo de guardado del sistema para que elijas la carpeta."; AppLanguage.FRENCH -> "Chaque téléchargement ouvre la boîte d'enregistrement du système pour choisir le dossier."; AppLanguage.GERMAN -> "Jeder Download öffnet den Systemdialog, damit du den Ordner wählen kannst."; AppLanguage.RUSSIAN -> "Каждая загрузка открывает системный диалог сохранения, чтобы вы выбрали папку."; AppLanguage.JAPANESE -> "ダウンロードのたびにシステムの保存ダイアログが開き、フォルダを選べます。"; AppLanguage.KOREAN -> "다운로드할 때마다 시스템 저장 대화상자가 열려 폴더를 고릅니다."; AppLanguage.TURKISH -> "다운로드할 때마다 시스템 저장 대화상자가 열려 폴더를 고릅니다."; }
+    val downloadLocationCustomPick: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "选择文件夹"; AppLanguage.ENGLISH -> "Pick Folder"; AppLanguage.ARABIC -> "اختر مجلدًا"; AppLanguage.PORTUGUESE -> "Escolher Pasta"; AppLanguage.SPANISH -> "Elegir Carpeta"; AppLanguage.FRENCH -> "Choisir un dossier"; AppLanguage.GERMAN -> "Ordner wählen"; AppLanguage.RUSSIAN -> "Выбрать папку"; AppLanguage.JAPANESE -> "フォルダを選択"; AppLanguage.KOREAN -> "폴더 선택"; AppLanguage.TURKISH -> "폴더 선택"; }
+    val downloadLocationCustomEmpty: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "未选择自定义文件夹"; AppLanguage.ENGLISH -> "No custom folder selected"; AppLanguage.ARABIC -> "لم يتم اختيار مجلد مخصص"; AppLanguage.PORTUGUESE -> "Nenhuma pasta personalizada selecionada"; AppLanguage.SPANISH -> "Ninguna carpeta personalizada seleccionada"; AppLanguage.FRENCH -> "Aucun dossier personnalisé sélectionné"; AppLanguage.GERMAN -> "Kein benutzerdefinierter Ordner gewählt"; AppLanguage.RUSSIAN -> "Своя папка не выбрана"; AppLanguage.JAPANESE -> "カスタムフォルダが未選択"; AppLanguage.KOREAN -> "선택된 사용자 지정 폴더 없음"; AppLanguage.TURKISH -> "선택된 사용자 지정 폴더 없음"; }
+    val downloadLocationCustomHint: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "选择一个文件夹作为下载目录"; AppLanguage.ENGLISH -> "Pick a folder as the download directory"; AppLanguage.ARABIC -> "اختر مجلدًا كدليل التنزيل"; AppLanguage.PORTUGUESE -> "Escolha uma pasta como diretório de download"; AppLanguage.SPANISH -> "Elige una carpeta como directorio de descarga"; AppLanguage.FRENCH -> "Choisissez un dossier comme répertoire de téléchargement"; AppLanguage.GERMAN -> "Wählen Sie einen Ordner als Download-Verzeichnis"; AppLanguage.RUSSIAN -> "Выберите папку для загрузок"; AppLanguage.JAPANESE -> "ダウンロード先としてフォルダを選択"; AppLanguage.KOREAN -> "다운로드 디렉터리로 폴더를 선택하세요"; AppLanguage.TURKISH -> "다운로드 디렉터리로 폴더를 선택하세요"; }
 
-    val primeActivationModeLabel: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "注入方式"
-    AppLanguage.ENGLISH -> "Injection Mode"
-    AppLanguage.ARABIC -> "وضع الحقن"
-    AppLanguage.PORTUGUESE -> "Modo de Injeção"
-    AppLanguage.SPANISH -> "Modo de Inyección"
-    AppLanguage.FRENCH -> "Mode d'injection"
-    AppLanguage.GERMAN -> "Injektionsmodus"
-    AppLanguage.RUSSIAN -> "Режим внедрения"
-    AppLanguage.JAPANESE -> "注入モード"
-    AppLanguage.KOREAN -> "주입 모드"
-    AppLanguage.TURKISH -> "주입 모드"
-    }
-    val primeActivationModeTap: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "合成触摸"
-    AppLanguage.ENGLISH -> "Synthetic Tap"
-    AppLanguage.ARABIC -> "نقرة اصطناعية"
-    AppLanguage.PORTUGUESE -> "Toque Sintético"
-    AppLanguage.SPANISH -> "Toque Sintético"
-    AppLanguage.FRENCH -> "Appui synthétique"
-    AppLanguage.GERMAN -> "Synthetischer Tap"
-    AppLanguage.RUSSIAN -> "Синтетическое касание"
-    AppLanguage.JAPANESE -> "合成タップ"
-    AppLanguage.KOREAN -> "합성 탭"
-    AppLanguage.TURKISH -> "합성 탭"
-    }
-    val primeActivationModeDpad: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "方向键"
-    AppLanguage.ENGLISH -> "D-Pad OK"
-    AppLanguage.ARABIC -> "مفتاح اتجاهي"
-    AppLanguage.PORTUGUESE -> "OK do D-Pad"
-    AppLanguage.SPANISH -> "OK del D-Pad"
-    AppLanguage.FRENCH -> "OK D-Pad"
-    AppLanguage.GERMAN -> "D-Pad OK"
-    AppLanguage.RUSSIAN -> "D-Pad OK"
-    AppLanguage.JAPANESE -> "D-Pad の OK"
-    AppLanguage.KOREAN -> "D-Pad OK"
-    AppLanguage.TURKISH -> "D-Pad OK"
-    }
-    val primeActivationModeBoth: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "两者"
-    AppLanguage.ENGLISH -> "Both"
-    AppLanguage.ARABIC -> "كلاهما"
-    AppLanguage.PORTUGUESE -> "Ambos"
-    AppLanguage.SPANISH -> "Ambos"
-    AppLanguage.FRENCH -> "Les deux"
-    AppLanguage.GERMAN -> "Beide"
-    AppLanguage.RUSSIAN -> "Оба"
-    AppLanguage.JAPANESE -> "両方"
-    AppLanguage.KOREAN -> "둘 다"
-    AppLanguage.TURKISH -> "둘 다"
-    }
-    val primeActivationTimingLabel: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "注入时机"
-    AppLanguage.ENGLISH -> "Timing"
-    AppLanguage.ARABIC -> "التوقيت"
-    AppLanguage.PORTUGUESE -> "Momento"
-    AppLanguage.SPANISH -> "Momento"
-    AppLanguage.FRENCH -> "Timing"
-    AppLanguage.GERMAN -> "Zeitpunkt"
-    AppLanguage.RUSSIAN -> "Тайминг"
-    AppLanguage.JAPANESE -> "タイミング"
-    AppLanguage.KOREAN -> "타이밍"
-    AppLanguage.TURKISH -> "타이밍"
-    }
-    val primeActivationTimingFinished: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "页面加载完成"
-    AppLanguage.ENGLISH -> "On Page Finished"
-    AppLanguage.ARABIC -> "عند انتهاء الصفحة"
-    AppLanguage.PORTUGUESE -> "Ao Concluir a Página"
-    AppLanguage.SPANISH -> "Al Finalizar la Página"
-    AppLanguage.FRENCH -> "À la fin du chargement"
-    AppLanguage.GERMAN -> "Bei Seite fertig"
-    AppLanguage.RUSSIAN -> "При завершении страницы"
-    AppLanguage.JAPANESE -> "ページ読み込み完了時"
-    AppLanguage.KOREAN -> "페이지 로드 완료 시"
-    AppLanguage.TURKISH -> "페이지 로드 완료 시"
-    }
-    val primeActivationTimingVisible: String get() = when (Strings.lang) {
-        AppLanguage.CHINESE -> "首次可见"
-    AppLanguage.ENGLISH -> "On First Visible"
-    AppLanguage.ARABIC -> "عند أول ظهور"
-    AppLanguage.PORTUGUESE -> "Na Primeira Visibilidade"
-    AppLanguage.SPANISH -> "En la Primera Visibilidad"
-    AppLanguage.FRENCH -> "À la première visibilité"
-    AppLanguage.GERMAN -> "Bei erstem Sichtbar"
-    AppLanguage.RUSSIAN -> "При первом показе"
-    AppLanguage.JAPANESE -> "初回表示時"
-    AppLanguage.KOREAN -> "첫 표시 시"
-    AppLanguage.TURKISH -> "첫 표시 시"
-    }
+    val primeActivationModeLabel: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "注入方式"; AppLanguage.ENGLISH -> "Injection Mode"; AppLanguage.ARABIC -> "وضع الحقن"; AppLanguage.PORTUGUESE -> "Modo de Injeção"; AppLanguage.SPANISH -> "Modo de Inyección"; AppLanguage.FRENCH -> "Mode d'injection"; AppLanguage.GERMAN -> "Injektionsmodus"; AppLanguage.RUSSIAN -> "Режим внедрения"; AppLanguage.JAPANESE -> "注入モード"; AppLanguage.KOREAN -> "주입 모드"; AppLanguage.TURKISH -> "주입 모드"; }
+    val primeActivationModeTap: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "合成触摸"; AppLanguage.ENGLISH -> "Synthetic Tap"; AppLanguage.ARABIC -> "نقرة اصطناعية"; AppLanguage.PORTUGUESE -> "Toque Sintético"; AppLanguage.SPANISH -> "Toque Sintético"; AppLanguage.FRENCH -> "Appui synthétique"; AppLanguage.GERMAN -> "Synthetischer Tap"; AppLanguage.RUSSIAN -> "Синтетическое касание"; AppLanguage.JAPANESE -> "合成タップ"; AppLanguage.KOREAN -> "합성 탭"; AppLanguage.TURKISH -> "합성 탭"; }
+    val primeActivationModeDpad: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "方向键"; AppLanguage.ENGLISH -> "D-Pad OK"; AppLanguage.ARABIC -> "مفتاح اتجاهي"; AppLanguage.PORTUGUESE -> "OK do D-Pad"; AppLanguage.SPANISH -> "OK del D-Pad"; AppLanguage.FRENCH -> "OK D-Pad"; AppLanguage.GERMAN -> "D-Pad OK"; AppLanguage.RUSSIAN -> "D-Pad OK"; AppLanguage.JAPANESE -> "D-Pad の OK"; AppLanguage.KOREAN -> "D-Pad OK"; AppLanguage.TURKISH -> "D-Pad OK"; }
+    val primeActivationModeBoth: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "两者"; AppLanguage.ENGLISH -> "Both"; AppLanguage.ARABIC -> "كلاهما"; AppLanguage.PORTUGUESE -> "Ambos"; AppLanguage.SPANISH -> "Ambos"; AppLanguage.FRENCH -> "Les deux"; AppLanguage.GERMAN -> "Beide"; AppLanguage.RUSSIAN -> "Оба"; AppLanguage.JAPANESE -> "両方"; AppLanguage.KOREAN -> "둘 다"; AppLanguage.TURKISH -> "둘 다"; }
+    val primeActivationTimingLabel: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "注入时机"; AppLanguage.ENGLISH -> "Timing"; AppLanguage.ARABIC -> "التوقيت"; AppLanguage.PORTUGUESE -> "Momento"; AppLanguage.SPANISH -> "Momento"; AppLanguage.FRENCH -> "Timing"; AppLanguage.GERMAN -> "Zeitpunkt"; AppLanguage.RUSSIAN -> "Тайминг"; AppLanguage.JAPANESE -> "タイミング"; AppLanguage.KOREAN -> "타이밍"; AppLanguage.TURKISH -> "타이밍"; }
+    val primeActivationTimingFinished: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "页面加载完成"; AppLanguage.ENGLISH -> "On Page Finished"; AppLanguage.ARABIC -> "عند انتهاء الصفحة"; AppLanguage.PORTUGUESE -> "Ao Concluir a Página"; AppLanguage.SPANISH -> "Al Finalizar la Página"; AppLanguage.FRENCH -> "À la fin du chargement"; AppLanguage.GERMAN -> "Bei Seite fertig"; AppLanguage.RUSSIAN -> "При завершении страницы"; AppLanguage.JAPANESE -> "ページ読み込み完了時"; AppLanguage.KOREAN -> "페이지 로드 완료 시"; AppLanguage.TURKISH -> "페이지 로드 완료 시"; }
+    val primeActivationTimingVisible: String get() = when (Strings.lang) { AppLanguage.CHINESE -> "首次可见"; AppLanguage.ENGLISH -> "On First Visible"; AppLanguage.ARABIC -> "عند أول ظهور"; AppLanguage.PORTUGUESE -> "Na Primeira Visibilidade"; AppLanguage.SPANISH -> "En la Primera Visibilidad"; AppLanguage.FRENCH -> "À la première visibilité"; AppLanguage.GERMAN -> "Bei erstem Sichtbar"; AppLanguage.RUSSIAN -> "При первом показе"; AppLanguage.JAPANESE -> "初回表示時"; AppLanguage.KOREAN -> "첫 표시 시"; AppLanguage.TURKISH -> "첫 표시 시"; }
 
     val menuGooglePlay: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Google Play"
@@ -13024,7 +12016,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Открыть"
         AppLanguage.JAPANESE -> "開く"
         AppLanguage.KOREAN -> "열기"
-        AppLanguage.TURKISH -> "Aç"
+        AppLanguage.TURKISH -> "Open"
     }
     val fileManagerClear: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "清空"
@@ -13037,7 +12029,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Очистить"
         AppLanguage.JAPANESE -> "クリア"
         AppLanguage.KOREAN -> "비우기"
-        AppLanguage.TURKISH -> "Temizle"
+        AppLanguage.TURKISH -> "Clear"
     }
     val fileManagerView: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "查看"
@@ -13050,7 +12042,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Просмотр"
         AppLanguage.JAPANESE -> "表示"
         AppLanguage.KOREAN -> "보기"
-        AppLanguage.TURKISH -> "Görüntüle"
+        AppLanguage.TURKISH -> "View"
     }
     val fileManagerEmpty: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "暂无文件"
@@ -13193,7 +12185,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Выбрать"
         AppLanguage.JAPANESE -> "選択"
         AppLanguage.KOREAN -> "선택"
-        AppLanguage.TURKISH -> "Seç"
+        AppLanguage.TURKISH -> "Select"
     }
     val fileManagerSort: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "排序"
@@ -13245,7 +12237,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Имя"
         AppLanguage.JAPANESE -> "名前"
         AppLanguage.KOREAN -> "이름"
-        AppLanguage.TURKISH -> "Ad"
+        AppLanguage.TURKISH -> "Name"
     }
     val fileManagerDeleteConfirmMany: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "确定删除已选的 %d 项？此操作不可撤销。"
@@ -14365,7 +13357,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Документ"
         AppLanguage.JAPANESE -> "ドキュメント"
         AppLanguage.KOREAN -> "문서"
-        AppLanguage.TURKISH -> "Belge"
+        AppLanguage.TURKISH -> "Document"
     }
 
     val enablePrintBridgeTitle: String get() = when (Strings.lang) {
@@ -15191,7 +14183,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Всего"
         AppLanguage.JAPANESE -> "合計"
         AppLanguage.KOREAN -> "전체"
-        AppLanguage.TURKISH -> "Toplam"
+        AppLanguage.TURKISH -> "Total"
     }
 
     val appModifierLoading: String get() = when (Strings.lang) {
@@ -15233,7 +14225,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Имя"
         AppLanguage.JAPANESE -> "名前"
         AppLanguage.KOREAN -> "이름"
-        AppLanguage.TURKISH -> "Ad"
+        AppLanguage.TURKISH -> "Name"
     }
 
     val appModifierSortSize: String get() = when (Strings.lang) {
@@ -15247,7 +14239,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Размер"
         AppLanguage.JAPANESE -> "サイズ"
         AppLanguage.KOREAN -> "크기"
-        AppLanguage.TURKISH -> "Boyut"
+        AppLanguage.TURKISH -> "Size"
     }
 
     val appModifierSortRecent: String get() = when (Strings.lang) {
@@ -15289,7 +14281,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Система"
         AppLanguage.JAPANESE -> "システム"
         AppLanguage.KOREAN -> "시스템"
-        AppLanguage.TURKISH -> "Sistem"
+        AppLanguage.TURKISH -> "System"
     }
 
     val appModifierIdentitySection: String get() = when (Strings.lang) {
@@ -15401,7 +14393,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Рекомендуется"
         AppLanguage.JAPANESE -> "おすすめ"
         AppLanguage.KOREAN -> "추천"
-        AppLanguage.TURKISH -> "Önerilen"
+        AppLanguage.TURKISH -> "Recommended"
     }
 
     val appModifierCloneNeedsOriginalIcon: String get() = when (Strings.lang) {
@@ -15583,7 +14575,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Опционально"
         AppLanguage.JAPANESE -> "オプション"
         AppLanguage.KOREAN -> "선택"
-        AppLanguage.TURKISH -> "İsteğe Bağlı"
+        AppLanguage.TURKISH -> "Optional"
     }
 
     val linuxEnvMaintenance: String get() = when (Strings.lang) {
@@ -16059,7 +15051,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Очистить"
         AppLanguage.JAPANESE -> "クリア"
         AppLanguage.KOREAN -> "삭제"
-        AppLanguage.TURKISH -> "Temizle"
+        AppLanguage.TURKISH -> "Clear"
     }
 
     val depInstallSuccess: String get() = when (Strings.lang) {
@@ -16439,7 +15431,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Экспорт"
         AppLanguage.JAPANESE -> "エクスポート"
         AppLanguage.KOREAN -> "내보내기"
-        AppLanguage.TURKISH -> "Dışa Aktar"
+        AppLanguage.TURKISH -> "Export"
     }
 
     val agentFileDeleteConfirmTitle: String get() = when (Strings.lang) {
@@ -16638,7 +15630,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Авто"
         AppLanguage.JAPANESE -> "自動"
         AppLanguage.KOREAN -> "자동"
-        AppLanguage.TURKISH -> "Otomatik"
+        AppLanguage.TURKISH -> "Auto"
     }
 
     val blobImageUsePageDownload: String get() = when (Strings.lang) {
@@ -18064,7 +17056,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Меню"
         AppLanguage.JAPANESE -> "メニュー"
         AppLanguage.KOREAN -> "메뉴"
-        AppLanguage.TURKISH -> "Menü"
+        AppLanguage.TURKISH -> "Menu"
     }
 
     val entryStyleFloating: String get() = when (Strings.lang) {
@@ -18206,7 +17198,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Название"
         AppLanguage.JAPANESE -> "名前"
         AppLanguage.KOREAN -> "이름"
-        AppLanguage.TURKISH -> "Ad"
+        AppLanguage.TURKISH -> "Name"
     }
 
     val pluginFieldId: String get() = when (Strings.lang) {
@@ -18234,7 +17226,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Версия"
         AppLanguage.JAPANESE -> "バージョン"
         AppLanguage.KOREAN -> "버전"
-        AppLanguage.TURKISH -> "Sürüm"
+        AppLanguage.TURKISH -> "Version"
     }
 
     val pluginFieldRunAt: String get() = when (Strings.lang) {
@@ -18767,7 +17759,7 @@ object StringsE {
         AppLanguage.RUSSIAN -> "Свой порядок"
         AppLanguage.JAPANESE -> "カスタム"
         AppLanguage.KOREAN -> "사용자 지정"
-        AppLanguage.TURKISH -> "Özel"
+        AppLanguage.TURKISH -> "Custom"
     }
 
     val appListSortDragHint: String get() = when (Strings.lang) {

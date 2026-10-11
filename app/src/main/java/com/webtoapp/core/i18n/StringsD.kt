@@ -336,7 +336,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Все"
         AppLanguage.JAPANESE -> "すべて"
         AppLanguage.KOREAN -> "전체"
-        AppLanguage.TURKISH -> "Tümü"
+        AppLanguage.TURKISH -> "All"
     }
 
     val uncategorized: String get() = when (Strings.lang) {
@@ -798,7 +798,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Изображение"
         AppLanguage.JAPANESE -> "画像"
         AppLanguage.KOREAN -> "이미지"
-        AppLanguage.TURKISH -> "Resim"
+        AppLanguage.TURKISH -> "Image"
     }
 
     val longPressMenuVideo: String get() = when (Strings.lang) {
@@ -826,7 +826,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Ссылка"
         AppLanguage.JAPANESE -> "リンク"
         AppLanguage.KOREAN -> "링크"
-        AppLanguage.TURKISH -> "Bağlantı"
+        AppLanguage.TURKISH -> "Link"
     }
 
     val longPressMenuSaveImage: String get() = when (Strings.lang) {
@@ -1162,7 +1162,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Версия"
         AppLanguage.JAPANESE -> "バージョン"
         AppLanguage.KOREAN -> "버전"
-        AppLanguage.TURKISH -> "Sürüm"
+        AppLanguage.TURKISH -> "Version"
     }
 
     val webViewPackage: String get() = when (Strings.lang) {
@@ -1719,7 +1719,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Установить"
         AppLanguage.JAPANESE -> "インストール"
         AppLanguage.KOREAN -> "설치"
-        AppLanguage.TURKISH -> "Yükle"
+        AppLanguage.TURKISH -> "Install"
     }
     val addEntrySectionImport: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "从文件导入"
@@ -1760,7 +1760,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Все"
         AppLanguage.JAPANESE -> "すべて"
         AppLanguage.KOREAN -> "전체"
-        AppLanguage.TURKISH -> "Tümü"
+        AppLanguage.TURKISH -> "All"
     }
 
     val moduleMarketInstall: String get() = when (Strings.lang) {
@@ -1774,7 +1774,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Установить"
         AppLanguage.JAPANESE -> "インストール"
         AppLanguage.KOREAN -> "설치"
-        AppLanguage.TURKISH -> "Yükle"
+        AppLanguage.TURKISH -> "Install"
     }
 
     val moduleMarketUpdate: String get() = when (Strings.lang) {
@@ -1788,7 +1788,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Обновить"
         AppLanguage.JAPANESE -> "更新"
         AppLanguage.KOREAN -> "업데이트"
-        AppLanguage.TURKISH -> "Güncelle"
+        AppLanguage.TURKISH -> "Update"
     }
 
     val moduleMarketDlManifest: String get() = when (Strings.lang) {
@@ -1984,7 +1984,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "%1\$d участников · %2\$d модулей"
         AppLanguage.JAPANESE -> "%1\$d 人の貢献者 · %2\$d モジュール"
         AppLanguage.KOREAN -> "%1\$d명 기여자 · %2\$d개 모듈"
-        AppLanguage.TURKISH -> "%1\$d contributors · %2\$d modules"
+        AppLanguage.TURKISH -> "%1\\$d contributors · %2\\$d modules"
     }
 
     val moduleMarketTopContributor: String get() = when (Strings.lang) {
@@ -2040,7 +2040,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Подробности"
         AppLanguage.JAPANESE -> "詳細"
         AppLanguage.KOREAN -> "세부 정보"
-        AppLanguage.TURKISH -> "Ayrıntılar"
+        AppLanguage.TURKISH -> "Details"
     }
 
     val moduleMarketCategory: String get() = when (Strings.lang) {
@@ -2903,7 +2903,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Включено"
         AppLanguage.JAPANESE -> "有効"
         AppLanguage.KOREAN -> "사용 중"
-        AppLanguage.TURKISH -> "Etkin"
+        AppLanguage.TURKISH -> "Enabled"
     }
     val hostsSourceDisabled: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "已停用"
@@ -2916,7 +2916,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Отключено"
         AppLanguage.JAPANESE -> "無効"
         AppLanguage.KOREAN -> "사용 안 함"
-        AppLanguage.TURKISH -> "Devre Dışı"
+        AppLanguage.TURKISH -> "Disabled"
     }
     val hostsSourceRuleCount: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "%d 条规则"
@@ -3459,7 +3459,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Список"
         AppLanguage.JAPANESE -> "リスト"
         AppLanguage.KOREAN -> "목록"
-        AppLanguage.TURKISH -> "Liste"
+        AppLanguage.TURKISH -> "List"
     }
 
     val galleryViewTimeline: String get() = when (Strings.lang) {
@@ -3809,7 +3809,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Длительность"
         AppLanguage.JAPANESE -> "長さ"
         AppLanguage.KOREAN -> "길이"
-        AppLanguage.TURKISH -> "Süre"
+        AppLanguage.TURKISH -> "Duration"
     }
 
     val gallerySize: String get() = when (Strings.lang) {
@@ -3823,7 +3823,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Размер"
         AppLanguage.JAPANESE -> "サイズ"
         AppLanguage.KOREAN -> "크기"
-        AppLanguage.TURKISH -> "Boyut"
+        AppLanguage.TURKISH -> "Size"
     }
 
     val galleryDimensions: String get() = when (Strings.lang) {
@@ -3851,7 +3851,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Имя"
         AppLanguage.JAPANESE -> "名前"
         AppLanguage.KOREAN -> "이름"
-        AppLanguage.TURKISH -> "Ad"
+        AppLanguage.TURKISH -> "Name"
     }
 
     val galleryPlayerPrevious: String get() = when (Strings.lang) {
@@ -3879,7 +3879,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Следующее"
         AppLanguage.JAPANESE -> "次へ"
         AppLanguage.KOREAN -> "다음"
-        AppLanguage.TURKISH -> "İleri"
+        AppLanguage.TURKISH -> "Next"
     }
 
     val galleryPlayerPause: String get() = when (Strings.lang) {
@@ -3893,7 +3893,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Пауза"
         AppLanguage.JAPANESE -> "一時停止"
         AppLanguage.KOREAN -> "일시정지"
-        AppLanguage.TURKISH -> "Duraklat"
+        AppLanguage.TURKISH -> "Pause"
     }
 
     val galleryPlayerPlay: String get() = when (Strings.lang) {
@@ -3907,7 +3907,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Воспроизвести"
         AppLanguage.JAPANESE -> "再生"
         AppLanguage.KOREAN -> "재생"
-        AppLanguage.TURKISH -> "Oynat"
+        AppLanguage.TURKISH -> "Play"
     }
 
     val galleryPlayerSeekForward: String get() = when (Strings.lang) {
@@ -3962,7 +3962,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Загрузка"
         AppLanguage.JAPANESE -> "ダウンロード"
         AppLanguage.KOREAN -> "다운로드"
-        AppLanguage.TURKISH -> "İndir"
+        AppLanguage.TURKISH -> "Download"
     }
     val tagImage: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "图片"
@@ -3975,7 +3975,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Изображение"
         AppLanguage.JAPANESE -> "画像"
         AppLanguage.KOREAN -> "이미지"
-        AppLanguage.TURKISH -> "Resim"
+        AppLanguage.TURKISH -> "Image"
     }
     val tagSpeed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "倍速"
@@ -4053,7 +4053,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Тёмный"
         AppLanguage.JAPANESE -> "ダーク"
         AppLanguage.KOREAN -> "다크"
-        AppLanguage.TURKISH -> "Koyu"
+        AppLanguage.TURKISH -> "Dark"
     }
     val tagEyeCare: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "护眼"
@@ -4079,7 +4079,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Тема"
         AppLanguage.JAPANESE -> "テーマ"
         AppLanguage.KOREAN -> "테마"
-        AppLanguage.TURKISH -> "Tema"
+        AppLanguage.TURKISH -> "Theme"
     }
     val tagPrivacy: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "隐私"
@@ -4092,7 +4092,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Конфиденциальность"
         AppLanguage.JAPANESE -> "プライバシー"
         AppLanguage.KOREAN -> "개인정보"
-        AppLanguage.TURKISH -> "Gizlilik"
+        AppLanguage.TURKISH -> "Privacy"
     }
     val tagSecurity: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "安全"
@@ -4105,7 +4105,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Безопасность"
         AppLanguage.JAPANESE -> "セキュリティ"
         AppLanguage.KOREAN -> "보안"
-        AppLanguage.TURKISH -> "Güvenlik"
+        AppLanguage.TURKISH -> "Security"
     }
     val tagAntiTrack: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "反追踪"
@@ -4157,7 +4157,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Копировать"
         AppLanguage.JAPANESE -> "コピー"
         AppLanguage.KOREAN -> "복사"
-        AppLanguage.TURKISH -> "Kopyala"
+        AppLanguage.TURKISH -> "Copy"
     }
     val tagTranslate: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "翻译"
@@ -4210,7 +4210,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Сообщение"
         AppLanguage.JAPANESE -> "メッセージ"
         AppLanguage.KOREAN -> "메시지"
-        AppLanguage.TURKISH -> "Mesaj"
+        AppLanguage.TURKISH -> "Message"
     }
     val tagVibrate: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "震动"
@@ -4275,7 +4275,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Поделиться"
         AppLanguage.JAPANESE -> "共有"
         AppLanguage.KOREAN -> "공유"
-        AppLanguage.TURKISH -> "Paylaş"
+        AppLanguage.TURKISH -> "Share"
     }
     val tagSocial: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "社交"
@@ -4301,7 +4301,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Сохранить"
         AppLanguage.JAPANESE -> "保存"
         AppLanguage.KOREAN -> "저장"
-        AppLanguage.TURKISH -> "Kaydet"
+        AppLanguage.TURKISH -> "Save"
     }
     val tagGallery: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "相册"
@@ -4340,7 +4340,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Ссылка"
         AppLanguage.JAPANESE -> "リンク"
         AppLanguage.KOREAN -> "링크"
-        AppLanguage.TURKISH -> "Bağlantı"
+        AppLanguage.TURKISH -> "Link"
     }
     val tagExternal: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "外部"
@@ -4379,7 +4379,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Инфо"
         AppLanguage.JAPANESE -> "情報"
         AppLanguage.KOREAN -> "정보"
-        AppLanguage.TURKISH -> "Bilgi"
+        AppLanguage.TURKISH -> "Info"
     }
     val tagScreen: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "屏幕"
@@ -4444,7 +4444,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Файл"
         AppLanguage.JAPANESE -> "ファイル"
         AppLanguage.KOREAN -> "파일"
-        AppLanguage.TURKISH -> "Dosya"
+        AppLanguage.TURKISH -> "File"
     }
     val tagExport: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "导出"
@@ -4457,7 +4457,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Экспорт"
         AppLanguage.JAPANESE -> "エクスポート"
         AppLanguage.KOREAN -> "내보내기"
-        AppLanguage.TURKISH -> "Dışa Aktar"
+        AppLanguage.TURKISH -> "Export"
     }
     val tagFloating: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "悬浮"
@@ -4522,7 +4522,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Скрыть"
         AppLanguage.JAPANESE -> "非表示"
         AppLanguage.KOREAN -> "숨기기"
-        AppLanguage.TURKISH -> "Gizle"
+        AppLanguage.TURKISH -> "Hide"
     }
     val tagStyle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "样式"
@@ -4548,7 +4548,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Удалить"
         AppLanguage.JAPANESE -> "削除"
         AppLanguage.KOREAN -> "삭제"
-        AppLanguage.TURKISH -> "Sil"
+        AppLanguage.TURKISH -> "Delete"
     }
     val tagRemove: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Remove"
@@ -4561,7 +4561,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Убрать"
         AppLanguage.JAPANESE -> "削除"
         AppLanguage.KOREAN -> "제거"
-        AppLanguage.TURKISH -> "Kaldır"
+        AppLanguage.TURKISH -> "Remove"
     }
     val tagCreate: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "创建"
@@ -4587,7 +4587,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Добавить"
         AppLanguage.JAPANESE -> "追加"
         AppLanguage.KOREAN -> "추가"
-        AppLanguage.TURKISH -> "Ekle"
+        AppLanguage.TURKISH -> "Add"
     }
     val tagText: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "文本"
@@ -4600,7 +4600,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Текст"
         AppLanguage.JAPANESE -> "テキスト"
         AppLanguage.KOREAN -> "텍스트"
-        AppLanguage.TURKISH -> "Metin"
+        AppLanguage.TURKISH -> "Text"
     }
     val tagModify: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "修改"
@@ -4821,7 +4821,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Размер"
         AppLanguage.JAPANESE -> "サイズ"
         AppLanguage.KOREAN -> "크기"
-        AppLanguage.TURKISH -> "Boyut"
+        AppLanguage.TURKISH -> "Size"
     }
     val tagScrollbar: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "滚动条"
@@ -5029,7 +5029,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Меню"
         AppLanguage.JAPANESE -> "メニュー"
         AppLanguage.KOREAN -> "메뉴"
-        AppLanguage.TURKISH -> "Menü"
+        AppLanguage.TURKISH -> "Menu"
     }
     val tagVisibility: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "可见性"
@@ -5068,7 +5068,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Закрыть"
         AppLanguage.JAPANESE -> "閉じる"
         AppLanguage.KOREAN -> "닫기"
-        AppLanguage.TURKISH -> "Kapat"
+        AppLanguage.TURKISH -> "Close"
     }
     val tagTouch: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "触摸"
@@ -5289,7 +5289,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Повторить"
         AppLanguage.JAPANESE -> "リトライ"
         AppLanguage.KOREAN -> "재시도"
-        AppLanguage.TURKISH -> "Yeniden Dene"
+        AppLanguage.TURKISH -> "Retry"
     }
     val tagJSONP: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "JSONP"
@@ -5458,7 +5458,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Загрузка"
         AppLanguage.JAPANESE -> "読み込み中"
         AppLanguage.KOREAN -> "로딩"
-        AppLanguage.TURKISH -> "Yükleniyor"
+        AppLanguage.TURKISH -> "Loading"
     }
     val tagAnimation: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "动画"
@@ -5770,7 +5770,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Очистить"
         AppLanguage.JAPANESE -> "クリア"
         AppLanguage.KOREAN -> "지우기"
-        AppLanguage.TURKISH -> "Temizle"
+        AppLanguage.TURKISH -> "Clear"
     }
     val tagPassword: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "密码"
@@ -5783,7 +5783,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Пароль"
         AppLanguage.JAPANESE -> "パスワード"
         AppLanguage.KOREAN -> "비밀번호"
-        AppLanguage.TURKISH -> "Şifre"
+        AppLanguage.TURKISH -> "Password"
     }
     val tagToggle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "切换"
@@ -5822,7 +5822,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Аудио"
         AppLanguage.JAPANESE -> "オーディオ"
         AppLanguage.KOREAN -> "오디오"
-        AppLanguage.TURKISH -> "Ses"
+        AppLanguage.TURKISH -> "Audio"
     }
     val tagControl: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "控制"
@@ -5978,7 +5978,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Поиск"
         AppLanguage.JAPANESE -> "検索"
         AppLanguage.KOREAN -> "검색"
-        AppLanguage.TURKISH -> "Ara"
+        AppLanguage.TURKISH -> "Search"
     }
     val tagKeyword: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "关键词"
@@ -6147,7 +6147,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Дата"
         AppLanguage.JAPANESE -> "日付"
         AppLanguage.KOREAN -> "날짜"
-        AppLanguage.TURKISH -> "Tarih"
+        AppLanguage.TURKISH -> "Date"
     }
     val tagFormat: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "格式化"
@@ -6316,7 +6316,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Обновить"
         AppLanguage.JAPANESE -> "更新"
         AppLanguage.KOREAN -> "새로고침"
-        AppLanguage.TURKISH -> "Yenile"
+        AppLanguage.TURKISH -> "Refresh"
     }
     val tagLogin: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "登录"
@@ -6329,7 +6329,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Вход"
         AppLanguage.JAPANESE -> "ログイン"
         AppLanguage.KOREAN -> "로그인"
-        AppLanguage.TURKISH -> "Giriş"
+        AppLanguage.TURKISH -> "Login"
     }
     val tagDetect: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "检测"
@@ -6527,7 +6527,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Серия GPT 5.1 ~\$10/млн токенов"
         AppLanguage.JAPANESE -> "GPT 5.1 シリーズ 約\$10/100万トークン"
         AppLanguage.KOREAN -> "GPT 5.1 시리즈 ~\$10/100만 토큰"
-        AppLanguage.TURKISH -> "GPT 5.1 series ~\$10/million tokens"
+        AppLanguage.TURKISH -> "GPT 5.1 series ~\\$10/million tokens"
     }
 
     val providerOpenRouter: String get() = "OpenRouter"
@@ -6583,7 +6583,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Claude 4.5 Sonnet ~\$15/млн токенов"
         AppLanguage.JAPANESE -> "Claude 4.5 Sonnet 約\$15/100万トークン"
         AppLanguage.KOREAN -> "Claude 4.5 Sonnet ~\$15/100만 토큰"
-        AppLanguage.TURKISH -> "Claude 4.5 Sonnet ~\$15/million tokens"
+        AppLanguage.TURKISH -> "Claude 4.5 Sonnet ~\\$15/million tokens"
     }
 
     val providerGoogle: String get() = "Google/Gemini"
@@ -6680,7 +6680,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Низкая цена, ~\$2/млн токенов"
         AppLanguage.JAPANESE -> "低価格、約\$2/100万トークン"
         AppLanguage.KOREAN -> "저렴한 가격, ~\$2/100만 토큰"
-        AppLanguage.TURKISH -> "Low price, ~\$2/million tokens"
+        AppLanguage.TURKISH -> "Low price, ~\\$2/million tokens"
     }
 
     val providerGrok: String get() = "xAI/Grok"
@@ -6708,7 +6708,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Дёшево, Grok-4.1-fast ~\$0.5/млн токенов"
         AppLanguage.JAPANESE -> "安価、Grok-4.1-fast 約 \$0.5/100万トークン"
         AppLanguage.KOREAN -> "저렴함, Grok-4.1-fast 약 \$0.5/백만 토큰"
-        AppLanguage.TURKISH -> "Cheap, Grok-4.1-fast ~\$0.5/million tokens"
+        AppLanguage.TURKISH -> "Cheap, Grok-4.1-fast ~\\$0.5/million tokens"
     }
 
 
@@ -6764,7 +6764,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Custom"
         AppLanguage.JAPANESE -> "Custom"
         AppLanguage.KOREAN -> "Custom"
-        AppLanguage.TURKISH -> "Özel"
+        AppLanguage.TURKISH -> "Custom"
     }
     val providerCustomDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "兼容 OpenAI API 格式的自定义服务。需要填写完整的 Base URL"
@@ -6804,7 +6804,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Рекомендуемые"
         AppLanguage.JAPANESE -> "おすすめ"
         AppLanguage.KOREAN -> "추천"
-        AppLanguage.TURKISH -> "Önerilen"
+        AppLanguage.TURKISH -> "Recommended"
     }
     val providerCategoryInternational: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "国际供应商"
@@ -6869,7 +6869,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Пользовательский"
         AppLanguage.JAPANESE -> "カスタム"
         AppLanguage.KOREAN -> "사용자 지정"
-        AppLanguage.TURKISH -> "Özel"
+        AppLanguage.TURKISH -> "Custom"
     }
 
 
@@ -6931,7 +6931,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Sonar Pro ~\$3/M токенов + расходы на поиск"
         AppLanguage.JAPANESE -> "Sonar Pro ~\$3/M tokens + 検索費用"
         AppLanguage.KOREAN -> "Sonar Pro ~\$3/M tokens + 검색 비용"
-        AppLanguage.TURKISH -> "Sonar Pro ~\$3/M tokens + search costs"
+        AppLanguage.TURKISH -> "Sonar Pro ~\\$3/M tokens + search costs"
     }
 
     val providerFireworks: String get() = "Fireworks AI"
@@ -7197,7 +7197,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Нет"
         AppLanguage.JAPANESE -> "なし"
         AppLanguage.KOREAN -> "없음"
-        AppLanguage.TURKISH -> "Hiçbiri"
+        AppLanguage.TURKISH -> "None"
     }
     val lrcAnimFade: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "淡入淡出"
@@ -7576,7 +7576,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Другое"
         AppLanguage.JAPANESE -> "その他"
         AppLanguage.KOREAN -> "기타"
-        AppLanguage.TURKISH -> "Diğer"
+        AppLanguage.TURKISH -> "Other"
     }
 
     val embeddedEngineTitle: String get() = when (Strings.lang) {
@@ -7759,7 +7759,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Повторить"
         AppLanguage.JAPANESE -> "再試行"
         AppLanguage.KOREAN -> "재시도"
-        AppLanguage.TURKISH -> "Yeniden Dene"
+        AppLanguage.TURKISH -> "Retry"
     }
     val engineEstimatedSize: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "预估大小"
@@ -7811,7 +7811,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Версия"
         AppLanguage.JAPANESE -> "バージョン"
         AppLanguage.KOREAN -> "버전"
-        AppLanguage.TURKISH -> "Sürüm"
+        AppLanguage.TURKISH -> "Version"
     }
     val engineDefault: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "默认"
@@ -7824,7 +7824,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "По умолчанию"
         AppLanguage.JAPANESE -> "デフォルト"
         AppLanguage.KOREAN -> "기본값"
-        AppLanguage.TURKISH -> "Varsayılan"
+        AppLanguage.TURKISH -> "Default"
     }
     val engineSelectTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "APK 内置浏览器引擎"
@@ -8637,16 +8637,6 @@ object StringsD {
             "tornado" -> "Tornado: IOLoop이 자동 구성되며 WebSocket과 논블로킹 모드를 사용합니다."
             else -> null
         }
-        AppLanguage.TURKISH -> when (framework?.lowercase()) {
-            "flask" -> "Flask: 프로덕션에서는 디버그 모드가 자동 비활성화됩니다. 정적 파일은 static/에서 제공됩니다."
-            "tornado" -> "Tornado: IOLoop이 자동 구성되며 WebSocket과 논블로킹 모드를 사용합니다."
-            else -> null
-        }
-        AppLanguage.TURKISH -> when (framework?.lowercase()) {
-            "flask" -> "Flask: 프로덕션에서는 디버그 모드가 자동 비활성화됩니다. 정적 파일은 static/에서 제공됩니다."
-            "tornado" -> "Tornado: IOLoop이 자동 구성되며 WebSocket과 논블로킹 모드를 사용합니다."
-            else -> null
-        }
     }
     val pyRequirements: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "项目依赖"
@@ -8763,7 +8753,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Рекомендуется"
         AppLanguage.JAPANESE -> "推奨"
         AppLanguage.KOREAN -> "권장"
-        AppLanguage.TURKISH -> "Önerilen"
+        AppLanguage.TURKISH -> "Recommended"
     }
     val pyWsgiModule: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "WSGI/ASGI 模块"
@@ -10717,7 +10707,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Активен"
         AppLanguage.JAPANESE -> "有効"
         AppLanguage.KOREAN -> "활성"
-        AppLanguage.TURKISH -> "Aktif"
+        AppLanguage.TURKISH -> "Active"
     }
     val wpPluginInactive: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "未启用"
@@ -10730,7 +10720,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Неактивен"
         AppLanguage.JAPANESE -> "無効"
         AppLanguage.KOREAN -> "비활성"
-        AppLanguage.TURKISH -> "Pasif"
+        AppLanguage.TURKISH -> "Inactive"
     }
     val wpDbEngine: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "引擎"
@@ -10769,7 +10759,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Плагин"
         AppLanguage.JAPANESE -> "プラグイン"
         AppLanguage.KOREAN -> "플러그인"
-        AppLanguage.TURKISH -> "Eklenti"
+        AppLanguage.TURKISH -> "Plugin"
     }
     val wpDbOfflineMode: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "离线 / 本地设备"
@@ -11056,7 +11046,7 @@ object StringsD {
         AppLanguage.RUSSIAN -> "Сбросить"
         AppLanguage.JAPANESE -> "リセット"
         AppLanguage.KOREAN -> "재설정"
-        AppLanguage.TURKISH -> "Sıfırla"
+        AppLanguage.TURKISH -> "Reset"
     }
 
     val samplePhpSubtitle: String get() = when (Strings.lang) {
