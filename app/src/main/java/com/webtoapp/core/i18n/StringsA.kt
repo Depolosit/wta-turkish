@@ -3648,6 +3648,7 @@ object StringsA {
         }
 
         AppLanguage.KOREAN -> when (framework) {
+        AppLanguage.TURKISH -> when (framework) {
             "Express" -> listOf(
                 "app.listen()이 localhost가 아닌 0.0.0.0에 바인딩되도록 하세요",
                 "정적 파일은 express.static()으로 제공하세요",
@@ -12479,6 +12480,7 @@ object StringsA {
             AppLanguage.RUSSIAN -> if (url.isNotEmpty()) String.format(java.util.Locale.getDefault(), "Включено · %s", url) else "Включено"
             AppLanguage.JAPANESE -> if (url.isNotEmpty()) String.format(java.util.Locale.getDefault(), "有効 · %s", url) else "有効"
             AppLanguage.KOREAN -> if (url.isNotEmpty()) String.format(java.util.Locale.getDefault(), "활성화됨 · %s", url) else "활성화됨"
+            AppLanguage.TURKISH -> if (url.isNotEmpty()) String.format(java.util.Locale.getDefault(), "Etkinleştirildi · %s", url) else "Etkinleştirildi"
         }
     }
 
@@ -12522,6 +12524,7 @@ object StringsA {
             AppLanguage.RUSSIAN -> String.format(java.util.Locale.getDefault(), "%d всего", count)
             AppLanguage.JAPANESE -> String.format(java.util.Locale.getDefault(), "合計 %d 個", count)
             AppLanguage.KOREAN -> String.format(java.util.Locale.getDefault(), "총 %d개", count)
+            AppLanguage.TURKISH -> String.format(java.util.Locale.getDefault(), "Toplam %d", count)
         }
     }
 

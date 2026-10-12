@@ -2034,6 +2034,7 @@ object StringsB {
             AppLanguage.RUSSIAN -> String.format(java.util.Locale.getDefault(), "%d с", seconds)
             AppLanguage.JAPANESE -> String.format(java.util.Locale.getDefault(), "%d 秒", seconds)
             AppLanguage.KOREAN -> String.format(java.util.Locale.getDefault(), "%d초", seconds)
+            AppLanguage.TURKISH -> String.format(java.util.Locale.getDefault(), "%d sn", seconds)
         }
     }
 
@@ -8876,6 +8877,7 @@ object StringsB {
         AppLanguage.RUSSIAN -> { attempt, max, ms -> "Ограничение скорости, повтор через ${ms / 1000}с (попытка ${attempt}/${max})…" }
         AppLanguage.JAPANESE -> { attempt, max, ms -> "レート制限、${ms / 1000}秒後にリトライ（${attempt}/${max}回目）…" }
         AppLanguage.KOREAN -> { attempt, max, ms -> "속도 제한, ${ms / 1000}초 후 재시도 (${attempt}/${max}번째)…" }
+        AppLanguage.TURKISH -> { attempt, max, ms -> "Hız sınırı, ${ms / 1000} sn sonra tekrar deneyin (${attempt}/${max})…" }
     }
 
     val agentFileSaved: String get() = when (Strings.lang) {

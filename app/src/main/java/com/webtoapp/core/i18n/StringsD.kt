@@ -8637,6 +8637,16 @@ object StringsD {
             "tornado" -> "Tornado: IOLoop이 자동 구성되며 WebSocket과 논블로킹 모드를 사용합니다."
             else -> null
         }
+        AppLanguage.TURKISH -> when (framework?.lowercase()) {
+            "flask" -> "Flask: 프로덕션에서는 디버그 모드가 자동 비활성화됩니다. 정적 파일은 static/에서 제공됩니다."
+            "tornado" -> "Tornado: IOLoop이 자동 구성되며 WebSocket과 논블로킹 모드를 사용합니다."
+            else -> null
+        }
+        AppLanguage.TURKISH -> when (framework?.lowercase()) {
+            "flask" -> "Flask: 프로덕션에서는 디버그 모드가 자동 비활성화됩니다. 정적 파일은 static/에서 제공됩니다."
+            "tornado" -> "Tornado: IOLoop이 자동 구성되며 WebSocket과 논블로킹 모드를 사용합니다."
+            else -> null
+        }
     }
     val pyRequirements: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "项目依赖"
