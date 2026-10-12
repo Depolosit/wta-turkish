@@ -3648,6 +3648,47 @@ object StringsA {
         }
 
         AppLanguage.KOREAN -> when (framework) {
+            "Express" -> listOf(
+                "app.listen()이 localhost가 아닌 0.0.0.0에 바인딩되도록 하세요",
+                "정적 파일은 express.static()으로 제공하세요",
+                "프로덕션에서는 NODE_ENV=production을 설정해 성능을 높이세요"
+            )
+            "Fastify" -> listOf(
+                "수신 주소로 host: '0.0.0.0'을 사용하세요",
+                "Fastify는 JSON Schema 검증을 기본 제공합니다",
+                "정적 파일은 @fastify/static으로 제공하세요"
+            )
+            "Koa" -> listOf(
+                "Koa는 보통 koa-router 같은 명시적 라우터 미들웨어가 필요합니다",
+                "정적 자산에는 koa-static을 사용하세요",
+                "Koa의 양파형 미들웨어 모델은 복잡한 파이프라인에 적합합니다"
+            )
+            "NestJS" -> listOf(
+                "NestJS 진입 출력은 보통 dist/main.js입니다",
+                "패키징 전에 nest build로 dist를 생성하세요",
+                "main.ts에서 app.listen(port, '0.0.0.0')을 설정하세요"
+            )
+            "Next.js" -> listOf(
+                "프로덕션 서버는 next start로 실행하세요",
+                "먼저 next build로 .next 디렉터리를 만드세요",
+                "API 라우트는 pages/api 또는 app/api에 있습니다"
+            )
+            "Nuxt.js" -> listOf(
+                "Nuxt 3 프로덕션 출력은 .output 디렉터리입니다",
+                "nuxi build로 서버 번들을 생성하세요",
+                "Nitro가 API 라우트를 자동 처리합니다"
+            )
+            "Hapi" -> listOf(
+                "server.start()로 서버를 시작하세요",
+                "외부 접근을 허용하려면 host: '0.0.0.0'을 설정하세요",
+                "정적 파일은 @hapi/inert로 제공하세요"
+            )
+            else -> listOf(
+                "서버가 127.0.0.1이 아닌 0.0.0.0에서 수신하도록 하세요",
+                "포트는 PORT 환경 변수로 설정하세요",
+                "프로덕션 빌드에서는 NODE_ENV=production을 설정하세요"
+            )
+        }
         AppLanguage.TURKISH -> when (framework) {
             "Express" -> listOf(
                 "app.listen()이 localhost가 아닌 0.0.0.0에 바인딩되도록 하세요",
