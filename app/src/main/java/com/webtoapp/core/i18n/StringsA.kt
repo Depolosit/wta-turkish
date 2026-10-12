@@ -5532,7 +5532,7 @@ object StringsA {
         AppLanguage.RUSSIAN -> "$count проектов"
         AppLanguage.JAPANESE -> "$count プロジェクト"
         AppLanguage.KOREAN -> "$count 프로젝트"
-        AppLanguage.TURKISH -> "$count project${if (count != 1) "
+        AppLanguage.TURKISH -> "$count proje${if (count != 1) "ler" else ""}"
     }
 
     val depMirrorSource: String get() = when (Strings.lang) {
